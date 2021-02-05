@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "JSON Schema for electric-settings.json",
+    "$id": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/settings-schema.json",
+    "version": 1.0,
+    "type": "object",
+    "description": "Provides autocompletion and validation for electric package.json files",
+    "properties": {
+        "display-name": {
+            "type": "string",
+            "description": "The display name of the package package example: `Sublime Text 3`"
+        },
+        "package-name": {
+            "type": "string",
+            "description": "The name of the package that the user would type to install for example: `sublime-text-3`"
+        },
+        "latest-version": {
+            "type": "string",
+            "description": "Latest version of the software to be installed"
+        }
+    }
+}
