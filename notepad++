@@ -1,0 +1,19 @@
+{
+    "display-name": "Notepad++",
+    "package-name": "notepad++",
+    "latest-version": "7.9.2",
+    "7.9.2": {
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.2/npp.7.9.2.Installer.x64.exe",
+        "url-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        
+        ]
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+
+}
