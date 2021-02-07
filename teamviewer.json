@@ -1,0 +1,17 @@
+{
+    "display-name": "TeamViewer",
+    "package-name": "teamviewer",
+    "latest-version": "15.11.6",
+    "15.11.6": {
+        "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+        "url-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display-name": "Node JS",
+    "package-name": "nodejs",
+    "latest-version": "14.15.3",
+    "portable": {
+        "display-name": "Node JS",
+        "package-name": "nodejs",
+        "latest-version": "14.15.3",
+        "14.15.3": {
+            "url": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-win-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "nodejs",
+            "bin": [
+                "node.exe",
+                "npm.cmd",
+                "install_tools.bat",
+                "nodevars.bat",
+                "npx.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "name": "Node.js",
+                    "file-name": "node.exe"
+                }
+            ]
+        }
+    },
+    "14.15.3": {
+        "url": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi",
+        "url-type": ".msi",
+        "install-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uninstall-switches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "custom-location": "/TARGETDIR=",
+        "dependencies": []
+    }
+}
