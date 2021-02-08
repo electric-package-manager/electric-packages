@@ -11,7 +11,7 @@
         "uninstall-switches": [
             "/S"
         
-        ]
+        ],
         "custom-location": "/D=",
         "dependencies": []
     }
