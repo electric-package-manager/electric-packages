@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/electric-package-schema.json",
+    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
     "display-name": "VLC Media Player",
     "package-name": "vlc",
     "latest-version": "3.0.12",
