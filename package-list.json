@@ -1,0 +1,22 @@
+{
+  "packages": [
+    "atom",
+    "android-studio",
+    "anydesk",
+    "blender",
+    "7-Zip",
+    "git",
+    "sublime-text-3",
+    "nodejs",
+    "teamviewer",
+    "google-chrome",
+    "yarn",
+    "filezilla",
+    "firefox",
+    "gimp",
+    "notepad++",
+    "opera",
+    "python",
+    "vlc"
+  ]
+}
