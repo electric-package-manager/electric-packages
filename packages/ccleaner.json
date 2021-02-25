@@ -1,0 +1,13 @@
+{
+  "display-name": "CCleaner",
+  "package-name": "ccleaner",
+  "latest-version": "5.77",
+  "5.77": {
+    "url": "https://download.ccleaner.com/ccsetup577.exe",
+    "url-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

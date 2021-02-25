@@ -1,0 +1,20 @@
+{
+  "display-name": "Cute PDF",
+  "package-name": "cutepdf",
+  "latest-version": "4.0",
+  "4.0": {
+    "url": "https://www.cutepdf.com/download/CuteWriter.exe",
+    "url-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
