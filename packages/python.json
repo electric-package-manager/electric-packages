@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/electric-package-schema.json",
+    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
     "display-name": "Python",
     "package-name": "python",
     "latest-version": "3.9.1",

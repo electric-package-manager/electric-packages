@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/electric-package-schema.json",
+    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
     "display-name": "Mozilla Firefox",
     "package-name": "firefox",
     "latest-version": "85.0.1",

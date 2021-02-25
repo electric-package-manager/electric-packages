@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/master/package-schema.json",
+    "display-name": "FileZilla",
+    "package-name": "filezilla",
+    "latest-version": "3.52.2",
+    "3.52.2": {
+        "url": "https://dl4.cdn.filezilla-project.org/client/FileZilla_3.52.2_win64-setup.exe?h=GBEf6CfQkf3IPV_k6S68EA&x=1612801920",
+        "url-type": ".exe",
+        "install-switches": [
+            "/S"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+    
+}
