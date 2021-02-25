@@ -7,6 +7,7 @@
     "url-type": ".exe",
     "install-switches": ["/S"],
     "uninstall-switches": [],
-    "custom-location": "INSTALLDIR="
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
   }
 }
