@@ -9,11 +9,14 @@
       "/SP-",
       "/VERYSILENT",
       "/SUPPRESSMSGBOXES",
-      "/NOCANCEL",
-      "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
+      "/NORESTART"
     ],
-    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "uninstall-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NORESTART"
+    ],
     "custom-location": "/DIR=",
     "dependencies": []
   }
