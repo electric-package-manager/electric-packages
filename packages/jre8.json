@@ -1,0 +1,12 @@
+{
+  "display-name": "Java SE Runtime 8",
+  "package-name": "jre8",
+  "latest-version": "8.0.2810.9",
+  "8.0.2810.9": {
+    "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605",
+    "url-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": [],
+    "custom-location": "INSTALLDIR="
+  }
+}
