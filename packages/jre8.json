@@ -5,8 +5,9 @@
   "8.0.2810.9": {
     "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605",
     "url-type": ".exe",
-    "install-switches": ["/S"],
+    "install-switches": ["/s"],
     "uninstall-switches": [],
-    "custom-location": "INSTALLDIR="
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
   }
 }
