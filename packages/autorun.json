@@ -5,8 +5,8 @@
   "portable": {
     "display-name": "Autorun",
     "package-name": "autorun",
-    "latest-version": "latest",
-    "latest": {
+    "latest-version": "13.98",
+    "13.98": {
       "url": "https://download.sysinternals.com/files/Autoruns.zip",
       "file-type": ".zip",
       "extract-dir": "autoruns",
