@@ -23,6 +23,13 @@
     "winrar",
     "cutepdf",
     "ccleaner",
-    "autorun"
+    "autorun",
+    "dotnet",
+    "silverlight",
+    "sysinternals",
+    "jdk8",
+    "microsoft-teams",
+    "putty",
+    "foxit-reader"
   ]
 }
