@@ -1,0 +1,17 @@
+{
+  "display-name": "cURL",
+  "package-name": "curl",
+  "is-portable": true,
+  "portable": {
+    "display-name": "cURL",
+    "package-name": "curl",
+    "latest-version": "7.75.0",
+    "7.75.0": {
+      "url": "https://curl.se/windows/dl-7.75.0_3/curl-7.75.0_3-win64-mingw.zip",
+      "file-type": ".zip",
+      "extract-dir": "curl",
+      "chdir": "curl-7.75.0_3-win64-mingw",
+      "bin": ["bin\\curl.exe"]
+    }
+  }
+}
