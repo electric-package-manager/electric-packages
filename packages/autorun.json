@@ -9,7 +9,7 @@
     "13.98": {
       "url": "https://download.sysinternals.com/files/Autoruns.zip",
       "file-type": ".zip",
-      "extract-dir": "autoruns",
+      "extract-dir": "autorun",
       "shortcuts": [
         {
           "shortcut-name": "Autoruns",
