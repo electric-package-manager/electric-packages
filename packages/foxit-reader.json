@@ -1,0 +1,13 @@
+{
+  "display-name": "Foxit Reader",
+  "package-name": "foxit-reader",
+  "latest-version": "10.1.1.37576",
+  "10.1.1.37576": {
+    "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=10.1.1.37576",
+    "url-type": ".exe",
+    "install-switches": ["/FORCEINSTALL", "/VERYSILENT", "/NORESTART"],
+    "uninstall-switches": ["/FORCEINSTALL", "/VERYSILENT", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
