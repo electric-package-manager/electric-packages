@@ -6,7 +6,7 @@
     "url": "https://javadl.oracle.com/webapps/download/GetFile/1.8.0_211-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-8u211-windows-x64.exe",
     "url-type": ".exe",
     "install-switches": ["/s"],
-    "uninstall-switches": ["/s"],
+    "uninstall-switches": [],
     "custom-location": "/INSTALLDIRPUBJRE=",
     "dependencies": []
   }
