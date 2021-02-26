@@ -30,6 +30,7 @@
     "jdk8",
     "microsoft-teams",
     "putty",
-    "foxit-reader"
+    "foxit-reader",
+    "winlogbeat"
   ]
 }
