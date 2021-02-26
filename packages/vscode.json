@@ -1,0 +1,26 @@
+{
+  "display-name": "Microsoft Visual Studio Code",
+  "package-name": "vscode",
+  "latest-version": "1.53.2",
+  "1.53.2": {
+    "url": "https://az764295.vo.msecnd.net/stable/622cb03f7e070a9670c94bae1a45d78d7181fbd4/VSCodeSetup-x64-1.53.2.exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
