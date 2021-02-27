@@ -4,10 +4,10 @@
   "package-name": "treesizefree",
   "latest-version": "4.42",
   "4.42": {
-    "url": "https://customers.jam-software.de/downloadTrial.php?language=EN&article_no=80",
+    "url": "https://downloads.jam-software.de/treesize_free/TreeSizeFreeSetup.exe",
     "url-type": ".exe",
     "install-switches": [
-      "/SP",
+      "/SP-",
       "/VERYSILENT",
       "/SUPRESSMSGBOXES",
       "/NOCANCEL",
