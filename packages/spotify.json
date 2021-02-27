@@ -6,7 +6,7 @@
     "url": "https://download.scdn.co/SpotifySetup.exe",
     "file-type": ".exe",
     "install-switches": ["/silent"],
-    "uninstall-switches": [],
+    "uninstall-switches": ["/silent"],
     "custom-location": "",
     "dependencies": []
   }
