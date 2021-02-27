@@ -1,0 +1,13 @@
+{
+  "display-name": "Dropbox",
+  "package-name": "dropbox",
+  "latest-version": "116.4.368",
+  "116.4.368": {
+    "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20116.4.368%20Offline%20Installer.exe",
+    "file-type": ".exe",
+    "install-switches": ["/s"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": []
+  }
+}

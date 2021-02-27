@@ -1,0 +1,31 @@
+{
+  "display-name": "Keepass",
+  "package-name": "keepass2",
+  "latest-version": "2.47",
+  "portable": {
+    "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkeepass%2Ffiles%2FKeePass%25202.x%2F2.47%2FKeePass-2.47.zip%2Fdownload&ts=1614438768",
+    "file-type": ".zip",
+    "extract-dir": "keepass2",
+    "shortcuts": [
+      {
+        "shortcut-name": "Keepass",
+        "file-name": "KeePass.exe"
+      }
+    ]
+  },
+  "2.47": {
+    "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47-Setup.exe?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkeepass%2Ffiles%2FKeePass%25202.x%2F2.47%2FKeePass-2.47-Setup.exe%2Fdownload&ts=1614438590",
+    "file-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
