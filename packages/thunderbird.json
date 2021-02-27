@@ -1,0 +1,13 @@
+{
+  "display-name": "Thunderbird",
+  "package-name": "thunderbird",
+  "latest-version": "78.8.0",
+  "78.8.0": {
+    "url": "https://download.mozilla.org/?product=thunderbird-78.8.0-msi-SSL&os=win64&lang=en-US",
+    "file-type": ".msi",
+    "install-switches": ["/passive", "/quiet", "/norestart"],
+    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}
