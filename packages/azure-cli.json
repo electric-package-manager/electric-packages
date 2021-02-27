@@ -1,0 +1,13 @@
+{
+  "display-name": "Azure CLI",
+  "package-name": "azure-cli",
+  "latest-version": "2.19.1",
+  "2.19.1": {
+    "url": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.19.1.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}
