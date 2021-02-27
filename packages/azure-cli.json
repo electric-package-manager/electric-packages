@@ -1,5 +1,5 @@
 {
-  "display-name": "Azure CLI",
+  "display-name": "Microsoft CLI 2.0 for Azure",
   "package-name": "azure-cli",
   "latest-version": "2.19.1",
   "2.19.1": {
