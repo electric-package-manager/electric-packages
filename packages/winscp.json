@@ -1,0 +1,20 @@
+{
+  "display-name": "WinSCP",
+  "package-name": "winscp",
+  "latest-version": "",
+  "": {
+    "url": "https://cdn.winscp.net/files/WinSCP-5.17.10-Setup.exe?secure=drizfWaHsefVG4jEGKQUUQ==,1614440324",
+    "file-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
