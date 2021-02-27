@@ -1,0 +1,13 @@
+{
+  "display-name": "Google Drive File Stream",
+  "package-name": "google-drive-file-stream",
+  "latest-version": "45.0.12.0",
+  "45.0.12.0": {
+    "url": "https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe",
+    "file-type": ".exe",
+    "install-switches": ["--silent"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": []
+  }
+}
