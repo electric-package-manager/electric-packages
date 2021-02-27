@@ -1,0 +1,13 @@
+{
+  "display-name": "QuickTime",
+  "package-name": "quicktime",
+  "latest-version": "7.7.9.20161124",
+  "7.7.9.20161124": {
+    "url": "https://secure-appldnld.apple.com/QuickTime/031-43075-20160107-C0844134-B3CD-11E5-B1C0-43CA8D551951/QuickTimeInstaller.exe",
+    "file-type": ".exe",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}
