@@ -1,21 +1,13 @@
 {
-    "display-name": "Yarn",
-    "package-name": "yarn",
-    "latest-version": "1.22.5",
-    "1.22.5": {
-        "url": "https://classic.yarnpkg.com/latest.msi",
-        "url-type": ".msi",
-        "install-switches": [
-            "/passive",
-            "/quiet",
-            "/norestart"
-        ],
-        "uninstall-switches": [
-            "/passive",
-            "/quiet",
-            "/norestart"
-        ],
-        "custom-location": "/TARGETDIR=",
-        "dependencies": []
-    }
+  "display-name": "Yarn",
+  "package-name": "yarn",
+  "latest-version": "1.22.5",
+  "1.22.5": {
+    "url": "https://classic.yarnpkg.com/latest.msi",
+    "file-type": ".msi",
+    "install-switches": ["/passive", "/quiet", "/norestart"],
+    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
 }

@@ -1,25 +1,21 @@
 {
-    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
-    "display-name": "GIMP",
-    "package-name": "gimp",
-    "latest-version": "2.10.22",
-    "2.10.22": {
-        "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe",
-        "url-type": ".exe",
-        "install-switches": [
-            "/SP-",
-            "/VERYSILENT",
-            "/SUPRESSMSGBOXES",
-            "/NOCANCEL",
-            "/NORESTART",
-            "/FORCECLOSEAPPLICATIONS"
-        ],
-        "uninstall-switches": [
-            "/VERYSILENT",
-            "/SUPRESSMSGBOXES",
-            "/NORESTART"
-        ],
-        "custom-location": "/DIR=",
-        "dependencies": []
-    }
+  "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
+  "display-name": "GIMP",
+  "package-name": "gimp",
+  "latest-version": "2.10.22",
+  "2.10.22": {
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.22-setup.exe",
+    "file-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
 }

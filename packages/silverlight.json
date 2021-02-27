@@ -4,7 +4,7 @@
   "latest-version": "5.1.50918.0",
   "5.1.50918.0": {
     "url": "https://download.microsoft.com/download/D/D/F/DDF23DF4-0186-495D-AA35-C93569204409/50918.00/Silverlight_x64.exe",
-    "url-type": ".exe",
+    "file-type": ".exe",
     "install-switches": ["/q", "/norestart"],
     "uninstall-switches": ["/qn", "/norestart"],
     "custom-dir": "",

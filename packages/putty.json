@@ -4,7 +4,7 @@
   "latest-version": "0.74",
   "0.74": {
     "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.74-installer.msi",
-    "url-type": ".msi",
+    "file-type": ".msi",
     "install-switches": ["/passive", "/quiet", "/norestart"],
     "uninstall-switches": ["/passive", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",

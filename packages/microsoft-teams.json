@@ -4,7 +4,7 @@
   "latest-version": "1.4.00.2879",
   "1.4.00.2879": {
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.2879/Teams_windows_x64.exe",
-    "url-type": ".exe",
+    "file-type": ".exe",
     "install-switches": ["-s"],
     "uninstall-switches": ["-s"],
     "custom-location": "",
