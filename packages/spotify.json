@@ -3,7 +3,7 @@
   "package-name": "spotify",
   "latest-version": "1.1.53.608",
   "1.1.53.608": {
-    "url": "https://download.scdn.co/SpotifySetup.exe",
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "file-type": ".exe",
     "install-switches": ["/silent"],
     "uninstall-switches": ["/silent"],
