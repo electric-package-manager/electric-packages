@@ -1,0 +1,13 @@
+{
+  "display-name": "GoToMeeting",
+  "package-name": "gotomeeting",
+  "latest-version": "10.15.19228",
+  "10.15.19228": {
+    "url": "https://builds.cdn.getgo.com/builds/g2m/19228/G2MSetup10.15.19228_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}

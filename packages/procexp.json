@@ -1,0 +1,16 @@
+{
+  "display-name": "Process Explorer",
+  "package-name": "procexp",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Process Explorer",
+    "package-name": "procexp",
+    "latest-version": "16.32.0.20210111",
+    "16.32.0.20210111": {
+      "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+      "file-type": ".zip",
+      "extract-dir": "procexp",
+      "bin": ["procexp"]
+    }
+  }
+}
