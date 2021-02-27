@@ -5,8 +5,8 @@
   "88.0.705.81": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4ee0c0fd-bd10-4d6c-b6ef-cb987b248b29/MicrosoftEdgeEnterpriseX64.msi",
     "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",
     "dependencies": []
   }

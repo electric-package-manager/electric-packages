@@ -1,0 +1,8 @@
+{
+  "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120140/AcroRdrDC2100120140_en_US.exe",
+  "file-type": ".exe",
+  "install-switches": ["/sAll", "/rs"],
+  "uninstall-switches": [],
+  "custom-location": "",
+  "dependencies": []
+}

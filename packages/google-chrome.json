@@ -5,8 +5,8 @@
   "87.0.4280.88": {
     "url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_MSI&channel=stable&usagestats=0#",
     "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",
     "dependencies": []
   }

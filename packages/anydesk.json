@@ -5,8 +5,8 @@
   "6.1.0": {
     "url": "https://download.anydesk.com/AnyDesk.msi",
     "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",
     "dependencies": []
   }

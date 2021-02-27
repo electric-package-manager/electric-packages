@@ -5,8 +5,8 @@
   "1.22.5": {
     "url": "https://classic.yarnpkg.com/latest.msi",
     "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",
     "dependencies": []
   }

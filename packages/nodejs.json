@@ -28,8 +28,8 @@
   "14.15.3": {
     "url": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi",
     "file-type": ".msi",
-    "install-switches": ["/passive", "/quiet", "/norestart"],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "/TARGETDIR=",
     "dependencies": []
   }

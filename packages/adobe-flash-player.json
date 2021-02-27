@@ -5,13 +5,8 @@
   "32.0.0.465": {
     "url": "https://download.macromedia.com/get/flashplayer/pdc/32.0.0.465/install_flash_player_32_plugin.msi",
     "file-type": ".msi",
-    "install-switches": [
-      "/passive",
-      "/quiet",
-      "/norestart",
-      "REMOVE_PREVIOUS=YES"
-    ],
-    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "install-switches": ["/qn", "/quiet", "/norestart", "REMOVE_PREVIOUS=YES"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "dependencies": [],
     "custom-location": "/TARGETDIR="
   }

@@ -1,9 +1,9 @@
 {
-  "display-name": "7-Zip",
-  "package-name": "7-Zip",
-  "latest-version": "19.00",
-  "19.00": {
-    "url": "https://www.7-zip.org/a/7z1900-x64.msi",
+  "display-name": "Zoom",
+  "package-name": "zoom",
+  "latest-version": "5.5.12494.0204",
+  "5.5.12494.0204": {
+    "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
     "file-type": ".msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],

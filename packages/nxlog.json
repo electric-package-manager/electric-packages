@@ -1,9 +1,9 @@
 {
-  "display-name": "7-Zip",
-  "package-name": "7-Zip",
-  "latest-version": "19.00",
-  "19.00": {
-    "url": "https://www.7-zip.org/a/7z1900-x64.msi",
+  "display-name": "NXLog",
+  "package-name": "nxlog",
+  "latest-version": "2.10.2150",
+  "2.10.2150": {
+    "url": "https://nxlog.co/system/files/products/files/348/nxlog-ce-2.10.2150.msi",
     "file-type": ".msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
