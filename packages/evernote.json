@@ -1,0 +1,13 @@
+{
+  "display-name": "Evernote",
+  "package-name": "evernote",
+  "latest-version": "10.8.5",
+  "10.8.5": {
+    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.8.5-win-ddl-ga-2367-setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

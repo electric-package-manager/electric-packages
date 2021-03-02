@@ -1,0 +1,13 @@
+{
+	"display-name": "TortoiseGit",
+	"package-name": "tortoisegit",
+	"latest-version": "2.11.0.0",
+	"2.11.0.0": {
+		"url": "https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi",
+		"file-type": ".msi",
+	    "install-switches": ["/qn", "/quiet", "/norestart"],
+	    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+	    "custom-location": "/TARGETDIR=",
+	    "dependencies": []
+	}
+}

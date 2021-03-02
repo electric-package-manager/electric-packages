@@ -1,0 +1,13 @@
+{
+	"display-name": "Prometheus WMI Exporter",
+	"package-name": "prometheus-wmi-exporter",
+	"latest-version": "0.12.0",
+	"0.12.0": {
+		"url": "https://github.com/martinlindhe/wmi_exporter/releases/download/v0.12.0/wmi_exporter-0.12.0-amd64.msi",
+		"file-type": ".msi",
+	    "install-switches": ["/qn", "/quiet", "/norestart"],
+	    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+	    "custom-location": "/TARGETDIR=",
+	    "dependencies": []
+	}
+}

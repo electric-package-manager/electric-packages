@@ -1,0 +1,12 @@
+{
+	"display-name": "Puppet Agent",
+	"package-name": "puppet-agent",
+	"latest-version": "7.4.1",
+	"7.4.1": {
+		"url": "https://downloads.puppet.com/windows/puppet7/puppet-agent-7.4.1-x64.msi",
+		"file-type": ".msi",
+ 		"install-switches": ["/qn", "/quiet", "/norestart"],
+	    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+	    "custom-location": "/TARGETDIR=",
+	    "dependencies": []
+}

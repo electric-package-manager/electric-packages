@@ -1,0 +1,20 @@
+{
+  "display-name": "ImageMagick",
+  "package-name": "imagemagick",
+  "latest-version": "",
+  "": {
+    "url": "https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-2-Q16-HDRI-x64-dll.exe",
+    "file-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

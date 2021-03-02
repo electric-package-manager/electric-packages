@@ -1,0 +1,21 @@
+{
+  "display-name": "Cmder",
+  "package-name": "cmder",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Cmder",
+    "package-name": "cmder",
+    "latest-version": "1.3.17",
+    "1.3.17": {
+      "url": "https://github.com/cmderdev/cmder/releases/download/v1.3.17/cmder.7z",
+      "file-type": ".7z",
+      "extract-dir": "cmder",
+      "shortcuts": [
+        {
+          "shortcut-name": "Cmder",
+          "file-name": "Cmder.exe"
+        }
+      ]
+    }
+  }
+}

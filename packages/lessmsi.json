@@ -1,0 +1,16 @@
+{
+  "display-name": "LessMSI",
+  "package-name": "lessmsi",
+  "is-portable": true,
+  "portable": {
+    "display-name": "LessMSI",
+    "package-name": "lessmsi",
+    "latest-version": "1.8.1",
+    "1.8.1": {
+      "url": "https://github.com/activescott/lessmsi/releases/download/v1.8.1/lessmsi-v1.8.1.zip",
+      "file-type": ".zip",
+      "extract-dir": "lessmsi",
+      "bin": ["lessmsi.exe"]
+    }
+  }
+}

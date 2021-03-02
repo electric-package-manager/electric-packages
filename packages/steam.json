@@ -1,0 +1,13 @@
+{
+  "display-name": "Steam",
+  "package-name": "steam",
+  "latest-version": "2.10.91.91",
+  "2.10.91.91": {
+    "url": "http://media.steampowered.com/client/installer/SteamSetup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

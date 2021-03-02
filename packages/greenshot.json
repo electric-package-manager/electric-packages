@@ -1,0 +1,20 @@
+{
+  "display-name": "Greenshot",
+  "package-name": "greenshot",
+  "latest-version": "1.2.10.6",
+  "1.2.10.6": {
+    "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-INSTALLER-1.2.10.6-RELEASE.exe",
+    "file-type": ".exe",
+    "install-switches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

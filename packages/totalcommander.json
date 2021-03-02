@@ -1,0 +1,12 @@
+{
+  "display-name": "Total Commander",
+  "package-name": "totalcommander",
+  "latest-version": "9.51",
+  "9.51": {
+    "url": "https://totalcommander.ch/win/fixed/tcmd951x64.exe",
+    "install-switches": ["/AHMGDU"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": []
+  }
+}

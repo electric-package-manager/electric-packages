@@ -1,0 +1,13 @@
+{
+	"display-name": "Citrix Receiver",
+	"package-name": "citrix-receiver",
+	"latest-version": "4.12",
+	"4.12":{
+		"url": "https://downloadplugins.citrix.com/Windows/CitrixReceiver.exe",
+		"file-type": ".exe",
+		"install-switches": ["/noreboot", "/silent"],
+		"uninstall-switches": [],
+		"custom-location": "INSTALLDIR=",
+		"dependencies": []
+	} 
+}

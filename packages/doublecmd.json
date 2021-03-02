@@ -1,0 +1,13 @@
+{
+  "display-name": "Double Commander",
+  "package-name": "doublecmd",
+  "latest-version": "0.9.10",
+  "0.9.10": {
+    "url": "https://excellmedia.dl.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.10%20beta/doublecmd-0.9.10.x86_64-win64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}

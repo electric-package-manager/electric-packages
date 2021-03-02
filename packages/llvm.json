@@ -1,0 +1,13 @@
+{
+  "display-name": "LLVM Compiler",
+  "package-name": "llvm",
+  "latest-version": "11.0.1",
+  "11.0.1": {
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/LLVM-11.0.1-win64.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

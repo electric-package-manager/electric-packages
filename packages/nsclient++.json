@@ -1,0 +1,13 @@
+{
+	"display-name": "NSClient++",
+	"package-name": "nsclient++",
+	"latest-version": "0.5.2.39",
+	"0.5.2.39": {
+		"url": "https://github.com/mickem/nscp/releases/download/0.5.2.39/NSCP-0.5.2.39-x64.msi",
+		"file-type": ".msi",
+	    "install-switches": ["/qn", "/quiet", "/norestart"],
+	    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+	    "custom-location": "/TARGETDIR=",
+	    "dependencies": []
+	}
+}

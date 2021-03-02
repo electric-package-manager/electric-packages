@@ -1,0 +1,13 @@
+{
+  "display-name": "OpenVPN",
+  "package-name": "openvpn",
+  "latest-version": "2.4.7",
+  "2.4.7": {
+    "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.5.1-I601-amd64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}

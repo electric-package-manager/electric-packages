@@ -1,0 +1,17 @@
+{
+  "display-name": "Kubernetes CLI",
+  "package-name": "kubernetes-cli",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Kubernetes CLI",
+    "package-name": "kubernetes-cli",
+    "latest-version": "1.20.0",
+    "1.20.0": {
+      "url": "https://dl.k8s.io/v1.20.4/kubernetes-client-windows-amd64.tar.gz",
+      "file-type": ".tar.gz",
+      "extract-dir": "kubernetes-cli",
+      "chdir": "kubernetes\\client\\bin",
+      "bin": ["kubectl.exe"]
+    }
+  }
+}

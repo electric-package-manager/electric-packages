@@ -1,0 +1,16 @@
+{
+  "display-name": "Terraform",
+  "package-name": "terraform",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Terraform",
+    "package-name": "terraform",
+    "latest-version": "0.14.7",
+    "0.14.7": {
+      "url": "https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_windows_amd64.zip",
+      "file-type": ".zip",
+      "extract-dir": "terraform",
+      "bin": ["terraform.exe"]
+    }
+  }
+}
