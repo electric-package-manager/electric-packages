@@ -1,8 +1,8 @@
 import json
 import os
 
-os.chdir(r'C:\Users\xtrem\Desktop\Electric\electric-packages')
-packages = [ f.replace('.json', '') for f in os.listdir(r'C:\Users\xtrem\Desktop\Electric\electric-packages\packages') ]
+os.chdir(r'C:\Users\xtrem\Desktop\Electric\Electric Packages')
+packages = [ f.replace('.json', '') for f in os.listdir(r'C:\Users\xtrem\Desktop\Electric\Electric Packages\packages') ]
 
 data = {
     'packages': packages,
