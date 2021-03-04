@@ -6,7 +6,10 @@
         "url": "https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe",
         "file-type": ".exe",
         "install-switches": ["-s"],
-        "uninstall-switches": [],
+        "uninstall-switches": [
+            "-s", 
+            "--uninstall"
+        ],
         "custom-location": "",
         "dependencies": []
     }
