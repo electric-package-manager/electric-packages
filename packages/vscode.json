@@ -11,7 +11,8 @@
       "/SUPPRESSMSGBOXES",
       "/NOCANCEL",
       "/NORESTART",
-      "/FORCECLOSEAPPLICATIONS"
+      "/FORCECLOSEAPPLICATIONS",
+      "/MERGETASKS=!runcode"
     ],
     "uninstall-switches": [
       "/SP-",
