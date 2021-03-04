@@ -1,0 +1,13 @@
+{
+  "display-name": "MySQL Workbench",
+  "package-name": "mysql-workbench",
+  "latest-version": "8.0.23",
+  "8.0.23": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.23-winx64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR=",
+    "dependencies": []
+  }
+}
