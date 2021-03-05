@@ -1,0 +1,17 @@
+{
+  "display-name": "Flutter SDK",
+  "package-name": "flutter",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Flutter SDK",
+    "package-name": "flutter",
+    "latest-version": "1.22.6",
+    "1.22.6": {
+      "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.6-stable.zip",
+      "file-type": ".zip",
+      "extract-dir": "flutter",
+      "chdir": "flutter",
+      "bin": ["bin\\dart.bat", "bin\\flutter.bat"]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "display-name": "WinPcap",
+  "package-name": "winpcap",
+  "latest-version": "4.1.3.20161116",
+  "4.1.3.20161116": {
+    "url": "https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

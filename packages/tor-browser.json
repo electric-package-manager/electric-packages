@@ -1,0 +1,13 @@
+{
+  "display-name": "Tor Browser",
+  "package-name": "tor-browser",
+  "latest-version": "10.0.12",
+  "10.0.12": {
+    "url": "https://www.torproject.org/dist/torbrowser/10.0.12/torbrowser-install-win64-10.0.12_en-US.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

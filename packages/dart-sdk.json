@@ -1,0 +1,27 @@
+{
+  "display-name": "Dart SDK",
+  "package-name": "dart-sdk",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Dart SDK",
+    "package-name": "dart-sdk",
+    "latest-version": "2.10.5",
+    "2.10.5": {
+      "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.5/sdk/dartsdk-windows-x64-release.zip",
+      "file-type": ".zip",
+      "chdir": "dart-sdk",
+      "extract-dir": "dart-sdk",
+      "bin": [
+        "bin\\dart.exe",
+        "bin\\dart2js.bat",
+        "bin\\dart2native.bat",
+        "bin\\dartanalyzer.bat",
+        "bin\\dartaotruntime.exe",
+        "bin\\dartdevc.bat",
+        "bin\\dartdoc.bat",
+        "bin\\dartfmt.bat",
+        "bin\\pub.bat"
+      ]
+    }
+  }
+}
