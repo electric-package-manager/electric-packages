@@ -2,6 +2,25 @@
   "display-name": "WinSCP",
   "package-name": "winscp",
   "latest-version": "5.17.10",
+  "portable": {
+    "display-name": "WinSCP",
+    "package-name": "winscp",
+    "latest-version": "5.17.10",
+    "5.17.10": {
+      "url": "https://sourceforge.net/projects/winscp/files/WinSCP/5.17.10/WinSCP-5.17.10-Portable.zip/download",
+      "file-type": ".zip",
+      "extract-dir": "winscp",
+      "bin": [
+        "winscp.com"
+      ],
+      "shortcuts": [
+        {
+          "shortcut-name": "WinSCP",
+          "file-name": "WinSCP.exe"
+        }
+      ]
+    }
+  },
   "5.17.10": {
     "url": "https://cdn.winscp.net/files/WinSCP-5.17.10-Setup.exe?secure=drizfWaHsefVG4jEGKQUUQ==,1614440324",
     "file-type": ".exe",
