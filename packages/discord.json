@@ -1,0 +1,16 @@
+{
+    "display-name": "Discord",
+    "package-name": "discord",
+    "latest-version": "0.0.309",
+    "0.0.309": {
+        "url": "https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe",
+        "file-type": ".exe",
+        "install-switches": ["-s"],
+        "uninstall-switches": [
+            "-s", 
+            "--uninstall"
+        ],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

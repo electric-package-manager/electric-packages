@@ -3,7 +3,7 @@
   "package-name": "google-chrome",
   "latest-version": "87.0.4280.88",
   "87.0.4280.88": {
-    "url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_MSI&channel=stable&usagestats=0#",
+    "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
     "file-type": ".msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
