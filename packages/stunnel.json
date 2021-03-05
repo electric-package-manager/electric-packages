@@ -1,0 +1,13 @@
+{
+    "display-name": "stunnel",
+    "package-name": "stunnel",
+    "latest-version": "5.58",
+    "5.58": {
+        "url": "https://www.stunnel.org/downloads/stunnel-5.58-win64-installer.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}

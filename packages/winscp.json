@@ -1,8 +1,8 @@
 {
   "display-name": "WinSCP",
   "package-name": "winscp",
-  "latest-version": "",
-  "": {
+  "latest-version": "5.17.10",
+  "5.17.10": {
     "url": "https://cdn.winscp.net/files/WinSCP-5.17.10-Setup.exe?secure=drizfWaHsefVG4jEGKQUUQ==,1614440324",
     "file-type": ".exe",
     "install-switches": [

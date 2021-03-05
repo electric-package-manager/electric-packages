@@ -1,0 +1,20 @@
+{
+    "display-name": "R For Windows",
+    "package-name": "r-project",
+    "latest-version": "4.0.4",
+    "4.0.4": {
+        "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.4-win.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
+}

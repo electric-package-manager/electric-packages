@@ -1,0 +1,16 @@
+{
+    "display-name": "Microsoft .NET Framework 3.5 SP1",
+    "package-name": "dotnet3.5",
+    "latest-version": "3.5.20160716",
+    "3.5.20160716": {
+        "url": "https://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/passive",
+            "/norestart"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

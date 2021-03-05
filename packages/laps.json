@@ -1,0 +1,13 @@
+{
+    "display-name": "Microsoft Local Administrator Password Solution",
+    "package-name": "laps",
+    "latest-version": "6.2.0",
+    "6.2.0": {
+        "url": "https://download.microsoft.com/download/C/7/A/C7AAD914-A8A6-4904-88A1-29E657445D03/LAPS.x64.msi",
+        "file-type": ".msi",
+        "install-switches": ["/qn", "/quiet", "/norestart"],
+        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+        "custom-location": "/TARGETDIR=",
+        "dependencies": []
+    }
+}
