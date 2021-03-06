@@ -35,7 +35,7 @@
           "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
           "    Set-Content $file $content -Encoding Ascii -Force",
           "}",
-          "$file = \"<dir>\\uninstall-context.reg\"",
+          "$file = \"<dir>\\electric\\uninstall-context.reg\"",
           "if ((Test-Path $file) -and $global) {",
           "    (Get-Content $file).Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') | Set-Content -Path $file -Encoding Ascii -Force",
           "}"
