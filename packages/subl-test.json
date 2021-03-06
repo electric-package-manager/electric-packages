@@ -41,6 +41,7 @@
           "}"
         ]
       },
+      "notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\electric\\install-context.reg'\"",
       "shortcuts": [
         {
           "shortcut-name": "Sublime Text 3",
