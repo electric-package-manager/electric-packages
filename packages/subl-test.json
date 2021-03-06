@@ -14,12 +14,14 @@
         },
         {
             "file-type": ".reg",
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg" 
-        },
+            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg",
+            "file-name": "install-context"
+          },
         {
             "file-type": ".reg",
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg"
-        }
+            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg",
+            "file-name": "uninstall-context"
+          }
       ],
       "extract-dir": "sublime-text-3",
       "bin": ["subl.exe"],
