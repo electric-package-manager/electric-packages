@@ -41,7 +41,8 @@
           "}"
         ]
       },
-      "notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\electric\\install-context.reg'\"",
+      "install-notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\electric\\install-context.reg'\"",
+      "uninstall-notes": "Remove Sublime Text as a context menu option by running: \"reg import '$dir\\electric\\uninstall-context.reg'\"",
       "shortcuts": [
         {
           "shortcut-name": "Sublime Text 3",
