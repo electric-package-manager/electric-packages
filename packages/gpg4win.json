@@ -1,0 +1,13 @@
+{
+    "display-name": "Gpg4win",
+    "package-name": "gpg4win",
+    "latest-version": "2.3.4.20191021",
+    "2.3.4.20191021": {
+        "url": "https://files.gpg4win.org/gpg4win-vanilla-2.3.4.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}
