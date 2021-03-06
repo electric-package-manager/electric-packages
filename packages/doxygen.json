@@ -1,0 +1,20 @@
+{
+    "display-name": "Doxygen",
+    "package-name": "doxygen",
+    "latest-version": "1.9.1",
+    "1.9.1": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1-setup.exe/download",
+        "file-type": ".exe",
+        "install-switches": [
+        "/SP-",
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NOCANCEL",
+        "/NORESTART",
+        "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
+}
