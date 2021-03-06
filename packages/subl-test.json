@@ -28,7 +28,7 @@
       "pre-install": {
         "type": "powershell",
         "code": [
-          "$file = \"<dir>\\install-context.reg\"",
+          "$file = \"<dir>\\electric\\install-context.reg\"",
           "if (Test-Path $file) {",
           "    $sublimepath = \"<dir>\\sublime_text.exe\".Replace('\\', '\\\\')",
           "    $content = (Get-Content $file).Replace('$sublime', $sublimepath)",
