@@ -1,6 +1,6 @@
 {
   "display-name": "WhatsApp Web",
-  "package-name": "whatsapp-web",
+  "package-name": "whatsapp",
   "latest-version": "2.2106.10",
   "2.2106.10": {
     "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",

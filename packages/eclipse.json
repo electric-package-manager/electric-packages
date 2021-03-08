@@ -1,0 +1,25 @@
+{
+    "display-name": "Eclipse",
+    "package-name": "eclipse",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Eclipse",
+        "package-name": "eclipse",
+        "latest-version": "4.18",
+        "4.18": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-12/R/eclipse-jee-2020-12-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file": "eclipse.exe"
+                }
+            ]
+        }
+    }
+}

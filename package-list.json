@@ -160,6 +160,7 @@
         "winscp",
         "wireshark",
         "yarn",
-        "zoom"
+        "zoom",
+        "subl-test"
     ]
 }
