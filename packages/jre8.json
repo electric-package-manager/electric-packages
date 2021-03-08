@@ -8,6 +8,11 @@
     "install-switches": ["/s"],
     "uninstall-switches": [],
     "custom-location": "INSTALLDIR=",
+    "default-install-dir": "C:\\Program Files\\Java\\jre1.8.0_281",
+    "set-env": {
+      "name": "JAVA_HOME",
+      "value": "<install-directory>\\bin"
+    },
     "dependencies": []
   }
 }
