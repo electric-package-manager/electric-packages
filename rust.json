@@ -1,0 +1,13 @@
+{
+  "display-name": "Rust",
+  "package-name": "rust",
+  "latest-version": "1.50.0",
+  "1.50.0": {
+    "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+    "file-type": ".exe",
+    "install-switches": ["--quiet", "-y"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": ["visual-studio-build-tools-2017"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display-name": "Microsoft C++ Build Tools 2017",
+  "package-name": "visual-studio-build-tools-2017",
+  "latest-version": "latest",
+  "latest": {
+    "url": "https://download.visualstudio.microsoft.com/download/pr/5c555b0d-fffd-45a2-9929-4a5bb59479a4/45fd615bc29fadc5201483dad883e635c0ceecb0bddf0f613edf6093cb431a27/vs_BuildTools.exe",
+    "file-type": ".exe",
+    "install-switches": [
+      "--nocache",
+      "--wait",
+      "--noUpdateInstaller",
+      "--noWeb",
+      "--allWorkloads",
+      "--includeRecommended",
+      "--includeOptional",
+      "--quiet",
+      "--norestart"
+    ],
+    "uninstall-switches": [],
+    "custom-location": "--installPath ",
+    "dependencies": []
+  }
+}
