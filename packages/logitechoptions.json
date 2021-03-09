@@ -1,0 +1,13 @@
+{
+  "display-name": "Logitech Options",
+  "package-name": "logitechoptions",
+  "latest-version": "8.36.86",
+  "8.36.86": {
+    "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.36.86.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}
