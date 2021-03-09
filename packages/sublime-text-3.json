@@ -9,33 +9,33 @@
     "3211": {
       "url": [
         {
-            "file-type": ".zip",
-            "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip"
+          "file-type": ".zip",
+          "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip"
         },
         {
-            "file-type": ".reg",
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg",
-            "file-name": "install-context"
-          },
+          "file-type": ".reg",
+          "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg",
+          "file-name": "install-context"
+        },
         {
-            "file-type": ".reg",
-            "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg",
-            "file-name": "uninstall-context"
-          }
+          "file-type": ".reg",
+          "url": "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg",
+          "file-name": "uninstall-context"
+        }
       ],
       "extract-dir": "sublime-text-3",
       "bin": ["subl.exe"],
       "pre-install": {
         "type": "powershell",
         "code": [
-          "$file = \"<dir>\\electric\\install-context.reg\"",
+          "$file = \"<extras>\\install-context.reg\"",
           "if (Test-Path $file) {",
           "    $sublimepath = \"<dir>\\sublime_text.exe\".Replace('\\', '\\\\')",
           "    $content = (Get-Content $file).Replace('$sublime', $sublimepath)",
           "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
           "    Set-Content $file $content -Encoding Ascii -Force",
           "}",
-          "$file = \"<dir>\\electric\\uninstall-context.reg\"",
+          "$file = \"<extras>\\uninstall-context.reg\"",
           "if ((Test-Path $file) -and $global) {",
           "    (Get-Content $file).Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') | Set-Content -Path $file -Encoding Ascii -Force",
           "}"
