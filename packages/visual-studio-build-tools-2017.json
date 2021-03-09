@@ -13,7 +13,7 @@
       "--allWorkloads",
       "--includeRecommended",
       "--includeOptional",
-      "--quiet",
+      "--passive",
       "--norestart"
     ],
     "uninstall-switches": [],
