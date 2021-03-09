@@ -13,7 +13,7 @@
       "name": "JAVA_HOME",
       "value": "<install-directory>\\bin"
     },
-    "uninstall": ["Java 8"],
+    "uninstall": ["jre8"],
     "dependencies": []
   }
 }
