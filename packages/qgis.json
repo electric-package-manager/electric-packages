@@ -1,0 +1,13 @@
+{
+  "display-name": "QGIS",
+  "package-name": "qgis",
+  "latest-version": "3.18.0",
+  "3.18.0": {
+    "url": "https://qgis.org/downloads/QGIS-OSGeo4W-3.18.0-1-Setup-x86_64.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}
