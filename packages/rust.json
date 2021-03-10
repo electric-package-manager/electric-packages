@@ -23,7 +23,7 @@
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
-    "uninstall-override-command": "rustup self uninstall",
+    "uninstall-override-command": "rustup self uninstall -y",
     "custom-location": "",
     "dependencies": ["visual-studio-build-tools-2017"]
   }
