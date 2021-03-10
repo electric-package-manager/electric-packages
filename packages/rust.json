@@ -15,7 +15,8 @@
       {
         "type": "python",
         "code": [
-          "path = rf'{tempfile.gettempdir()}\\electric\\rustup-init.exe'"
+          "temp_dir = tempfile.gettempdir()",
+          "path = rf'{temp_dir}\\electric\\rustup-init.exe'"
         ]
       }
     ],
