@@ -4,10 +4,16 @@
   "latest-version": "1.50.0",
   "1.50.0": {
     "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
-    "pre-install": {
-      "type": "powershell",
-      "code": ["Rename-Item <installer> rustup-init.exe"]
-    },
+    "pre-install": [
+      {
+        "type": "powershell",
+        "code": ["Rename-Item <installer> rustup-init.exe"]
+      },
+      {
+        "type": "python",
+        "code": ["path = f'{tempfile.gettempdir()}\\electric\\rustup-init.exe'"]
+      }
+    ],
     "file-type": ".exe",
     "install-switches": ["--quiet", "-y"],
     "uninstall-switches": [],
