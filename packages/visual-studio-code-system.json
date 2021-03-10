@@ -1,0 +1,29 @@
+{
+    "display-name": "Microsoft Visual Studio Code System",
+    "package-name": "visual-studio-code-system",
+    "latest-version": "1.53.2",
+    "1.53.2": {
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+      "file-type": ".exe",
+      "install-switches": [
+        "/SP-",
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NOCANCEL",
+        "/NORESTART",
+        "/FORCECLOSEAPPLICATIONS",
+        "/MERGETASKS=!runcode"
+      ],
+      "uninstall-switches": [
+        "/SP-",
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NOCANCEL",
+        "/NORESTART",
+        "/FORCECLOSEAPPLICATIONS"
+      ],
+      "custom-location": "/DIR=",
+      "dependencies": []
+    }
+  }
+  
