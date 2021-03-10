@@ -14,7 +14,7 @@
       },
       {
         "type": "python",
-        "code": ["path = f'{tempfile.gettempdir()}\\electric\\rustup-init.exe'"]
+        "code": ["smh = rf'{tempfile.gettempdir()}\\electric\\rustup-init.exe'"]
       }
     ],
     "file-type": ".exe",
