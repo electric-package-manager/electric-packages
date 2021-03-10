@@ -7,7 +7,10 @@
     "pre-install": [
       {
         "type": "powershell",
-        "code": ["Rename-Item <installer> rustup-init.exe"]
+        "code": [
+          "$ErrorActionPreference = \"SilentlyContinue\"",
+          "Rename-Item <installer> rustup-init.exe"
+        ]
       },
       {
         "type": "python",
