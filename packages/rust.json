@@ -21,7 +21,7 @@
       }
     ],
     "file-type": ".exe",
-    "install-switches": ["--quiet", "-y"],
+    "install-switches": ["-y"],
     "uninstall-switches": [],
     "custom-location": "",
     "dependencies": ["visual-studio-build-tools-2017"]
