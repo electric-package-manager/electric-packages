@@ -1,0 +1,13 @@
+{
+    "display-name": "Microsoft WinFile",
+    "package-name": "winfile",
+    "latest-version": "10.1.4.0",
+    "10.1.4.0": {
+        "url": "https://raw.githubusercontent.com/oxygen-dioxide/Zhihu-UWP/master/winfile_10.1.4.0.AppxBundle",
+        "file-type": ".appxbundle",
+        "install-switches": [],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

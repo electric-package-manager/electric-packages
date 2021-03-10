@@ -1,0 +1,16 @@
+{
+    "display-name": "Microsoft Edge WebView2 Evergreen",
+    "package-name": "webview2-evergreen",
+    "latest-version": "1.3.141.59",
+    "1.3.141.59": {
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/2a6a289a-73bc-4cfd-940f-a295a205da97/MicrosoftEdgeWebview2Setup.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/silent",
+            "/install"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

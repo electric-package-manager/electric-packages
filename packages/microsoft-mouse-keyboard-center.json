@@ -1,0 +1,15 @@
+{
+    "display-name": "Microsoft Mouse And Keyboard Center",
+    "package-name": "microsoft-mouse-and-keyboard-center",
+    "latest-version": "13.250",
+    "13.250": {
+        "url": "https://download.microsoft.com/download/2/8/c/28c3badc-f8f9-42f8-ada0-2a3a5b34539a/MouseKeyboardCenter_64bit_ENG_13.250.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/silentinstall"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}
