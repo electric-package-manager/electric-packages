@@ -1,0 +1,13 @@
+{
+    "display-name": "Logitech Unifying Software",
+    "package-name": "logitech-unifying-software",
+    "latest-version": "2.50.25",
+    "2.50.25": {
+        "url": "https://download01.logi.com/web/ftp/pub/controldevices/unifying/unifying250.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}
