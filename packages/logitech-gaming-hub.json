@@ -5,6 +5,7 @@
   "latest": {
     "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe",
     "file-type": ".exe",
+    "run-test": true,
     "install-switches": [],
     "uninstall-switches": [],
     "custom-location": "",
