@@ -10,7 +10,13 @@
       "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
       "file-type": ".zip",
       "extract-dir": "procexp",
-      "bin": ["procexp"]
+      "bin": ["procexpexe"],
+      "shortcuts": [
+        {
+          "shortcut-name": "Procexp",
+          "file-name": "procexp.exe"
+        }
+      ]
     }
   }
 }
