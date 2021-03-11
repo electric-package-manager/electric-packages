@@ -1,13 +1,13 @@
 {
-    "display-name": "Logitech Gaming Software",
-    "package-name": "logitech-gaming-software",
-    "latest-version": "9.02.65",
-    "9.02.65": {
-        "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe",
-        "file-type": ".exe",
-        "install-switches": ["/S"],
-        "uninstall-switches": ["/S"],
-        "custom-location": "/D=",
-        "dependencies": []   
-    }
+  "display-name": "Logitech Gaming Software",
+  "package-name": "logitech-gaming-software",
+  "latest-version": "9.02.65",
+  "9.02.65": {
+    "url": "https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/bitness=x64", "/silentmode=on", "/downgrade=no"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
 }
