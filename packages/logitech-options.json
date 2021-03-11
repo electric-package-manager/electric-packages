@@ -1,6 +1,6 @@
 {
   "display-name": "Logitech Options",
-  "package-name": "logitechoptions",
+  "package-name": "logitech-options",
   "latest-version": "8.36.86",
   "8.36.86": {
     "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.36.86.exe",
