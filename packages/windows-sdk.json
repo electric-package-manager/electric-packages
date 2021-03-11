@@ -1,16 +1,13 @@
 {
-    "display-name": "Microsoft Windows SDK",
-    "package-name": "windows-sdk",
-    "latest-version": "10.0.19041.0",
-    "10.0.19041.0": {
-        "url": "https://download.microsoft.com/download/4/d/2/4d2b7011-606a-467e-99b4-99550bf24ffc/windowssdk/winsdksetup.exe",
-        "file-type": ".exe",
-        "install-switches": [
-            "/quiet",
-            "/norestart"
-        ],
-        "uninstall-switches": [],
-        "custom-location": "/installpath=",
-        "dependencies": []
-    }
+  "display-name": "Windows Software Development Kit",
+  "package-name": "windows-sdk",
+  "latest-version": "10.0.19041.0",
+  "10.0.19041.0": {
+    "url": "https://download.microsoft.com/download/4/d/2/4d2b7011-606a-467e-99b4-99550bf24ffc/windowssdk/winsdksetup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/quiet", "/norestart"],
+    "uninstall-switches": [],
+    "custom-location": "/installpath=",
+    "dependencies": []
+  }
 }
