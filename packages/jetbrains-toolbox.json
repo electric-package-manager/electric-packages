@@ -1,0 +1,13 @@
+{
+    "display-name": "JetBrains ToolBox",
+    "package-name": "jetBrains-toolbox",
+    "latest-version": "1.20.7940",
+    "1.20.7940": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.20.7940.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}

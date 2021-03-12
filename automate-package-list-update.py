@@ -1,8 +1,8 @@
 import json
 import os
 
-os.chdir(r'C:\Users\xtrem\Desktop\Electric\Electric Packages')
-packages = [ f.replace('.json', '') for f in os.listdir(r'C:\Users\xtrem\Desktop\Electric\Electric Packages\packages') ]
+os.chdir(r'C:\Users\xtrem\Desktop\electric-packages')
+packages = [ f.replace('.json', '') for f in os.listdir(r'C:\Users\xtrem\Desktop\electric-packages\packages') ]
 
 data = {
     'packages': packages,
@@ -10,7 +10,7 @@ data = {
 
 with open('package-list.json', 'w+') as f:
     f.write(json.dumps(data, indent=4))
-os.system('powershell.exe deploy "Update Package List"')
+# os.system('powershell.exe deploy "Update Package List"')
 
 # RUN PACKAGE TESTS
 # for pkg in packages:
