@@ -30,8 +30,14 @@
                     "    Write-Error \"Microsoft .NET 3.5 Is Not Installed!\"",
                     "}",
                     "else {",
-                    "    cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3ServerFeatures",
+                    "   if((wmic os get caption | Out-String).Contains(\"Server\")) {",
+                    "       cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3ServerFeatures",
+                    "       electric deregister donet3.5",
+                    "    }",
+                    "    else {",
+                    "    cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3",
                     "    electric deregister dotnet3.5",
+                    "    }",
                     "}"
                 ]
             }
