@@ -9,6 +9,7 @@
         "3.11.2": {
             "url": "https://github.com/wixtoolset/wix3/releases/download/wix3112rtm/wix311exe.zip",
             "file-type": ".zip",
+            "extract-dir": "wixtoolset",
             "shortcuts": [
                 {
                     "shortcut-name": "WiX",

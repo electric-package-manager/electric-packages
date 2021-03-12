@@ -6,7 +6,6 @@
         "display-name": "OpenJDK 8 JRE",
         "package-name": "openjdk8jre",
         "latest-version": "8.282.08",
-        "description": "OpenJDK is an open source Java Development Kit provided by Oracle",
         "8.282.08": {
             "url": "https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u282-b08/OpenJDK8U-jre_x64_windows_8u282b08.zip",
             "file-type": ".zip",
