@@ -30,7 +30,7 @@
         "code": [
           "$file = \"<extras>\\install-context.reg\"",
           "if (Test-Path $file) {",
-          "    $sublimepath = \"<dir>\\sublime_text.exe\".Replace('\\', '\\\\')",
+          "    $sublimepath = \"<install-directory>\\sublime_text.exe\".Replace('\\', '\\\\')",
           "    $content = (Get-Content $file).Replace('$sublime', $sublimepath)",
           "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
           "    Set-Content $file $content -Encoding Ascii -Force",
