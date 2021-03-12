@@ -1,0 +1,28 @@
+{
+    "display-name": "Neovim",
+    "package-name": "neovim",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Neovim",
+        "package-name": "neovim",
+        "latest-version": "0.4.4.20210116",
+        "0.4.4.20210116": {
+            "url": "https://github.com/neovim/neovim/releases/download/v0.4.4/nvim-win64.zip",
+            "file-type": ".zip",
+            "extract-dir": "neovim",
+            "chdir": "Neovim",
+            "bin": [
+                "cat.exe",
+                "curl.exe",
+                "diff.exe",
+                "nvim.exe",
+                "nvim-qt.exe",
+                "tee.exe",
+                "tidy.exe",
+                "win32yank.exe",
+                "winpty-agent.exe",
+                "xxd.exe"
+            ]
+        }
+    }
+}
