@@ -10,7 +10,7 @@ data = {
 
 with open('package-list.json', 'w+') as f:
     f.write(json.dumps(data, indent=4))
-# os.system('powershell.exe deploy "Update Package List"')
+os.system('powershell.exe deploy "Update Package List"')
 
 # RUN PACKAGE TESTS
 # for pkg in packages:
