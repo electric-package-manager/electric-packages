@@ -23,7 +23,12 @@
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
-    "uninstall-override-command": "rustup self uninstall -y",
+    "uninstall-override-command": {
+      "type": "python",
+      "code": [
+        "os.system('rustup self uninstall -y')"
+      ]
+    },
     "custom-location": "",
     "dependencies": ["visual-studio-build-tools-2017"]
   }

@@ -3,14 +3,22 @@
     "package-name": "dotnet3.5",
     "latest-version": "3.5.20160716",
     "3.5.20160716": {
-        "url": "https://download.microsoft.com/download/2/0/E/20E90413-712F-438C-988E-FDAA79A8AC3D/dotnetfx35.exe",
-        "file-type": ".exe",
-        "install-switches": [
-            "/passive",
-            "/norestart"
+        "install-override-command": [
+            {
+                "admin": true,
+                "type": "powershell",
+                "code": [
+                    "if(-not (test-path \"hklm:\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5\")) {",
+                    "   if((wmic os get caption | Out-String).Contains(\"Server\")) {",
+                    "       cmd.exe /c DISM /Online /NoRestart /Enable-Feature /FeatureName:NetFx3ServerFeatures",
+                    "    }",
+                    "}",
+                    "else {",
+                    "    Write \"Microsoft .NET 3.5 is already installed!",
+                    "}"
+                ]
+            }
         ],
-        "uninstall-switches": [],
-        "custom-location": "",
         "dependencies": []
     }
 }

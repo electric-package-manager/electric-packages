@@ -13,7 +13,7 @@
             "shortcuts": [
                 {
                     "shortcut-name": "WiX",
-                    "file-name": "wix.exe"
+                    "file-name": "wix311.exe"
                 }
             ],
             "dependencies": ["dotnet3.5"]
