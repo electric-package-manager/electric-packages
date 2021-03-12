@@ -11,6 +11,10 @@
             "file-type": ".zip",
             "extract-dir": "openjdk8jre",
             "chdir": "openjdk-8u282-b08-jre",
+            "set-env": {
+                "name": "JAVA_HOME",
+                "value": "<install-directory>\\bin"
+            },
             "bin": [
                 "bin\\kinit.exe",
                 "bin\\klist.exe",
