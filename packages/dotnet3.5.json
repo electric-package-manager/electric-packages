@@ -5,6 +5,7 @@
     "3.5.20160716": {
         "install-override-command": [
             {
+                "admin": true,
                 "type": "powershell",
                 "code": [
                     "if(-not (test-path \"hklm:\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5\")) {",
@@ -12,6 +13,7 @@
                     "       cmd.exe /c DISM /Online /NoRestart /Enable-Feature /FeatureName:NetFx3ServerFeatures",
                     "       electric register donet3.5",
                     "    }",
+                    "    cmd.exe /c DISM /Online /NoRestart /Enable-Feature /FeatureName:NetFx3",
                     "}",
                     "else {",
                     "    Write-Output \"Microsoft .NET 3.5 Is Already Installed!\"",
@@ -21,6 +23,7 @@
         ],
         "uninstall-override-command": [
             {
+                "admin": true,
                 "type": "powershell",
                 "code": [
                     "if(-not (test-path \"hklm:\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5\")) {",
