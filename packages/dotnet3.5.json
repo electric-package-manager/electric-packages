@@ -14,7 +14,7 @@
                     "    }",
                     "}",
                     "else {",
-                    "    Write \"Microsoft .NET 3.5 is already installed!",
+                    "    Write-Output \"Microsoft .NET 3.5 is already installed!\"",
                     "}"
                 ]
             }

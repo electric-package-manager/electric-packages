@@ -23,12 +23,19 @@
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
-    "uninstall-override-command": {
-      "type": "python",
-      "code": [
-        "os.system('rustup self uninstall -y')"
-      ]
-    },
+    "uninstall-override-command": [
+      {
+        "type": "python",
+        "code": [
+          "pid = os.system('rustup self uninstall -y')",
+          "if pid == 0:",
+          "    write('Successfully Uninstalled {res[\"display-name\"]}', 'green', metadata)",
+          "    os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\{package}@{res[\"latest-version\"]}.json')",
+          "else:",
+          "    write('Failed To Uninstall {res[\"display-name\"]}', 'red', metadata)"
+        ]
+      }
+    ],
     "custom-location": "",
     "dependencies": ["visual-studio-build-tools-2017"]
   }
