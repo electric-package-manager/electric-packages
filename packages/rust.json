@@ -19,7 +19,7 @@
         ]
       }
     ],
-    "test-existing-installation": "existing_installation = os.system('rustup') == 0",
+    "test-existing-installation": "existing_installation = Popen('rustup', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True).returncode == 0",
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
