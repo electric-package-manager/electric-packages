@@ -31,7 +31,6 @@
     "uninstall-switches": [],
     "uninstall-override-command": [
       {
-        "admin": true,
         "type": "python",
         "code": [
           "pid = os.system('rustup self uninstall -y')",
