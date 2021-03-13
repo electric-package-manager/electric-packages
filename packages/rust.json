@@ -29,10 +29,10 @@
         "code": [
           "pid = os.system('rustup self uninstall -y')",
           "if pid == 0:",
-          "    write('Successfully Uninstalled {<display-name>}', 'green', metadata)",
-          "    os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\{<package-name>}@{<version>}.json')",
+          "    write('Successfully Uninstalled <display-name>', 'green', metadata)",
+          "    os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\<package-name>@<version>.json')",
           "else:",
-          "    write('Failed To Uninstall {<display-name>}', 'red', metadata)"
+          "    write('Failed To Uninstall <display-name>', 'red', metadata)"
         ]
       }
     ],
