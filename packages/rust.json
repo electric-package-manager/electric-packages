@@ -15,7 +15,7 @@
       {
         "type": "python",
         "code": [
-          "path = rf'{<temp>}\\electric\\rustup-init.exe'"
+          "path = rf'<temp>\\electric\\rustup-init.exe'"
         ]
       }
     ],
