@@ -32,11 +32,11 @@
                     "else {",
                     "   if((wmic os get caption | Out-String).Contains(\"Server\")) {",
                     "       cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3ServerFeatures",
-                    "       electric deregister donet3.5",
+                    "       electric deregister donet3.5 --version <version>",
                     "    }",
                     "    else {",
                     "    cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3",
-                    "    electric deregister dotnet3.5",
+                    "    electric deregister dotnet3.5 --version <version>",
                     "    }",
                     "}"
                 ]

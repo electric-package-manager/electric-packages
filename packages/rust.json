@@ -15,11 +15,11 @@
       {
         "type": "python",
         "code": [
-          "temp_dir = tempfile.gettempdir()",
-          "path = rf'{temp_dir}\\electric\\rustup-init.exe'"
+          "path = rf'{<temp>}\\electric\\rustup-init.exe'"
         ]
       }
     ],
+    "test-existing-installation": "existing_installation = os.system('rustup') == 0",
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
@@ -29,10 +29,10 @@
         "code": [
           "pid = os.system('rustup self uninstall -y')",
           "if pid == 0:",
-          "    write('Successfully Uninstalled {res[\"display-name\"]}', 'green', metadata)",
-          "    os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\{package}@{res[\"latest-version\"]}.json')",
+          "  write('Successfully Uninstalled {<display-name>}', 'green', metadata)",
+          "  os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\{<package-name>}@{<version>}.json')",
           "else:",
-          "    write('Failed To Uninstall {res[\"display-name\"]}', 'red', metadata)"
+          "  write('Failed To Uninstall {<display-name>}', 'red', metadata)"
         ]
       }
     ],
