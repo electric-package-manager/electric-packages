@@ -22,8 +22,8 @@
     "test-existing-installation": {
       "code": [
         "proc = Popen('rustup', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)",
-        "proc.communicate()",
-        "existing_installation = proc.returncode == 0"
+        "o, err = proc.communicate()",
+        "existing_installation = err.decode() == ''"
       ]
     },
     "file-type": ".exe",
