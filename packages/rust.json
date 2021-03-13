@@ -19,12 +19,19 @@
         ]
       }
     ],
-    "test-existing-installation": "existing_installation = Popen('rustup', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True).returncode == 0",
+    "test-existing-installation": {
+      "code": [
+        "proc = Popen('rustup', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)",
+        "proc.communicate()",
+        "existing_installation = proc.returncode == 0"
+      ]
+    },
     "file-type": ".exe",
     "install-switches": ["-y"],
     "uninstall-switches": [],
     "uninstall-override-command": [
       {
+        "admin": true,
         "type": "python",
         "code": [
           "pid = os.system('rustup self uninstall -y')",
