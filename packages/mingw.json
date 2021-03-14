@@ -7,8 +7,8 @@
     "package-name": "mingw",
     "latest-version": "10.2.0",
     "10.2.0": {
-      "url": "https://downloads.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z",
-      "file-type": ".7z",
+      "url": "https://excellmedia.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/ray_linn/GCC-10.X-with-ada/GCC-10.2.0-crt-8.0.0-with-ada-20201019.7z",
+      "file-type": ".zip",
       "chdir": "mingw64",
       "extract-dir": "mingw",
       "bin": []
