@@ -1,0 +1,13 @@
+{
+  "display-name": "FaceIT",
+  "package-name": "faceit",
+  "latest-version": "1.28.3",
+  "1.28.3": {
+    "url": "https://faceit-client.faceit-cdn.net/release/FACEIT-setup-latest.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": []
+  }
+}
