@@ -13,7 +13,7 @@
       "/NORESTART",
       "/FORCECLOSEAPPLICATIONS"
     ],
-    "default-install-dir": "C:Program Files (x86)Inno Setup 6",
+    "default-install-dir": "C:\\Program Files (x86)\\Inno Setup 6",
     "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
     "add-path": "<install-directory>",
     "custom-location": "/DIR=",
