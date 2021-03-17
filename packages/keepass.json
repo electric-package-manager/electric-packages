@@ -14,7 +14,7 @@
     ]
   },
   "2.47": {
-    "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47-Setup.exe?ts=1615966740&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkeepass%2Ffiles%2FKeePass%25202.x%2F2.47%2FKeePass-2.47-Setup.exe%2Fdownload",
+    "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47-Setup.exe",
     "file-type": ".exe",
     "install-switches": [
       "/SP-",
