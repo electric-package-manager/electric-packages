@@ -27,7 +27,7 @@
     ],
     "install-switches": ["/S"],
     "uninstall-switches": ["/S"],
-    "run-test": true,
+    "run-check": true,
     "custom-location": "/D=",
     "dependencies": []
   }
