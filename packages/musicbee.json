@@ -1,0 +1,25 @@
+{
+  "display-name": "MusicBee",
+  "package-name": "musicbee",
+  "latest-version": "3.3.7491",
+  "3.3.7491": {
+    "url": "https://www.mediafire.com/file/q7xbxr7hipn1ccu/MusicBeeSetup_3_3_Update6.zip/file",
+    "file-type": ".zip",
+    "pre-install": [
+      {
+        "type": "python",
+        "admin": false,
+        "code": [
+          "import zipfile",
+          "with zipfile.ZipFile('<installer>', 'r') as zip_ref:",
+          "    zip_ref.extractall(r'<temp>')",
+          "path = r'<temp>MusicBeeSetup_3_3_Update6.exe'"
+        ]
+      }
+    ],
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}
