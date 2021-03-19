@@ -12,7 +12,7 @@
         "code": [
           "import zipfile",
           "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
-          "    zip_ref.extractall(r'<temp>')",
+          "    zip_ref.extractall(r'<temp>\\electric')",
           "path = r'<temp>\\electric\\MusicBeeSetup_3_3_Update6.exe'"
         ]
       }
