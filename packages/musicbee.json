@@ -21,7 +21,7 @@
           "else:",
           "    os.system(f'{path} /S /D=<directory>')",
           "os.system('electric register <package-name> --version <version>')",
-          "write('Successfully Installed <display-name>', 'green', metadata)"
+          "print('Successfully Installed <display-name>')"
         ]
       }
     ],
