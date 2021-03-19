@@ -1,0 +1,13 @@
+{
+    "display-name": "R Studio",
+    "package-name": "r-studio",
+    "latest-version": "1.4.1103",
+    "1.4.1103": {
+        "url": "https://download1.rstudio.org/desktop/windows/RStudio-1.4.1103.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}
