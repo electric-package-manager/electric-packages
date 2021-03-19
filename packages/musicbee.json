@@ -11,7 +11,7 @@
         "admin": false,
         "code": [
           "import zipfile",
-          "with zipfile.ZipFile('<installer>', 'r') as zip_ref:",
+          "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
           "    zip_ref.extractall(r'<temp>')",
           "path = r'<temp>MusicBeeSetup_3_3_Update6.exe'"
         ]
