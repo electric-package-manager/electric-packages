@@ -62,6 +62,10 @@
       "/NORESTART",
       "/FORCECLOSEAPPLICATIONS"
     ],
+    "default-install-dir": "C:\\Program Files\\Sublime Text 3",
+    "bin": [
+      "<install-directory>\\subl.exe"
+    ],
     "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
     "custom-location": "/DIR=",
     "dependencies": []

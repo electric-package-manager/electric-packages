@@ -8,6 +8,10 @@
     "install-switches": ["/S"],
     "uninstall-switches": ["/S"],
     "custom-location": "/D=",
+    "default-install-dir": "C:\\Program Files\\Notepad++",
+    "bin": [
+      "<install-directory>\\notepad++.exe"
+    ],
     "dependencies": []
   }
 }
