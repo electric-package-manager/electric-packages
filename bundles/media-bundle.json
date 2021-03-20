@@ -1,6 +1,6 @@
 {
   "display-name": "Media Bundle",
   "package-name": "media-bundle",
-  "description": "A pack of the best video player and music software out there",
+  "description": "A pack of the best video players and music software out there",
   "dependencies": ["vlc", "spotify", "musicbee"]
 }
