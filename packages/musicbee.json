@@ -9,16 +9,25 @@
       {
         "type": "python",
         "admin": false,
+        "override": true,
         "code": [
           "import zipfile",
+          "import os",
           "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
           "    zip_ref.extractall(r'<temp>\\electric')",
-          "path = r'<temp>\\electric\\MusicBeeSetup_3_3_Update6.exe'"
+          "path = r'<temp>\\electric\\MusicBeeSetup_3_3_Update6.exe'",
+          "if not \"<directory>\":",
+          "    os.system(f'{path} /S')",
+          "else:",
+          "    os.system(f'{path} /S /D=<directory>')",
+          "os.system('electric register <package-name> --version <version>')",
+          "print('Successfully Installed <display-name>')"
         ]
       }
     ],
     "install-switches": ["/S"],
     "uninstall-switches": ["/S"],
+    "run-check": true,
     "custom-location": "/D=",
     "dependencies": []
   }
