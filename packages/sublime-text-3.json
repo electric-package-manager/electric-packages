@@ -48,7 +48,8 @@
           "shortcut-name": "Sublime Text 3",
           "file-name": "sublime_text.exe"
         }
-      ]
+      ],
+      "persist": "Data"
     }
   },
   "3211": {
@@ -63,9 +64,7 @@
       "/FORCECLOSEAPPLICATIONS"
     ],
     "default-install-dir": "C:\\Program Files\\Sublime Text 3",
-    "bin": [
-      "<install-directory>\\subl.exe"
-    ],
+    "bin": ["<install-directory>\\subl.exe"],
     "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
     "custom-location": "/DIR=",
     "dependencies": []
