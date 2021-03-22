@@ -5,6 +5,10 @@ The official electric package repository. All manifests that [electric](https://
 
 --------------------------------
 
+*Important*: If you would like to **suggest a package** that you want to add to electric, make sure you post it at this [issue](https://github.com/electric-package-manager/electric-packages/issues/1) 
+
+If you want to **upload a package yourselves**, make sure you go to https://www.electric.sh/request-package
+
 ## Instructions
 
 #### Commands:
