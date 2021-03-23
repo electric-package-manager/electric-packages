@@ -1,13 +1,13 @@
 {
-    "display-name": "Microsoft Small Basic",
-    "package-name": "small-basic",
-    "latest-version": "1.2",
-    "1.2": {
-        "url": "https://download.microsoft.com/download/3/6/8/3684D9A0-C25C-4F50-96E2-2BB1DFA146E7/SmallBasic.msi",
-        "file-type": ".msi",
-        "install-switches": ["/qn", "/quiet", "/norestart"],
-        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-        "custom-location": "/TARGETDIR=",
-        "dependencies": []
-    }
+  "display-name": "Microsoft Small Basic",
+  "package-name": "small-basic",
+  "latest-version": "1.2",
+  "1.2": {
+    "url": "https://download.microsoft.com/download/3/6/8/3684D9A0-C25C-4F50-96E2-2BB1DFA146E7/SmallBasic.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
 }

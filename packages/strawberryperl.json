@@ -7,7 +7,7 @@
     "file-type": ".msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "/TARGETDIR=",
+    "custom-location": "INSTALLDIR=",
     "dependencies": []
   }
 }

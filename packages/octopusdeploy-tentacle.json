@@ -1,13 +1,13 @@
 {
-	"display-name": "Octopus Deploy - Tentacle",
-	"package-name": "octopusdeploy-tentacle",
-	"latest-version": "6.0.480",	
-	"6.0.480":{
-		"url": "https://download.octopusdeploy.com/octopus/Octopus.Tentacle.6.0.480-x64.msi",
-		"file-type": ".msi",
-	    "install-switches": ["/qn", "/quiet", "/norestart"],
-	    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-	    "custom-location": "/TARGETDIR=",
-	    "dependencies": []
-    }
+  "display-name": "Octopus Deploy - Tentacle",
+  "package-name": "octopusdeploy-tentacle",
+  "latest-version": "6.0.480",
+  "6.0.480": {
+    "url": "https://download.octopusdeploy.com/octopus/Octopus.Tentacle.6.0.480-x64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
 }

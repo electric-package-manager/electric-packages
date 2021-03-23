@@ -6,7 +6,7 @@
     "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.1.msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "/TARGETDIR=",
+    "custom-location": "INSTALLDIR=",
     "dependencies": []
   }
 }

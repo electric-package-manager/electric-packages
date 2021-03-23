@@ -1,13 +1,13 @@
 {
-    "display-name": "Google Drive",
-    "package-name": "google-drive",
-    "latest-version": "2.34.5075.1619",
-    "2.34.5075.1619": {
-        "url": "https://dl.google.com/drive/2.34.5075.1619/gsync.msi",
-        "file-type": ".msi",
-        "install-switches": ["/qn", "/quiet", "/norestart"],
-        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-        "custom-location": "/TARGETDIR=",
-        "dependencies": []
-    }
+  "display-name": "Google Drive",
+  "package-name": "google-drive",
+  "latest-version": "2.34.5075.1619",
+  "2.34.5075.1619": {
+    "url": "https://dl.google.com/drive/2.34.5075.1619/gsync.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
 }

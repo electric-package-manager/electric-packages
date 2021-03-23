@@ -6,7 +6,7 @@
     "url": "https://go.microsoft.com/fwlink/?LinkId=287166",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-    "custom-location": "/TARGETDIR=",
+    "custom-location": "INSTALLDIR=",
     "dependencies": []
   }
 }

@@ -1,16 +1,13 @@
 {
-    "display-name": "Microsoft Visual C++ Compiler Package For Python 2.7",
-    "package-name": "vcpython27",
-    "latest-version": "9.0.0.30729",
-    "9.0.0.30729": {
-        "url": "https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi",
-        "file-type": ".msi",
-        "install-switches": ["/qn", "/quiet", "/norestart"],
-        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
-        "custom-location": "/TARGETDIR=",
-        "dependencies": [
-            "vcredist2008",
-            "dotnet3.5"
-        ]
-    }
+  "display-name": "Microsoft Visual C++ Compiler Package For Python 2.7",
+  "package-name": "vcpython27",
+  "latest-version": "9.0.0.30729",
+  "9.0.0.30729": {
+    "url": "https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": ["vcredist2008", "dotnet3.5"]
+  }
 }
