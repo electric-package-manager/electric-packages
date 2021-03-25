@@ -11,7 +11,7 @@
     "default-install-dir": "C:\\Program Files\\Go",
     "bin": [
        "<install-directory>\\bin\\go.exe", 
-       "<install-directory>\\bin\\gofmt.exe", 
+       "<install-directory>\\bin\\gofmt.exe"
      ],
     "dependencies": []
   }
