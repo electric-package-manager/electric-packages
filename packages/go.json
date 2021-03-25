@@ -8,6 +8,11 @@
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "INSTALLDIR=",
+    "default-install-dir": "C:\\Program Files\\Go",
+    "bin": [
+       "<install-directory>\\bin\\go.exe", 
+       "<install-directory>\\bin\\gofmt.exe", 
+     ],
     "dependencies": []
   }
 }
