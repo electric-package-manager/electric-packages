@@ -5,7 +5,7 @@
   "2.91.0": {
     "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.1-windows64.msi",
     "file-type": ".msi",
-    "threads": 4,
+    "threads": 8,
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "INSTALLDIR=",
@@ -14,7 +14,7 @@
   "2.90.0": {
     "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.90/blender-2.90.0-windows64.msi",
     "file-type": ".msi",
-    "threads": 4,
+    "threads": 8,
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "INSTALLDIR=",
