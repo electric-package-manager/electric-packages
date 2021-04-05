@@ -8,6 +8,7 @@
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
     "custom-location": "INSTALLDIR=",
+    "threads": 1,
     "dependencies": []
   }
 }
