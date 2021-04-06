@@ -1,9 +1,9 @@
 {
   "display-name": "Audacity",
   "package-name": "audacity",
-  "latest-version": "2.4.2",
-  "2.4.2": {
-    "url": "https://www.fosshub.com/Audacity.html?dwl=audacity-win-2.4.2.exe",
+  "latest-version": "3.0.0",
+  "3.0.0": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.0/audacity-win-3.0.0.exe",
     "file-type": ".exe",
     "install-switches": [
       "/SP-",
