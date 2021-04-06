@@ -5,7 +5,7 @@
   "5.0.0.20201120": {
     "url": "https://github.com/dbeaver/dbeaver/releases/download/21.0.0/dbeaver-ce-21.0.0-x86_64-setup.exe",
     "file-type": ".exe",
-    "install-switches": ["/S"],
+    "install-switches": ["/S", "/currentuser"],
     "uninstall-switches": ["/S"],
     "custom-location": "/D=",
     "dependencies": []
