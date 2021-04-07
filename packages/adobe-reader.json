@@ -1,6 +1,7 @@
 {
   "display-name": "Adobe Acrobat Reader DC",
   "package-name": "adobe-reader",
+  "latest-version": "2021.001.20140",
   "2021.001.20140": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120140/AcroRdrDC2100120140_en_US.exe",
     "file-type": ".exe",
