@@ -1,9 +1,9 @@
 {
-    "display-name": "Microsoft Visual Studio Code System",
+    "display-name": "Microsoft Visual Studio Code (System)",
     "package-name": "visual-studio-code-system",
     "latest-version": "1.53.2",
     "1.53.2": {
-      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
       "file-type": ".exe",
       "install-switches": [
         "/SP-",
