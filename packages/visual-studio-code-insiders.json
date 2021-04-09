@@ -1,8 +1,8 @@
 {
     "display-name": "Microsoft Visual Studio Code Insiders (User)",
     "package-name": "visual-studio-code-insiders",
-    "latest-version": "1.55.3.5d80c30e5b",
-    "1.55.3.5d80c30e5b": {
+    "latest-version": "1.56.0",
+    "1.56.0": {
       "url": "https://az764295.vo.msecnd.net/insider/08c3c088ba8e0dfaf9b6c9df64e33d6176070752/VSCodeUserSetup-x64-1.56.0-insider.exe",
       "file-type": ".exe",
       "install-switches": [
