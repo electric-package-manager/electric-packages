@@ -1,0 +1,16 @@
+{
+    "display-name": "Gradle",
+    "package-name": "gradle",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Gradle",
+        "package-name": "gradle",
+        "latest-version": "6.8.3",
+        "6.8.3": {
+            "url": "https://services.gradle.org/distributions/gradle-6.8.3-all.zip",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": ["bin\\gradle.bat"]
+        }
+    }
+}
