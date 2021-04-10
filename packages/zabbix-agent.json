@@ -1,0 +1,13 @@
+{
+    "display-name": "Zabbix Agent",
+    "package-name": "zabbix-agent",
+    "latest-version": "5.2.5",
+    "5.2.5": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.2/5.2.5/zabbix_agent-5.2.5-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "install-switches": ["/qn", "/quiet", "/norestart"],
+        "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+        "custom-location": "INSTALLDIR=",
+        "dependencies": []
+    }
+}
