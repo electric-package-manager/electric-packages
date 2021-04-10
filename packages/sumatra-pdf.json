@@ -7,7 +7,7 @@
     "file-type": ".exe",
     "install-switches": ["/S"],
     "uninstall-switches": [],
-    "custom-location": "-d=",
+    "custom-location": "/D=",
     "dependencies": []
   }
 }
