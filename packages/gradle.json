@@ -10,7 +10,8 @@
             "url": "https://services.gradle.org/distributions/gradle-6.8.3-all.zip",
             "file-type": ".zip",
             "chdir": "gradle-6.8.3",
-            "bin": ["bin\\gradle.bat"]
+            "bin": ["bin\\gradle.bat"],
+            "extract-dir": "gradle"
         }
     }
 }

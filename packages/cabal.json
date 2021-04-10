@@ -1,0 +1,17 @@
+{
+    "display-name": "Cabal",
+    "package-name": "cabal",
+    "portable": {
+        "display-name": "Cabal",
+        "package-name": "cabal",
+        "latest-version": "3.4.0.0",
+        "3.4.0.0": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-3.4.0.0/cabal-install-3.4.0.0-x86_64-windows.zip",
+            "file-type": ".zip",
+            "extract-dir": "cabal",
+            "bin": [
+                "cabal.exe"
+            ]
+        }
+    }
+}
