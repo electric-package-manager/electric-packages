@@ -11,7 +11,11 @@
             "file-type": ".zip",
             "chdir": "gradle-6.8.3",
             "bin": ["bin\\gradle.bat"],
-            "extract-dir": "gradle"
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
         }
     }
 }
