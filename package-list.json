@@ -222,6 +222,7 @@
         "wixtoolset",
         "xml-notepad",
         "yarn",
+        "zabbix-agent",
         "zip",
         "zoom"
     ]
