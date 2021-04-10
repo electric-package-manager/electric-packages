@@ -1,5 +1,5 @@
 {
-  "display-name": "Microsoft Windows Virtual Desktop Boot Loader",
+  "display-name": "Microsoft Remote Desktop Agent Boot Loader",
   "package-name": "virtual-desktop-boot-loader",
   "latest-version": "1.0.2778.0",
   "1.0.2778.0": {
