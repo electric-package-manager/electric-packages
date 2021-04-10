@@ -1,6 +1,7 @@
 {
     "display-name": "Cabal",
     "package-name": "cabal",
+    "is-portable": true,
     "portable": {
         "display-name": "Cabal",
         "package-name": "cabal",
