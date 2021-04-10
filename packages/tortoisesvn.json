@@ -3,7 +3,7 @@
   "package-name": "tortoisesvn",
   "latest-version": "1.14.1",
   "1.14.1": {
-    "url": "https://osdn.net/projects/tortoisesvn/storage/1.14.1/Application/TortoiseSVN-1.14.1.29085-x64-svn-1.14.1.msi/",
+    "url": "https://osdn.net/frs/redir.php?m=xtom_us&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.14.1%2FApplication%2FTortoiseSVN-1.14.1.29085-x64-svn-1.14.1.msi",
     "file-type": ".msi",
     "install-switches": ["/qn", "/quiet", "/norestart"],
     "uninstall-switches": ["/qn", "/quiet", "/norestart"],
