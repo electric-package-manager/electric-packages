@@ -5,7 +5,7 @@
   "3.2": {
     "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-64-install.exe",
     "file-type": ".exe",
-    "install-switches": ["-s"],
+    "install-switches": ["/S"],
     "uninstall-switches": [],
     "custom-location": "-d=",
     "dependencies": []
