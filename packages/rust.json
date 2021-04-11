@@ -46,6 +46,6 @@
       }
     ],
     "custom-location": "",
-    "dependencies": ["vcredist2019"]
+    "dependencies": ["visual-studio-build-tools-2017"]
   }
 }
