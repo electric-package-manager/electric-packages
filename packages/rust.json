@@ -41,7 +41,7 @@
           "    else:",
           "        write('Failed To Uninstall <display-name>', 'red', metadata)",
           "else:",
-          "    write(f'Detected An Existing Installation Of Rust, 'bright_yellow', metadata)"
+          "    write('Detected An Existing Installation Of Rust', 'bright_yellow', metadata)"
         ]
       }
     ],
