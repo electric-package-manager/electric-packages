@@ -33,12 +33,15 @@
       {
         "type": "python",
         "code": [
-          "pid = os.system('rustup self uninstall -y')",
-          "if pid == 0:",
-          "    write('Successfully Uninstalled <display-name>', 'green', metadata)",
-          "    os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\<package-name>@<version>.json')",
+          "if not find_existing_installation('rust', 'Rust'):",
+          "    pid = os.system('rustup self uninstall -y')",
+          "    if pid == 0:",
+          "        write('Successfully Uninstalled <display-name>', 'green', metadata)",
+          "        os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\<package-name>@<version>.json')",
+          "    else:",
+          "        write('Failed To Uninstall <display-name>', 'red', metadata)",
           "else:",
-          "    write('Failed To Uninstall <display-name>', 'red', metadata)"
+          "    write(f'Detected An Existing Installation Of Rust, 'bright_yellow', metadata)"
         ]
       }
     ],
