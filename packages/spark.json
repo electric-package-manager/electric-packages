@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
+	"package-name": "spark",
+	"display-name": "Spark",
+	"latest-version": "2.9.4",
+	"2.9.4": {
+		"url": "https://www.igniterealtime.org/downloadServlet?filename=spark/spark_2_9_4-with-jre.exe",
+		"file-type": ".exe",
+		"install-switches": [
+            "-q"
+        ],
+        "uninstall-switches": [
+            "/S"
+        ],
+		"custom-location": "-dir ",
+		"dependencies": []
+		
+		
+	}
+}
