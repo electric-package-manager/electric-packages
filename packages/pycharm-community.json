@@ -1,0 +1,13 @@
+{
+  "display-name": "Pycharm Community Edition",
+  "package-name": "pycharmcommunity",
+  "latest-version": "2021.1",
+  "2021.1": {
+    "url": "https://download-cf.jetbrains.com/python/pycharm-community-2021.1.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

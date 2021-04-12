@@ -1,0 +1,13 @@
+{
+  "display-name": "Webex",
+  "package-name": "webex",
+  "latest-version": "41.4.3.19",
+  "41.4.3.19": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

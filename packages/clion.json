@@ -1,0 +1,13 @@
+{
+  "display-name": "Clion",
+  "package-name": "clion",
+  "latest-version": "2021.1",
+  "2021.1": {
+    "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.1.exe",
+    "file-type": ".exe",
+    "install-switches": ["/SP-", "/VERYSILENT"],
+    "uninstall-switches": ["/SP-", "/VERYSILENT"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "display-name": "Notion",
+  "package-name": "notion",
+  "latest-version": "2.0.16",
+  "2.0.16": {
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%202.0.16.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}
