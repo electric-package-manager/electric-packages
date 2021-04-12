@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/master/package-schema.json",
+  "display-name": "Opera",
+  "package-name": "opera",
+  "latest-version": "74.0.3911.75",
+  "74.0.3911.75": {
+    "url": "https://download.opera.com/download/get/?partner=www&opsys=Windows&arch=x64",
+    "file-type": ".exe",
+    "install-switches": ["/silent", "/norestart", "/launchopera 0"],
+    "uninstall-switches": ["/silent"],
+    "custom-location": "/installfolder=",
+    "dependencies": []
+  }
+}

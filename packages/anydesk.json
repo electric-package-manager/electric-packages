@@ -1,0 +1,13 @@
+{
+  "display-name": "Anydesk",
+  "package-name": "anydesk",
+  "latest-version": "6.1.0",
+  "6.1.0": {
+    "url": "https://download.anydesk.com/AnyDesk.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

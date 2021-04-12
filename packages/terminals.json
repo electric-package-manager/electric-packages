@@ -1,0 +1,13 @@
+{
+  "display-name": "Terminals Multitab Remote Control Client",
+  "package-name": "terminals",
+  "latest-version": "4.0.1",
+  "4.0.1": {
+    "url": "https://github.com/Terminals-Origin/Terminals/releases/download/4.0.1/TerminalsSetup_4.0.1.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

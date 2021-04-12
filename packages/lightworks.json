@@ -1,0 +1,13 @@
+{
+  "display-name": "Lightworks",
+  "package-name": "lightworks",
+  "latest-version": "2021.1.127893",
+  "2021.1.127893": {
+    "url": "https://cdn.lwks.com/releases/2021.1/lightworks_2021.1_r126716_64bit_setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

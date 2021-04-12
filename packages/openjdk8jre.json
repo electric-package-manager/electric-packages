@@ -1,0 +1,39 @@
+{
+    "display-name": "OpenJDK 8 JRE",
+    "package-name": "openjdk8jre",
+    "is-portable": true,
+    "portable": {
+        "display-name": "OpenJDK 8 JRE",
+        "package-name": "openjdk8jre",
+        "latest-version": "8.282.08",
+        "8.282.08": {
+            "url": "https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u282-b08/OpenJDK8U-jre_x64_windows_8u282b08.zip",
+            "file-type": ".zip",
+            "extract-dir": "openjdk8jre",
+            "chdir": "openjdk-8u282-b08-jre",
+            "set-env": {
+                "name": "JAVA_HOME",
+                "value": "<install-directory>\\bin"
+            },
+            "bin": [
+                "bin\\kinit.exe",
+                "bin\\klist.exe",
+                "bin\\ktab.exe",
+                "bin\\orbd.exe",
+                "bin\\pack200.exe",
+                "bin\\policytool.exe",
+                "bin\\rmid.exe",
+                "bin\\rmiregistry.exe",
+                "bin\\servertool.exe",
+                "bin\\tnameserv.exe",
+                "bin\\unpack200.exe",
+                "bin\\jabswitch.exe",
+                "bin\\java.exe",
+                "bin\\java-rmi.exe",
+                "bin\\javaw.exe",
+                "bin\\jjs.exe",
+                "bin\\keytool.exe"
+            ]
+        }
+    }
+}

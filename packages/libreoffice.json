@@ -1,0 +1,13 @@
+{
+  "display-name": "LibreOffice",
+  "package-name": "libreoffice",
+  "latest-version": "7.1.0",
+  "7.1.0": {
+    "url": "https://download.documentfoundation.org/libreoffice/stable/7.1.0/win/x86_64/LibreOffice_7.1.0_Win_x64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "Microsoft Visual Studio Code Insiders (User)",
+    "package-name": "visual-studio-code-insiders",
+    "latest-version": "1.56.0",
+    "1.56.0": {
+      "url": "https://az764295.vo.msecnd.net/insider/08c3c088ba8e0dfaf9b6c9df64e33d6176070752/VSCodeUserSetup-x64-1.56.0-insider.exe",
+      "file-type": ".exe",
+      "install-switches": [
+        "/SP-",
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NOCANCEL",
+        "/NORESTART",
+        "/FORCECLOSEAPPLICATIONS",
+        "/MERGETASKS=!runcode"
+      ],
+      "uninstall-switches": [
+        "/SP-",
+        "/VERYSILENT",
+        "/SUPPRESSMSGBOXES",
+        "/NOCANCEL",
+        "/NORESTART",
+        "/FORCECLOSEAPPLICATIONS"
+      ],
+      "custom-location": "/DIR=",
+      "dependencies": []
+    }
+  }
+  

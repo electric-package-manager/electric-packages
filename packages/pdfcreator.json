@@ -1,0 +1,13 @@
+{
+  "display-name": "PDF Creator",
+  "package-name": "pdfcreator",
+  "latest-version": "4.2.0",
+  "4.2.0": {
+    "url": "https://purple.download.pdfforge.org/pdfcreator/4.2.0/PDFCreator-4_2_0-Setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/VERYSILENT", "/NORESTART"],
+    "uninstall-switches": [],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

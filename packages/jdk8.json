@@ -1,0 +1,14 @@
+{
+  "display-name": "Java SE Development Kit 8",
+  "package-name": "jdk8",
+  "latest-version": "8.0.211",
+  "8.0.211": {
+    "url": "https://javadl.oracle.com/webapps/download/GetFile/1.8.0_211-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-8u211-windows-x64.exe",
+    "file-type": ".exe",
+    "install-switches": ["/s"],
+    "uninstall-switches": [],
+    "uninstall": ["jre8"],
+    "custom-location": "/INSTALLDIRPUBJRE=",
+    "dependencies": []
+  }
+}

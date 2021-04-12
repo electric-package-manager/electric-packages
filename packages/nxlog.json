@@ -1,0 +1,13 @@
+{
+  "display-name": "NXLog",
+  "package-name": "nxlog",
+  "latest-version": "2.10.2150",
+  "2.10.2150": {
+    "url": "https://nxlog.co/system/files/products/files/348/nxlog-ce-2.10.2150.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

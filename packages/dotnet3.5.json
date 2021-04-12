@@ -1,0 +1,47 @@
+{
+    "display-name": "Microsoft .NET Framework 3.5 SP1",
+    "package-name": "dotnet3.5",
+    "latest-version": "3.5.20160716",
+    "3.5.20160716": {
+        "install-override-command": [
+            {
+                "admin": true,
+                "type": "powershell",
+                "code": [
+                    "if(-not (test-path \"hklm:\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5\")) {",
+                    "   if((wmic os get caption | Out-String).Contains(\"Server\")) {",
+                    "       cmd.exe /c DISM /Online /NoRestart /Enable-Feature /FeatureName:NetFx3ServerFeatures",
+                    "       electric register donet3.5",
+                    "    }",
+                    "    cmd.exe /c DISM /Online /NoRestart /Enable-Feature /FeatureName:NetFx3",
+                    "}",
+                    "else {",
+                    "    Write-Output \"Microsoft .NET 3.5 Is Already Installed!\"",
+                    "}"
+                ]
+            }
+        ],
+        "uninstall-override-command": [
+            {
+                "admin": true,
+                "type": "powershell",
+                "code": [
+                    "if(-not (test-path \"hklm:\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5\")) {",
+                    "    Write-Error \"Microsoft .NET 3.5 Is Not Installed!\"",
+                    "}",
+                    "else {",
+                    "   if((wmic os get caption | Out-String).Contains(\"Server\")) {",
+                    "       cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3ServerFeatures",
+                    "       electric deregister donet3.5 --version <version>",
+                    "    }",
+                    "    else {",
+                    "    cmd.exe /c DISM /Online /NoRestart /Disable-Feature /FeatureName:NetFx3",
+                    "    electric deregister dotnet3.5 --version <version>",
+                    "    }",
+                    "}"
+                ]
+            }
+        ],
+        "dependencies": []
+    }
+}

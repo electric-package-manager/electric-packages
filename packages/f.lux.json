@@ -1,0 +1,13 @@
+{
+  "display-name": "f.lux",
+  "package-name": "f.lux",
+  "latest-version": "4.119",
+  "4.119": {
+    "url": "https://justgetflux.com/flux-setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

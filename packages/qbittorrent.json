@@ -1,0 +1,13 @@
+{
+	"display-name": "qBittorrent",
+	"package-name": "qbittorrent",
+	"latest-version": "4.3.3",	
+	"4.3.3":{
+		"url": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.3.3/qbittorrent_4.3.3_x64_setup.exe/download",
+   		"file-type": ".exe",
+   		"install-switches": ["/S"],
+  		"uninstall-switches": ["/S"],
+    	"custom-location": "/D=",
+    	"dependencies": []
+    }
+}

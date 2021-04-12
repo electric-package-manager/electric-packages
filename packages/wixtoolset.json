@@ -1,0 +1,22 @@
+{
+    "display-name": "Wixtoolset",
+    "package-name": "wixtoolset",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Wixtoolset",
+        "package-name": "wixtoolset",
+        "latest-version": "3.11.2",
+        "3.11.2": {
+            "url": "https://github.com/wixtoolset/wix3/releases/download/wix3112rtm/wix311exe.zip",
+            "file-type": ".zip",
+            "extract-dir": "wixtoolset",
+            "shortcuts": [
+                {
+                    "shortcut-name": "WiX",
+                    "file-name": "wix311.exe"
+                }
+            ],
+            "dependencies": ["dotnet3.5"]
+        }
+    }
+}

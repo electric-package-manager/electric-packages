@@ -1,0 +1,13 @@
+{
+  "display-name": "K-Lite Codec Pack",
+  "package-name": "k-litecodecpackfull",
+  "latest-version": "16.0.5",
+  "16.0.5": {
+    "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Full.exe",
+    "file-type": ".exe",
+    "install-switches": ["/VERYSILENT", "/NORESTART"],
+    "uninstall-switches": [],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

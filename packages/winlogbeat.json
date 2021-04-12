@@ -1,0 +1,13 @@
+{
+  "display-name": "Winlogbeat",
+  "package-name": "winlogbeat",
+  "is-portable": true,
+  "portable": {
+    "": {
+      "url": "https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-7.11.1-windows-x86_64.zip",
+      "file-type": ".zip",
+      "extract-dir": "winlogbeat",
+      "bin": ["winlogbeat.exe"]
+    }
+  }
+}

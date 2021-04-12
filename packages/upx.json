@@ -1,0 +1,18 @@
+{
+    "display-name": "Upx",
+    "package-name": "upx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Upx",
+        "package-name": "upx",
+        "latest-version": "3.96",
+        "3.96": {
+            "url": "https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip",
+            "file-type": ".zip",
+            "extract-dir": "upx",
+            "bin": [
+                "upx.exe"
+            ]
+        }
+    }
+}

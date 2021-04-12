@@ -1,0 +1,13 @@
+{
+  "display-name": "Puppet",
+  "package-name": "puppet",
+  "latest-version": "3.8.7",
+  "3.8.7": {
+    "url": "http://downloads.puppetlabs.com/windows/puppet-3.8.7-x64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

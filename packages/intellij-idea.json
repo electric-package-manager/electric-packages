@@ -1,0 +1,13 @@
+{
+	"display-name": "IntelliJ IDEA",
+	"package-name": "intellij-idea",
+	"latest-version": "2020.3.2",	
+	"2020.3.2":{
+		"url": "https://download.jetbrains.com/idea/ideaIC-2020.3.2.exe",
+		"file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}

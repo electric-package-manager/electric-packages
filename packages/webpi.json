@@ -1,0 +1,12 @@
+{
+  "display-name": "Web PI",
+  "package-name": "webpi",
+  "latest-version": "5.1",
+  "5.1": {
+    "url": "https://go.microsoft.com/fwlink/?LinkId=287166",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

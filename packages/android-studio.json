@@ -1,0 +1,41 @@
+{
+  "display-name": "Android Studio",
+  "package-name": "android-studio",
+  "latest-version": "4.1.1",
+  "portable": {
+    "package-name": "android-studio",
+    "display-name": "Android Studio",
+    "latest-version": "4.1.1",
+    "4.1.1": {
+      "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.1.2.0/android-studio-ide-201.7042882-windows.zip",
+      "file-type": ".zip",
+      "extract-dir": "android-studio",
+      "chdir": "android-studio",
+      "bin": ["bin\\studio64.exe"],
+      "shortcuts": [
+        {
+          "shortcut-name": "Android Studio",
+          "file-name": "bin\\studio64.exe"
+        }
+      ]
+    }
+  },
+  "nightly": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/4.2.0.18/android-studio-ide-202.7008469-windows.zip",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": [],
+    "valid-install-exit-codes": [1223]
+  },
+  "4.1.1": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.1.0/android-studio-ide-201.6953283-windows.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": [],
+    "valid-install-exit-codes": [1223]
+  }
+}

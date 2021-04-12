@@ -1,0 +1,13 @@
+{
+  "display-name": "AWS CLI",
+  "package-name": "awscli",
+  "latest-version": "2.1.28",
+  "2.1.28": {
+    "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.28.msi",
+    "file-type": ".msi",
+    "install-switches": ["/passive", "/quiet", "/norestart"],
+    "uninstall-switches": ["/passive", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

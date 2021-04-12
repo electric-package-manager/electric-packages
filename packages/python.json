@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
+  "display-name": "Python",
+  "package-name": "python",
+  "latest-version": "3.9.1",
+  "3.9.1": {
+    "url": "https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe",
+    "file-type": ".exe",
+    "default-install-dir": "<appdata>\\Local\\Programs\\Python\\Python39",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "/TARGETDIR",
+    "add-path": "<install-directory>\\Scripts",
+    "dependencies": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "display-name": "iTunes",
+  "package-name": "itunes",
+  "latest-version": "12.11.0.26",
+  "12.11.0.26": {
+    "url": "https://secure-appldnld.apple.com/itunes12/001-82541-20201113-960CFAAE-25EC-11EB-864A-F0B0133BD450/iTunes64Setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "display-name": "Microsoft Remote Desktop Agent Boot Loader",
+  "package-name": "virtual-desktop-boot-loader",
+  "latest-version": "1.0.2778.0",
+  "1.0.2778.0": {
+    "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWrxrH",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

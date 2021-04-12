@@ -1,0 +1,20 @@
+{
+    "display-name": "CPU-Z",
+    "package-name": "cpu-z",
+    "latest-version": "1.95.0.20210213",
+    "1.95.0.20210213": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_1.95-en.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uninstall-switches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+        "custom-location": "/DIR=",
+        "dependencies": []
+    }
+}

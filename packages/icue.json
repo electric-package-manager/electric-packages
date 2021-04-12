@@ -1,0 +1,13 @@
+{
+  "display-name": "Corsair iCUE",
+  "package-name": "icue",
+  "latest-version": "3.37.140",
+  "3.37.140": {
+    "url": "https://downloads.corsair.com/Files/CUE/iCUESetup_3.37.140_release.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

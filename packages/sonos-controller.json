@@ -1,0 +1,13 @@
+{
+  "display-name": "Sonos Controller",
+  "package-name": "sonos-controller",
+  "latest-version": "12.2.2",
+  "12.2.2": {
+    "url": "http://update.sonos.com/software/pc/dcr/SonosDesktopController1222.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S", "/v/qn"],
+    "uninstall-switches": [],
+    "custom-location": "",
+    "dependencies": []
+  }
+}

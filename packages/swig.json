@@ -1,0 +1,17 @@
+{
+  "display-name": "Simplified Wrapper And Interface Generator",
+  "package-name": "swig",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Simplified Wrapper And Interface Generator",
+    "package-name": "swig",
+    "latest-version": "4.0.2.04082020",
+    "4.0.2.04082020": {
+      "url": "https://cfhcable.dl.sourceforge.net/project/swig/swigwin/swigwin-4.0.2/swigwin-4.0.2.zip",
+      "file-type": ".zip",
+      "extract-dir": "swig",
+      "chdir": "swigwin-4.0.2",
+      "bin": ["swig.exe"]
+    }
+  }
+}

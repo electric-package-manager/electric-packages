@@ -1,0 +1,13 @@
+{
+  "display-name": "Docker Desktop",
+  "package-name": "docker-desktop",
+  "latest-version": "3.1.0",
+  "3.1.0": {
+    "url": "https://desktop.docker.com/win/stable/51484/Docker%20Desktop%20Installer.exe",
+    "file-type": ".exe",
+    "install-switches": ["install", "--quiet"],
+    "uninstall-switches": ["uninstall", "--quiet"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

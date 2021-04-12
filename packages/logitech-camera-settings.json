@@ -1,0 +1,13 @@
+{
+    "display-name": "Logitech Camera Settings",
+    "package-name": "logitech-camera-settings",
+    "latest-version": "2.12.8.0",
+    "2.12.8.0": {
+        "url": "https://download01.logi.com/web/ftp/pub/techsupport/cameras/Webcams/LogiCameraSettings_2.12.8.exe",
+        "file-type": ".exe",
+        "install-switches": ["/S"],
+        "uninstall-switches": ["/S"],
+        "custom-location": "/D=",
+        "dependencies": []
+    }
+}

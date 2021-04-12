@@ -1,0 +1,13 @@
+{
+  "display-name": "Winrar",
+  "package-name": "winrar",
+  "latest-version": "6.00",
+  "6.00": {
+    "url": "https://www.rarlab.com/rar/winrar-x64-600.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "dependencies": [],
+    "custom-location": ""
+  }
+}

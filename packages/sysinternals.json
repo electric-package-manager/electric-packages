@@ -1,0 +1,15 @@
+{
+  "display-name": "Sysinternals",
+  "package-name": "sysinternals",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Sysinternals",
+    "package-name": "sysinternals",
+    "latest-version": "1.0.0",
+    "1.0.0": {
+      "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+      "file-type": ".zip",
+      "extract-dir": "sysinternals"
+    }
+  }
+}

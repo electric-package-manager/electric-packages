@@ -1,0 +1,13 @@
+{
+  "display-name": "Heroku CLI",
+  "package-name": "heroku",
+  "latest-version": "7.50.0.0",
+  "7.50.0.0": {
+    "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

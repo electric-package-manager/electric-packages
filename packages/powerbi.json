@@ -1,0 +1,13 @@
+{
+  "display-name": "Microsoft Power BI Desktop",
+  "package-name": "powerbi",
+  "latest-version": "2.90.782.0",
+  "2.90.782.0": {
+    "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe",
+    "file-type": ".exe",
+    "install-switches": ["-quiet", "-norestart", "ACCEPT_EULA=1"],
+    "uninstall-switches": [],
+    "custom-location": "INSTALLLOCATION=",
+    "dependencies": []
+  }
+}

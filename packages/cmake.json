@@ -1,0 +1,13 @@
+{
+  "display-name": "CMake",
+  "package-name": "cmake",
+  "latest-version": "3.19.6",
+  "3.19.6": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.19.6/cmake-3.19.6-win64-x64.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

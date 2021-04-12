@@ -1,0 +1,13 @@
+{
+  "display-name": "CD Burner XP",
+  "package-name": "cdburnerxp",
+  "latest-version": "4.5.8.712800",
+  "4.5.8.712800": {
+    "url": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.7128.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

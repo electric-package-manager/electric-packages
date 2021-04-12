@@ -1,0 +1,13 @@
+{
+  "display-name": "Todoist",
+  "package-name": "todoist",
+  "latest-version": "0.2.7",
+  "0.2.7": {
+    "url": "https://electron-dl.todoist.com/windows/Todoist-0.2.7.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

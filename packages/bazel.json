@@ -1,0 +1,16 @@
+{
+  "display-name": "Bazel",
+  "package-name": "bazel",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Bazel",
+    "package-name": "bazel",
+    "latest-version": "4.0.0",
+    "4.0.0": {
+      "url": "https://github.com/bazelbuild/bazel/releases/download/4.0.0/bazel-4.0.0-windows-x86_64.zip",
+      "file-type": ".zip",
+      "extract-dir": "bazel",
+      "bin": ["bazel.exe"]
+    }
+  }
+}

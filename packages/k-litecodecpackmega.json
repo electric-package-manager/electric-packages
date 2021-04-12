@@ -1,0 +1,15 @@
+{
+    "display-name": "K-Lite Codec Pack Mega",
+    "package-name": "k-litecodecpackmega",
+    "latest-version": "16.0.5",
+    "16.0.5": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Mega.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/VERYSILENT"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

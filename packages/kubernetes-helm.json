@@ -1,0 +1,17 @@
+{
+  "display-name": "Kubernetes Helm",
+  "package-name": "kubernetes-helm",
+  "is-portable": true,
+  "portable": {
+    "display-name": "Kubernetes Helm",
+    "package-name": "kubernetes-helm",
+    "latest-version": "3.5.2",
+    "3.5.2": {
+      "url": "https://get.helm.sh/helm-v3.5.2-windows-amd64.zip",
+      "file-type": ".zip",
+      "extract-dir": "kubernetes-helm",
+      "chdir": "windows-amd64",
+      "bin": ["helm.exe"]
+    }
+  }
+}

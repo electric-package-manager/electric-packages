@@ -1,0 +1,13 @@
+{
+  "display-name": "Everything",
+  "package-name": "everything",
+  "latest-version": "1.4.11005",
+  "1.4.11005": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1005.x64-Setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

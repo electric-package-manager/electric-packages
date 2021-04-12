@@ -1,0 +1,18 @@
+{
+    "display-name": "DocFX",
+    "package-name": "docfx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "DocFX",
+        "package-name": "docfx",
+        "latest-version": "2.56.7",
+        "2.56.7": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.56.7/docfx.zip",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ]
+        }
+    }
+}

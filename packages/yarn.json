@@ -1,0 +1,13 @@
+{
+  "display-name": "Yarn",
+  "package-name": "yarn",
+  "latest-version": "1.22.5",
+  "1.22.5": {
+    "url": "https://yarnpkg.com/downloads/1.22.5/yarn-1.22.5.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

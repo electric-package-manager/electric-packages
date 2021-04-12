@@ -1,0 +1,18 @@
+{
+  "display-name": "Java 8",
+  "package-name": "jre8",
+  "latest-version": "8.0.2810.9",
+  "8.0.2810.9": {
+    "url": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605",
+    "file-type": ".exe",
+    "install-switches": ["/s"],
+    "uninstall-switches": [],
+    "custom-location": "INSTALLDIR=",
+    "default-install-dir": "C:\\Program Files\\Java\\jre1.8.0_281",
+    "set-env": {
+      "name": "JAVA_HOME",
+      "value": "<install-directory>\\bin"
+    },
+    "dependencies": []
+  }
+}

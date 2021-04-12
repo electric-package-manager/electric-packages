@@ -1,0 +1,15 @@
+{
+    "display-name": "Telegram",
+    "package-name": "telegram",
+    "latest-version": "2.6.1",
+    "2.6.1": {
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v2.6.1/tsetup-x64.2.6.1.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/Verysilent"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}

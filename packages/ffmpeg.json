@@ -1,0 +1,16 @@
+{
+  "display-name": "FFmpeg",
+  "package-name": "ffmpeg",
+  "is-portable": true,
+  "portable": {
+    "display-name": "FFmpeg",
+    "package-name": "ffmpeg",
+    "latest-version": "4.3.2",
+    "4.3.2": {
+      "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
+      "file-type": ".7z",
+      "extract-dir": "ffmpeg",
+      "bin": ["bin\\ffmpeg.exe", "bin\\ffplay.exe", "bin\\ffprobe.exe"]
+    }
+  }
+}

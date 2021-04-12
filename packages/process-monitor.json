@@ -1,0 +1,16 @@
+{
+    "display-name": "Process Monitor",
+    "package-name": "process-monitor",
+    "latest-version": "3.61",
+    "3.61": {
+        "url": "https://download.sysinternals.com/files/ProcessMonitor.zip",
+        "file-type": ".zip",
+        "extract-dir": "process-monitor",
+        "shortcuts": [
+            {
+                "shortcut-name": "Procmon",
+                "file-name": "Procmon.exe"
+            }
+        ]
+    }
+}

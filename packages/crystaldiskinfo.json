@@ -1,0 +1,21 @@
+{
+  "display-name": "CrystalDiskInfo",
+  "package-name": "crystaldiskinfo",
+  "is-portable": true,
+  "portable": {
+    "display-name": "CrystalDiskInfo",
+    "package-name": "crystaldiskinfo",
+    "latest-version": "8.11.2",
+    "8.11.2": {
+      "url": "http://osdn.dl.osdn.net/crystaldiskinfo/74602/CrystalDiskInfo8_11_2.zip",
+      "file-type": ".zip",
+      "extract-dir": "crystaldiskinfo",
+      "shortcuts": [
+        {
+          "shortcut-name": "Crystal Disk Info",
+          "file-name": "DiskInfo64.exe"
+        }
+      ]
+    }
+  }
+}

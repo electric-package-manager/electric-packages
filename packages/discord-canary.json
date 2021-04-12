@@ -1,0 +1,13 @@
+{
+  "display-name": "Discord Canary",
+  "package-name": "discord-canary",
+  "latest-version": "0.0.259",
+  "0.0.259": {
+    "url": "https://dl-canary.discordapp.net/apps/win/0.0.259/DiscordCanarySetup.exe",
+    "file-type": ".exe",
+    "install-switches": ["-s"],
+    "uninstall-switches": ["-s", "--uninstall"],
+    "custom-location": "",
+    "dependencies": []
+  }
+}

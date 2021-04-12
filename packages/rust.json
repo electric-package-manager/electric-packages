@@ -1,0 +1,51 @@
+{
+  "display-name": "Rust",
+  "package-name": "rust",
+  "latest-version": "1.50.0",
+  "1.50.0": {
+    "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+    "pre-install": [
+      {
+        "type": "powershell",
+        "code": [
+          "$ErrorActionPreference = \"SilentlyContinue\"",
+          "Rename-Item <installer> rustup-init.exe"
+        ]
+      },
+      {
+        "type": "python",
+        "code": [
+          "path = rf'<temp>\\electric\\rustup-init.exe'"
+        ]
+      }
+    ],
+    "test-existing-installation": {
+      "code": [
+        "proc = Popen('rustup', stdin=PIPE, stdout=PIPE, stderr=PIPE, shell=True)",
+        "o, err = proc.communicate()",
+        "existing_installation = err.decode() == ''"
+      ]
+    },
+    "file-type": ".exe",
+    "install-switches": ["-y"],
+    "uninstall-switches": [],
+    "uninstall-override-command": [
+      {
+        "type": "python",
+        "code": [
+          "if not find_existing_installation('rust', 'Rust'):",
+          "    pid = os.system('rustup self uninstall -y')",
+          "    if pid == 0:",
+          "        write('Successfully Uninstalled <display-name>', 'green', metadata)",
+          "        os.remove(rf'{PathManager.get_appdata_directory()}\\Current\\<package-name>@<version>.json')",
+          "    else:",
+          "        write('Failed To Uninstall <display-name>', 'red', metadata)",
+          "else:",
+          "    write('Detected An Existing Installation Of Rust', 'bright_yellow', metadata)"
+        ]
+      }
+    ],
+    "custom-location": "",
+    "dependencies": ["visual-studio-build-tools-2017"]
+  }
+}

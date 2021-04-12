@@ -1,0 +1,13 @@
+{
+  "display-name": "Zoom",
+  "package-name": "zoom",
+  "latest-version": "5.5.12494.0204",
+  "5.5.12494.0204": {
+    "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
+    "file-type": ".msi",
+    "install-switches": ["/qn", "/quiet", "/norestart"],
+    "uninstall-switches": ["/qn", "/quiet", "/norestart"],
+    "custom-location": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "display-name": "Recuva",
+  "package-name": "recuva",
+  "latest-version": "1.5.3",
+  "1.5.3": {
+    "url": "https://download.ccleaner.com/rcsetup153.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/D=",
+    "dependencies": []
+  }
+}

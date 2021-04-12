@@ -1,0 +1,17 @@
+{
+    "display-name": "Anaconda Distribution",
+    "package-name": "anaconda",
+    "latest-version": "2020.11",
+    "2020.11": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2020.11-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "install-switches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/S"
+        ],
+        "uninstall-switches": [],
+        "custom-location": "",
+        "dependencies": []
+    }
+}
