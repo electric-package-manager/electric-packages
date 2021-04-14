@@ -5,8 +5,8 @@
   "2021.1.1": {
     "url": "https://download-cf.jetbrains.com/rider/JetBrains.Rider-2021.1.1.exe?_ga=2.131207119.1143403214.1618120928-984433702.1617710707",
     "file-type": ".exe",
-    "install-switches": ["/SP-", "/VERYSILENT"],
-    "uninstall-switches": ["/SP-", "/VERYSILENT"],
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
     "custom-location": "/DIR=",
     "dependencies": []
   }

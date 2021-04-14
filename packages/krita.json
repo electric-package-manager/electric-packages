@@ -1,0 +1,13 @@
+{
+  "display-name": "Krita",
+  "package-name": "krita",
+  "latest-version": "16.0.5",
+  "16.0.5": {
+    "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe",
+    "file-type": ".exe",
+    "install-switches": ["/S"],
+    "uninstall-switches": ["/S"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}

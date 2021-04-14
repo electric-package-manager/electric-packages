@@ -1,0 +1,13 @@
+{
+  "display-name": "Insomnia",
+  "package-name": "insomnia",
+  "latest-version": "2021.2.2",
+  "2021.2.2": {
+    "url": "https://github-releases.githubusercontent.com/56899284/6ceefc00-90d4-11eb-81f0-e1d69aab0445?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210412%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210412T093417Z&X-Amz-Expires=300&X-Amz-Signature=0fd98c39ef1bb469bb4473d34529c8dccf67222ba055448ed564dd528ccf9cdc&X-Amz-SignedHeaders=host&actor_id=77481923&key_id=0&repo_id=56899284&response-content-disposition=attachment%3B%20filename%3DInsomnia.Core-2021.2.2.exe&response-content-type=application%2Foctet-stream",
+    "file-type": ".exe",
+    "install-switches": ["--silent"],
+    "uninstall-switches": ["--silent"],
+    "custom-location": "/DIR=",
+    "dependencies": []
+  }
+}
