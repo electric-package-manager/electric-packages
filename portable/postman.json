@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "postman",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "postman",
+        "latest-version": "8.2.2",
+        "8.2.2": {
+            "url": "https://dl.pstmn.io/download/8.2.2/Postman-win64-8.2.2-full.nupkg#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Postman.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Postman",
+                    "file-name": "Postman.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.pstmn.io/download/$version/Postman-win64-$version-full.nupkg#/dl.7z",
+            "version-check": {
+                "webpage": "https://dl.pstmn.io/changelog?channel=stable&platform=win64"
+            }
+        }
+    }
+}

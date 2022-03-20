@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "resharper-clt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "resharper-clt",
+        "latest-version": "2021.1.1",
+        "2021.1.1": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.ReSharper.CommandLineTools.2021.1.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cleanupcode.exe",
+                "dupfinder.exe",
+                "inspectcode.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.<version>/JetBrains.ReSharper.CommandLineTools.<version>.zip",
+            "version-check": {
+                "webpage": "https://data.services.jetbrains.com/products/releases?code=RSCLT&latest=true&type=release"
+            }
+        }
+    }
+}

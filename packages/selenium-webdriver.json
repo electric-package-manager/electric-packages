@@ -1,0 +1,19 @@
+{
+    "display-name": "Selenium WebDriver",
+    "package-name": "selenium-webdriver",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Selenium WebDriver",
+        "package-name": "selenium-webdriver",
+        "latest-version": "0.26.0",
+        "0.26.0": {
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip",
+            "file-type": ".zip",
+            "extract-dir": "selenium-webdriver",
+            "bin": [
+                "geckodriver.exe"
+            ],
+            "checksum": "1CB25FA4C182312FD762A499CB8F9435B839DCFDB3C99EF77ACE3B2C23C6BC0C"
+        }
+    }
+}

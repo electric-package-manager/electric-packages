@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "logbert",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "logbert",
+        "latest-version": "1.6.3.1",
+        "1.6.3.1": {
+            "url": "https://github.com/couchcoding/Logbert/releases/download/1.6.3.1/Logbert.1.6.3.1.-.Setup.-.x64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "Logbert.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Logbert",
+                    "file-name": "Logbert.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

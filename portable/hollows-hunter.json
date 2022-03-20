@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "hollows-hunter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hollows-hunter",
+        "latest-version": "0.2.9",
+        "0.2.9": {
+            "url": "https://github.com/hasherezade/hollows_hunter/releases/download/v0.2.9/hollows_hunter64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hollows_hunter.exe",
+                [
+                    "hollows_hunter.exe",
+                    "hollows-hunter"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/hasherezade/hollows_hunter/releases/download/v$version/hollows_hunter64.zip",
+            "version-check": {
+                "webpage": "https://hshrzd.wordpress.com/pe-sieve/"
+            }
+        }
+    }
+}

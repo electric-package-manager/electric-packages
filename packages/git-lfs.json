@@ -1,0 +1,70 @@
+{
+    "display-name": "Git LFS*",
+    "package-name": "git-lfs",
+    "latest-version": "3.1.2",
+    "auto-update": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v<version>/git-lfs-windows-v<version>.exe",
+        "version-check": {
+            "webpage": "https://github.com/git-lfs/git-lfs",
+            "type": "github"
+        }
+    },
+    "2.13.2": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.13.2/git-lfs-windows-v2.13.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "F9DA82F94AD447B307002222E0B7FAAB046C162B33A0962CCE7F2BDAC1E8A443"
+    },
+    "2.9.2": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v2.9.2/git-lfs-windows-v2.9.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    },
+    "3.1.2": {
+        "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.1.2/git-lfs-windows-v3.1.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    }
+}

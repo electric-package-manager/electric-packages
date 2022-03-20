@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "sublime-merge",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sublime-merge",
+        "latest-version": "2049",
+        "2049": {
+            "url": "https://download.sublimetext.com/sublime_merge_build_2049_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "smerge.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Sublime Merge",
+                    "file-name": "sublime_merge.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://download.sublimetext.com/sublime_merge_build_$version_x64.zip",
+            "version-check": {
+                "webpage": "https://www.sublimemerge.com/download",
+                "regex": "Version:</i>\\sBuild\\s([\\d]+)</p>"
+            }
+        }
+    }
+}

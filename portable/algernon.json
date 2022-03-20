@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "algernon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "algernon",
+        "latest-version": "1.12.6",
+        "1.12.6": {
+            "url": "https://github.com/xyproto/algernon/releases/download/1.12.6/algernon-1.12.6.zip",
+            "file-type": ".zip",
+            "bin": [
+                "algernon.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "autoupdate": {
+            "url": "https://downloads.sourceforge.net/project/album-art/album-art-xui/AlbumArtDownloaderXUI-$version.zip",
+            "checkver": {
+                "url": "https://sourceforge.net/projects/album-art/rss?path=/album-art-xui",
+                "regex": "AlbumArtDownloaderXUI-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "seqcli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "seqcli",
+        "latest-version": "2021.2.447",
+        "2021.2.447": {
+            "url": "https://github.com/datalust/seqcli/releases/download/v2021.2.447/seqcli-2021.2.447-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "seqcli.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

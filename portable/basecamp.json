@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "basecamp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "basecamp",
+        "latest-version": "2.2.4",
+        "2.2.4": {
+            "url": "https://bc3-desktop.s3.amazonaws.com/windows/basecamp3-2.2.4-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Basecamp 3",
+                    "file-name": "Basecamp 3.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bc3-desktop.s3.amazonaws.com/windows/basecamp3-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://bc3-desktop.s3.amazonaws.com/windows/RELEASES",
+                "regex": "basecamp3-([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

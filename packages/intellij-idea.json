@@ -1,0 +1,90 @@
+{
+    "display-name": "IntelliJ IDEA",
+    "package-name": "intellij-idea",
+    "latest-version": "2021.3.3",
+    "auto-update": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-<version>.exe",
+        "version-check": {
+            "webpage": "https://data.services.jetbrains.com/products/releases?code=II&latest=true&type=release",
+            "regex": "https://download.jetbrains.com/idea/ideaIU-([\\d.]+).tar.gz.sha256"
+        }
+    },
+    "2020.3.2": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2020.3.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "980488073D79F74BC6167BF0E0345114008914BCA91E68714967D328BA019FC4"
+    },
+    "2021.1.2": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "859E30018C0F23999DCA4CC23B8EFA2C87697B4C7B02E7715F2B8D4173A45163"
+    },
+    "2021.1.3": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2021.1.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "6E633A8BB63F8192DD9A496BF47E43EA21A4BFAEFB6975A4904CE8A85AFD803D"
+    },
+    "2021.2": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2021.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "FAD18E3E6B5DAEDF27ECFA1B280EBD10730490E5290A8B438377D6959630D2B3"
+    },
+    "2021.3.2": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2021.3.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "56118C117C26BF35FA1B429615E6B376599ECDAEF3F492DB80F14191ECFD5224"
+    },
+    "2021.3.3": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-2021.3.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "0461E1F317F5DD4D43668B2DFEB3A210A39FC376CC16132C8497FBF188B5B956"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "display-name": "",
+    "package-name": "ds4windows",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ds4windows",
+        "latest-version": "3.0.2",
+        "3.0.2": {
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v3.0.2/DS4Windows_3.0.2_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DS4Windows.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$conf = @(",
+                        "    @{'Profiles.xml' = '<?xml version=\"1.0\" encoding=\"utf-8\"?><Profile><CheckWhen>0</CheckWhen></Profile>' }",
+                        "    @{'Auto Profiles.xml' = '<?xml version=\"1.0\" encoding=\"utf-8\"?><Programs />' }",
+                        "    @{'Actions.xml' = @'",
+                        "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+                        "<Actions>",
+                        "    <Action Name=\"Disconnect Controller\">",
+                        "        <Trigger>PS/Options</Trigger>",
+                        "        <Type>DisconnectBT</Type>",
+                        "        <Details>0</Details>",
+                        "    </Action>",
+                        "</Actions>",
+                        "'@ }",
+                        ")",
+                        "foreach ($k in $conf.Keys) {",
+                        "    if (-not (Test-Path \"$persist_dir\\$k\")) { Set-Content \"$dir\\$k\" $conf.$k -Encoding Ascii }",
+                        "}",
+                        "if (Test-Path \"$dir\\DS4Updater.exe\") { Remove-Item \"$dir\\DS4Updater.exe\" -Force }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DS4Windows",
+                    "file-name": "DS4Windows.exe"
+                }
+            ],
+            "persist": [
+                "Profiles",
+                "Actions.xml",
+                "Auto Profiles.xml",
+                "Profiles.xml"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v$version/DS4Windows_$version_x64.zip",
+            "version-check": {
+                "webpage": "https://ryochan7.github.io/ds4windows-site/"
+            }
+        }
+    }
+}

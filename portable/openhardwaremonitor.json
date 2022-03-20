@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "openhardwaremonitor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openhardwaremonitor",
+        "latest-version": "0.9.6",
+        "0.9.6": {
+            "url": "https://openhardwaremonitor.org/files/openhardwaremonitor-v0.9.6.zip",
+            "file-type": ".zip",
+            "bin": [
+                "OpenHardwareMonitor.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Open Hardware Monitor",
+                    "file-name": "OpenHardwareMonitor.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

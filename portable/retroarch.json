@@ -1,0 +1,59 @@
+{
+    "display-name": "",
+    "package-name": "retroarch",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "retroarch",
+        "latest-version": "1.9.1",
+        "1.9.1": {
+            "url": "https://buildbot.libretro.com/stable/1.9.1/windows/x86_64/RetroArch.7z",
+            "file-type": ".7z",
+            "bin": [
+                "retroarch.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\retroarch.cfg\")) { Move-Item \"$dir\\retroarch.default.cfg\" \"$dir\\retroarch.cfg\" }",
+                        "'favorites', 'history' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\content_$_.lpl\")) { New-Item \"$dir\\content_$_.lpl\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RetroArch",
+                    "file-name": "retroarch.exe"
+                }
+            ],
+            "persist": [
+                "assets\\wallpapers",
+                "cores",
+                "cheats",
+                "config",
+                "playlists",
+                "records",
+                "recordings",
+                "saves",
+                "screenshots",
+                "shaders\\presets",
+                "states",
+                "system",
+                "thumbnails",
+                "content_favorites.lpl",
+                "content_history.lpl",
+                "retroarch.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "https://buildbot.libretro.com/stable/$matchMain/windows/x86_64/RetroArch.7z",
+            "version-check": {
+                "webpage": "https://www.retroarch.com/?page=platforms",
+                "regex": "The current stable version is: (?<main>[\\d.]+)(\\s*\\((\\w+)\\))?"
+            }
+        }
+    }
+}

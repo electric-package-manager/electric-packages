@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "nexusfont",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nexusfont",
+        "latest-version": "2.7.0",
+        "2.7.0": {
+            "url": "https://s3.ap-northeast-2.amazonaws.com/net.xiles.public/download/nexusfont_2.7.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nexusfont.exe",
+                "FontInstaller.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NexusFont - Font Manager",
+                    "file-name": "nexusfont.exe"
+                }
+            ],
+            "persist": "userdata"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

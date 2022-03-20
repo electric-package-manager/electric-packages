@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "flyctl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flyctl",
+        "latest-version": "0.0.210",
+        "0.0.210": {
+            "url": "https://github.com/superfly/flyctl/releases/download/v0.0.210/flyctl_0.0.210_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "flyctl.exe",
+                [
+                    "flyctl.exe",
+                    "fly"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

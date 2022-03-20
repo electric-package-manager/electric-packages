@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "anyburn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "anyburn",
+        "latest-version": "5.2",
+        "5.2": {
+            "url": "http://www.anyburn.com/anyburn.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AnyBurn.exe",
+                "abcmd.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AnyBurn",
+                    "file-name": "AnyBurn.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.anyburn.com/anyburn.zip",
+            "version-check": {
+                "webpage": "http://www.anyburn.com/download.php",
+                "regex": "<b>AnyBurn v([\\d.]+)"
+            }
+        }
+    }
+}

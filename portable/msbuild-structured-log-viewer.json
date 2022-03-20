@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "msbuild-structured-log-viewer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "msbuild-structured-log-viewer",
+        "latest-version": "2.1.404",
+        "2.1.404": {
+            "url": "https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v2.1.404/MSBuildStructuredLogViewer-2.1.404-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "StructuredLogViewer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MSBuild Structured Log",
+                    "file-name": "StructuredLogViewer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

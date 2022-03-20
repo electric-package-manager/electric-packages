@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "spotbugs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "spotbugs",
+        "latest-version": "4.2.2",
+        "4.2.2": {
+            "url": "https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/4.2.2/spotbugs-4.2.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\spotbugs.bat"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SpotBugs",
+                    "file-name": "bin\\spotbugs.bat"
+                }
+            ],
+            "persist": "plugin"
+        },
+        "auto-update": {
+            "url": "https://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/<version>/spotbugs-<version>.zip",
+            "version-check": {
+                "webpage": "https://spotbugs.readthedocs.io/en/stable/installing.html",
+                "regex": "spotbugs ([\\d.]+) documentation"
+            }
+        }
+    }
+}

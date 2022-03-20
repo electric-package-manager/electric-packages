@@ -1,0 +1,21 @@
+{
+    "display-name": "Node JS",
+    "package-name": "nodejs",
+    "latest-version": "14.15.3",
+    "14.15.3": {
+        "url": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

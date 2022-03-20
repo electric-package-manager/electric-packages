@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "maxima",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "maxima",
+        "latest-version": "5.44.0",
+        "5.44.0": {
+            "url": "https://downloads.sourceforge.net/project/maxima/Maxima-Windows/5.44.0-Windows/maxima-clisp-sbcl-5.44.0-win64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\lispselector.bat",
+                "bin\\maxima.bat",
+                "bin\\xmaxima.bat"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Unins*\" -Recurse -Force"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "wxMaxima",
+                    "file-name": "bin\\wxmaxima.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

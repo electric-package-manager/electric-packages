@@ -1,0 +1,21 @@
+{
+    "display-name": "Process Monitor",
+    "package-name": "process-monitor",
+    "is-portable": true,
+    "portable": {
+        "latest-version": "3.61",
+        "3.61": {
+            "url": "https://download.sysinternals.com/files/ProcessMonitor.zip",
+            "file-type": ".zip",
+            "extract-dir": "process-monitor",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Procmon",
+                    "file-name": "Procmon.exe"
+                }
+            ],
+            "checksum": "EB24C5BD418F0D7D9289E27310E2AF87A8C0E79C3A953CD22CDC1382E5DFE7CB"
+        }
+    }
+    
+}

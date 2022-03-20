@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "cloud-nuke",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cloud-nuke",
+        "latest-version": "0.1.28",
+        "0.1.28": {
+            "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v0.1.28/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe",
+            "file-type": ".exe",
+            "bin": [
+                "cloud-nuke.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

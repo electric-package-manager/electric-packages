@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dokka",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dokka",
+        "latest-version": "0.10.1",
+        "0.10.1": {
+            "url": "https://github.com/Kotlin/dokka/releases/download/0.10.1/dokka-fatjar-0.10.1.jar#/dokka.jar",
+            "file-type": ".jar",
+            "bin": [
+                "dokka.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

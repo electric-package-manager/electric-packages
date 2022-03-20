@@ -1,0 +1,45 @@
+{
+    "display-name": "BGInfo",
+    "package-name": "bginfo",
+    "is-portable": true,
+    "portable": {
+        "latest-version": "4.28",
+        "auto-update": {
+            "url": "https://download.sysinternals.com/files/BGInfo.zip",
+            "version-check": {
+                "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo",
+                "regex": "BgInfo v([\\d.]+)"
+            }
+        },
+        "4.28": {
+            "url": "https://download.sysinternals.com/files/BGInfo.zip",
+            "file-type": ".zip",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Bginfo",
+                    "file-name": "bginfo.exe"
+                },
+                {
+                    "shortcut-name": "Bginfo64",
+                    "file-name": "bginfo64.exe"
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$regRoot = 'HKCU:\\Software\\Sysinternals'",
+                        "$regPkg = 'BgInfo'",
+                        "$regPath = Join-Path $regRoot $regPkg",
+                        "if (!(Test-Path $regRoot)) {New-Item -Path \"$regRoot\"}",
+                        "if (!(Test-Path $regPath)) {New-Item -Path \"$regRoot\" -Name \"$regPkg\"}",
+                        "Set-ItemProperty -Path \"$regPath\" -Name EulaAccepted -Value 1",
+                        "if ((Get-ItemProperty -Path \"$regPath\").EulaAccepted -ne 1) {",
+                        "  throw \"Failed setting registry value.\"",
+                        "}"
+                    ]
+                }
+            ]
+        }
+    }
+}

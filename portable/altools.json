@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "altools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "altools",
+        "latest-version": "1.0",
+        "1.0": {
+            "url": "https://download.microsoft.com/download/1/f/0/1f0e9569-3350-4329-b443-822976f29284/ALTools.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "ALoInfo.exe",
+                "EventCombMT.exe",
+                "LockoutStatus.exe",
+                "NLParse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ALoInfo",
+                    "file-name": "ALoInfo.exe"
+                },
+                {
+                    "shortcut-name": "EventCombMT",
+                    "file-name": "EventCombMT.exe"
+                },
+                {
+                    "shortcut-name": "LockoutStatus",
+                    "file-name": "LockoutStatus.exe"
+                },
+                {
+                    "shortcut-name": "NLParse",
+                    "file-name": "NLParse.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

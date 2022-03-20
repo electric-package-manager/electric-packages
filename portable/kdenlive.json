@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "kdenlive",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kdenlive",
+        "latest-version": "20.08.2",
+        "20.08.2": {
+            "url": "https://files.kde.org/kdenlive/release/kdenlive-20.08.2_standalone.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\kdenlive.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Kdenlive",
+                    "file-name": "bin\\kdenlive.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://files.kde.org/kdenlive/release/kdenlive-$version_standalone.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://mirror.cc.columbia.edu/pub/software/kde-applicationdata/kdenlive/release/?C=M;O=D",
+                "regex": "kdenlive-([\\d.-]+)_standalone"
+            }
+        }
+    }
+}

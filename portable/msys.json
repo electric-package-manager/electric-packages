@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "msys",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "msys",
+        "latest-version": "rev13",
+        "rev13": {
+            "url": "https://downloads.sourceforge.net/project/mingwbuilds/external-binary-packages/msys%2B7za%2Bwget%2Bsvn%2Bgit%2Bmercurial%2Bcvs-rev13.7z",
+            "file-type": ".7z",
+            "bin": [
+                "msys.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

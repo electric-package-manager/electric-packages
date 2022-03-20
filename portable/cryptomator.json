@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "cryptomator",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cryptomator",
+        "latest-version": "1.5.14",
+        "1.5.14": {
+            "url": "https://github.com/cryptomator/cryptomator/releases/download/1.5.14/Cryptomator-1.5.14-x64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Cryptomator.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cryptomator",
+                    "file-name": "Cryptomator.exe"
+                }
+            ],
+            "persist": "data",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# change appdata settings folder",
+                        "(Get-Content \"$dir\\app\\Cryptomator.cfg\" -Encoding ASCII).replace('~/AppData/Roaming/Cryptomator', './data') | Set-Content \"$dir\\app\\Cryptomator.cfg\" -Encoding ASCII"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/cryptomator/cryptomator/releases/download/$version/Cryptomator-$version-x64.exe",
+            "version-check": {
+                "webpage": "https://github.com/cryptomator/cryptomator/releases",
+                "regex": "Cryptomator-([\\d.]+)-x64\\.exe"
+            }
+        }
+    }
+}

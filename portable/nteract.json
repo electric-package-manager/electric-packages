@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "nteract",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nteract",
+        "latest-version": "0.28.0",
+        "0.28.0": {
+            "url": "https://github.com/nteract/nteract/releases/download/v0.28.0/nteract-setup-0.28.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "nteract.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "nteract",
+                    "file-name": "nteract.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/nteract/nteract/releases/download/v<version>/nteract-setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://nteract.io"
+            }
+        }
+    }
+}

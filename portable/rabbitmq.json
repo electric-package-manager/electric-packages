@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "qview",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qview",
+        "latest-version": "4.0",
+        "4.0": {
+            "url": "https://github.com/jurplel/qView/releases/download/4.0/qView-4.0-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "qView.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "qView",
+                    "file-name": "qView.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v<version>/rabbitmq-server-windows-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.rabbitmq.com/download.html",
+                "regex": "> of RabbitMQ is <strong>([\\d.]+)</"
+            }
+        }
+    }
+}

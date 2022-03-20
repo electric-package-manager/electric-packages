@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "lessmsi",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lessmsi",
+        "latest-version": "1.8.1",
+        "1.8.1": {
+            "url": "https://github.com/activescott/lessmsi/releases/download/v1.8.1/lessmsi-v1.8.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lessmsi.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Less MSI\u00e9rables",
+                    "file-name": "lessmsi-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/activescott/lessmsi/releases/download/v<version>/lessmsi-v<version>.zip",
+            "version-check": {
+                "webpage": "https://lessmsi.activescott.com"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "minio-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "minio-client",
+        "latest-version": "2021-03-23T05-46-11Z",
+        "2021-03-23T05-46-11Z": {
+            "url": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2021-03-23T05-46-11Z#/mc.exe",
+            "file-type": ".exe",
+            "bin": [
+                "mc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.$version#/mc.exe",
+            "version-check": {
+                "webpage": "https://min.io/",
+                "regex": "releases/tag/RELEASE\\.([\\d-]+T[\\d-]+Z)"
+            }
+        }
+    }
+}

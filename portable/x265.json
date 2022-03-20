@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "x265",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "x265",
+        "latest-version": "3.5+9-bf91444",
+        "3.5+9-bf91444": {
+            "url": "http://msystem.waw.pl/x265/x265-3.5+9-bf91444_vs2019-AVX2.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://msystem.waw.pl/x265/x265-<version>_vs2019-AVX2.7z",
+            "version-check": {
+                "webpage": "http://msystem.waw.pl/x265/",
+                "regex": "x265-([^_]+)_vs2019-AVX2"
+            }
+        }
+    }
+}

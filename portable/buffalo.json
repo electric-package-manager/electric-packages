@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "buffalo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "buffalo",
+        "latest-version": "0.16.21",
+        "0.16.21": {
+            "url": "https://github.com/gobuffalo/buffalo/releases/download/v0.16.21/buffalo_0.16.21_windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "buffalo.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/gobuffalo/buffalo/releases/download/v$version/buffalo_$version_windows_x86_64.tar.gz",
+            "version-check": {
+                "webpage": "https://gobuffalo.io"
+            }
+        }
+    }
+}

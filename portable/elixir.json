@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "elixir",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "elixir",
+        "latest-version": "1.11.4",
+        "1.11.4": {
+            "url": "https://github.com/elixir-lang/elixir/releases/download/v1.11.4/Precompiled.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/elixir-lang/elixir/releases/download/v<version>/Precompiled.zip",
+            "version-check": {
+                "webpage": "https://elixir-lang.org/"
+            }
+        }
+    }
+}

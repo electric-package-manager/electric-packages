@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "foobar2000-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "foobar2000-portable",
+        "latest-version": "1.6.5",
+        "1.6.5": {
+            "url": "https://www.videohelp.com/download/foobar2000_v1.6.5.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "foobar2000.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Foobar2000",
+                    "file-name": "foobar2000.exe"
+                }
+            ],
+            "persist": [
+                "configuration",
+                "index-data",
+                "library",
+                "user-components"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (is_directory \"$dir\\theme.fth\") { Remove-Item \"$dir\\theme.fth\" -Force }"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.videohelp.com/download/foobar2000_v<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.foobar2000.org/download",
+                "regex": "foobar2000_v([\\d.]+)\\."
+            }
+        }
+    }
+}

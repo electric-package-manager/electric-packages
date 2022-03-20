@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "dirhash",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dirhash",
+        "latest-version": "1.18.0",
+        "1.18.0": {
+            "url": "https://github.com/idrassi/DirHash/releases/download/DirHash_1.18.0/DirHash-1.18.0-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DirHash.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/idrassi/DirHash/releases/download/DirHash_$version/DirHash-$version-x64.zip",
+            "version-check": {
+                "webpage": "https://idrassi.github.io/DirHash",
+                "regex": "DirHash-([\\d.]+)-x64\\.zip"
+            }
+        }
+    }
+}

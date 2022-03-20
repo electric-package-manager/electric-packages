@@ -1,0 +1,25 @@
+{
+    "display-name": "Turbo Delete",
+    "package-name": "turbodelete",
+    "latest-version": "1.0.0",
+    "1.0.0": {
+        "url": "https://github.com/XtremeDevX/turbodelete/releases/download/v1.0.0/Turbo.Delete.With.Progress.Bar.Setup.exe",
+        "file-type": ".exe",
+        "checksum": "7C9A1C17F15A8CC07F15CA5965DF514C3C96993794AE30A2612E288328F0B6B3",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    }
+}

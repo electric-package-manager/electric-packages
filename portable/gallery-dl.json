@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gallery-dl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gallery-dl",
+        "latest-version": "1.17.2",
+        "1.17.2": {
+            "url": "https://github.com/mikf/gallery-dl/releases/download/v1.17.2/gallery-dl.exe",
+            "file-type": ".exe",
+            "bin": [
+                "gallery-dl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

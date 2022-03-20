@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "texlab",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "texlab",
+        "latest-version": "2.2.2",
+        "2.2.2": {
+            "url": "https://github.com/latex-lsp/texlab/releases/download/v2.2.2/texlab-x86_64-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "texlab.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip",
+            "version-check": {
+                "webpage": "https://texlab.netlify.com"
+            }
+        }
+    }
+}

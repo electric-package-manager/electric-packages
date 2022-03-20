@@ -1,0 +1,37 @@
+{
+    "display-name": "Ghost Script",
+    "package-name": "ghostscript",
+    "latest-version": "9.54.0",
+    "auto-update": {
+        "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs<clean-version>/gs<clean-version>w64.exe",
+        "version-check": {
+            "webpage": "https://github.com/ArtifexSoftware/ghostpdl-downloads",
+            "type": "github"
+        }
+    },
+    "9.53.3": {
+        "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/gs9533w64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "6134AA41F559B138CAFA5AE90416CED36329D4285C27CE9AD1D76BF8F12B69C7"
+    },
+    "9.54.0": {
+        "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/gs9540w64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

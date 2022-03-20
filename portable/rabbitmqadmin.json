@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rabbitmqadmin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rabbitmqadmin",
+        "latest-version": "3.8.9",
+        "3.8.9": {
+            "url": [
+                "https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v3.8.9/bin/rabbitmqadmin",
+                "https://raw.githubusercontent.com/vidarkongsli/vidars-scoop-bucket/91de891512e44e7b94326a4a7460d4ed0902cec0/rabbitmqadmin/rabbitmqadmin.ps1"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "rabbitmqadmin.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

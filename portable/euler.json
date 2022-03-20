@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "euler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "euler",
+        "latest-version": "2021-02-17",
+        "2021-02-17": {
+            "url": "https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_2021-02-17.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [
+                "Euler Files",
+                ".euler.profile"
+            ]
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/eumat/Installer/EulerSetup-64_$version.exe",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/eumat/rss?path=/Installer",
+                "regex": "EulerSetup-64_([\\d-]+)\\.exe"
+            }
+        }
+    }
+}

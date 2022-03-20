@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "kid3",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kid3",
+        "latest-version": "3.8.6",
+        "3.8.6": {
+            "url": "https://downloads.sourceforge.net/project/kid3/kid3/3.8.6/kid3-3.8.6-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "kid3-cli.exe",
+                [
+                    "kid3-cli.exe",
+                    "kid3"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Kid3",
+                    "file-name": "kid3.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

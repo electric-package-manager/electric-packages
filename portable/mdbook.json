@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mdbook",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mdbook",
+        "latest-version": "0.4.7",
+        "0.4.7": {
+            "url": "https://github.com/rust-lang/mdBook/releases/download/v0.4.7/mdbook-v0.4.7-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mdbook.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

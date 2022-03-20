@@ -1,0 +1,26 @@
+{
+    "display-name": "Vivaldi",
+    "package-name": "vivaldi",
+    "latest-version": "3.7.2",
+    "3.7.2": {
+        "url": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.x64.exe",
+        "file-type": ".exe",
+        "valid-uninstall-exit-codes": [
+            19
+        ],
+        "iswitches": [
+            "--vivaldi-silent",
+            "--do-not-launch-chrome",
+            "--system-level"
+        ],
+        "uswitches": [
+            "--uninstall",
+            "--system-level",
+            "--vivaldi",
+            "--force-uninstall"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "74F8B0BF6BC90C86C1C478BF48736ACAB051AA233F6F1936DBCE61169CCBD813"
+    }
+}

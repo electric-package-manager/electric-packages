@@ -1,0 +1,510 @@
+{
+    "display-name": "Brave",
+    "package-name": "brave",
+    "latest-version": "1.38.57",
+    "auto-update": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "version-check": {
+            "webpage": "https://github.com/brave/brave-browser/releases/latest",
+            "regex": "brave-v([\\d.]+)-win32-x64.zip"
+        }
+    },
+    "1.21.72": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.21.72/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.25.27": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.27/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.25.35": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.25.39": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.39/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.3": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.3/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.7": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.7/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.11": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.11/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.15": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.15/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.25.56": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.56/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.25.57": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.25.57/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.18": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.18/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.21": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.21/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.22": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.22/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.25": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.25/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.45": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.45/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.28": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.28/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.34": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.34/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.49": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.49/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.37": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.37/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.26.52": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.26.52/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.42": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.42/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.60": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.60/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.11": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.11/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.19": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.19/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.77": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.77/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.27": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.27/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.30": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.30/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.32": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.32/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.33": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.33/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.82": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.82/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.34": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.34/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.36": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.36/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.38": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.38/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.27.86": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.27.86/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.98": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.98/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.28.99": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.28.99/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.30.7": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.30.7/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.30.8": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.30.8/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.30.19": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.30.19/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.30.43": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.30.43/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.36.98": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.36.98/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.37.56": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.37.56/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.36.101": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.36.101/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.37.72": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.37.72/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.38.1": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.38.1/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.38.5": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.38.5/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.38.16": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.38.16/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.38.23": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.38.23/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.37.97": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.37.97/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "1.38.57": {
+        "url": "https://github.com/brave/brave-browser/releases/download/v1.38.57/BraveBrowserStandaloneSilentNightlySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [],
+        "uswitches": [
+            "/s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

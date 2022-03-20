@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "proxifier-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "proxifier-portable",
+        "latest-version": "3.42",
+        "3.42": {
+            "url": "https://www.proxifier.com/download/legacy/ProxifierPE342.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Proxifier.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Settings.ini\")) { Set-Content \"$dir\\Settings.ini\" '[Settings]', 'UpdateCheck=0' -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Proxifier PE",
+                    "file-name": "Proxifier.exe"
+                }
+            ],
+            "persist": [
+                "Profiles",
+                "Settings.ini"
+            ]
+        }
+    }
+}

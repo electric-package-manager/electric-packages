@@ -1,0 +1,47 @@
+{
+    "display-name": "",
+    "package-name": "lynx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lynx",
+        "latest-version": "2.9.0dev.6",
+        "2.9.0dev.6": {
+            "url": [
+                "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe",
+                "https://slproweb.com/download/Win32OpenSSL_Light-1_1_1j.exe"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                [
+                    "lynx.exe",
+                    "lynx",
+                    "-cfg=\"$dir\\lynx.cfg\""
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\lynx.cfg\")) { Add-Content \"$dir\\lynx.cfg\" -Value @(\"SSL_CERT_FILE:`\"$(appdir cacert $global)\\current\\cacert.pem`\"\", \"FORCE_SSL_PROMPT:PROMPT\") -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "lynx",
+                    "file-name": "lynx.exe"
+                }
+            ],
+            "persist": [
+                "lynx.cfg",
+                "lynx.lss"
+            ]
+        },
+        "auto-update": {
+            "url": "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe",
+            "version-check": {
+                "webpage": "https://lynx.invisible-island.net/current/CHANGES",
+                "regex": "[\\d-]{10}\\s+\\(([\\w.]+)\\)"
+            }
+        }
+    }
+}

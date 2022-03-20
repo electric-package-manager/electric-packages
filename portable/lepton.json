@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "lepton",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lepton",
+        "latest-version": "1.9.1",
+        "1.9.1": {
+            "url": "https://github.com/hackjutsu/Lepton/releases/download/v1.9.1/Lepton-Setup-1.9.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lepton",
+                    "file-name": "Lepton.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/hackjutsu/Lepton/releases/download/v<version>/Lepton-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://hackjutsu.com/Lepton/"
+            }
+        }
+    }
+}

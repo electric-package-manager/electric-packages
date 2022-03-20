@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "wget",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wget",
+        "latest-version": "1.21.1-1",
+        "1.21.1-1": {
+            "url": "https://eternallybored.org/misc/wget/releases/wget-1.21.1-1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "wget.exe"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "\"ca_certificate=$(appdir cacert $global)\\current\\cacert.pem\" | out-file \"$dir\\wget.ini\" -encoding default"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://eternallybored.org/misc/wget/releases/wget-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://eternallybored.org/misc/wget/releases/?C=M;O=D",
+                "regex": ">wget-([\\d.-]+)-win64\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "spacesniffer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "spacesniffer",
+        "latest-version": "1.3.0.2",
+        "1.3.0.2": {
+            "url": "http://www.uderzo.it/main_products/space_sniffer/files/spacesniffer_1_3_0_2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SpaceSniffer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SpaceSniffer",
+                    "file-name": "SpaceSniffer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

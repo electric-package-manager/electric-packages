@@ -1,0 +1,109 @@
+{
+    "display-name": "ConEmu",
+    "package-name": "conemu",
+    "latest-version": "22.03.08",
+    "auto-update": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v<version>/ConEmuSetup.<clean-version>.exe",
+        "version-check": {
+            "webpage": "https://github.com/Maximus5/ConEmu",
+            "type": "github"
+        }
+    },
+    "21.04.22": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.04.22/ConEmuSetup.210422.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": [],
+        "checksum": "6FFFAA6653724C4662AB9A05E4086D84CD60557A0661D05AF91630385F71A37E"
+    },
+    "21.06.20": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.20/ConEmuSetup.210620.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "21.06.24": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.24/ConEmuSetup.210624.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "21.06.27": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.27/ConEmuSetup.210627.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "21.07.18": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.07.18/ConEmuSetup.210718.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "21.08.22": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.08.22/ConEmuSetup.210822.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "21.09.12": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v21.09.12/ConEmuSetup.210912.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "22.03.08": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v22.03.08/ConEmuSetup.220308.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    }
+}

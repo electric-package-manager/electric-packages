@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "emacs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emacs",
+        "latest-version": "27.2",
+        "27.2": {
+            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-27/emacs-27.2-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\runemacs.exe",
+                "bin\\emacs.exe",
+                "bin\\emacsclientw.exe",
+                "bin\\etags.exe",
+                "bin\\ctags.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Emacs",
+                    "file-name": "bin\\runemacs.exe"
+                },
+                {
+                    "shortcut-name": "Emacs Client",
+                    "file-name": "bin\\emacsclientw.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

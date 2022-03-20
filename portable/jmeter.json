@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "jmeter-pm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jmeter-pm",
+        "latest-version": "1.6",
+        "1.6": {
+            "url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.6/jmeter-plugins-manager-1.6.jar",
+            "file-type": ".jar",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Copy-Item \"$dir\\jmeter-plugins-manager-$version.jar\" -Destination \"$(appdir 'jmeter' $global)\\current\\lib\\ext\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-<version>.zip",
+            "version-check": {
+                "webpage": "https://jmeter.apache.org/changes.html",
+                "regex": ">Version ([\\d.]+)"
+            }
+        }
+    }
+}

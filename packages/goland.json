@@ -1,0 +1,51 @@
+{
+    "display-name": "Goland",
+    "package-name": "goland",
+    "latest-version": "2021.3",
+    "auto-update": {
+        "url": "https://download-cf.jetbrains.com/go/goland-<version>.exe",
+        "version-check": {
+            "webpage": "https://www.jetbrains.com/go/whatsnew/",
+            "regex": "GoLand ([\\d.]+)"
+        }
+    },
+    "2021.1": {
+        "url": "https://download-cf.jetbrains.com/go/goland-2021.1.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "840EFB90969876D6E21A9FA5B83A489A8E275EFF236703383949DA105861C0FB"
+    },
+    "2021.2": {
+        "url": "https://download-cf.jetbrains.com/go/goland-2021.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "AC7E82980027000CE0217F1F703C5727B5558B204791734F2377682329945B90"
+    },
+    "2021.3": {
+        "url": "https://download-cf.jetbrains.com/go/goland-2021.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "A7E23AAA7FD91031DFAB24307B579DFE71C6CBFDCF0D2C6F77A1030C5760846D"
+    }
+}

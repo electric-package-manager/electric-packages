@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "k3d",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "k3d",
+        "latest-version": "4.4.1",
+        "4.4.1": {
+            "url": "https://github.com/rancher/k3d/releases/download/v4.4.1/k3d-windows-amd64.exe#/k3d.exe",
+            "file-type": ".exe",
+            "bin": [
+                "k3d.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

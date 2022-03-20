@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "netlifyctl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "netlifyctl",
+        "latest-version": "0.4.0",
+        "0.4.0": {
+            "url": "https://github.com/netlify/netlifyctl/releases/download/v0.4.0/netlifyctl-windows-amd64-0.4.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "netlifyctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/netlify/netlifyctl/releases/download/v$version/netlifyctl-windows-amd64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.netlify.com"
+            }
+        }
+    }
+}

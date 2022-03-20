@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "latex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "latex",
+        "latest-version": "21.2",
+        "21.2": {
+            "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.2-x64.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": "texmfs\\config"
+        },
+        "auto-update": {
+            "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-$version-x64.exe",
+            "version-check": {
+                "webpage": "https://miktex.org/download",
+                "regex": "basic-miktex-([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

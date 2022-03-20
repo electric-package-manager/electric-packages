@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "monolith",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "monolith",
+        "latest-version": "2.4.1",
+        "2.4.1": {
+            "url": "https://github.com/Y2Z/monolith/releases/download/v2.4.1/monolith.exe",
+            "file-type": ".exe",
+            "bin": [
+                "monolith.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

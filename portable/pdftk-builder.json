@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "pdftk-builder",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdftk-builder",
+        "latest-version": "3.10.0",
+        "3.10.0": {
+            "url": "http://www.angusj.com/pdftkb/pdftkb_setup.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\PDFTKBuilder.ini\")) { New-Item \"$dir\\PDFTKBuilder.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PDFTK Builder",
+                    "file-name": "PDFTKBuilder.exe"
+                }
+            ],
+            "persist": "PDFTKBuilder.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

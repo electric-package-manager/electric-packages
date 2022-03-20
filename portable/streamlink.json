@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "streamlink",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "streamlink",
+        "latest-version": "2.1.1",
+        "2.1.1": {
+            "url": "https://github.com/streamlink/streamlink/releases/download/2.1.1/streamlink-2.1.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\streamlink.exe",
+                "bin\\streamlinkw.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$env:APPDATA\\streamlink\\streamlinkrc\")) {",
+                        "    info 'Copying default ''streamlinkrc'' to ''%APPDATA%\\streamlink\\streamlinkrc'''",
+                        "    ensure \"$env:APPDATA\\streamlink\" | Out-Null",
+                        "    Copy-Item \"$dir\\`$APPDATA\\streamlink\\streamlinkrc\" \"$env:APPDATA\\streamlink\\streamlinkrc\"",
+                        "}",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\ffmpeg\", \"$dir\\uninstall.exe\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/streamlink/streamlink/releases/download/<version>/streamlink-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://streamlink.github.io/"
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "betaflight-blackbox-explorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "betaflight-blackbox-explorer",
+        "latest-version": "3.5.0",
+        "3.5.0": {
+            "url": "https://github.com/betaflight/blackbox-log-viewer/releases/download/3.5.0/betaflight-blackbox-explorer-installer_3.5.0_win32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "betaflight-blackbox-explorer.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Betaflight Blackbox Explorer",
+                    "file-name": "betaflight-blackbox-explorer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/betaflight/blackbox-log-viewer/releases/download/<version>/betaflight-blackbox-explorer-installer_<version>_win32.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://betaflight.com"
+            }
+        }
+    }
+}

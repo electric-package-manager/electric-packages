@@ -1,0 +1,121 @@
+{
+    "display-name": "Heroku CLI",
+    "package-name": "heroku",
+    "latest-version": "7.59.4",
+    "auto-update": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "version-check": {
+            "webpage": "https://github.com/heroku/cli",
+            "type": "github"
+        }
+    },
+    "7.50.0": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "7539F9E9080239AC1642D2933431004E313D11B899D35B38C96454BDA2EE1D05"
+    },
+    "7.54.0": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.54.1": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.55.0": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.56.0": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.56.1": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.59.2": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.59.3": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.59.4": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

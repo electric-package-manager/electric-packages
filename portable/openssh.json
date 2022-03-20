@@ -1,0 +1,63 @@
+{
+    "display-name": "",
+    "package-name": "openssh",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openssh",
+        "latest-version": "8.2p1-1",
+        "8.2p1-1": {
+            "url": [
+                "http://repo.msys2.org/msys/x86_64/bash-4.4.023-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/gcc-libs-9.3.0-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/heimdal-7.7.0-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/heimdal-libs-7.7.0-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libcrypt-2.1-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libdb-5.3.28-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libedit-20191231_3.1-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libopenssl-1.1.1.e-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libsqlite-3.30.0-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/msys2-runtime-3.0.7-6-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/ncurses-6.2-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/openssh-8.2p1-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/openssl-1.1.1.e-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/zlib-1.2.11-1-x86_64.pkg.tar.xz"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                [
+                    "usr\\bin\\sh.exe",
+                    "findssl.sh",
+                    "$dir/usr/bin/findssl.sh"
+                ],
+                "usr\\bin\\scp.exe",
+                "usr\\bin\\sftp.exe",
+                "usr\\bin\\ssh.exe",
+                "usr\\bin\\ssh-add.exe",
+                "usr\\bin\\ssh-agent.exe",
+                [
+                    "usr\\bin\\sh.exe",
+                    "ssh-copy-id",
+                    "$dir/usr/bin/ssh-copy-id"
+                ],
+                "usr\\bin\\ssh-keygen.exe",
+                "usr\\bin\\ssh-keyscan.exe",
+                "usr\\bin\\sshd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$dir\\tmp\" | Out-Null",
+                        "ensure \"$dir\\home\" | Out-Null",
+                        "ensure \"$dir\\home\\$env:UserName\" | Out-Null",
+                        "ensure \"$env:UserProfile\\.ssh\" | Out-Null",
+                        "cmd /c mklink /j \"$dir\\home\\%UserName%\\.ssh\" \"%UserProfile%\\.ssh\""
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

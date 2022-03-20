@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "freedownloadmanager",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freedownloadmanager",
+        "latest-version": "6.14.0",
+        "6.14.0": {
+            "url": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Free Download Manager",
+                    "file-name": "fdm.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dn3.freedownloadmanager.org/$majorVersion/latest/fdm_x64_setup.exe",
+            "version-check": {
+                "webpage": "https://www.freedownloadmanager.org/download.htm",
+                "regex": "FDM ([\\d.]+) for Windows 10"
+            }
+        }
+    }
+}

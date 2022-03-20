@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "legit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "legit",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/frostming/legit/releases/download/1.2.0/legit.exe",
+            "file-type": ".exe",
+            "bin": [
+                "legit.exe"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "'y' | legit --install | Out-Null"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/frostming/legit/releases/download/<version>/legit.exe",
+            "version-check": {
+                "webpage": "https://frostming.github.io/legit/"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "prime95",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "prime95",
+        "latest-version": "30.3b6",
+        "30.3b6": {
+            "url": "https://www.mersenne.org/ftp_root/gimps/p95v303b6.win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "prime95.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Prime95",
+                    "file-name": "prime95.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

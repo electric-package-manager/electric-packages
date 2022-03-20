@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "smartsynchronize",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "smartsynchronize",
+        "latest-version": "4.1.2",
+        "4.1.2": {
+            "url": "https://www.syntevo.com/downloads/smartsynchronize/smartsynchronize-portable-4_1_2.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\smartsynchronizec.exe",
+                [
+                    "bin\\smartsynchronizec.exe",
+                    "smartsynchronize"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SmartSynchronize",
+                    "file-name": "bin\\smartsynchronize.exe"
+                }
+            ],
+            "persist": ".settings"
+        },
+        "auto-update": {
+            "url": "https://www.syntevo.com/downloads/smartsynchronize/smartsynchronize-portable-$underscoreVersion.7z",
+            "version-check": {
+                "webpage": "https://www.syntevo.com/smartsynchronize/changelog.txt",
+                "regex": "([\\d.]+)\\s+\\(\\d{4}"
+            }
+        }
+    }
+}

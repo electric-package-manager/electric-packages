@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "mitmproxy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mitmproxy",
+        "latest-version": "6.0.2",
+        "6.0.2": {
+            "url": "https://snapshots.mitmproxy.org/6.0.2/mitmproxy-6.0.2-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mitmweb.exe",
+                "mitmdump.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mitmweb",
+                    "file-name": "mitmweb.exe"
+                },
+                {
+                    "shortcut-name": "mitmdump",
+                    "file-name": "mitmdump.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://snapshots.mitmproxy.org/<version>/mitmproxy-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://mitmproxy.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display-name": "Wireshark",
+    "package-name": "wireshark",
+    "latest-version": "3.4.3",
+    "3.4.3": {
+        "url": "https://www.wireshark.org/download/win64/all-versions/Wireshark-win64-3.4.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "3BB02427D9C29D7FC04BF011F2E4EBD4F23EBE68F275F51D4AE36EE167B6CB03"
+    }
+}

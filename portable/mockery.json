@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mockery",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mockery",
+        "latest-version": "2.7.4",
+        "2.7.4": {
+            "url": "https://github.com/vektra/mockery/releases/download/v2.7.4/mockery_2.7.4_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "mockery.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "deskpins",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deskpins",
+        "latest-version": "1.32",
+        "1.32": {
+            "url": "https://efotinis.neocities.org/downloads/DeskPins-1.32-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Force -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DeskPins",
+                    "file-name": "deskpins.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display-name": "f.lux",
+    "package-name": "f.lux",
+    "latest-version": "4.120",
+    "auto-update": {
+        "url": "https://justgetflux.com/flux-setup.exe",
+        "version-check": {
+            "webpage": "https://www.techspot.com/downloads/5606-f-lux.html",
+            "regex": "<span class=\"subver\" itemprop=\"softwareVersion\">([\\d.]+)</span>"
+        }
+    },
+    "4.119": {
+        "url": "https://justgetflux.com/flux-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "F03582A9F2F7CC815B0CCF955582970219EFC6E5514BE310D9DF71F1C68EF069"
+    },
+    "4.120": {
+        "url": "https://justgetflux.com/flux-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "0B3F19BD4910A27ED4566AD1FE72735869E9E84B943A026FA224A344926670FF"
+    }
+}

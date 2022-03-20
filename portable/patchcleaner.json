@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "patchcleaner",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "patchcleaner",
+        "latest-version": "1.4.2.0",
+        "1.4.2.0": {
+            "url": "https://downloads.sourceforge.net/project/patchcleaner/PatchCleaner_Portable/v1.4.2.0/PatchCleanerPortable_1_4_2_0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PatchCleaner.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PatchCleaner",
+                    "file-name": "PatchCleaner.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/patchcleaner/PatchCleaner_Portable/v<version>/PatchCleanerPortable_$underscoreVersion.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/patchcleaner/rss?path=/",
+                "regex": "PatchCleaner_([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "xming",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "xming",
+        "latest-version": "6.9.0.31",
+        "6.9.0.31": {
+            "url": "https://downloads.sourceforge.net/project/xming/Xming-mesa/6.9.0.31/Xming-mesa-6-9-0-31-setup.exe?r=scoop",
+            "file-type": ".exe?r=scoop",
+            "bin": [
+                "XLaunch.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

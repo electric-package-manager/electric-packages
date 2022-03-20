@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "axiom",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "axiom",
+        "latest-version": "1.9.6.1-alpha",
+        "1.9.6.1-alpha": {
+            "url": "https://github.com/MattMcManis/Axiom/releases/download/v1.9.6.1-alpha/Axiom.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Axiom.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Axiom",
+                    "file-name": "Axiom.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

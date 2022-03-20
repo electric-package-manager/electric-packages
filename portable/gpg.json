@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "gpg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gpg",
+        "latest-version": "2.3.0",
+        "2.3.0": {
+            "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.3.0_20210407.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\gnupg-uninstall.exe.nsis\" -Force -Recurse",
+                        "New-Item \"$dir\\bin\\gpgconf.ctl\" -Force | Out-Null",
+                        "if (!(Test-Path \"$persist_dir\\home\") -and (Test-Path \"$env:Appdata\\gnupg\")) {",
+                        "    Write-Host -F yellow \"Copying old '$env:Appdata\\gnupg' to '$persist_dir\\home'\"",
+                        "    New-Item \"$dir\\home\" -ItemType Directory -Force | Out-Null",
+                        "    Copy-Item \"$env:Appdata\\gnupg\\*\" \"$dir\\home\" -Recurse -Force",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": "home"
+        },
+        "auto-update": {
+            "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-<version>_$matchDate.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.gnupg.org/download/index.html",
+                "regex": "gnupg-w32-([\\d.]+)_(?<date>\\d+)\\.exe"
+            }
+        }
+    }
+}

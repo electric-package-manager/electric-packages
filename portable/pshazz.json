@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "pshazz",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pshazz",
+        "latest-version": "0.2021.02.08",
+        "0.2021.02.08": {
+            "url": "https://github.com/lukesampson/pshazz/archive/ca1292c5fe66419774ddbdc974a0a39c7e358ba1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\pshazz.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lukesampson/pshazz/archive/$matchSha.zip",
+            "version-check": {
+                "webpage": "https://github.com/lukesampson/pshazz/commits/master.atom",
+                "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
+            }
+        }
+    }
+}

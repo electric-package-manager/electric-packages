@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "nunit-extension-teamcity-event-listener",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nunit-extension-teamcity-event-listener",
+        "latest-version": "1.0.7",
+        "1.0.7": {
+            "url": "https://packages.chocolatey.org/nunit-extension-teamcity-event-listener.1.0.7.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/nunit-extension-teamcity-event-listener.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/nunit-extension-teamcity-event-listener",
+                "regex": "\\s+([\\d.]+)</title>"
+            }
+        }
+    }
+}

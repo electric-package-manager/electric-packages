@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "filebot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "filebot",
+        "latest-version": "4.9.3",
+        "4.9.3": {
+            "url": "https://get.filebot.net/filebot/FileBot_4.9.3/FileBot_4.9.3-portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "filebot.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FileBot",
+                    "file-name": "filebot.launcher.exe"
+                }
+            ],
+            "persist": "data"
+        },
+        "auto-update": {
+            "url": "https://get.filebot.net/filebot/FileBot_<version>/FileBot_<version>-portable.zip",
+            "version-check": {
+                "webpage": "https://app.filebot.net/update.xml",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

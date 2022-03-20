@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "prm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "prm",
+        "latest-version": "3.4.3",
+        "3.4.3": {
+            "url": "https://github.com/ldez/prm/releases/download/v3.4.3/prm_v3.4.3_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "prm.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

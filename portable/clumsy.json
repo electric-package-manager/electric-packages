@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "clumsy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "clumsy",
+        "latest-version": "0.2",
+        "0.2": {
+            "url": "https://github.com/jagt/clumsy/releases/download/0.2/clumsy-0.2-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "clumsy.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "clumsy",
+                    "file-name": "clumsy.exe"
+                }
+            ],
+            "persist": "config.txt"
+        },
+        "auto-update": {
+            "url": "https://github.com/jagt/clumsy/releases/download/$version/clumsy-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://jagt.github.io/clumsy/"
+            }
+        }
+    }
+}

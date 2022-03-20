@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "ctags",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ctags",
+        "latest-version": "5.8",
+        "5.8": {
+            "url": "https://downloads.sourceforge.net/project/ctags/ctags/5.8/ctags58.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ctags.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://developer.download.nvidia.com/compute/cuda/$matchHead/local_installers/cuda_$version_win10.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal",
+                "regex": "/cuda_([\\d._]+)_win10\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "lili",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lili",
+        "latest-version": "2.9.4",
+        "2.9.4": {
+            "url": "http://download.tuxfamily.org/lilicreator/stable-portable/LinuxLive%20USB%20Creator%202.9.4.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "LiLi USB Creator.exe",
+                    "lili"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Linux Live USB Creator",
+                    "file-name": "LiLi USB Creator.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://download.tuxfamily.org/lilicreator/stable-portable/LinuxLive%20USB%20Creator%20<version>.zip#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.linuxliveusb.com/en/other-versions",
+                "regex": "Version ([\\d.]+) Final - Portable Edition"
+            }
+        }
+    }
+}

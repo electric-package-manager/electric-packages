@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "ppsspp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ppsspp",
+        "latest-version": "1.11.3",
+        "1.11.3": {
+            "url": "https://www.ppsspp.org/files/1_11_3/ppsspp_win.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": "memstick"
+        },
+        "auto-update": {
+            "url": "https://www.ppsspp.org/files/$underscoreVersion/ppsspp_win.zip",
+            "version-check": {
+                "webpage": "https://www.ppsspp.org/downloads.html",
+                "regex": "Download ([\\d.]+)\\s+zip"
+            }
+        }
+    }
+}

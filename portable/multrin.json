@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "multrin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "multrin",
+        "latest-version": "1.3.0",
+        "1.3.0": {
+            "url": "https://github.com/sentialx/multrin/releases/download/v1.3.0/multrin-setup-1.3.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Multrin",
+                    "file-name": "Multrin.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

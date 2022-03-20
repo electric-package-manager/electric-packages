@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "inadyn-mt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "inadyn-mt",
+        "latest-version": "02.28.10",
+        "02.28.10": {
+            "url": "https://downloads.sourceforge.net/project/inadyn-mt/inadyn-mt/inadyn-mt.v.02.28.10/inadyn-mt.v.02.28.10.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bin\\win32\\inadyn-mt.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'inadyn-mt.conf', 'inadyn-mt.log', 'inadyn-mt.pid', 'inadyn_ip.cache', 'inadyn_time.cache' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\bin\\win32\\$_\") -and !(Test-Path \"$dir\\bin\\win32\\$_\")) {",
+                        "        New-Item \"$dir\\bin\\win32\\$_\" | Out-Null",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "bin\\win32\\inadyn-mt.conf",
+                "bin\\win32\\inadyn-mt.log",
+                "bin\\win32\\inadyn-mt.pid",
+                "bin\\win32\\inadyn_ip.cache",
+                "bin\\win32\\inadyn_time.cache"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

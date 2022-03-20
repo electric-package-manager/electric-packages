@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "pixie",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pixie",
+        "latest-version": "4.1",
+        "4.1": {
+            "url": "http://www.nattyware.com/bin/pixie.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pixie.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

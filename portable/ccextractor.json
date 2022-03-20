@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "ccextractor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ccextractor",
+        "latest-version": "0.88",
+        "0.88": {
+            "url": "https://github.com/CCExtractor/ccextractor/releases/download/v0.88/ccextractor.0.88-windows.binaries.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ccextractorwin.exe",
+                "ccextractorwinfull.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CCExtractor",
+                    "file-name": "CCExtractorGUI.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/CCExtractor/ccextractor/releases/download/v<version>/ccextractor.<version>-windows.binaries.zip",
+            "version-check": {
+                "webpage": "https://www.ccextractor.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "pomotodo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pomotodo",
+        "latest-version": "3.2.3",
+        "3.2.3": {
+            "url": "https://cdn.hackplan.com/theair/1493880241/pomotodo_installer.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pomotodo",
+                    "file-name": "pomotodo.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://cdn.hackplan.com/theair/$matchDownloadid/pomotodo_installer.exe",
+            "version-check": {
+                "webpage": "https://air.pomotodo.com/v1/p/windows.pomotodo.com/latest.xml",
+                "regex": "theair/(?<Downloadid>\\d+)/pomotodo_installer.exe'\\s+sparkle:version='([\\d.]+)'"
+            }
+        }
+    }
+}

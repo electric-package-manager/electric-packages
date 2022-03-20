@@ -1,0 +1,17 @@
+{
+    "display-name": "Adobe AIR",
+    "package-name": "adobe-air",
+    "latest-version": "32.0",
+    "32.0": {
+        "url": "http://airdownload.adobe.com/air/win/download/32.0/AdobeAIRInstaller.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-silent",
+            "-eulaAccepted"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "audioswitcher",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "audioswitcher",
+        "latest-version": "1.8.0.142",
+        "1.8.0.142": {
+            "url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/1.8.0.142/AudioSwitcher.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AudioSwitcher.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Stop-Process -Name AudioSwitcher -Verbose -ErrorAction Ignore"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Audio Switcher",
+                    "file-name": "AudioSwitcher.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/xenolightning/AudioSwitcher_v1/releases/download/<version>/AudioSwitcher.zip",
+            "version-check": {
+                "webpage": "https://audioswit.ch"
+            }
+        }
+    }
+}

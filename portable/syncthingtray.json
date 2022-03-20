@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "syncthingtray",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "syncthingtray",
+        "latest-version": "1.1.5",
+        "1.1.5": {
+            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.1.5/syncthingtray-qt6-1.1.5-x86_64-w64-mingw32.exe.zip",
+            "file-type": ".zip",
+            "bin": [
+                "syncthingtray.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Move-Item \"$dir\\syncthingtray-*.exe\" \"$dir\\syncthingtray.exe\""
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Syncthing Tray",
+                    "file-name": "syncthingtray.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

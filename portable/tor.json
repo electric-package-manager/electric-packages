@@ -1,0 +1,50 @@
+{
+    "display-name": "",
+    "package-name": "tor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tor",
+        "latest-version": "0.4.5.7",
+        "0.4.5.7": {
+            "url": "https://dist.torproject.org/torbrowser/10.0.14/tor-win64-0.4.5.7.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "Tor\\tor.exe",
+                    "tor",
+                    "-f \"$dir\\torrc\""
+                ],
+                "Tor\\tor-gencert.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$current = current_dir $dir",
+                        "$content = @(",
+                        "    \"DataDirectory `\"$current\\Data\\Data`\"\"",
+                        "    \"GeoIPFile `\"$current\\Data\\Tor\\geoip`\"\"",
+                        "    \"GeoIPv6File `\"$current\\Data\\Tor\\geoip6`\"\"",
+                        ")",
+                        "if (!(Test-Path \"$persist_dir\\torrc\")) {",
+                        "    Add-Content \"$dir\\torrc\" $content.Replace('\\', '/') -Encoding ASCII -Force",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "Data\\Data",
+                "torrc"
+            ]
+        },
+        "auto-update": {
+            "url": "https://dist.torproject.org/torbrowser/$matchBrowser/tor-win64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.torproject.org/download/tor/",
+                "regex": "torbrowser/(?<browser>[\\d.]+)/tor-win32-(?<version>[\\d.]+)\\.zip"
+            }
+        }
+    }
+}

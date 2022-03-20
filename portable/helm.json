@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "helm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "helm",
+        "latest-version": "3.5.3",
+        "3.5.3": {
+            "url": "https://get.helm.sh/helm-v3.5.3-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "helm.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://get.helm.sh/helm-v$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/kubernetes/helm/releases",
+                "regex": "/tag/v(3\\.[\\d.]+)\""
+            }
+        }
+    }
+}

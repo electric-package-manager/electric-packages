@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "awsSts",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "awsSts",
+        "latest-version": "0.9.1",
+        "0.9.1": {
+            "url": "https://github.com/NearlyUnique/awsSts/releases/download/0.9.1/awsSts-0.9.1-windows.exe#/awsSts.exe",
+            "file-type": ".exe",
+            "bin": [
+                "awsSts.exe",
+                [
+                    "awsSts.exe",
+                    "awsSts2"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

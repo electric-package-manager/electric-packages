@@ -1,0 +1,21 @@
+{
+  "display-name": "Lunacy",
+  "package-name": "lunacy",
+  "latest-version": "6.8.0",
+  "6.8.0": {
+    "url": "https://lun-eu.icons8.com/s/setup/LunacySetup_6.8.0.exe",
+    "file-type": ".exe",
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "clswitch": "/DIR=",
+    "dependencies": [],
+    "checksum": "49F9FD7A8DBB6B205039FD6ED34B41B89F5B28DF2A236535ECB0C3B4120E0C83"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "fscapture",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fscapture",
+        "latest-version": "9.4",
+        "9.4": {
+            "url": "http://www.faststonesoft.net/DN/FSCapture94.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FSCapture.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\fsc.db\")) { New-Item \"$dir\\fsc.db\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FastStone Capture",
+                    "file-name": "FSCapture.exe"
+                }
+            ],
+            "persist": "fsc.db"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

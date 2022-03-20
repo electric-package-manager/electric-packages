@@ -1,0 +1,45 @@
+{
+    "display-name": "",
+    "package-name": "alldup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "alldup",
+        "latest-version": "4.4.47",
+        "4.4.47": {
+            "url": "http://www.alldup.info/download/AllDupPortable.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "AllDupPortable.exe",
+                    "AllDup"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\config4.ini\")) { New-Item \"$dir\\config4.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AllDup",
+                    "file-name": "AllDupPortable.exe"
+                }
+            ],
+            "persist": [
+                "export",
+                "log",
+                "profile",
+                "config4.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "http://www.alldup.info/download/AllDupPortable.zip",
+            "version-check": {
+                "webpage": "http://www.AllDup.de/version/Version_AllDup.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

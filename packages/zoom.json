@@ -1,0 +1,80 @@
+{
+    "display-name": "Zoom",
+    "package-name": "zoom",
+    "auto-update": {
+        "url": "https://zoom.us/client/<version>/ZoomInstallerFull.msi",
+        "version-check": {
+            "webpage": "https://zoom.en.softonic.com/",
+            "regex": "&nbsp;([\\d.]+)</li>"
+        }
+    },
+    "latest-version": "5.8.6.2048",
+    "5.5.12494.0204": {
+        "url": "https://zoom.us/client/5.5.12494.0204/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "AEE7B00BC50ADF30B79F428515A61D48BD9A5393983B275C7C9FDC2A93177473"
+    },
+    "5.6.1.617": {
+        "url": "https://zoom.us/client/5.6.1.617/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1C8E0F3DC13C2ED71A001B0ACB0B393CA2307198E7C4D1865697B3EF00CF083D"
+    },
+    "5.6.6.961": {
+        "url": "https://zoom.us/client/5.6.6.961/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "6E36C5EB8643DC56C6EBA357C2B1E0012F6B32B17C602205764040C10DE935BD"
+    },
+    "5.8.6.2048": {
+        "url": "https://zoom.us/client/5.8.6.2048/ZoomInstallerFull.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A1259B43FC10816F8B15A402E18DA21E4A3E9DE5EF5AFCF2D590507F79009E9B"
+    }
+}

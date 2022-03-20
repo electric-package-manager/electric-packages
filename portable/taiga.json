@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "taiga",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "taiga",
+        "latest-version": "1.3.1",
+        "1.3.1": {
+            "url": "https://taiga.moe/update/TaigaSetup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Taiga.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Taiga",
+                    "file-name": "Taiga.exe"
+                }
+            ],
+            "persist": "data"
+        },
+        "auto-update": {
+            "url": "https://taiga.moe/update/TaigaSetup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://taiga.moe/"
+            }
+        }
+    }
+}

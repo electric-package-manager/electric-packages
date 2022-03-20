@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "cpu-v",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cpu-v",
+        "latest-version": "2.0.4",
+        "2.0.4": {
+            "url": "https://leomoon.com/static/?file=leomoon-cpu-v_win.zip#/dl.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CPU-V",
+                    "file-name": "LeoMoon CPU-V.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

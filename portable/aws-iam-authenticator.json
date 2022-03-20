@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "aws-iam-authenticator",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aws-iam-authenticator",
+        "latest-version": "0.5.2",
+        "0.5.2": {
+            "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/download/v0.5.2/aws-iam-authenticator_0.5.2_windows_amd64.exe#/aws-iam-authenticator.exe",
+            "file-type": ".exe",
+            "bin": [
+                "aws-iam-authenticator.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

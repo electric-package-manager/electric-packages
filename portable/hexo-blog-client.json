@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "hexo-blog-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hexo-blog-client",
+        "latest-version": "1.2.9",
+        "1.2.9": {
+            "url": "https://github.com/Xonlystar/hexo-blog-client/releases/download/1.2.9/HexoBlogClient-Setup-1.2.9.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Hexo Blog Client",
+                    "file-name": "HexoBlogClient.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

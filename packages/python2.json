@@ -1,0 +1,22 @@
+{
+    "display-name": "Python 2",
+    "package-name": "python2",
+    "latest-version": "2.7.18",
+    "2.7.18": {
+        "url": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi",
+        "file-type": ".msi",
+        "checksum": "B74A3AFA1E0BF2A6FC566A7B70D15C9BFABBA3756FB077797D16FFFA27800C05",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

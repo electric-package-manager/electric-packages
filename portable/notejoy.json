@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "notejoy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notejoy",
+        "latest-version": "1.17.0",
+        "1.17.0": {
+            "url": "https://s3.amazonaws.com/notejoy/clients/Notejoy-1.17.0-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Notejoy.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notejoy",
+                    "file-name": "Notejoy.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://s3.amazonaws.com/notejoy/clients/Notejoy-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://s3.amazonaws.com/notejoy/clients/RELEASES",
+                "regex": "([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

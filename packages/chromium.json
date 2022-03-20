@@ -1,0 +1,22 @@
+{
+    "display-name": "Chromium",
+    "package-name": "chromium",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Chromium",
+        "package-name": "chromium",
+        "latest-version": "88.0.4324.190",
+        "88.0.4324.190": {
+            "url": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots",
+            "file-type": ".zip",
+            "extract-dir": "chromium",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chromium",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "checksum": "98A1AE2678F1927EB3B0C417E55AAB504AD3136DB8B0BC33E56303C0393CD2AA"
+        }
+    }
+}

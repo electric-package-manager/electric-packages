@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "notepad2-mod",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notepad2-mod",
+        "latest-version": "4.2.25.998",
+        "4.2.25.998": {
+            "url": "https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Notepad2.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notepad2-mod",
+                    "file-name": "Notepad2.exe"
+                }
+            ],
+            "persist": "Notepad2.ini"
+        }
+    }
+}

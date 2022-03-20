@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "kustomize",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kustomize",
+        "latest-version": "4.1.0",
+        "4.1.0": {
+            "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v4.1.0/kustomize_v4.1.0_windows_amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "kustomize.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v$version/kustomize_v$version_windows_amd64.tar.gz",
+            "version-check": {
+                "webpage": "https://github.com/kubernetes-sigs/kustomize/releases",
+                "regex": "kustomize/v([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "discord-ptb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "discord-ptb",
+        "latest-version": "0.0.60",
+        "0.0.60": {
+            "url": "http://dl-ptb.discordapp.net/apps/win/DiscordPTB-0.0.60-full.nupkg#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "DiscordPTB.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Discord PTB",
+                    "file-name": "DiscordPTB.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://dl-ptb.discordapp.net/apps/win/DiscordPTB-<version>-full.nupkg#/dl.7z",
+            "version-check": {
+                "webpage": "https://discordapp.com/api/updates/ptb/RELEASES",
+                "regex": "DiscordPTB-([\\d.]+)"
+            }
+        }
+    }
+}

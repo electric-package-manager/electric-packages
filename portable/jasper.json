@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "jasper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jasper",
+        "latest-version": "0.9.3",
+        "0.9.3": {
+            "url": "https://github.com/jasperapp/jasper/releases/download/v0.9.3/jasper_v0.9.3_windows.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Jasper",
+                    "file-name": "Jasper.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

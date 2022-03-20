@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "gammy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gammy",
+        "latest-version": "0.9.64",
+        "0.9.64": {
+            "url": "https://github.com/Fushko/gammy/releases/download/v0.9.64/gammy_v0.9.64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gammy.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (Test-Path \"$persist_dir\\gammysettings.cfg\") {",
+                        "    warn 'Application's configuration was renamed and changed. Previous configuration will not work'",
+                        "    Rename-Item \"$persist_dir\\gammysettings.cfg\" 'gammysettings.cfg.old'",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Gammy",
+                    "file-name": "gammy.exe"
+                }
+            ],
+            "persist": "gammyconf.txt"
+        },
+        "auto-update": {
+            "url": "https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/<version>/gatling-charts-highcharts-bundle-<version>-bundle.zip",
+            "version-check": {
+                "webpage": "https://search.maven.org/solrsearch/select/?q=g:io.gatling.highcharts+AND+a:gatling-charts-highcharts-bundle"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "so",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "so",
+        "latest-version": "0.4.3",
+        "0.4.3": {
+            "url": "https://github.com/samtay/so/releases/download/v0.4.3/so-v0.4.3-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "so.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

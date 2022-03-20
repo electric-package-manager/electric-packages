@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "gsl-shell",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gsl-shell",
+        "latest-version": "2.3.2",
+        "2.3.2": {
+            "url": "https://github.com/franko/gsl-shell/releases/download/v2.3.2/gsl-shell-2.3.2-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gsl-shell.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GSL Shell",
+                    "file-name": "gsl-shell-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/franko/gsl-shell/releases/download/v$version/gsl-shell-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "http://www.nongnu.org/gsl-shell/"
+            }
+        }
+    }
+}

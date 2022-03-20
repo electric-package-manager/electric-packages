@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "azure-functions-core-tools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "azure-functions-core-tools",
+        "latest-version": "3.0.3442",
+        "3.0.3442": {
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.3442/Azure.Functions.Cli.win-x64.3.0.3442.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "func.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/$version/Azure.Functions.Cli.win-x64.$version.zip#/dl.7z",
+            "version-check": {
+                "webpage": "https://api.github.com/repos/Azure/azure-functions-core-tools/tags",
+                "regex": "\"name\": *\"([\\d.]+)\""
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "camunda-modeler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "camunda-modeler",
+        "latest-version": "4.7.0",
+        "4.7.0": {
+            "url": "https://camunda.org/release/camunda-modeler/4.7.0/camunda-modeler-4.7.0-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Camunda Modeler.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Camunda Modeler",
+                    "file-name": "Camunda Modeler.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://camunda.org/download/modeler/"
+            }
+        }
+    }
+}

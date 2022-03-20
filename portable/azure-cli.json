@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "axel",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "axel",
+        "latest-version": "2.16.1-1",
+        "2.16.1-1": {
+            "url": "https://downloads.sourceforge.net/project/unix-utils/axel/2.16.1/axel-2.16.1-1-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "axel.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
+            "version-check": {
+                "webpage": "https://aka.ms/cli",
+                "regex": "/releases/tag/azure-cli-([\\d.]+)"
+            }
+        }
+    }
+}

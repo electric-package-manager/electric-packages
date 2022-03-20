@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "jkrypto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jkrypto",
+        "latest-version": "4.4",
+        "4.4": {
+            "url": "http://lpb.canb.auug.org.au/adfa/src/jkrypto/jkrypto.jar",
+            "file-type": ".jar",
+            "bin": [
+                "jkrypto.ps1"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "\"java -Xmx512M -jar \\\"$dir\\jkrypto.jar\\\"\" | out-file -encoding oem \"$dir\\jkrypto.ps1\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

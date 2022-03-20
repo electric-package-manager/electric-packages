@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "snipaste",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "snipaste",
+        "latest-version": "1.16.2",
+        "1.16.2": {
+            "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-1.16.2-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Snipaste.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\config.ini\")) { Set-Content \"$dir\\config.ini\" '' -Encoding ASCII }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Snipaste",
+                    "file-name": "Snipaste.exe"
+                }
+            ],
+            "persist": [
+                "history",
+                "config.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

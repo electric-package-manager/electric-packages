@@ -1,0 +1,22 @@
+{
+    "display-name": "TightVNC",
+    "package-name": "tightvnc",
+    "latest-version": "2.8.27",
+    "2.8.27": {
+        "url": "https://www.tightvnc.com/download/2.8.27/tightvnc-2.8.27-gpl-setup-64bit.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "84132A40DA136E61D053BD850D97C74DACF2C47B76DCCAB5C4F52AAEA64A8827"
+    }
+}

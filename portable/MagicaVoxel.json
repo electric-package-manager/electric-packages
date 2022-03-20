@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "MagicaVoxel",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "MagicaVoxel",
+        "latest-version": "0.99.6",
+        "0.99.6": {
+            "url": "https://github.com/ephtracy/ephtracy.github.io/releases/download/0.99.6/MagicaVoxel-0.99.6-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MagicaVoxel.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MagicaVoxel",
+                    "file-name": "MagicaVoxel.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ephtracy/ephtracy.github.io/releases/download/$version/MagicaVoxel-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://ephtracy.github.io/"
+            }
+        }
+    }
+}

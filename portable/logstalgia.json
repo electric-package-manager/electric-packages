@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "logstalgia",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "logstalgia",
+        "latest-version": "1.0.9",
+        "1.0.9": {
+            "url": "https://github.com/acaudwell/Logstalgia/releases/download/logstalgia-1.0.9/logstalgia-1.0.9.win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "logstalgia.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

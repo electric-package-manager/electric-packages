@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "color-cop",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "color-cop",
+        "latest-version": "5.4.5",
+        "5.4.5": {
+            "url": "http://colorcop.net/tools/colorcop/colorcop.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Color Cop",
+                    "file-name": "ColorCop.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

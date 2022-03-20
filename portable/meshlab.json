@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "meshlab",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "meshlab",
+        "latest-version": "2020.12",
+        "2020.12": {
+            "url": "https://github.com/cnr-isti-vclab/meshlab/releases/download/Meshlab-2020.12/MeshLab2020.12-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "meshlab.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\vc_red*\""
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MeshLab",
+                    "file-name": "meshlab.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cnr-isti-vclab/meshlab/releases/download/Meshlab-$version/MeshLab$version-windows.zip",
+            "version-check": {
+                "webpage": "http://www.meshlab.net",
+                "regex": "tag/Meshlab-([\\d.]+)"
+            }
+        }
+    }
+}

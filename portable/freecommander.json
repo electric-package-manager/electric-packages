@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "freecommander",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freecommander",
+        "latest-version": "2021.840",
+        "2021.840": {
+            "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "freecommander.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if(!(Test-Path \"$persist_dir\\fcStart.ini\")) {",
+                        "    Set-Content \"$dir\\fcStart.ini\" @('[Start]', 'freeCommanderIniDir=%FcSrcPath%') -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Free Commander",
+                    "file-name": "freecommander.exe"
+                }
+            ],
+            "persist": [
+                "Settings",
+                "fcStart.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://freecommander.com/downloads/FreeCommanderXE-32-public_portable.zip",
+            "version-check": {
+                "webpage": "https://freecommander.com/en/downloads-portable/",
+                "regex": "FreeCommander XE ([\\d.]+) Build ([\\d.a-z]+) portable ZIP"
+            }
+        }
+    }
+}

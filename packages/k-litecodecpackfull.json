@@ -1,0 +1,30 @@
+{
+  "display-name": "K-Lite Codec Pack",
+  "package-name": "k-litecodecpackfull",
+  "latest-version": "16.3.0",
+  "auto-update": {
+    "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_<clean-version>_Full.exe",
+    "version-check": {
+      "webpage": "https://codecguide.com/download_k-lite_codec_pack_full.htm",
+      "regex": "Version ([\\d.]+) ~"
+    }
+  },
+  "16.0.5": {
+    "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Full.exe",
+    "file-type": ".exe",
+    "iswitches": ["/VERYSILENT", "/NORESTART"],
+    "uswitches": [],
+    "clswitch": "/DIR=",
+    "dependencies": [],
+    "checksum": "8477DD87091C65EBD50406FB0F9D035D6477DB5DE8871007029391208004F93D"
+  },
+  "16.3.0": {
+    "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1630_Full.exe",
+    "file-type": ".exe",
+    "iswitches": ["/VERYSILENT", "/NORESTART"],
+    "uswitches": [],
+    "clswitch": "/DIR=",
+    "dependencies": [],
+    "checksum": "ED87DE4A38350F2FA052DC1872EA15F736FC6CB8FE9FBCDAE8D79348E11385E9"
+  }
+}

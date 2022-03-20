@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "nali",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nali",
+        "latest-version": "0.2.4",
+        "0.2.4": {
+            "url": "https://github.com/zu1k/nali/releases/download/v0.2.4/nali-windows-amd64-v0.2.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nali.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "(Get-ChildItem \"$dir\\nali*.exe\")[0] | Rename-Item -NewName 'nali.exe'"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

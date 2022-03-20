@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "renderdoc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "renderdoc",
+        "latest-version": "1.13",
+        "1.13": {
+            "url": "https://renderdoc.org/stable/1.13/RenderDoc_1.13_64.msi",
+            "file-type": ".msi",
+            "bin": [
+                [
+                    "qrenderdoc.exe",
+                    "renderdocgui"
+                ],
+                [
+                    "renderdoccmd.exe",
+                    "renderdoccli"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RenderDocGUI",
+                    "file-name": "qrenderdoc.exe"
+                },
+                {
+                    "shortcut-name": "RenderDocCLI",
+                    "file-name": "renderdoccmd.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi",
+            "version-check": {
+                "webpage": "https://renderdoc.org"
+            }
+        }
+    }
+}

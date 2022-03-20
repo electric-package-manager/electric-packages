@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "gb-studio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gb-studio",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/chrismaltby/gb-studio/releases/download/v1.2.1/GB-Studio-Windows-64bit-standalone-1.2.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gb-studio.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GB Studio",
+                    "file-name": "gb-studio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/$matchGcc-$matchYear$matchQv/gcc-arm-none-eabi-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads",
+                "regex": "<h3>Version\\s+((?<gcc>[\\d]+)-(?<year>[\\d]{4})-(?<qv>q\\d)-(?<rel>[a-z]+))\\s*<"
+            }
+        }
+    }
+}

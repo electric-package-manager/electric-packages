@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "exercism",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "exercism",
+        "latest-version": "3.0.13",
+        "3.0.13": {
+            "url": "https://github.com/exercism/cli/releases/download/v3.0.13/exercism-windows-64bit.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "exercism.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/exercism/cli/releases/download/v$version/exercism-windows-64bit.zip#/dl.7z",
+            "version-check": {
+                "webpage": "http://exercism.io/"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "coredns",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "coredns",
+        "latest-version": "1.8.3",
+        "1.8.3": {
+            "url": "https://github.com/coredns/coredns/releases/download/v1.8.3/coredns_1.8.3_windows_amd64.tgz",
+            "file-type": ".tgz",
+            "bin": [
+                "coredns.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/coredns/coredns/releases/download/v$version/coredns_$version_windows_amd64.tgz",
+            "version-check": {
+                "webpage": "https://coredns.io"
+            }
+        }
+    }
+}

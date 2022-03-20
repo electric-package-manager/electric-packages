@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "ipscan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ipscan",
+        "latest-version": "3.7.6",
+        "3.7.6": {
+            "url": "https://github.com/angryip/ipscan/releases/download/3.7.6/ipscan-win64-3.7.6.exe#/ipscan.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ipscan.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Angry IP Scanner",
+                    "file-name": "ipscan.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/angryip/ipscan/releases/download/$version/ipscan-win64-$version.exe#/ipscan.exe",
+            "version-check": {
+                "webpage": "http://angryip.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "openvpn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openvpn",
+        "latest-version": "2.4.10",
+        "2.4.10": {
+            "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.10-I601-Win10.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\openvpn.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if ([Environment]::OSVersion.Version.Major -lt 10) { error 'Windows 10 is required since version 2.4.8. Use \"versions/openvpn-w7\" instead'; break }",
+                        "if (-not (is_admin)) { throw 'Administrator privileges are needed for installation' }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenVPN GUI",
+                    "file-name": "bin\\openvpn-gui.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://swupdate.openvpn.org/community/releases/openvpn-install-<version>-I601-Win10.exe",
+            "version-check": {
+                "webpage": "https://openvpn.net/index.php/open-source/downloads.html",
+                "regex": "openvpn-install-([\\d.]+)-I601-Win10\\.exe"
+            }
+        }
+    }
+}

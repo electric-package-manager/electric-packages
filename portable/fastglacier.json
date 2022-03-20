@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "fastglacier",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fastglacier",
+        "latest-version": "4.1.5",
+        "4.1.5": {
+            "url": "https://fastglacier.com/download/fastglacier-4-1-5.exe",
+            "file-type": ".exe",
+            "bin": [
+                "glacier-con.exe",
+                "glacier-ui.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FastGlacier",
+                    "file-name": "glacier-ui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

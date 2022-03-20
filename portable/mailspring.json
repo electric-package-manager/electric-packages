@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "mailspring",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mailspring",
+        "latest-version": "1.9.0",
+        "1.9.0": {
+            "url": "https://github.com/Foundry376/Mailspring/releases/download/1.9.0/Mailspring-1.9.0-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Mailspring.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mailspring",
+                    "file-name": "Mailspring.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Foundry376/Mailspring/releases/download/<version>/Mailspring-<version>-full.nupkg",
+            "version-check": {
+                "webpage": "https://getmailspring.com/"
+            }
+        }
+    }
+}

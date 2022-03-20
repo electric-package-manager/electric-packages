@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gomake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gomake",
+        "latest-version": "2.4.1",
+        "2.4.1": {
+            "url": "https://github.com/brad-jones/gomake/releases/download/v2.4.1/gomake_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gomake.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

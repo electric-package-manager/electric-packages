@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "iverilog",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "iverilog",
+        "latest-version": "11-20210204",
+        "11-20210204": {
+            "url": "http://bleyer.org/icarus/iverilog-v11-20210204-x64_setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\iverilog.exe",
+                "bin\\iverilog-vpi.exe",
+                "bin\\vvp.exe",
+                "gtkwave\\bin\\gtkwave.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "notable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notable",
+        "latest-version": "1.8.4",
+        "1.8.4": {
+            "url": "https://github.com/notable/notable/releases/download/v1.8.4/Notable.Setup.1.8.4.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Notable.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notable",
+                    "file-name": "Notable.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

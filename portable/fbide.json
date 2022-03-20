@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "fbide",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fbide",
+        "latest-version": "0.4.6r4",
+        "0.4.6r4": {
+            "url": "http://downloads.sourceforge.net/project/fbide/fbide%200.4/fbide%200.4.6%20r4/FBIde0.4.6r4.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\IDE\\prefs_win32.ini\")) {",
+                        "   $fbc = (versiondir 'freebasic' 'current') -replace '\\\\', '\\\\'",
+                        "   $pref = (Get-Content \"$dir\\IDE\\prefs_win32.ini\" -Raw) -replace 'fbc.exe', \"$fbc\\\\fbc.exe\"",
+                        "   Set-Content \"$dir\\IDE\\prefs_win32.ini\" $pref -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FBIde",
+                    "file-name": "fbide.exe"
+                }
+            ],
+            "persist": "IDE\\prefs_win32.ini"
+        },
+        "auto-update": {
+            "url": "http://downloads.sourceforge.net/project/fbide/fbide%20$majorVersion.$minorVersion/fbide%20$matchMain%20$matchRelease/FBIde<version>.zip",
+            "version-check": {
+                "webpage": "https://fbide.freebasic.net/download",
+                "regex": ">FBIde ((?<main>[\\d.]+)(?<release>r\\d))<"
+            }
+        }
+    }
+}

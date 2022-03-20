@@ -1,0 +1,14 @@
+{
+  "display-name": "minikube",
+  "package-name": "minikube",
+  "latest-version": "1.18.0",
+  "1.18.0": {
+    "url": "https://storage.googleapis.com/minikube/releases/latest/minikube-installer.exe",
+    "file-type": ".exe",
+    "iswitches": ["/S"],
+    "uswitches": ["/S"],
+    "clswitch": "/D=",
+    "dependencies": [],
+    "checksum": "63A48EEF3AADB09DAF2D1E69278FBA44308A6EB9465DC76D64D93CACCC55756B"
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "display-name": "cURL",
+    "package-name": "curl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "cURL",
+        "package-name": "curl",
+        "latest-version": "7.82.0",
+        "auto-update": {
+            "url": "https://curl.se/windows/dl-<version>/curl-<version>-win64-mingw.zip",
+            "version-check": {
+                "webpage": "https://curl.se/windows/",
+                "regex": "curl ([\\d.]+) for Windows"
+            }
+        },
+        "7.75.0": {
+            "url": "https://curl.se/windows/dl-7.75.0_3/curl-7.75.0_3-win64-mingw.zip",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ],
+            "checksum": "D4D286025B7BA027420C46B4286A0032AAFF138055245CE0826BB0D50D5EE355"
+        },
+        "7.76.1": {
+            "url": "https://curl.se/windows/dl-7.76.1/curl-7.76.1-win64-mingw.zip",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ],
+            "checksum": "3E12CBC7A2D68B063DC242F9ACC73424E8E1D5EDE35245A693283152AF1F62DE"
+        },
+        "7.77.0": {
+            "url": "https://curl.se/windows/dl-7.77.0/curl-7.77.0-win64-mingw.zip",
+            "checksum": "66EE210A2C8FC87CB2686C1D2454D2A0336382F8E76BEB46981A31C765625DBE",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ]
+        },
+        "7.78.0": {
+            "url": "https://curl.se/windows/dl-7.78.0/curl-7.78.0-win64-mingw.zip",
+            "checksum": "ED88A2567C76095B12BECCE481DA6040B13A9EDB1CDC7E8AD520D58D6CB80EAA",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ]
+        },
+        "7.81.0": {
+            "url": "https://curl.se/windows/dl-7.81.0/curl-7.81.0-win64-mingw.zip",
+            "checksum": "066B575E457E0C14182A0F96D95647BF3A9C4B0FB6CAF456BAB99F27F97881E8",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ]
+        },
+        "7.82.0": {
+            "url": "https://curl.se/windows/dl-7.82.0/curl-7.82.0-win64-mingw.zip",
+            "checksum": "8BAB7714CB015AF505D4DCF9218847B84442CCF6816A63F552C70E9CF1079CC6",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ]
+        }
+    }
+}

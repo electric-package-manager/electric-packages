@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "expresso",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "expresso",
+        "latest-version": "3.1.6224",
+        "3.1.6224": {
+            "url": "http://www.ultrapico.com/ExpressoSetup-3.1.msi",
+            "file-type": ".msi",
+            "bin": [
+                "expresso.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Expresso",
+                    "file-name": "expresso.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.ultrapico.com/ExpressoSetup-$majorVersion.$minorVersion.msi",
+            "version-check": {
+                "webpage": "http://www.ultrapico.com/ExpressoDownload.htm",
+                "regex": "Version ([\\d.]+)"
+            }
+        }
+    }
+}

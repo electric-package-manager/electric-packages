@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "dotnet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dotnet",
+        "latest-version": "1.1.1",
+        "1.1.1": {
+            "url": "https://go.microsoft.com/fwlink/?linkid=843454#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "dotnet.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

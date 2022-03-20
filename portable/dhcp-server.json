@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "dhcp-server",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dhcp-server",
+        "latest-version": "2.5.2",
+        "2.5.2": {
+            "url": "http://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=625#/dl.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\dhcpsrv.ini\")) { New-Item \"$dir\\dhcpsrv.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DHCP Server for Windows",
+                    "file-name": "dhcpsrv.exe"
+                },
+                {
+                    "shortcut-name": "DHCP Configuration Wizard",
+                    "file-name": "dhcpwiz.exe"
+                }
+            ],
+            "persist": "dhcpsrv.ini"
+        },
+        "auto-update": {
+            "url": "http://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=$matchId#/dl.zip",
+            "version-check": {
+                "webpage": "http://www.dhcpserver.de/cms/download/",
+                "regex": "download.php\\?id=(?<id>\\d+)\" class=\"attachment-link\" title=\"DHCP Server V([\\d.]+)\""
+            }
+        }
+    }
+}

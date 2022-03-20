@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "irfanview",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "irfanview",
+        "latest-version": "4.57",
+        "4.57": {
+            "url": [
+                "https://www.irfanview.info/files/iview457_x64.zip",
+                "https://www.irfanview.info/files/iview457_plugins_x64.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (-not (Test-Path \"$persist_dir\\i_view64.ini\")) { New-Item \"$dir\\i_view64.ini\" | Out-Null }",
+                        "if (-not (Test-Path \"$persist_dir\\i_view32.ini\")) { New-Item \"$dir\\i_view32.ini\" | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "i_view64.ini",
+                "i_view32.ini",
+                "Languages"
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "display-name": "",
+    "package-name": "hydrus-network",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hydrus-network",
+        "latest-version": "434",
+        "434": {
+            "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v434/Hydrus.Network.434.-.Windows.-.Extract.only.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "client.exe",
+                    "hydrusclient"
+                ],
+                [
+                    "server.exe",
+                    "hydrusserver"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "hydrus client",
+                    "file-name": "client.exe"
+                },
+                {
+                    "shortcut-name": "hydrus server",
+                    "file-name": "server.exe"
+                }
+            ],
+            "persist": "db",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (Test-Path \"$dir\\db.original\\sqlite3.exe\") { Copy-Item \"$dir\\db.original\\sqlite3.exe\" \"$dir\\db\" -Force }"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/hydrusnetwork/hydrus/releases/download/v$version/Hydrus.Network.$version.-.Windows.-.Extract.only.zip",
+            "version-check": {
+                "webpage": "https://hydrusnetwork.github.io/hydrus/"
+            }
+        }
+    }
+}

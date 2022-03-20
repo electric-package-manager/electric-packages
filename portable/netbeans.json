@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "netbeans",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "netbeans",
+        "latest-version": "12.3",
+        "12.3": {
+            "url": "https://www.apache.org/dist/netbeans/netbeans/12.3/netbeans-12.3-bin.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.apache.org/dist/netbeans/netbeans/<version>/netbeans-<version>-bin.zip",
+            "version-check": {
+                "webpage": "https://netbeans.apache.org/download/index.html",
+                "regex": "\\(NB ([\\d.]+)\\)</h2>"
+            }
+        }
+    }
+}

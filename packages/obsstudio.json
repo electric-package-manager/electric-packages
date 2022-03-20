@@ -1,0 +1,18 @@
+{
+    "display-name": "OBS Studio",
+    "package-name": "obsstudio",
+    "latest-version": "26.1.1",
+    "26.1.1": {
+        "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-26.1.1-Full-Installer-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1D33C67D5D967D90F34D5AC70AB89B80D6E51A0569013FFBE01DA4467218A3A2"
+    }
+}

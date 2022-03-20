@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "pasteboard",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pasteboard",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/uzxmx/pasteboard/releases/download/v1.2.0/pasteboard-v1.2.0-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pbcopy.exe",
+                "pbpaste.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "mockoon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mockoon",
+        "latest-version": "1.12.0",
+        "1.12.0": {
+            "url": "https://github.com/mockoon/mockoon/releases/download/v1.12.0/mockoon.setup.1.12.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Mockoon.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mockoon",
+                    "file-name": "Mockoon.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mockoon/mockoon/releases/download/v$version/mockoon.setup.$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://mockoon.com"
+            }
+        }
+    }
+}

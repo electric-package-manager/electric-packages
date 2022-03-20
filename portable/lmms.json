@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "lmms",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lmms",
+        "latest-version": "1.2.2",
+        "1.2.2": {
+            "url": "https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-win64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LMMS",
+                    "file-name": "lmms.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/LMMS/lmms/releases/download/v$version/lmms-$version-win64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://lmms.io/"
+            }
+        }
+    }
+}

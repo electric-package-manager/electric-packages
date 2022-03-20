@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "purescript",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "purescript",
+        "latest-version": "0.14.0",
+        "0.14.0": {
+            "url": "https://github.com/purescript/purescript/releases/download/v0.14.0/win64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "purs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/purescript/purescript/releases/download/v$version/win64.tar.gz",
+            "version-check": {
+                "webpage": "http://purescript.org/"
+            }
+        }
+    }
+}

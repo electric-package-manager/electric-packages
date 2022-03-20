@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "dartium-content-shell",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dartium-content-shell",
+        "latest-version": "1.24.2",
+        "1.24.2": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/content_shell-windows-ia32-release.zip",
+            "file-type": ".zip",
+            "bin": [
+                "content_shell.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

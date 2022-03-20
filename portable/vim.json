@@ -1,0 +1,121 @@
+{
+    "display-name": "",
+    "package-name": "vim",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vim",
+        "latest-version": "8.2",
+        "8.2": {
+            "url": [
+                "https://ftp.nluug.nl/pub/vim/pc/gvim82.exe#/dl.7z",
+                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
+                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "vim.exe",
+                [
+                    "vim.exe",
+                    "vi"
+                ],
+                [
+                    "vim.exe",
+                    "ex",
+                    "-e"
+                ],
+                [
+                    "vim.exe",
+                    "view",
+                    "-R"
+                ],
+                [
+                    "vim.exe",
+                    "rvim",
+                    "-Z"
+                ],
+                [
+                    "vim.exe",
+                    "rview",
+                    "-RZ"
+                ],
+                [
+                    "vim.exe",
+                    "vimdiff",
+                    "-d"
+                ],
+                "gvim.exe",
+                [
+                    "gvim.exe",
+                    "gview",
+                    "-R"
+                ],
+                [
+                    "gvim.exe",
+                    "evim",
+                    "-y"
+                ],
+                [
+                    "gvim.exe",
+                    "eview",
+                    "-Ry"
+                ],
+                [
+                    "gvim.exe",
+                    "rgvim",
+                    "-Z"
+                ],
+                [
+                    "gvim.exe",
+                    "rgview",
+                    "-RZ"
+                ],
+                [
+                    "gvim.exe",
+                    "gvimdiff",
+                    "-d"
+                ],
+                "xxd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninstal.*\", \"$dir\\install.exe\", \"$dir\\vim[0-9]*\" -Recurse",
+                        "if (!(Test-Path \"$persist_dir\\_vimrc\")) {",
+                        "    Copy-Item \"$dir\\vimrc_example.vim\" \"$dir\\_vimrc\"",
+                        "    Copy-Item \"$dir\\gvimrc_example.vim\" \"$dir\\_gvimrc\"",
+                        "    Add-Content \"$dir\\_vimrc\" \"set shell=$((Get-Command powershell).Path)\\ -ExecutionPolicy\\ Bypass\" -Encoding Ascii",
+                        "}",
+                        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+                        "    $vimpath = \"$(current_dir $dir)\\gVim.exe\".Replace('\\', '\\\\')",
+                        "    $content = (Get-Content \"$dir\\$_\").Replace('$vim', $vimpath)",
+                        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+                        "    Set-Content \"$dir\\$_\" $content",
+                        "}",
+                        "if (!(Test-Path \"$persist_dir\\vimrc\")) { New-Item \"$dir\\vimrc\" -ItemType File | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "gVim",
+                    "file-name": "gvim.exe"
+                }
+            ],
+            "persist": [
+                "_vimrc",
+                "_gvimrc",
+                "vimfiles",
+                "vimrc"
+            ]
+        },
+        "auto-update": {
+            "url": "https://ftp.nluug.nl/pub/vim/pc/gvim$matchVer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://ftp.nluug.nl/pub/vim/pc",
+                "regex": "gvim(?<ver>[\\d-]+)\\.exe\\s+V([\\d.]+)"
+            }
+        }
+    }
+}

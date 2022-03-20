@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "storageexplorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "storageexplorer",
+        "latest-version": "1.18.1",
+        "1.18.1": {
+            "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.18.1/Windows_StorageExplorer.exe",
+            "file-type": ".exe",
+            "bin": [
+                "StorageExplorer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Azure Storage Explorer",
+                    "file-name": "StorageExplorer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v<version>/Windows_StorageExplorer.exe",
+            "version-check": {
+                "webpage": "https://azure.microsoft.com/en-us/features/storage-explorer/"
+            }
+        }
+    }
+}

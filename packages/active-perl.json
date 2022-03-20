@@ -1,0 +1,66 @@
+{
+    "display-name": "ActivePerl",
+    "package-name": "active-perl",
+    "latest-version": "5.32",
+    "auto-update": {
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
+        "version-check": {
+            "webpage": "https://www.activestate.com/products/perl/downloads/",
+            "regex": "\\d\\.\\d{2}"
+        }
+    },
+    "5.26": {
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.26.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "PERL_PATH=Yes",
+            "PERL_EXT=Yes"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "5.28": {
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "PERL_PATH=Yes",
+            "PERL_EXT=Yes"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "5.32": {
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.32.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "PERL_PATH=Yes",
+            "PERL_EXT=Yes"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

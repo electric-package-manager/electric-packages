@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "grafana",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grafana",
+        "latest-version": "7.5.4",
+        "7.5.4": {
+            "url": "https://dl.grafana.com/oss/release/grafana-7.5.4.windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\grafana-server.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "conf",
+                "data"
+            ]
+        },
+        "auto-update": {
+            "url": "https://dl.grafana.com/oss/release/grafana-$version.windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://grafana.com/grafana/download?platform=windows",
+                "regex": "grafana-([\\d.]+)\\.windows"
+            }
+        }
+    }
+}

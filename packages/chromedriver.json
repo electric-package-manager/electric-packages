@@ -1,0 +1,52 @@
+{
+    "display-name": "Chromedriver",
+    "package-name": "chromedriver",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Chromedriver",
+        "package-name": "chromedriver",
+        "latest-version": "100.0.4896.20",
+        "auto-update": {
+            "url": "https://chromedriver.storage.googleapis.com/<version>/chromedriver_win32.zip",
+            "version-check": {
+                "webpage": "https://chromedriver.chromium.org/",
+                "regex": "ChromeDriver ([\\d.]+)"
+            }
+        },
+        "90.0.4430.24": {
+            "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip",
+            "file-type": ".zip",
+            "checksum": "30EB17C099FD7F5CBF605FA08C520B992347836E028321D47D6E404A65414336"
+        },
+        "91.0.4472.19": {
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.19/chromedriver_win32.zip",
+            "checksum": "EED2EE9A1F6C8034C893F1F1A66C87BA0D11C951A411A6037221B54EA4F8D354",
+            "file-type": ".zip"
+        },
+        "91.0.4472.101": {
+            "url": "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip",
+            "checksum": "A7AC84E101CBB9BD27DABBB94D414BA94A56B0358ED0CC9FDFFC2E8085C7F159",
+            "file-type": ".zip"
+        },
+        "93.0.4577.15": {
+            "url": "https://chromedriver.storage.googleapis.com/93.0.4577.15/chromedriver_win32.zip",
+            "checksum": "268826F71AA5DE02405822DE02105200CCD25CD9B4DC6A15E6F83D3222A7AF5D",
+            "file-type": ".zip"
+        },
+        "99.0.4844.35": {
+            "url": "https://chromedriver.storage.googleapis.com/99.0.4844.35/chromedriver_win32.zip",
+            "checksum": "3D651F3D4958D29CF6B841A60BFC6321979356DD970BC8061514AF98AD91188A",
+            "file-type": ".zip"
+        },
+        "99.0.4844.51": {
+            "url": "https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip",
+            "checksum": "9FFD77D8D0E5060BD48A40390CCF6B016D409DE673F2DE27A64940203501F19A",
+            "file-type": ".zip"
+        },
+        "100.0.4896.20": {
+            "url": "https://chromedriver.storage.googleapis.com/100.0.4896.20/chromedriver_win32.zip",
+            "checksum": "5044A914290F2E00BF60A90D4902ABFD31713B2C01080D3F5C8729DC4A0EB94D",
+            "file-type": ".zip"
+        }
+    }
+}

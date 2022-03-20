@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "psutils",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "psutils",
+        "latest-version": "0.2020.02.27",
+        "0.2020.02.27": {
+            "url": "https://github.com/lukesampson/psutils/archive/8af01127a949c64ea50b657989a4cd7744d4fffd.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gitignore.ps1",
+                "ln.ps1",
+                "runat.ps1",
+                "say.ps1",
+                "shasum.ps1",
+                "sudo.ps1",
+                "time.ps1",
+                [
+                    "time.ps1",
+                    "timecmd"
+                ],
+                "touch.ps1",
+                "vimtutor.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lukesampson/psutils/archive/$matchSha.zip",
+            "version-check": {
+                "webpage": "https://github.com/lukesampson/psutils/commits/master.atom",
+                "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
+            }
+        }
+    }
+}

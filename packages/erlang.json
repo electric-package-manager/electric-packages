@@ -1,0 +1,51 @@
+{
+    "display-name": "Erlang",
+    "package-name": "erlang",
+    "latest-version": "24.0",
+    "auto-update": {
+        "url": "https://www.erlang.org/download/otp_win64_<version>.exe",
+        "version-check": {
+            "webpage": "https://www.erlang.org/downloads",
+            "regex": "OTP ([\\d.]+)"
+        }
+    },
+    "22.3": {
+        "url": "https://www.erlang.org/download/otp_win64_22.3.exe",
+        "checksum": "f6444c1229d05e866ea15dc8e372bd45cec822d229f6b06f34b0011121e8ca40",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "23.3": {
+        "url": "https://www.erlang.org/download/otp_win64_23.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "1A05661A881E55BE69BFCC7FAEFB7CDA9F7552369A08695E18A1433E249F3C0F"
+    },
+    "24.0": {
+        "url": "https://www.erlang.org/download/otp_win64_24.0.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "F13311AE26D5260566740F8A7F124D0BA3589A1F52AADA84B236825641F53225"
+    }
+}

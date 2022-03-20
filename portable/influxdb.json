@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "influxdb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "influxdb",
+        "latest-version": "1.8.4",
+        "1.8.4": {
+            "url": "https://dl.influxdata.com/influxdb/releases/influxdb-1.8.4_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "influx.exe",
+                "influx_inspect.exe",
+                "influx_stress.exe",
+                "influx_tsm.exe",
+                "influxd.exe"
+            ],
+            "shortcuts": [],
+            "persist": "influxdb.conf"
+        },
+        "auto-update": {
+            "url": "https://dl.influxdata.com/influxdb/releases/influxdb-$version_windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://portal.influxdata.com/downloads",
+                "regex": ">InfluxDB v([\\d.]+)<"
+            }
+        }
+    }
+}

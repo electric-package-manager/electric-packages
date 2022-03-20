@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "praat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "praat",
+        "latest-version": "6.1.41",
+        "6.1.41": {
+            "url": "https://github.com/praat/praat/releases/download/v6.1.41/praat6141_win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Praat.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Praat",
+                    "file-name": "Praat.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/praat/praat/releases/download/v$version/$matchFilename_win64.zip",
+            "version-check": {
+                "webpage": "http://www.fon.hum.uva.nl/praat/",
+                "regex": "download/v([\\w.]+)/(?<filename>praat\\d+)"
+            }
+        }
+    }
+}

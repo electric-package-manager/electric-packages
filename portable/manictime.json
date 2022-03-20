@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "manictime",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "manictime",
+        "latest-version": "4.6.12.0",
+        "4.6.12.0": {
+            "url": "https://cdn.manictime.com/setup/v4_6_12_0/ManicTimeUsb.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ManicTime",
+                    "file-name": "ManicTimeClient.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://cdn.manictime.com/setup/v$underscoreVersion/ManicTimeUsb.zip",
+            "version-check": {
+                "webpage": "http://services.manictime.com/Versions/GetLatestVersionNumber"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "fileoptimizer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fileoptimizer",
+        "latest-version": "14.60.2600",
+        "14.60.2600": {
+            "url": "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/14.60.2600/FileOptimizerFull.7z.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'32', '64' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\FileOptimizer$_.ini\")) {",
+                        "        Set-Content \"$dir\\FileOptimizer$_.ini\" '[Options]', 'CheckForUpdates=0' -Encoding Ascii",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "FileOptimizer32.ini",
+                "FileOptimizer64.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/<version>/FileOptimizerFull.7z.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/",
+                "regex": "FileOptimizer/([\\d.]+)"
+            }
+        }
+    }
+}

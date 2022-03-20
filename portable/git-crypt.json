@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "git-crypt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-crypt",
+        "latest-version": "0.6.0-701fb8e",
+        "0.6.0-701fb8e": {
+            "url": "https://github.com/rasa/git-crypt/releases/download/0.6.0-701fb8e/git-crypt-x64.exe#/git-crypt.exe",
+            "file-type": ".exe",
+            "bin": [
+                "git-crypt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rasa/git-crypt/releases/download/$version/git-crypt-x64.exe#/git-crypt.exe",
+            "version-check": {
+                "webpage": "https://www.agwa.name/projects/git-crypt/",
+                "regex": "tag/([\\w.-]+)"
+            }
+        }
+    }
+}

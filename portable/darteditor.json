@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "darteditor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "darteditor",
+        "latest-version": "1.6.0",
+        "1.6.0": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/39553/editor/darteditor-windows-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DartEditor.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

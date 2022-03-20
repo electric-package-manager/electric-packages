@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ssd-z",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ssd-z",
+        "latest-version": "16.09.09",
+        "16.09.09": {
+            "url": "http://aezay.dk/aezay/ssdz/SSD-Z_16.09.09wip.rar",
+            "file-type": ".rar",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SSD-Z",
+                    "file-name": "SSD-Z.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

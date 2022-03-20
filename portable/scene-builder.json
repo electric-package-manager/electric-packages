@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "scene-builder",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scene-builder",
+        "latest-version": "16.0.0",
+        "16.0.0": {
+            "url": "https://download2.gluonhq.com/scenebuilder/16.0.0/install/windows/SceneBuilder-16.0.0.msi",
+            "file-type": ".msi",
+            "bin": [
+                "SceneBuilder.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Scene Builder",
+                    "file-name": "SceneBuilder.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download2.gluonhq.com/scenebuilder/$version/install/windows/SceneBuilder-$version.msi",
+            "version-check": {
+                "webpage": "https://gluonhq.com/products/scene-builder/"
+            }
+        }
+    }
+}

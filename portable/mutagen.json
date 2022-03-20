@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "mutagen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mutagen",
+        "latest-version": "0.11.8",
+        "0.11.8": {
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.11.8/mutagen_windows_amd64_v0.11.8.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mutagen.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip",
+            "version-check": {
+                "webpage": "https://mutagen.io/"
+            }
+        }
+    }
+}

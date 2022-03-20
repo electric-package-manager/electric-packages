@@ -1,0 +1,18 @@
+{
+    "display-name": "Nmap*",
+    "package-name": "nmap",
+    "latest-version": "7.80",
+    "7.80": {
+        "url": "https://nmap.org/dist/nmap-7.80-setup.exe",
+        "file-type": ".exe",
+        "checksum": "3B4D726BD366E7439367FA78A186DFA9B641D3B2AD354FD915581B6567480F94",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

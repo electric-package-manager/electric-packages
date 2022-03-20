@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Edge",
+    "package-name": "microsoft-edge",
+    "latest-version": "88.0.705.81",
+    "88.0.705.81": {
+        "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4ee0c0fd-bd10-4d6c-b6ef-cb987b248b29/MicrosoftEdgeEnterpriseX64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "3CA9850153E81DE6B6C52F1B5AE3763F1C37FF87D41A35E68C261D53F5AF017C"
+    }
+}

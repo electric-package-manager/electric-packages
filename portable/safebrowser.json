@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "safebrowser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "safebrowser",
+        "latest-version": "0.15.4",
+        "0.15.4": {
+            "url": "https://github.com/maidsafe/safe_browser/releases/download/v0.15.4/safe-browser-v0.15.4-win-x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "SAFE Browser.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SAFE Browser",
+                    "file-name": "SAFE Browser.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

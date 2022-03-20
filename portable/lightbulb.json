@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "lightbulb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lightbulb",
+        "latest-version": "2.3",
+        "2.3": {
+            "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.3/LightBulb.zip",
+            "file-type": ".zip",
+            "bin": [
+                "LightBulb.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\Settings.json\")) {",
+                        "    if (Test-Path \"$persist_dir\\Configuration.dat\") { warn 'Configuration from version 1 is not compatile with version 2!' }",
+                        "    Set-Content \"$dir\\Settings.json\" -Value '{ \"IsAutoUpdateEnabled\": false }' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LightBulb",
+                    "file-name": "LightBulb.exe"
+                }
+            ],
+            "persist": "Settings.json"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

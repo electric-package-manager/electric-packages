@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "openmpt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openmpt",
+        "latest-version": "1.29.09.00",
+        "1.29.09.00": {
+            "url": "https://download.openmpt.org/archive/openmpt/1.29/OpenMPT-1.29.09.00-Setup-x64.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenMPT",
+                    "file-name": "OpenMPT.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.openmpt.org/archive/openmpt/$majorVersion.$minorVersion/OpenMPT-$version-Setup-x64.exe",
+            "version-check": {
+                "webpage": "https://update.openmpt.org/check/1.29.00.00-win64-unknown/anonymous",
+                "regex": "^update\\s+([\\d.]+)"
+            }
+        }
+    }
+}

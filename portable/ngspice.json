@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "ngspice",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ngspice",
+        "latest-version": "34",
+        "34": {
+            "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/34/ngspice-34_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ngspice_con.exe",
+                [
+                    "bin\\ngspice_con.exe",
+                    "ngspice"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ngspice",
+                    "file-name": "bin\\ngspice.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/$version/ngspice-$version_64.zip",
+            "version-check": {
+                "webpage": "http://ngspice.sourceforge.net/download.html",
+                "regex": "ngspice-(\\d+)</strong></a>"
+            }
+        }
+    }
+}

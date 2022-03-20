@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "pngyu",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pngyu",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://nukesaq88.github.io/Pngyu/download/Pngyu_win_101.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pngyu",
+                    "file-name": "Pngyu.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

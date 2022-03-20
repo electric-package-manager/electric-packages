@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "redis",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "redis",
+        "latest-version": "3.2.100",
+        "3.2.100": {
+            "url": "https://github.com/MicrosoftArchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip",
+            "file-type": ".zip",
+            "bin": [
+                "redis-benchmark.exe",
+                "redis-check-aof.exe",
+                "redis-cli.exe",
+                "redis-server.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

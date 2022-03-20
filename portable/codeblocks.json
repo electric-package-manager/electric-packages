@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "codeblocks",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "codeblocks",
+        "latest-version": "20.03",
+        "20.03": {
+            "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/20.03/Windows/codeblocks-20.03-nosetup.zip",
+            "file-type": ".zip",
+            "bin": [
+                "codeblocks.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CodeBlocks",
+                    "file-name": "codeblocks.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/codeblocks/Binaries/<version>/Windows/codeblocks-<version>-nosetup.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/codeblocks/files/Binaries/",
+                "regex": "Binaries/([\\d.]+)"
+            }
+        }
+    }
+}

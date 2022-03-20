@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "rapidcrc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rapidcrc",
+        "latest-version": "0.3.36",
+        "0.3.36": {
+            "url": "http://dl.ov2.eu/programs/rapidcrc-unicode/rapidcrc_0.3.36_x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RapidCRC",
+                    "file-name": "RapidCRC.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

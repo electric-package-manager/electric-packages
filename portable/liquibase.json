@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "liquibase",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "liquibase",
+        "latest-version": "4.3.3",
+        "4.3.3": {
+            "url": "https://github.com/liquibase/liquibase/releases/download/v4.3.3/liquibase-4.3.3.zip",
+            "file-type": ".zip",
+            "bin": [
+                "liquibase.bat"
+            ],
+            "shortcuts": [],
+            "persist": "lib-other"
+        },
+        "auto-update": {
+            "url": "https://github.com/liquibase/liquibase/releases/download/v<version>/liquibase-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.liquibase.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "jitsi-meet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jitsi-meet",
+        "latest-version": "2.8.5",
+        "2.8.5": {
+            "url": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2.8.5/jitsi-meet.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Jitsi Meet.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Jitsi Meet",
+                    "file-name": "Jitsi Meet.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*.exe\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/jitsi/jitsi-meet-electron/releases/download/v<version>/jitsi-meet.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://jitsi.org/meet"
+            }
+        }
+    }
+}

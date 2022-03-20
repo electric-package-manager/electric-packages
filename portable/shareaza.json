@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "shareaza",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shareaza",
+        "latest-version": "2.7.10.2",
+        "2.7.10.2": {
+            "url": "https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-2.7.10.2/Shareaza_2.7.10.2_x64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Shareaza.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Shareaza",
+                    "file-name": "Shareaza.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/shareaza/Shareaza/Shareaza-$version/Shareaza_$version_x64.exe",
+            "version-check": {
+                "webpage": "http://shareaza.sourceforge.net/mediawiki/index.php/ChangeLog",
+                "regex": ">Shareaza\\s+([\\d.]+)<"
+            }
+        }
+    }
+}

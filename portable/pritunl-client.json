@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "pritunl-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pritunl-client",
+        "latest-version": "1.2.2768.85",
+        "1.2.2768.85": {
+            "url": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.2.2768.85/Pritunl.exe#/dl.exe",
+            "file-type": ".exe",
+            "bin": [
+                [
+                    "pritunl.exe",
+                    "pritunl",
+                    "--no-main"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pritunl",
+                    "file-name": "pritunl.exe"
+                }
+            ],
+            "persist": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (is_admin)) { error 'This package requires admin privileges to install'; break }"
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Invoke-ExternalCommand \"$dir\\post_install.exe\" -RunAs | Out-Null"
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

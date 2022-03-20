@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "chromedriver",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chromedriver",
+        "latest-version": "90.0.4430.24",
+        "90.0.4430.24": {
+            "url": "https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "chromedriver.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

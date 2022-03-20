@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "lockhunter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lockhunter",
+        "latest-version": "3.3.4",
+        "3.3.4": {
+            "url": "https://lockhunter.com/assets/exe/lockhuntersetup_3-3-4.exe",
+            "file-type": ".exe",
+            "bin": [
+                "lockhunter.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LockHunter",
+                    "file-name": "lockhunter.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\*,*.*\""
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

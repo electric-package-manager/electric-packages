@@ -1,0 +1,114 @@
+{
+    "display-name": "Mozilla Firefox",
+    "package-name": "firefox",
+    "latest-version": "98.0",
+    "auto-update": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/<version>/win64/en-US/Firefox%20Setup%20<version>.msi",
+        "version-check": {
+            "webpage": "https://www.mozilla.org/en-US/firefox/releases/",
+            "regex": "([\\d.]+)</a>"
+        }
+    },
+    "88.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/88.0/win64/en-US/Firefox%20Setup%2088.0.msi",
+        "file-type": ".msi",
+        "checksum": "EC8209C15D75914D4F103DCDDF4459D2EC95477F58644DFBB51475AD04FB6A7E",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": []
+    },
+    "89.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0/win64/en-US/Firefox%20Setup%2089.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": [],
+        "checksum": "B58DC0C5DDC5E0101666A1AA82769437AFDFC9035AF194A69CCC56DA75463802"
+    },
+    "90.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/90.0/win64/en-US/Firefox%20Setup%2090.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": [],
+        "checksum": "7955E71C0DEF2D3A59C6702C30E29BDE163086932CFCCD21A75EF18D4C599E86"
+    },
+    "91.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/91.0/win64/en-US/Firefox%20Setup%2091.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": [],
+        "checksum": "D853F1C432046E4C4B8476C3C3F7FA759052E9B1B09C87BB41735884289E574B"
+    },
+    "97.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0/win64/en-US/Firefox%20Setup%2097.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": [],
+        "checksum": "F9E20A8E0F3396B5FE7B0074456366305F7B76182AA005D2AB528AE48CAF2970"
+    },
+    "98.0": {
+        "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/98.0/win64/en-US/Firefox%20Setup%2098.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR",
+        "dependencies": [],
+        "checksum": "61962B0E80EEBF389A44E8DD5BF460D5DDF6BD02E37E4CA2DF3ABA522A3F722B"
+    }
+}

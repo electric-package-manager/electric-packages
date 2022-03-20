@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "session",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "session",
+        "latest-version": "1.5.3",
+        "1.5.3": {
+            "url": "https://github.com/oxen-io/session-desktop/releases/download/v1.5.3/session-desktop-win-1.5.3.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Session.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Session",
+                    "file-name": "Session.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/oxen-io/session-desktop/releases/download/v$version/session-desktop-win-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://getsession.org"
+            }
+        }
+    }
+}

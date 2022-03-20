@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "console2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "console2",
+        "latest-version": "2.0.0.148",
+        "2.0.0.148": {
+            "url": "https://downloads.sourceforge.net/project/console/console-devel/2.00/Console-2.00b148-Beta_64bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Console.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

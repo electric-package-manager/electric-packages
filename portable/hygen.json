@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "hygen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hygen",
+        "latest-version": "6.0.4",
+        "6.0.4": {
+            "url": "https://github.com/jondot/hygen/releases/download/v6.0.4/hygen.win.exe.v6.0.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hygen.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jondot/hygen/releases/download/v<version>/hygen.win.exe.v<version>.zip",
+            "version-check": {
+                "webpage": "https://www.hygen.io/"
+            }
+        }
+    }
+}

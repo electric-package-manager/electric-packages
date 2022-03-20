@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "pngquant",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pngquant",
+        "latest-version": "2.12.0",
+        "2.12.0": {
+            "url": "https://pngquant.org/pngquant-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pngquant.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "quicklook",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "quicklook",
+        "latest-version": "3.6.11",
+        "3.6.11": {
+            "url": "https://github.com/QL-Win/QuickLook/releases/download/3.6.11/QuickLook-3.6.11.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QuickLook",
+                    "file-name": "QuickLook.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/QL-Win/QuickLook/releases/download/<version>/QuickLook-<version>.zip",
+            "version-check": {
+                "webpage": "https://pooi.moe/QuickLook/"
+            }
+        }
+    }
+}

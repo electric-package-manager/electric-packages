@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "edex-ui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "edex-ui",
+        "latest-version": "2.2.7",
+        "2.2.7": {
+            "url": "https://github.com/GitSquared/edex-ui/releases/download/v2.2.7/eDEX-UI-Windows.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "eDEX-UI.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "eDEX-UI",
+                    "file-name": "eDEX-UI.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

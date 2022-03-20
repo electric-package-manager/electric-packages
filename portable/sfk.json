@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "sfk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sfk",
+        "latest-version": "1.9.8.0",
+        "1.9.8.0": {
+            "url": "https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/1.9.8.0/sfk198.exe#/sfk.exe",
+            "file-type": ".exe",
+            "bin": [
+                "sfk.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/<version>/sfk$majorVersion$minorVersion$patchVersion.exe#/sfk.exe",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/swissfileknife/files/1-swissfileknife/",
+                "regex": "swissfileknife/([\\d.]+)/"
+            }
+        }
+    }
+}

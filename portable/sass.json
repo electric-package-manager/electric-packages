@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "sass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sass",
+        "latest-version": "1.32.8",
+        "1.32.8": {
+            "url": "https://github.com/sass/dart-sass/releases/download/1.32.8/dart-sass-1.32.8-windows-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sass.bat",
+                [
+                    "sass.bat",
+                    "dart-sass"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-x64.zip",
+            "version-check": {
+                "webpage": "https://sass-lang.com/dart-sass"
+            }
+        }
+    }
+}

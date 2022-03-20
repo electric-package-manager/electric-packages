@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "colortool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "colortool",
+        "latest-version": "1904.29002",
+        "1904.29002": {
+            "url": "https://github.com/Microsoft/console/releases/download/1904.29002/colortool.zip",
+            "file-type": ".zip",
+            "bin": [
+                "colortool.exe"
+            ],
+            "shortcuts": [],
+            "persist": "schemes"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

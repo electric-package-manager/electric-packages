@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "youtube-dl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "youtube-dl",
+        "latest-version": "2021.04.07",
+        "2021.04.07": {
+            "url": "https://yt-dl.org/downloads/2021.04.07/youtube-dl.exe",
+            "file-type": ".exe",
+            "bin": [
+                "youtube-dl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

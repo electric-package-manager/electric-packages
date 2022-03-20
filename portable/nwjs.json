@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "nwjs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nwjs",
+        "latest-version": "0.52.2",
+        "0.52.2": {
+            "url": "https://dl.nwjs.io/v0.52.2/nwjs-v0.52.2-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nwjs\\nw.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.nwjs.io/v$version/nwjs-v$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://nwjs.io/versions.json",
+                "regex": "v([\\d.]+)"
+            }
+        }
+    }
+}

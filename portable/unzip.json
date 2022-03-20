@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "unzip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "unzip",
+        "latest-version": "6.00",
+        "6.00": {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/unzip/unz600xn.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "SFXWiz32.exe",
+                "unzipsfx.exe",
+                "unzip.exe",
+                "funzip.exe",
+                [
+                    "unzip.exe",
+                    "zipinfo",
+                    "-Z"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

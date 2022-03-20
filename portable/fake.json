@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "fake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fake",
+        "latest-version": "5.20.4",
+        "5.20.4": {
+            "url": "https://github.com/fsharp/FAKE/releases/download/5.20.4/fake-dotnetcore-win7-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fake.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/fsharp/FAKE/releases/download/$version/fake-dotnetcore-win7-x64.zip",
+            "version-check": {
+                "webpage": "https://fake.build"
+            }
+        }
+    }
+}

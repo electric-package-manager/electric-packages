@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "ssh-copy-id",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ssh-copy-id",
+        "latest-version": "2015-03-22",
+        "2015-03-22": {
+            "url": "https://raw.githubusercontent.com/deevus/ssh-copy-id-posh/a75f94aca42aa6c18f631957f3d1ef6b606d0d43/ssh-copy-id/ssh-copy-id.ps1",
+            "file-type": ".ps1",
+            "bin": [
+                "ssh-copy-id.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

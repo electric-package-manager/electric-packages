@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "vt-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vt-cli",
+        "latest-version": "0.9.2",
+        "0.9.2": {
+            "url": "https://github.com/VirusTotal/vt-cli/releases/download/0.9.2/Windows64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "vt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://sdk.lunarg.com/sdk/download/<version>/windows/VulkanSDK-<version>-Installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://vulkan.lunarg.com/sdk/home.dhtml",
+                "regex": "/VulkanSDK-([\\d.]+)-Installer\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "nunit-console",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nunit-console",
+        "latest-version": "3.12.0",
+        "3.12.0": {
+            "url": "https://packages.chocolatey.org/nunit-console-runner.3.12.0.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "nunit3-console.exe"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "New-Item -Path \"$dir\\nunit.scoop.addins\" -ItemType File -Value '../../nunit-extension-*/current/     # find extensions installed under scoop' | Out-Null"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/nunit-console-runner.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/nunit-console-runner",
+                "regex": "\\s+([\\d.]+)</title>"
+            }
+        }
+    }
+}

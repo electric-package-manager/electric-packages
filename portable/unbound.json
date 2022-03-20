@@ -1,0 +1,62 @@
+{
+    "display-name": "",
+    "package-name": "unbound",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "unbound",
+        "latest-version": "1.13.1",
+        "1.13.1": {
+            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_1.13.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "unbound.exe",
+                    "unbound",
+                    "-c \"$dir\\service.conf\""
+                ],
+                [
+                    "unbound-anchor.exe",
+                    "unbound-anchor",
+                    "-a \"$dir\\root.key\""
+                ],
+                [
+                    "unbound-checkconf.exe",
+                    "unbound-checkconf",
+                    "\"$dir\\service.conf\""
+                ],
+                [
+                    "unbound-control.exe",
+                    "unbound-control",
+                    "-c \"$dir\\service.conf\""
+                ],
+                "unbound-control-setup.cmd",
+                "unbound-host.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$content = Get-Content \"$dir\\unbound-control-setup.cmd\"",
+                        "$content = $content -replace 'C:\\\\Program Files( \\(x86\\))?', (Convert-Path \"$dir\\..\")",
+                        "$content = $content -replace '%prefix%\\\\Unbound', '%prefix%\\current'",
+                        "Set-Content \"$dir\\unbound-control-setup.cmd\" $content -Encoding Ascii",
+                        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "service.conf",
+                "root.key"
+            ]
+        },
+        "auto-update": {
+            "url": "https://nlnetlabs.nl/downloads/unbound/unbound_setup_$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://nlnetlabs.nl/projects/unbound/download/",
+                "regex": "Unbound ([\\d.]+) \\(Current version\\)"
+            }
+        }
+    }
+}

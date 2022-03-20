@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "hxd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hxd",
+        "latest-version": "2.5.0.0",
+        "2.5.0.0": {
+            "url": "https://mh-nexus.de/downloads/HxDPortableSetup.zip",
+            "file-type": ".zip",
+            "bin": [
+                "HxD.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "HxD",
+                    "file-name": "HxD.exe"
+                }
+            ],
+            "persist": "Settings"
+        },
+        "auto-update": {
+            "url": "https://mh-nexus.de/downloads/HxDPortableSetup.zip",
+            "version-check": {
+                "webpage": "https://mh-nexus.de/en/hxd/changelog.php",
+                "regex": "v_([\\d.]+)"
+            }
+        }
+    }
+}

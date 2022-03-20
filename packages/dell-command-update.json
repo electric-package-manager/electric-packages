@@ -1,0 +1,25 @@
+{
+    "display-name": "Dell Command | Update",
+    "package-name": "dell-command-update",
+    "latest-version": "4.1.0",
+    "auto-update": {
+        "url": "https://dl.dell.com/<1>/<2>/Dell-Command-Update-Application_P5R35_WIN_<3>_A00.EXE",
+        "version-check": {
+            "webpage": "https://raw.githubusercontent.com/flcdrg/au-packages/master/dellcommandupdate/tools/chocolateyinstall.ps1",
+            "regex": "\\$url = 'https://dl.dell.com/(.{15})/(\\d+)/Dell-Command-Update-Application_P5R35_WIN_([\\d.]+)_A00.EXE",
+            "replace": "<3>"
+        }
+    },
+    "4.1.0": {
+        "url": "https://dl.dell.com/FOLDER06986400M/1/Dell-Command-Update-Application_P5R35_WIN_4.1.0_A00.EXE",
+        "file-type": ".exe",
+        "iswitches": [
+            "/s",
+            "/f"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "351DEC8E58272639D9A78E58F3A8A72AB189B635A946869848EE62986F85436A"
+    }
+}

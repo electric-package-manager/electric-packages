@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "logstash",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "logstash",
+        "latest-version": "6.8.15",
+        "6.8.15": {
+            "url": "https://artifacts.elastic.co/downloads/logstash/logstash-6.8.15.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "bin\\logstash.bat",
+                    "logstash"
+                ],
+                [
+                    "bin\\logstash-plugin.bat",
+                    "logstash-plugin"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": [
+                "config",
+                "data"
+            ]
+        },
+        "auto-update": {
+            "url": "https://artifacts.elastic.co/downloads/logstash/logstash-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.elastic.co/downloads/logstash",
+                "regex": "logstash-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

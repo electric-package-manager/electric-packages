@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "hyper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hyper",
+        "latest-version": "3.0.2",
+        "3.0.2": {
+            "url": "https://github.com/zeit/hyper/releases/download/3.0.2/hyper-3.0.2-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "resources\\bin\\hyper.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Hyper",
+                    "file-name": "hyper.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/zeit/hyper/releases/download/$version/hyper-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://hyper.is"
+            }
+        }
+    }
+}

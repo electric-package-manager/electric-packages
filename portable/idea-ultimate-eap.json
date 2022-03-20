@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "idea-ultimate-eap",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "idea-ultimate-eap",
+        "latest-version": "211.6693.14",
+        "211.6693.14": {
+            "url": "https://download.jetbrains.com/idea/ideaIU-211.6693.14.win.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.jetbrains.com/idea/ideaIU-<version>.win.zip",
+            "version-check": {
+                "webpage": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=eap"
+            }
+        }
+    }
+}

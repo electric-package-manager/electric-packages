@@ -1,0 +1,20 @@
+{
+    "display-name": "Silverlight",
+    "package-name": "silverlight",
+    "latest-version": "5.1.50918.0",
+    "5.1.50918.0": {
+        "url": "https://download.microsoft.com/download/D/D/F/DDF23DF4-0186-495D-AA35-C93569204409/50918.00/Silverlight_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/q",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/norestart"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "8EB0FC1163330294D62F8CBDB1088FC3AF7AB552C544F2EC1D29F3F48E199C8F"
+    }
+}

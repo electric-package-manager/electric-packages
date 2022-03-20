@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "terraform",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "terraform",
+        "latest-version": "0.14.10",
+        "0.14.10": {
+            "url": "https://releases.hashicorp.com/terraform/0.14.10/terraform_0.14.10_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "terraform.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://releases.hashicorp.com/terraform/",
+                "regex": "terraform_([\\d.]+)</a>"
+            }
+        }
+    }
+}

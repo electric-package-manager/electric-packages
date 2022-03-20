@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "kubeadm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kubeadm",
+        "latest-version": "1.21.0",
+        "1.21.0": {
+            "url": "https://dl.k8s.io/v1.21.0/bin/windows/amd64/kubeadm.exe",
+            "file-type": ".exe",
+            "bin": [
+                "kubeadm.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.k8s.io/v$version/bin/windows/amd64/kubeadm.exe",
+            "version-check": {
+                "webpage": "https://storage.googleapis.com/kubernetes-release/release/stable.txt",
+                "regex": "v([\\d.]+)"
+            }
+        }
+    }
+}

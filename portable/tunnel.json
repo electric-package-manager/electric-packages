@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "tunnel",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tunnel",
+        "latest-version": "0.5.15",
+        "0.5.15": {
+            "url": "https://github.com/labstack/tunnel-client/releases/download/v0.5.15/tunnel_0.5.15_windows_64-bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tunnel.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

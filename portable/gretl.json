@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "gretl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gretl",
+        "latest-version": "2020e",
+        "2020e": {
+            "url": "https://downloads.sourceforge.net/project/gretl/gretl/2020e/gretl-2020e-64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "gretlcli.exe",
+                "gretlmpi.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "gretl",
+                    "file-name": "gretl.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/gretl/gretl/$version/gretl-$version-64.exe",
+            "version-check": {
+                "webpage": "http://gretl.sourceforge.net/ChangeLog.html",
+                "regex": "Version (\\w+)"
+            }
+        }
+    }
+}

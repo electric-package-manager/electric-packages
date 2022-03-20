@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "fontbase",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fontbase",
+        "latest-version": "2.14.0",
+        "2.14.0": {
+            "url": "https://releases.fontba.se/win/FontBase-2.14.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FontBase",
+                    "file-name": "FontBase.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://releases.fontba.se/win/FontBase-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://fontba.se/updates",
+                "regex": "([\\d.]+)</a"
+            }
+        }
+    }
+}

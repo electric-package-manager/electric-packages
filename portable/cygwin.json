@@ -1,0 +1,49 @@
+{
+    "display-name": "",
+    "package-name": "cygwin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cygwin",
+        "latest-version": "2.907",
+        "2.907": {
+            "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                [
+                    "root\\bin\\bash.exe",
+                    "cygwin",
+                    "--login -i"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "persist_data @{persist = @('packages', 'root')} $original_dir $persist_dir"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cygwin",
+                    "file-name": "root\\Cygwin.bat"
+                },
+                {
+                    "shortcut-name": "Cygwin Setup",
+                    "file-name": "cygwin-setup.exe"
+                },
+                {
+                    "shortcut-name": "Cygwin Terminal",
+                    "file-name": "root\\bin\\mintty.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://cygwin.com/setup-x86_64.exe#/cygwin-setup.exe",
+            "version-check": {
+                "webpage": "https://cygwin.com/git/?p=cygwin-apps/setup.git;a=tags",
+                "regex": ">release_([\\d.]+)<"
+            }
+        }
+    }
+}

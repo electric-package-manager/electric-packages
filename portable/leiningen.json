@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "leiningen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "leiningen",
+        "latest-version": "2.9.5",
+        "2.9.5": {
+            "url": "https://raw.githubusercontent.com/technomancy/leiningen/2.9.5/bin/lein.bat",
+            "file-type": ".bat",
+            "bin": [
+                "lein.bat"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "lein self-install"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://raw.githubusercontent.com/technomancy/leiningen/<version>/bin/lein.bat",
+            "version-check": {
+                "webpage": "https://leiningen.org/"
+            }
+        }
+    }
+}

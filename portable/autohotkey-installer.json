@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "autohotkey-installer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "autohotkey-installer",
+        "latest-version": "1.1.33.06",
+        "1.1.33.06": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.33.06/AutoHotkey_1.1.33.06_setup.exe#/autohotkey-installer.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": " Write-Host 'Installing AutoHotKey with their installer and its own options ( create registry keys removed by uninstaller )' -ForegroundColor Magenta "
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v$version/AutoHotkey_$version_setup.exe#/autohotkey-installer.exe",
+            "version-check": {
+                "webpage": "https://www.autohotkey.com/"
+            }
+        }
+    }
+}

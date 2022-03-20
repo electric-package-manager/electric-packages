@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "cht",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cht",
+        "latest-version": "0.6",
+        "0.6": {
+            "url": "https://github.com/tpanj/cht.exe/archive/v0.6.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cht.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

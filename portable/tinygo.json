@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "tinygo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tinygo",
+        "latest-version": "0.17.0",
+        "0.17.0": {
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\tinygo.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/tinygo-org/tinygo/releases/download/v$version/tinygo$version.windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://tinygo.org"
+            }
+        }
+    }
+}

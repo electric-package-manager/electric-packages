@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "batcodecheck",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "batcodecheck",
+        "latest-version": "0.36",
+        "0.36": {
+            "url": "https://www.robvanderwoude.com/files/batcodecheck.zip",
+            "file-type": ".zip",
+            "bin": [
+                "BatCodeCheck.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.robvanderwoude.com/files/batcodecheck.zip",
+            "version-check": {
+                "webpage": "https://www.robvanderwoude.com/helptext.php?src=batcodecheck_cs_help",
+                "regex": "BatCodeCheck,\\s+Version\\s+([\\d.]+)"
+            }
+        }
+    }
+}

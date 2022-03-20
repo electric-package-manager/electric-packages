@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "wyam",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wyam",
+        "latest-version": "2.2.9",
+        "2.2.9": {
+            "url": "https://github.com/Wyamio/Wyam/releases/download/v2.2.9/Wyam-v2.2.9.zip",
+            "file-type": ".zip",
+            "bin": [
+                "wyam.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Wyamio/Wyam/releases/download/v<version>/Wyam-v<version>.zip",
+            "version-check": {
+                "webpage": "https://wyam.io"
+            }
+        }
+    }
+}

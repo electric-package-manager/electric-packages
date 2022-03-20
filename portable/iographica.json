@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "iographica",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "iographica",
+        "latest-version": "1.0.3",
+        "1.0.3": {
+            "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v1.0.3/IOGraph_v1_0_3.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "IOGraph",
+                    "file-name": "IOGraph.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v<version>/IOGraph_v$underscoreVersion.zip",
+            "version-check": {
+                "webpage": "https://iographica.com/update",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

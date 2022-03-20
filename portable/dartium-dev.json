@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dartium-dev",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dartium-dev",
+        "latest-version": "1.25.0-dev.6.0",
+        "1.25.0-dev.6.0": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/1.25.0-dev.6.0/dartium/dartium-windows-ia32-release.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "chrome.exe",
+                    "dartium"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "gcfscape",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gcfscape",
+        "latest-version": "1.8.6",
+        "1.8.6": {
+            "url": "https://valvedev.info/tools/gcfscape/gcfscape.zip",
+            "file-type": ".zip",
+            "bin": [
+                "GCFScape.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GCFScape",
+                    "file-name": "GCFScape.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

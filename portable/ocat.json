@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "ocat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ocat",
+        "latest-version": "1.6.0",
+        "1.6.0": {
+            "url": "https://github.com/GPUOpen-Tools/OCAT/releases/download/v1.6.0/OCAT_1.6.0.exe",
+            "file-type": ".exe",
+            "bin": [
+                "OCAT.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OCAT",
+                    "file-name": "OCAT.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/GPUOpen-Tools/OCAT/releases/download/v$matchRelease/OCAT_<version>.exe",
+            "version-check": {
+                "webpage": "https://github.com/GPUOpen-Tools/OCAT/releases/latest",
+                "regex": "/download/v(?<release>[\\d.]+)/OCAT_([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "lazarus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lazarus",
+        "latest-version": "2.0.12",
+        "2.0.12": {
+            "url": "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2064%20bits/Lazarus%202.0.12/lazarus-2.0.12-fpc-3.2.0-win64.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lazarus",
+                    "file-name": "lazarus.exe"
+                },
+                {
+                    "shortcut-name": "Lazarus (debug)",
+                    "file-name": "startlazarus.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$fpcdir = \"$dir\\fpc\\\" + ($fname -replace '.*fpc-([\\d.]+)-.*', '$1')",
+                        "& \"$fpcdir\\bin\\x86_64-win64\\fpcmkcfg.exe\" -d \"basepath=$fpcdir\" -o \"$fpcdir\\bin\\x86_64-win64\\fpc.cfg\""
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

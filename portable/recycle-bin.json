@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "recycle-bin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "recycle-bin",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/sindresorhus/recycle-bin/releases/download/v2.0.0/recycle-bin.exe",
+            "file-type": ".exe",
+            "bin": [
+                "recycle-bin.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

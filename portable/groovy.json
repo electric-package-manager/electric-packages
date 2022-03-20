@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "grex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grex",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/pemistahl/grex/releases/download/v1.2.0/grex-v1.2.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "grex.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.bintray.com/groovy/maven/apache-groovy-binary-<version>.zip",
+            "version-check": {
+                "webpage": "https://groovy.apache.org/download.html",
+                "regex": "apache-groovy-binary-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

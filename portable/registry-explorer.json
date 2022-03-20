@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "registry-explorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "registry-explorer",
+        "latest-version": "1.6.0.0",
+        "1.6.0.0": {
+            "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/RegistryExplorer_RECmd.zip",
+            "file-type": ".zip",
+            "bin": [
+                "RECmd.exe",
+                "RegistryExplorer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Registry Explorer",
+                    "file-name": "RegistryExplorer.exe"
+                }
+            ],
+            "persist": "Settings"
+        },
+        "auto-update": {
+            "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/RegistryExplorer_RECmd.zip",
+            "version-check": {
+                "webpage": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+                "regex": "Registry Explorer/RECmd \\| \\[([\\d.]+)\\]"
+            }
+        }
+    }
+}

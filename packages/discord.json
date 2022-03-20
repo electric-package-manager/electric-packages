@@ -1,0 +1,54 @@
+{
+    "display-name": "Discord",
+    "package-name": "discord",
+    "latest-version": "0.0.311",
+    "auto-update": {
+        "url": "https://dl.discordapp.net/apps/win/<version>/DiscordSetup.exe",
+        "version-check": {
+            "webpage": "https://discordapp.com/api/updates/stable/RELEASES",
+            "regex": "Discord-([\\d.]+)"
+        }
+    },
+    "0.0.309": {
+        "url": "https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "FE6097BAB95CF9CE30F0819C64864986043795941C99F6DBA5763C67E4313B8E"
+    },
+    "0.0.310": {
+        "url": "https://dl.discordapp.net/apps/win/0.0.310/DiscordSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "42D9899F573F4401946BC8928BA39929287B4524E547AF86AC53B3B43767078C"
+    },
+    "0.0.311": {
+        "url": "https://dl.discordapp.net/apps/win/0.0.311/DiscordSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "571A6C12CDE8CA9A5B6C904CF3FA39F6913003B72BCAF8836CA87343094B2785"
+    }
+}

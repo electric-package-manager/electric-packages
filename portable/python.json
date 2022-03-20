@@ -1,0 +1,58 @@
+{
+    "display-name": "",
+    "package-name": "python",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "python",
+        "latest-version": "3.9.4",
+        "3.9.4": {
+            "url": [
+                "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe#/setup.exe",
+                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
+                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "python.exe",
+                "pythonw.exe",
+                [
+                    "python.exe",
+                    "python3"
+                ],
+                "Lib\\idlelib\\idle.bat",
+                [
+                    "Lib\\idlelib\\idle.bat",
+                    "idle3"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$py_root = \"$dir\".Replace('\\', '\\\\')",
+                        "'install-pep-514.reg', 'uninstall-pep-514.reg' | ForEach-Object {",
+                        "    $py_version = ($version -split '\\.')[0..1] -join '.'",
+                        "    $content = Get-Content \"$dir\\$_\"",
+                        "    $content = $content.Replace('$py_root', $py_root)",
+                        "    $content = $content.Replace('$py_version', $py_version)",
+                        "    if ($global) {",
+                        "       $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+                        "    }",
+                        "    Set-Content \"$dir\\$_\" $content -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.python.org/ftp/python/$version/python-$version-amd64.exe#/setup.exe",
+            "version-check": {
+                "webpage": "https://www.python.org/downloads/windows/",
+                "regex": "Latest Python 3 Release - Python ([\\d.]+)"
+            }
+        }
+    }
+}

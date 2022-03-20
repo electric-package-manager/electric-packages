@@ -1,0 +1,92 @@
+{
+    "display-name": "CPU-Z",
+    "package-name": "cpu-z",
+    "latest-version": "2.00",
+    "auto-update": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_<version>-en.exe",
+        "version-check": {
+            "webpage": "https://www.cpuid.com/softwares/cpu-z.html",
+            "regex": "<a class=\"button icon-exe\" href=\"/downloads/cpu-z/cpu-z_([\\d.]+)-en.exe\">"
+        }
+    },
+    "1.95": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_1.95-en.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "AAF8106DD83F758661DDF4F9FB7A7F45118016C61AB45673AA0F80C8A1097BED"
+    },
+    "1.96": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_1.96-en.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "2CB546E35198BC7B4E91439A47C33541A18C20FF87F723148BBA250A9F91BB05"
+    },
+    "1.99": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_1.99-en.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "AC3DD1B98C30B246D3D3ABE910217C8189927B6DF17292A1C3D9F6416C71D93E"
+    },
+    "2.00": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_2.00-en.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "B70EB1953F4AF79D365E0BAEBCDE6B6CC566CA8057448CF82448B9B99C8AB5A7"
+    }
+}

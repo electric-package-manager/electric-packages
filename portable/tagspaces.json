@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "tagspaces",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tagspaces",
+        "latest-version": "3.9.5",
+        "3.9.5": {
+            "url": "https://github.com/tagspaces/tagspaces/releases/download/v3.9.5/tagspaces-win-3.9.5.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "TagSpaces.exe",
+                    "tagspaces",
+                    "--portable"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "TagSpaces",
+                    "file-name": "TagSpaces.exe"
+                }
+            ],
+            "persist": "tsprofile"
+        },
+        "auto-update": {
+            "url": "https://github.com/tagspaces/tagspaces/releases/download/v$version/tagspaces-win-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.tagspaces.org"
+            }
+        }
+    }
+}

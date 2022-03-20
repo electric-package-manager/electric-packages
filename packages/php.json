@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
+    "display-name": "PHP",
+    "package-name": "php",
+    "is-portable": true,
+    "portable": {
+        "display-name": "PHP",
+        "package-name": "php",
+        "latest-version": "8.0.3",
+        "8.0.3": {
+            "url": "http://windows.php.net/downloads/releases/php-8.0.3-Win32-vs16-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "php",
+            "bin": [
+                "php.exe"
+            ],
+            "checksum": "04FE4347CBF143F9AE2EDE48E3B804B13B713751DA6A9D1EDD53C45A2DE103FD"
+        }
+    }
+}

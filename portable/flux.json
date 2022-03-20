@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "flux",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flux",
+        "latest-version": "4.119",
+        "4.119": {
+            "url": "http://justgetflux.com/flux-setup4-119.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "flux.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "f.lux",
+                    "file-name": "flux.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://justgetflux.com/flux-setup$dashVersion.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://justgetflux.com/update/v4/windows-download.json",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

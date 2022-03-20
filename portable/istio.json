@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "istio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "istio",
+        "latest-version": "1.9.2",
+        "1.9.2": {
+            "url": "https://github.com/istio/istio/releases/download/1.9.2/istio-1.9.2-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\istioctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/istio/istio/releases/download/$version/istio-$version-win.zip",
+            "version-check": {
+                "webpage": "https://istio.io"
+            }
+        }
+    }
+}

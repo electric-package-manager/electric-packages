@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "photodemon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "photodemon",
+        "latest-version": "8.4",
+        "8.4": {
+            "url": "https://github.com/tannerhelland/PhotoDemon/releases/download/v8.4/PhotoDemon-8.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PhotoDemon.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PhotoDemon",
+                    "file-name": "PhotoDemon.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://github.com/tannerhelland/PhotoDemon/releases/download/v<version>/PhotoDemon-<version>.zip",
+            "version-check": {
+                "webpage": "https://photodemon.org/download/",
+                "regex": "Version\\s+([\\d.]+)\\s+is the latest stable release"
+            }
+        }
+    }
+}

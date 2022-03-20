@@ -1,0 +1,60 @@
+{
+    "display-name": "foobar2000",
+    "package-name": "foobar2000",
+    "latest-version": "1.6.10",
+    "auto-update": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "version-check": {
+            "webpage": "https://www.foobar2000.org/download",
+            "regex": "foobar2000 v([\\d.]+)"
+        }
+    },
+    "1.6.5": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.6.6": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.6.7": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.6.10": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

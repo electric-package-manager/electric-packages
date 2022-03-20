@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "kubebox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kubebox",
+        "latest-version": "0.9.0",
+        "0.9.0": {
+            "url": "https://github.com/astefanutti/kubebox/releases/download/v0.9.0/kubebox-windows.exe#/kubebox.exe",
+            "file-type": ".exe",
+            "bin": [
+                "kubebox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Kubebox",
+                    "file-name": "kubebox.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

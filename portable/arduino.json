@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "arduino",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "arduino",
+        "latest-version": "1.8.13",
+        "1.8.13": {
+            "url": "https://downloads.arduino.cc/arduino-1.8.13-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "arduino.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Arduino",
+                    "file-name": "arduino.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.arduino.cc/arduino-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://www.arduino.cc/en/Main/Software",
+                "regex": "Arduino IDE ([\\d.]+)<"
+            }
+        }
+    }
+}

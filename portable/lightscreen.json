@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "lightscreen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lightscreen",
+        "latest-version": "2.4",
+        "2.4": {
+            "url": "https://github.com/ckaiser/Lightscreen/releases/download/v2.4/LightscreenSetup-2.4.exe",
+            "file-type": ".exe",
+            "bin": [
+                "lightscreen.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lightscreen",
+                    "file-name": "lightscreen.exe"
+                }
+            ],
+            "persist": "Screenshots"
+        },
+        "auto-update": {
+            "url": "https://github.com/ckaiser/Lightscreen/releases/download/v<version>/LightscreenSetup-<version>.exe",
+            "version-check": {
+                "webpage": "https://lightscreen.com.ar"
+            }
+        }
+    }
+}

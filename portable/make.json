@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "make",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "make",
+        "latest-version": "4.3",
+        "4.3": {
+            "url": "https://downloads.sourceforge.net/project/ezwinports/make-4.3-without-guile-w32-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\make.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/ezwinports/make-<version>-without-guile-w32-bin.zip",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/make",
+                "regex": "(?i:make).([\\d.]+)\\.nupkg"
+            }
+        }
+    }
+}

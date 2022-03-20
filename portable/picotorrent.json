@@ -1,0 +1,72 @@
+{
+    "display-name": "",
+    "package-name": "picotorrent",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "picotorrent",
+        "latest-version": "0.24.0",
+        "0.24.0": {
+            "url": [
+                "https://github.com/picotorrent/picotorrent/releases/download/v0.24.0/PicoTorrent-0.24.0-x64.zip",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/picotorrent/install-associations.reg",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/picotorrent/uninstall-associations.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "PicoTorrent.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PicoTorrent",
+                    "file-name": "PicoTorrent.exe"
+                }
+            ],
+            "persist": [
+                "Torrents",
+                "Session.dat",
+                "PicoTorrent.json",
+                "PicoTorrent.sqlite"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\Session.dat\")) { Set-Content \"$dir\\Session.dat\" $null -Encoding Ascii }",
+                        "if (!(Test-Path \"$persist_dir\\PicoTorrent.json\")) { Set-Content \"$dir\\PicoTorrent.json\" '{}' -Encoding Ascii }",
+                        "if (!(Test-Path \"$persist_dir\\PicoTorrent.sqlite\")) { New-Item \"$dir\\PicoTorrent.sqlite\" | Out-Null }"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (Test-Path \"$dir\\install-associations.reg\") {",
+                        "   $picopath = \"$dir\\PicoTorrent.exe\".Replace('\\', '\\\\')",
+                        "   $content = Get-Content \"$dir\\install-associations.reg\"",
+                        "   $content = $content.Replace('$pico', $picopath)",
+                        "   if ($global) {",
+                        "       $content = $content.Replace('HKEY_CURRENT_USER\\Software\\Classes', 'HKEY_CLASSES_ROOT')",
+                        "   }",
+                        "   Set-Content -Path \"$dir\\install-associations.reg\" -Value $content -Encoding Ascii",
+                        "}",
+                        "if (Test-Path \"$dir\\uninstall-associations.reg\") {",
+                        "   $content = Get-Content \"$dir\\uninstall-associations.reg\"",
+                        "   if ($global) {",
+                        "       $content = $content.Replace('HKEY_CURRENT_USER\\Software\\Classes', 'HKEY_CLASSES_ROOT')",
+                        "   }",
+                        "   Set-Content -Path \"$dir\\uninstall-associations.reg\" -Value $content -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x64.zip",
+            "version-check": {
+                "webpage": "https://picotorrent.org"
+            }
+        }
+    }
+}

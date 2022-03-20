@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "flat-assembler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flat-assembler",
+        "latest-version": "1.73.27",
+        "1.73.27": {
+            "url": "https://flatassembler.net/fasmw17327.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FASM.EXE",
+                "FASMW.EXE"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\FASMW.INI\")) { New-Item \"$dir\\FASMW.INI\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "flat assembler",
+                    "file-name": "FASMW.EXE"
+                }
+            ],
+            "persist": "FASMW.INI"
+        },
+        "auto-update": {
+            "url": "https://flatassembler.net/fasmw$cleanVersion.zip",
+            "version-check": {
+                "webpage": "https://flatassembler.net/download.php",
+                "regex": "flat assembler ([\\d.]+) for Windows"
+            }
+        }
+    }
+}

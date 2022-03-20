@@ -1,0 +1,47 @@
+{
+    "display-name": "",
+    "package-name": "mkvtoolnix",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mkvtoolnix",
+        "latest-version": "56.1.0",
+        "56.1.0": {
+            "url": "https://mkvtoolnix.download/windows/releases/56.1.0/mkvtoolnix-64-bit-56.1.0.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mkvextract.exe",
+                "mkvinfo.exe",
+                "mkvmerge.exe",
+                "mkvpropedit.exe",
+                "mkvtoolnix-gui.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (Test-Path \"$persist_dir\\mkvtoolnix-gui.ini\") {",
+                        "    # Persist mkvtoolnix-gui.ini manully because symlink doesn't work.",
+                        "    Copy-Item \"$persist_dir\\mkvtoolnix-gui.ini\" \"$dir\"",
+                        "} else {",
+                        "    Set-Content \"$dir\\mkvtoolnix-gui.ini\" @('[settings]', 'updates\\checkForUpdates=false') -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MKVToolNix GUI",
+                    "file-name": "mkvtoolnix-gui.exe"
+                }
+            ],
+            "persist": [
+                "cache",
+                "jobQueue"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

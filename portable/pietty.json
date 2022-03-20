@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "pietty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pietty",
+        "latest-version": "0.4.00b14",
+        "0.4.00b14": {
+            "url": "https://docs.google.com/uc?export=download&id=1ySJO2ywT6LoVRV2cb3n7qYcaUGJ7ES4J#/pietty.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pietty.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Move-Item \"$dir\\pietty*.exe\" \"$dir\\pietty.exe\""
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PieTTY",
+                    "file-name": "pietty.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

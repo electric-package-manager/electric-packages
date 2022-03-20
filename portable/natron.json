@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "natron",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "natron",
+        "latest-version": "2.3.15",
+        "2.3.15": {
+            "url": "https://github.com/NatronGitHub/Natron/releases/download/v2.3.15/Natron-2.3.15-Windows-64-no-installer.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\Natron.exe",
+                "bin\\NatronRenderer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Natron",
+                    "file-name": "bin\\Natron.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Copy-Item \"$dir\\bin\\mesa\\opengl32.dll\" \"$dir\\bin\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/NatronGitHub/Natron/releases/download/v$version/Natron-$version-Windows-64-no-installer.zip",
+            "version-check": {
+                "webpage": "https://natrongithub.github.io/"
+            }
+        }
+    }
+}

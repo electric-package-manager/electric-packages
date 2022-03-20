@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "fciv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fciv",
+        "latest-version": "2.05",
+        "2.05": {
+            "url": "https://download.microsoft.com/download/c/f/4/cf454ae0-a4bb-4123-8333-a1b6737712f7/Windows-KB841290-x86-ENU.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "fciv.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

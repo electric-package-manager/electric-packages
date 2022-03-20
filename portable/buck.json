@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "buck",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "buck",
+        "latest-version": "2021.01.12.01",
+        "2021.01.12.01": {
+            "url": "https://packages.chocolatey.org/buck.2021.01.12.01.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "buck.bat"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "(Get-Content \"$dir\\buck.bat\") -replace 'C:\\\\Python27', \"$(versiondir 'python27' 'current')\" | Set-Content \"$dir\\buck.bat\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/buck.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/buck",
+                "regex": "\\s+([\\d.]+)</title>"
+            }
+        }
+    }
+}

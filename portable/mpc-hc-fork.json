@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "mpc-hc-fork",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpc-hc-fork",
+        "latest-version": "1.9.10",
+        "1.9.10": {
+            "url": "https://github.com/clsid2/mpc-hc/releases/download/1.9.10/MPC-HC.1.9.10.x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@('mpc-hc64.ini', 'mpc-hc.ini') | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "mpc-hc64.ini",
+                "mpc-hc.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

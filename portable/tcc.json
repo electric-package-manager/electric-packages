@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "tcc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tcc",
+        "latest-version": "0.9.27",
+        "0.9.27": {
+            "url": "https://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27-win64-bin.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.savannah.gnu.org/releases/tinycc/tcc-$version-win64-bin.zip",
+            "version-check": {
+                "webpage": "https://download.savannah.gnu.org/releases/tinycc/?C=N&O=D",
+                "regex": "tcc-([\\d.]+)-win64-bin\\.zip"
+            }
+        }
+    }
+}

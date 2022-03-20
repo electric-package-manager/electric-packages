@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "git-interactive-rebase-tool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-interactive-rebase-tool",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/2.0.0/interactive-rebase-tool.exe",
+            "file-type": ".exe",
+            "bin": [
+                "interactive-rebase-tool.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/$version/interactive-rebase-tool.exe",
+            "version-check": {
+                "webpage": "https://gitrebasetool.mitmaro.ca"
+            }
+        }
+    }
+}

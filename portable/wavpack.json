@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "wavpack",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wavpack",
+        "latest-version": "5.4.0",
+        "5.4.0": {
+            "url": "https://github.com/dbry/WavPack/releases/download/5.4.0/wavpack-5.4.0-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "wavpack.exe",
+                "wvunpack.exe",
+                "wvgain.exe",
+                "wvtag.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/dbry/WavPack/releases/download/$version/wavpack-$version-x64.zip",
+            "version-check": {
+                "webpage": "http://www.wavpack.com"
+            }
+        }
+    }
+}

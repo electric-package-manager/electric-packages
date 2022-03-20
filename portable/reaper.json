@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "reaper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "reaper",
+        "latest-version": "6.27",
+        "6.27": {
+            "url": "https://www.reaper.fm/files/6.x/reaper627_x64-install.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "reaper.exe",
+                "reamote.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Reaper",
+                    "file-name": "reaper.exe"
+                },
+                {
+                    "shortcut-name": "ReaMote",
+                    "file-name": "reamote.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion_x64-install.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.reaper.fm/download.php",
+                "regex": "Version ([\\d.]+)"
+            }
+        }
+    }
+}

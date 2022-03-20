@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fd",
+        "latest-version": "8.2.1",
+        "8.2.1": {
+            "url": "https://github.com/sharkdp/fd/releases/download/v8.2.1/fd-v8.2.1-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

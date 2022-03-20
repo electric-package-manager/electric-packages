@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "teleport",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "teleport",
+        "latest-version": "6.1.1",
+        "6.1.1": {
+            "url": "https://get.gravitational.com/teleport-v6.1.1-windows-amd64-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tsh.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://get.gravitational.com/teleport-v$version-windows-amd64-bin.zip",
+            "version-check": {
+                "webpage": "https://gravitational.com/teleport"
+            }
+        }
+    }
+}

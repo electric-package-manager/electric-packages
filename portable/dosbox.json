@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "dosbox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dosbox",
+        "latest-version": "0.74-3",
+        "0.74-3": {
+            "url": "https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "DOSBox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DOSBox",
+                    "file-name": "DOSBox.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

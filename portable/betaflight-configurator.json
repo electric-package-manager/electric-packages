@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "betaflight-configurator",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "betaflight-configurator",
+        "latest-version": "10.7.0",
+        "10.7.0": {
+            "url": "https://github.com/betaflight/betaflight-configurator/releases/download/10.7.0/betaflight-configurator-installer_10.7.0_win32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "betaflight-configurator.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Betaflight Configurator",
+                    "file-name": "betaflight-configurator.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/betaflight/betaflight-configurator/releases/download/<version>/betaflight-configurator-installer_<version>_win32.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://betaflight.com"
+            }
+        }
+    }
+}

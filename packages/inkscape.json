@@ -1,0 +1,22 @@
+{
+    "display-name": "InkScape",
+    "package-name": "inkscape",
+    "latest-version": "1.0.2",
+    "1.0.2": {
+        "url": "https://inkscape.org/gallery/item/23846/inkscape-1.0.2_2021-01-15_e86c870879-x86.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "checksum": "20B4925A6019A07005356EE903D0CDDF7F39052B663F44B844D708D733D66308",
+        "dependencies": []
+    }
+}

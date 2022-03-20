@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "diffutils",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "diffutils",
+        "latest-version": "3.7",
+        "3.7": {
+            "url": [
+                "http://repo.msys2.org/msys/x86_64/diffutils-3.7-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/msys2-runtime-3.1.7-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libiconv-1.16-2-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/libintl-0.19.8.1-1-x86_64.pkg.tar.xz"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "usr\\bin\\cmp.exe",
+                "usr\\bin\\diff.exe",
+                "usr\\bin\\diff3.exe",
+                "usr\\bin\\sdiff.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

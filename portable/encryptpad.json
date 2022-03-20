@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "encryptpad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "encryptpad",
+        "latest-version": "0.5.0.0",
+        "0.5.0.0": {
+            "url": "https://github.com/evpo/EncryptPad/releases/download/v0.5.0.0/encryptpad0_5_0_0_win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "encryptcli.exe",
+                "encryptpad.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "EncryptPad",
+                    "file-name": "encryptpad.exe"
+                }
+            ],
+            "persist": "encryptpad_repository"
+        },
+        "auto-update": {
+            "url": "https://github.com/evpo/EncryptPad/releases/download/v<version>/encryptpad$underscoreVersion_win32.zip",
+            "version-check": {
+                "webpage": "https://evpo.net/encryptpad/"
+            }
+        }
+    }
+}

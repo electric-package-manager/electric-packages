@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "oni",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "oni",
+        "latest-version": "0.3.9",
+        "0.3.9": {
+            "url": "https://github.com/onivim/oni/releases/download/v0.3.9/Oni-0.3.9-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "oni.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "oni",
+                    "file-name": "oni.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/onivim/oni/releases/download/v$version/Oni-$version-win.zip",
+            "version-check": {
+                "webpage": "https://www.onivim.io/"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "album-art-downloader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "album-art-downloader",
+        "latest-version": "1.05",
+        "1.05": {
+            "url": "https://downloads.sourceforge.net/project/album-art/album-art-xui/AlbumArtDownloaderXUI-1.05.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AlbumArt.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Album Art Downloader",
+                    "file-name": "AlbumArt.exe"
+                }
+            ],
+            "persist": "Scripts"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/album-art/album-art-xui/AlbumArtDownloaderXUI-<version>.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/album-art/rss?path=/album-art-xui",
+                "regex": "AlbumArtDownloaderXUI-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

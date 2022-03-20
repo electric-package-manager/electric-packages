@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "dnscrypt-proxy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dnscrypt-proxy",
+        "latest-version": "2.0.45",
+        "2.0.45": {
+            "url": "https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.0.45/dnscrypt-proxy-win64-2.0.45.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dnscrypt-proxy.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'blacklist.txt', 'cloaking-rules.txt', 'dnscrypt-proxy.toml', 'forwarding-rules.txt', 'whitelist.txt' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\")) { Copy-Item \"$dir\\example-$_\" \"$dir\\$_\" }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "blacklist.txt",
+                "cloaking-rules.txt",
+                "dnscrypt-proxy.toml",
+                "forwarding-rules.txt",
+                "localhost.pem",
+                "whitelist.txt"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/$version/dnscrypt-proxy-win64-$version.zip",
+            "version-check": {
+                "webpage": "https://dnscrypt.info"
+            }
+        }
+    }
+}

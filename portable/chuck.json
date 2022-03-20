@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "chuck",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chuck",
+        "latest-version": "1.4.0.1",
+        "1.4.0.1": {
+            "url": "http://chuck.stanford.edu/release/files/exe/chuck-1.4.0.1.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\chuck.exe",
+                "miniAudicle.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://chuck.stanford.edu/release/files/exe/chuck-<version>.msi",
+            "version-check": {
+                "webpage": "http://chuck.stanford.edu/release/VERSIONS",
+                "regex": "^([\\d.]+)"
+            }
+        }
+    }
+}

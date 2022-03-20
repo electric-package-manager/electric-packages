@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "jd-cmd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jd-cmd",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/kwart/jd-cli/releases/download/jd-cli-1.2.0/jd-cli-1.2.0-dist.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jd-cli.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

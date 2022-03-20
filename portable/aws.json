@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "aws",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aws",
+        "latest-version": "2.1.37",
+        "2.1.37": {
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-2.1.37.msi",
+            "file-type": ".msi",
+            "bin": [
+                "aws.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://awscli.amazonaws.com/AWSCLIV2-$version.msi",
+            "version-check": {
+                "webpage": "https://api.github.com/repos/aws/aws-cli/tags"
+            }
+        }
+    }
+}

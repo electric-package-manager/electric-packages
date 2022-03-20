@@ -1,0 +1,18 @@
+{
+    "display-name": "Spotify",
+    "package-name": "spotify",
+    "latest-version": "1.1.53.608",
+    "1.1.53.608": {
+        "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/silent"
+        ],
+        "uswitches": [
+            "/silent"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "8E50052BE5C3201AAA570E2F7F7BDFB99256D04FA63864E3BD2791937319B7DD"
+    }
+}

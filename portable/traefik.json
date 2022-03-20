@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "traefik",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "traefik",
+        "latest-version": "1.7.30",
+        "1.7.30": {
+            "url": "https://github.com/containous/traefik/releases/download/v1.7.30/traefik_windows-amd64.exe#/traefik.exe",
+            "file-type": ".exe",
+            "bin": [
+                "traefik.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/containous/traefik/releases/download/v$version/traefik_windows-amd64.exe#/traefik.exe",
+            "version-check": {
+                "webpage": "https://traefik.io/"
+            }
+        }
+    }
+}

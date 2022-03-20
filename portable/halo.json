@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "halo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "halo",
+        "latest-version": "1.4.8",
+        "1.4.8": {
+            "url": "https://github.com/halo-dev/halo/releases/download/v1.4.8/halo-1.4.8.jar#/halo.jar",
+            "file-type": ".jar",
+            "bin": [
+                "halo.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/halo-dev/halo/releases/download/v<version>/halo-<version>.jar#/halo.jar",
+            "version-check": {
+                "webpage": "https://halo.run"
+            }
+        }
+    }
+}

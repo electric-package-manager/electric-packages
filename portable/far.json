@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "far",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "far",
+        "latest-version": "30b5757",
+        "30b5757": {
+            "url": "https://farmanager.com/files/Far30b5757.x64.20210310.7z",
+            "file-type": ".7z",
+            "bin": [
+                "far.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://farmanager.com/files/Far$version.x64.$matchDate.7z",
+            "version-check": {
+                "webpage": "https://farmanager.com/download.php",
+                "regex": "files/Far([b\\d]+)\\.x64\\.(?<date>\\d+)\\.7z"
+            }
+        }
+    }
+}

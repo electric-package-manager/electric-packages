@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "cherrytree",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cherrytree",
+        "latest-version": "0.39.4",
+        "0.39.4": {
+            "url": "https://www.giuspen.com/software/cherrytree_0.39.4_win32_portable.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\cherrytree.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\bin\\config.cfg\")) { New-Item \"$dir\\bin\\config.cfg\" -Type File | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cherrytree",
+                    "file-name": "bin\\cherrytree.exe"
+                }
+            ],
+            "persist": "bin\\config.cfg"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

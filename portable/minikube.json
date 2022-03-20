@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "minikube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "minikube",
+        "latest-version": "1.19.0",
+        "1.19.0": {
+            "url": "https://storage.googleapis.com/minikube/releases/v1.19.0/minikube-windows-amd64.exe#/minikube.exe",
+            "file-type": ".exe",
+            "bin": [
+                "minikube.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://storage.googleapis.com/minikube/releases/v$version/minikube-windows-amd64.exe#/minikube.exe",
+            "version-check": {
+                "webpage": "https://kubernetes.io/docs/getting-started-guides/minikube/"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "chronograf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chronograf",
+        "latest-version": "1.8.10",
+        "1.8.10": {
+            "url": "https://dl.influxdata.com/chronograf/releases/chronograf-1.8.10_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "chronoctl.exe",
+                "chronograf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.influxdata.com/chronograf/releases/chronograf-$version_windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://portal.influxdata.com/downloads",
+                "regex": ">Chronograf v([\\d.]+)<"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "sharex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sharex",
+        "latest-version": "13.4.0",
+        "13.4.0": {
+            "url": "https://github.com/ShareX/ShareX/releases/download/v13.4.0/ShareX-portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ShareX.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ShareX",
+                    "file-name": "ShareX.exe"
+                }
+            ],
+            "persist": [
+                "PersonalPath.cfg",
+                "ShareX"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/ShareX/ShareX/releases/download/v<version>/ShareX-portable.zip",
+            "version-check": {
+                "webpage": "https://getsharex.com/"
+            }
+        }
+    }
+}

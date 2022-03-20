@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "apache-tinkerpop-gremlin-console",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "apache-tinkerpop-gremlin-console",
+        "latest-version": "3.3.11",
+        "3.3.11": {
+            "url": "https://www.apache.org/dist/tinkerpop/3.3.11/apache-tinkerpop-gremlin-console-3.3.11-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\gremlin.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.apache.org/dist/tinkerpop/<version>/apache-tinkerpop-gremlin-console-<version>-bin.zip",
+            "version-check": {
+                "webpage": "https://www.apache.org/dist/tinkerpop/",
+                "regex": "href=\"([\\d.]+)/"
+            }
+        }
+    }
+}

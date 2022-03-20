@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "diffinity",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "diffinity",
+        "latest-version": "0.9.3",
+        "0.9.3": {
+            "url": "http://www.truehumandesign.se/download/diffinityInstaller.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Diffinity.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\diffinity.cfg\")) { New-Item \"$dir\\diffinity.cfg\" | Out-Null }",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Diffinity",
+                    "file-name": "Diffinity.exe"
+                }
+            ],
+            "persist": "diffinity.cfg"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

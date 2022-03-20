@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "cudatext",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cudatext",
+        "latest-version": "1.131.0.0",
+        "1.131.0.0": {
+            "url": "https://www.fosshub.com/CudaText.html/cudatext-win-x64-1.131.0.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cudatext.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CudaText",
+                    "file-name": "cudatext.exe"
+                }
+            ],
+            "persist": "settings"
+        },
+        "auto-update": {
+            "url": "https://www.fosshub.com/CudaText.html/cudatext-win-x64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.fosshub.com/CudaText.html",
+                "regex": "cudatext-win-x64-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

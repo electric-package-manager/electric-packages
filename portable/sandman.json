@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "sandman",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sandman",
+        "latest-version": "1.9.2",
+        "1.9.2": {
+            "url": "https://github.com/alexanderepstein/Sandman/releases/download/v1.9.2/Sandman.Version.1.9.2.64.Bit.Windows.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Sandman",
+                    "file-name": "Sandman.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/alexanderepstein/Sandman/releases/download/v$version/Sandman.Version.$version.64.Bit.Windows.zip",
+            "version-check": {
+                "webpage": "https://alexanderepstein.github.io/Sandman/"
+            }
+        }
+    }
+}

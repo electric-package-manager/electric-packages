@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "hadolint",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hadolint",
+        "latest-version": "2.1.0",
+        "2.1.0": {
+            "url": "https://github.com/hadolint/hadolint/releases/download/v2.1.0/hadolint-Windows-x86_64.exe#/hadolint.exe",
+            "file-type": ".exe",
+            "bin": [
+                "hadolint.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

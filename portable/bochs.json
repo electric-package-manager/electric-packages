@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "bochs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bochs",
+        "latest-version": "2.6.11",
+        "2.6.11": {
+            "url": "https://downloads.sourceforge.net/project/bochs/bochs/2.6.11/Bochs-win64-2.6.11.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bochs.exe",
+                "bochsdbg.exe",
+                "bxhub.exe",
+                "bximage.exe",
+                "niclist.exe",
+                "sb16ctrl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/bochs/bochs/$version/Bochs-win64-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://bochs.sourceforge.net/getcurrent.html",
+                "regex": "<b>Latest release:<\\/b> Bochs ([\\d.]+)"
+            }
+        }
+    }
+}

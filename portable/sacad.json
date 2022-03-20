@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "sacad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sacad",
+        "latest-version": "2.3.4",
+        "2.3.4": {
+            "url": "https://github.com/desbma/sacad/releases/download/2.3.4/sacad_win64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "sacad.exe",
+                "sacad_r.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

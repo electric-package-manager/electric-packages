@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "emule",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emule",
+        "latest-version": "0.50a",
+        "0.50a": {
+            "url": "https://downloads.sourceforge.net/project/emule/eMule/0.50a/eMule0.50a.zip",
+            "file-type": ".zip",
+            "bin": [
+                "emule.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "eMule",
+                    "file-name": "emule.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

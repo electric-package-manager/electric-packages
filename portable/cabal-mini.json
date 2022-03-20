@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "cabal-mini",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cabal-mini",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/cabal-club/cabal-desktop-mini/releases/download/v2.0.0/cabal-desktop-mini-2.0.0-windows.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "Cabal Mini.exe",
+                    "Cabal"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cabal Mini",
+                    "file-name": "Cabal Mini.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cabal-club/cabal-desktop-mini/releases/download/v$version/cabal-desktop-mini-$version-windows.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://cabal.chat/"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "glslang",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "glslang",
+        "latest-version": "8.13.3559",
+        "8.13.3559": {
+            "url": "https://github.com/KhronosGroup/glslang/releases/download/8.13.3559/glslang-master-windows-x64-Release.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\glslangValidator.exe",
+                "bin\\spirv-remap.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/KhronosGroup/glslang/releases/download/<version>/glslang-master-windows-x64-Release.zip",
+            "version-check": {
+                "webpage": "https://github.com/KhronosGroup/glslang/releases",
+                "regex": "/releases/download/([\\d.]+)/glslang-master-win"
+            }
+        }
+    }
+}

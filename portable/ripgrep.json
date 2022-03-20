@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "ripgrep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ripgrep",
+        "latest-version": "12.1.1",
+        "12.1.1": {
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rg.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

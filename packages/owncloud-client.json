@@ -1,0 +1,22 @@
+{
+    "display-name": "ownCloud Client",
+    "package-name": "owncloud-client",
+    "latest-version": "2.7.6.3261",
+    "2.7.6.3261": {
+        "url": "https://download.owncloud.com/desktop/ownCloud/stable/2.7.6.3261/win/ownCloud-2.7.6.3261.x64.msi",
+        "file-type": ".msi",
+        "checksum": "9FBCDEA18D868C24C242F4CB488121AC302229040B9620730C63D857F8BCB1EF",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

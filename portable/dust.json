@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dust",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dust",
+        "latest-version": "0.5.4",
+        "0.5.4": {
+            "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dust.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

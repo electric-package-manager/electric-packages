@@ -1,0 +1,52 @@
+{
+    "display-name": "LightShot",
+    "package-name": "lightshot",
+    "latest-version": "4.2",
+    "auto-update": {
+        "url": "https://app.prntscr.com/build/setup-lightshot.exe",
+        "version-check": {
+            "webpage": "https://lightshot.en.softonic.com/download",
+            "regex": ">([\\d.]+)<"
+        }
+    },
+    "5.5.0.4": {
+        "url": "https://app.prntscr.com/build/setup-lightshot.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "928C2808421DFD487FFA697379548CBE682C0E13AEB595EB89973BA9C515B8A1"
+    },
+    "4.2": {
+        "url": "https://app.prntscr.com/build/setup-lightshot.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "928C2808421DFD487FFA697379548CBE682C0E13AEB595EB89973BA9C515B8A1"
+    }
+}

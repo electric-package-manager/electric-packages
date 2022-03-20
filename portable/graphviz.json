@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "graphviz",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "graphviz",
+        "latest-version": "2.44.1",
+        "2.44.1": {
+            "url": "https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/graphviz-install-2.44.1-win64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\acyclic.exe",
+                "bin\\bcomps.exe",
+                "bin\\ccomps.exe",
+                "bin\\dijkstra.exe",
+                "bin\\dot.exe",
+                "bin\\gc.exe",
+                "bin\\gml2gv.exe",
+                "bin\\graphml2gv.exe",
+                "bin\\gvcolor.exe",
+                "bin\\gvgen.exe",
+                "bin\\gvpack.exe",
+                "bin\\gxl2gv.exe",
+                "bin\\mm2gv.exe",
+                "bin\\nop.exe",
+                "bin\\sccmap.exe",
+                "bin\\tred.exe",
+                "bin\\unflatten.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/graphviz-install-$version-win64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://gitlab.com/graphviz/graphviz/-/tags",
+                "regex": "Stable Release ([\\d.]+)"
+            }
+        }
+    }
+}

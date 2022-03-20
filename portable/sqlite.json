@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "sqlite",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sqlite",
+        "latest-version": "3.35.4",
+        "3.35.4": {
+            "url": "https://www.sqlite.org/2021/sqlite-tools-win32-x86-3350400.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sqlite3.exe",
+                "sqldiff.exe",
+                "sqlite3_analyzer.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.sqlite.org/$matchYear/sqlite-tools-win32-x86-$matchClean.zip",
+            "version-check": {
+                "webpage": "https://www.sqlite.org/download.html",
+                "regex": "(?sm)64-bit DLL \\(x64\\) for SQLite version ([\\d.]+)\\..*?(?<year>\\d+)/sqlite-tools-win32-x86-(?<clean>\\d+)"
+            }
+        }
+    }
+}

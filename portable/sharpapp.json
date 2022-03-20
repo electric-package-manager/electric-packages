@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "sharpapp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sharpapp",
+        "latest-version": "0.46.1",
+        "0.46.1": {
+            "url": "https://github.com/mirinsoft/sharpapp/releases/download/0.46.1/sharpapp.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SharpApp.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SharpApp",
+                    "file-name": "SharpApp.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mirinsoft/sharpapp/releases/download/<version>/sharpapp.zip",
+            "version-check": {
+                "webpage": "https://www.mirinsoft.com/ms-apps/sharpapp"
+            }
+        }
+    }
+}

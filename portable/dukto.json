@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dukto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dukto",
+        "latest-version": "6",
+        "6": {
+            "url": "https://downloads.sourceforge.net/project/dukto/DuktoR6-Portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dukto",
+                    "file-name": "dukto.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

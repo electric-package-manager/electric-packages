@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "sphinxbase",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sphinxbase",
+        "latest-version": "5prealpha",
+        "5prealpha": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxbase/5prealpha/sphinxbase-5prealpha-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sphinx_cepview.exe",
+                "sphinx_fe.exe",
+                "sphinx_jsgf2fsg.exe",
+                "sphinx_lm_convert.exe",
+                "sphinx_pitch.exe",
+                "sphinx_seg.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxbase/<version>/sphinxbase-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/cmusphinx/files/sphinxbase/",
+                "regex": "<span class=\"name\">([\\w]+)</span>"
+            }
+        }
+    }
+}

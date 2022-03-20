@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "rakudo-moar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rakudo-moar",
+        "latest-version": "2021.03-01",
+        "2021.03-01": {
+            "url": "https://rakudo.org/dl/rakudo/rakudo-moar-2021.03-01-win-x86_64-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\nqp.exe",
+                "bin\\perl6.exe",
+                "bin\\perl6w.exe",
+                "bin\\raku.exe",
+                "bin\\rakuw.exe",
+                "bin\\rakudo.exe",
+                "bin\\rakudow.exe",
+                "bin\\perl6-debug.exe",
+                "bin\\raku-debug.exe",
+                "bin\\rakudo-debug.exe",
+                "share\\perl6\\site\\bin\\zef.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://rakudo.org/dl/rakudo/rakudo-moar-$version-win-x86_64-msvc.zip",
+            "version-check": {
+                "webpage": "https://rakudo.org/downloads/rakudo",
+                "regex": "rakudo-moar-([\\d.-]+)-win-x86_64-msvc\\.zip"
+            }
+        }
+    }
+}

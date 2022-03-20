@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "openliberty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openliberty",
+        "latest-version": "21.0.0.3",
+        "21.0.0.3": {
+            "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-03-09_1101/openliberty-21.0.0.3.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\binaryLog.bat",
+                [
+                    "bin\\client.bat",
+                    "wlp-client"
+                ],
+                "bin\\ddlGen.bat",
+                "bin\\pluginUtility.bat",
+                "bin\\productInfo.bat",
+                "bin\\securityUtility.bat",
+                [
+                    "bin\\server.bat",
+                    "wlp"
+                ],
+                "bin\\serverSchemaGen.bat",
+                "bin\\springBootUtility.bat"
+            ],
+            "shortcuts": [],
+            "persist": "usr"
+        },
+        "auto-update": {
+            "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/$matchBuild/openliberty-<version>.zip",
+            "version-check": {
+                "webpage": "https://openliberty.io/api/builds/data",
+                "regex": "/(?<build>[\\d_-]+)/openliberty-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fat32format-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fat32format-gui",
+        "latest-version": "1.01",
+        "1.01": {
+            "url": "http://ridgecrop.co.uk/guiformat-x64.Exe#/guiformat.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FAT32 Format",
+                    "file-name": "guiformat.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

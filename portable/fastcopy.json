@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "fastcopy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fastcopy",
+        "latest-version": "3.92",
+        "3.92": {
+            "url": "https://fastcopy.jp/archive/FastCopy392.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FastCopy.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\FastCopy2.ini\")) {",
+                        "   Set-Content \"$dir\\FastCopy2.ini\" '[main]' -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FastCopy",
+                    "file-name": "FastCopy.exe"
+                },
+                {
+                    "shortcut-name": "FastCopy Manual",
+                    "file-name": "doc\\FastCopy.chm"
+                }
+            ],
+            "persist": [
+                "FastCopy2.ini",
+                "Log"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

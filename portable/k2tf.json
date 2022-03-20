@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "k2tf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "k2tf",
+        "latest-version": "0.5.0",
+        "0.5.0": {
+            "url": "https://github.com/sl1pm4t/k2tf/releases/download/v0.5.0/k2tf_0.5.0_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "k2tf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

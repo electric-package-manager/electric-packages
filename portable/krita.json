@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "krita",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "krita",
+        "latest-version": "4.4.3",
+        "4.4.3": {
+            "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\krita.exe",
+                "bin\\kritarunner.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Krita",
+                    "file-name": "bin\\krita.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe.nsis\" -Recurse -Force"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://download.kde.org/stable/krita/$version/krita-x64-$version-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://krita.org/en/download/krita-desktop/",
+                "regex": "Download Krita\\s+([\\d.]+)"
+            }
+        }
+    }
+}

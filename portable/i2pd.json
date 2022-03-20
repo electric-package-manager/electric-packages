@@ -1,0 +1,56 @@
+{
+    "display-name": "",
+    "package-name": "i2pd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "i2pd",
+        "latest-version": "2.37.0",
+        "2.37.0": {
+            "url": "https://github.com/PurpleI2P/i2pd/releases/download/2.37.0/i2pd_2.37.0_win64_mingw.zip",
+            "file-type": ".zip",
+            "bin": [
+                "i2pd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Move-Item \"$dir\\contrib\\*\" \"$dir\"",
+                        "Remove-Item \"$dir\\contrib\"",
+                        "foreach ($name in @('irc-keys.dat', 'ntcp2.keys', 'router.info', 'router.keys')) {",
+                        "    if (!(Test-Path \"$persist_dir\\$name\")) { New-Item \"$dir\\$name\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "I2Pd",
+                    "file-name": "i2pd.exe"
+                }
+            ],
+            "persist": [
+                "addressbook",
+                "destinations",
+                "netDb",
+                "peerProfiles",
+                "tags",
+                "irc-keys.dat",
+                "ntcp2.keys",
+                "router.info",
+                "router.keys",
+                "certificates",
+                "tunnels.d",
+                "i2pd.conf",
+                "tunnels.conf"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/PurpleI2P/i2pd/releases/download/$version/i2pd_$version_win64_mingw.zip",
+            "version-check": {
+                "webpage": "https://i2pd.website"
+            }
+        }
+    }
+}

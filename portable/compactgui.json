@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "compactgui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "compactgui",
+        "latest-version": "2.6.2",
+        "2.6.2": {
+            "url": "https://github.com/ImminentFate/CompactGUI/releases/download/v2.6.2/CompactGUI.exe",
+            "file-type": ".exe",
+            "bin": [
+                "CompactGUI.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CompactGUI",
+                    "file-name": "CompactGUI.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

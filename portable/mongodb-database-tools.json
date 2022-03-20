@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "mongodb-database-tools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mongodb-database-tools",
+        "latest-version": "100.3.1",
+        "100.3.1": {
+            "url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.3.1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-$version.zip",
+            "version-check": {
+                "webpage": "https://s3.amazonaws.com/downloads.mongodb.org/tools/db/release.json"
+            }
+        }
+    }
+}

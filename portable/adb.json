@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "adb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "adb",
+        "latest-version": "31.0.0",
+        "31.0.0": {
+            "url": "https://dl.google.com/android/repository/platform-tools_r31.0.0-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "platform-tools\\adb.exe",
+                "platform-tools\\dmtracedump.exe",
+                "platform-tools\\etc1tool.exe",
+                "platform-tools\\fastboot.exe",
+                "platform-tools\\hprof-conv.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

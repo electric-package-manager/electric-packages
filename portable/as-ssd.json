@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "as-ssd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "as-ssd",
+        "latest-version": "2.0.7316.34247",
+        "2.0.7316.34247": {
+            "url": "https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AS SSD Benchmark",
+                    "file-name": "AS SSD Benchmark.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip",
+            "version-check": {
+                "webpage": "https://www.alex-is.de/progs/updater/as-ssd-version.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

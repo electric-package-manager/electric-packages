@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mpv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpv",
+        "latest-version": "0.33.0",
+        "0.33.0": {
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/stable/mpv-0.33.0-x86_64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mpv.com"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mpv",
+                    "file-name": "mpv.exe"
+                }
+            ],
+            "persist": "portable_config"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/stable/mpv-$version-x86_64.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/mpv-player-windows/rss?path=/stable",
+                "regex": "mpv-([\\d.]+)-x86_64"
+            }
+        }
+    }
+}

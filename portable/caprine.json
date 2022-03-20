@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "caprine",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "caprine",
+        "latest-version": "2.52.3",
+        "2.52.3": {
+            "url": "https://github.com/sindresorhus/caprine/releases/download/v2.52.3/Caprine-Setup-2.52.3.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Caprine",
+                    "file-name": "Caprine.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sindresorhus/caprine/releases/download/v$version/Caprine-Setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://sindresorhus.com/caprine/"
+            }
+        }
+    }
+}

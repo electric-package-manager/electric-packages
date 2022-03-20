@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "conan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "conan",
+        "latest-version": "1.35.1",
+        "1.35.1": {
+            "url": "https://github.com/conan-io/conan/releases/download/1.35.1/conan-win-64_1_35_1.exe",
+            "file-type": ".exe",
+            "bin": [
+                "conan\\conan.exe",
+                "conan\\conan_build_info.exe",
+                "conan\\conan_server.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-64_$underscoreVersion.exe",
+            "version-check": {
+                "webpage": "https://conan.io"
+            }
+        }
+    }
+}

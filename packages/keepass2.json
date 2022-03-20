@@ -1,0 +1,72 @@
+{
+    "display-name": "Keepass",
+    "package-name": "keepass2",
+    "latest-version": "2.50",
+    "auto-update": {
+        "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/<version>/KeePass-<version>-Setup.exe",
+        "version-check": {
+            "webpage": "https://keepass.info/download.html",
+            "regex": "KeePass ([\\d.]+)"
+        }
+    },
+    "2.47": {
+        "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47-Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "3EB2723AE5363C8400B494A5C2BB24D911E622ECBC15B20AAA32526A7BB45E42"
+    },
+    "2.48.1": {
+        "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/2.48.1/KeePass-2.48.1-Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "454CD241DF29F4E4E9219573E1C43076BB759D04E825D1AD5A80D871F6798550"
+    },
+    "2.50": {
+        "url": "https://liquidtelecom.dl.sourceforge.net/project/keepass/KeePass%202.x/2.50/KeePass-2.50-Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "A68704E639D75BAB76CF2BEEC883E93981F454176FA355758AFC9829037F10FA"
+    }
+}

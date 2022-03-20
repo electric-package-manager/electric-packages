@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "nextcloud",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nextcloud",
+        "latest-version": "3.1.3",
+        "3.1.3": {
+            "url": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-3.1.3-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "nextcloudcmd.exe",
+                [
+                    "nextcloudcmd.exe",
+                    "nextcloud"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "'$R*', '$P*', 'vc_redist*' | ForEach-Object { Remove-Item \"$dir\\$_\" -Force -Recurse }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Nextcloud",
+                    "file-name": "nextcloud.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-<version>-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://nextcloud.com/install/",
+                "regex": "Latest stable version: ([\\d.]+)"
+            }
+        }
+    }
+}

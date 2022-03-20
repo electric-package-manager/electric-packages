@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "grasshopper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grasshopper",
+        "latest-version": "1.1.6",
+        "1.1.6": {
+            "url": "https://grasshopper.coding.kiwi/download/1-1-6-grasshopper-Setup-1-1-6-exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "graSSHopper",
+                    "file-name": "graSSHopper.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://grasshopper.coding.kiwi/download/$dashVersion-grasshopper-Setup-$dashVersion-exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://grasshopper.codingkiwi.de/client/latest.json"
+            }
+        }
+    }
+}

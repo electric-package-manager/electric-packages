@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "tre-command",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tre-command",
+        "latest-version": "0.3.6",
+        "0.3.6": {
+            "url": "https://github.com/dduan/tre/releases/download/v0.3.6/tre-v0.3.6-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tre.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "cmake-rc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cmake-rc",
+        "latest-version": "3.20.0-rc5",
+        "3.20.0-rc5": {
+            "url": "https://cmake.org/files/v3.20/cmake-3.20.0-rc5-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\cmake.exe",
+                "bin\\cmake-gui.exe",
+                "bin\\cmcldeps.exe",
+                "bin\\cpack.exe",
+                "bin\\ctest.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "cmake-gui",
+                    "file-name": "bin\\cmake-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://cmake.org/files/v$majorVersion.$minorVersion/cmake-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://gitlab.kitware.com/cmake/cmake/tags?sort=name_desc&format=atom",
+                "regex": "v([\\d.]+)-rc([\\d]+)"
+            }
+        }
+    }
+}

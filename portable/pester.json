@@ -1,0 +1,50 @@
+{
+    "display-name": "",
+    "package-name": "pester",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pester",
+        "latest-version": "5.1.1",
+        "5.1.1": {
+            "url": "https://github.com/pester/pester/archive/5.1.1.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bin\\pester.bat"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$import = \"try { `$null = gcm pester -ea stop; import-module `\"$dir\\pester.psm1`\" } catch { }\"",
+                        "",
+                        "if($profile) {",
+                        "    'adding pester to powershell profile...'",
+                        "    if(!(test-path $profile)) {",
+                        "        'powershell profile doesn''t exist. creating...'",
+                        "        $profile_dir = split-path $profile",
+                        "        if(!(test-path $profile_dir)) { mkdir $profile_dir > $null }",
+                        "        '' > $profile",
+                        "    }",
+                        "",
+                        "    $text = get-content $profile",
+                        "    if (($text | sls 'pester') -eq $null) {",
+                        "        $new_profile = @($text) + $import",
+                        "        $new_profile > $profile",
+                        "        success 'pester added to powershell profile.'",
+                        "    }",
+                        "} else { warn 'no powershell profile found. the pester module will not be imported each session.' }",
+                        "",
+                        "'importing pester for current session...'",
+                        "iex \"$import\""
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

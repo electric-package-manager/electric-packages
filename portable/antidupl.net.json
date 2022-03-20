@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "antidupl.net",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "antidupl.net",
+        "latest-version": "2.3.10",
+        "2.3.10": {
+            "url": "https://github.com/ermig1979/AntiDupl/releases/download/v2.3.10/AntiDupl.NET-2.3.10.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "AntiDupl.NET.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\user\")) {",
+                        "    ensure \"$dir\\user\" | Out-Null",
+                        "    Set-Content \"$dir\\user\\options.xml\" '<Options><checkingForUpdates>false</checkingForUpdates></Options>' -Encoding ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AntiDupl.NET",
+                    "file-name": "AntiDupl.NET.exe"
+                }
+            ],
+            "persist": "user"
+        },
+        "auto-update": {
+            "url": "https://github.com/ermig1979/AntiDupl/releases/download/v<version>/AntiDupl.NET-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://ermig1979.github.io/AntiDupl/english/"
+            }
+        }
+    }
+}

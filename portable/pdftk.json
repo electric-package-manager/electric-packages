@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "pdftk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdftk",
+        "latest-version": "2.02",
+        "2.02": {
+            "url": "https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-win-setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\pdftk.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

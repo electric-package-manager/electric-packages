@@ -1,0 +1,15 @@
+{
+    "display-name": "Microsoft Windows Terminal Preview",
+    "package-name": "microsoft-windows-terminal-preview",
+    "latest-version": "1.7.572.0",
+    "1.7.572.0": {
+        "url": "https://github.com/microsoft/terminal/releases/download/v1.7.572.0/Microsoft.WindowsTerminalPreview_1.7.572.0_8wekyb3d8bbwe.msixbundle",
+        "file-type": ".msixbundle",
+        "uninstall-bundle-identifier": "Microsoft.WindowsTerminal",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "7830D7A2268CAB38E249941C1EB374479479E10E6F66D1C65D157F3F59F9C210"
+    }
+}

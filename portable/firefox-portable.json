@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "firefox-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "firefox-portable",
+        "latest-version": "87.0",
+        "87.0": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/87.0/win64/en-US/Firefox%20Setup%2087.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "firefox.exe",
+                    "firefox",
+                    "-profile \"$dir\\profile\""
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Firefox",
+                    "file-name": "firefox.exe"
+                }
+            ],
+            "persist": "profile"
+        },
+        "auto-update": {
+            "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.mozilla.org/en-US/firefox/notes/",
+                "regex": "<div class=\"c-release-version\">([\\d.]+)</div>"
+            }
+        }
+    }
+}

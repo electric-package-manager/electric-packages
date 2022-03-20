@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "procs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "procs",
+        "latest-version": "0.11.4",
+        "0.11.4": {
+            "url": "https://github.com/dalance/procs/releases/download/v0.11.4/procs-v0.11.4-x86_64-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "procs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

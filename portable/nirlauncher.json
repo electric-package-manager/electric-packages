@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "nirlauncher",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nirlauncher",
+        "latest-version": "1.23.43",
+        "1.23.43": {
+            "url": "https://download.nirsoft.net/nirsoft_package_enc_1.23.43.zip#/nirlauncher.enc",
+            "file-type": ".enc",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Expand-7zipArchive \"$dir\\$fname\" -Switches '-pnirsoft9876$'"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "NirLauncher.cfg"
+        },
+        "auto-update": {
+            "url": "https://download.nirsoft.net/nirsoft_package_enc_<version>.zip#/nirlauncher.enc",
+            "version-check": {
+                "webpage": "https://launcher.nirsoft.net/downloads/index.html",
+                "regex": "nirsoft_package_enc_([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

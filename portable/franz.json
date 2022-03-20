@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "franz",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "franz",
+        "latest-version": "5.6.1",
+        "5.6.1": {
+            "url": "https://github.com/meetfranz/franz/releases/download/v5.6.1/franz-setup-5.6.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Franz.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Franz",
+                    "file-name": "Franz.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/meetfranz/franz/releases/download/v<version>/franz-setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://meetfranz.com"
+            }
+        }
+    }
+}

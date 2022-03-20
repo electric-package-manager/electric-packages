@@ -1,0 +1,24 @@
+{
+    "display-name": "WinFlexBison",
+    "package-name": "winflexbison",
+    "is-portable":  true,
+    "portable": {
+        "latest-version": "2.4.9.20170215",
+        "2.4.9.20170215": {
+            "url": "https://liquidtelecom.dl.sourceforge.net/project/winflexbison/old_versions/win_flex_bison-2.4.9.zip",
+            "checksum": "D2D047CEF727A857BE98F04114C8C0E002D4560131DAFB002A965E6779906774",
+            "file-type": ".zip",
+            "bin": [
+                {
+                    "shim-name": "bison",
+                    "file-name": "win_bison.exe"
+                },
+                {
+                    "shim-name": "flex",
+                    "file-name": "win_flex.exe"
+                }
+            ],
+            "dependencies": []
+        }
+    }
+}

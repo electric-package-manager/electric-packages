@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "miniconda3",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "miniconda3",
+        "latest-version": "4.9.2",
+        "4.9.2": {
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_4.9.2-Windows-x86_64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "python.exe",
+                "pythonw.exe",
+                [
+                    "python.exe",
+                    "python3"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": "envs"
+        },
+        "auto-update": {
+            "url": "https://repo.anaconda.com/miniconda/Miniconda3-py38_$version-Windows-x86_64.exe",
+            "version-check": {
+                "webpage": "https://docs.conda.io/en/latest/miniconda_hashes.html",
+                "regex": "Miniconda3-py38_([\\d.]+)-Windows"
+            }
+        }
+    }
+}

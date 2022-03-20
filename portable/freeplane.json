@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "freeplane",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freeplane",
+        "latest-version": "1.8.11",
+        "1.8.11": {
+            "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/archive/1.8.11/freeplane_bin-1.8.11.zip",
+            "file-type": ".zip",
+            "bin": [
+                "freeplane.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Freeplane",
+                    "file-name": "freeplane.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/archive/<version>/freeplane_bin-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.freeplane.org/info/history/history_en.txt",
+                "regex": "=\\s+([\\d.]+)\\s+="
+            }
+        }
+    }
+}

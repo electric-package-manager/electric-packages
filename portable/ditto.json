@@ -1,0 +1,52 @@
+{
+    "display-name": "",
+    "package-name": "ditto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ditto",
+        "latest-version": "3.24.184.0",
+        "3.24.184.0": {
+            "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.24.184.0/DittoPortable_64bit_3_24_184_0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Ditto.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\Ditto.db\")) {",
+                        "    Write-Host 'File Ditto.db does not exists. Creating.' -f Yellow",
+                        "    Start-Process -FilePath \"$dir\\Ditto.exe\"",
+                        "    while (!(Test-Path \"$dir\\Ditto.db\")) {",
+                        "        Start-Sleep -Milliseconds 500",
+                        "    }",
+                        "    Start-Sleep 1",
+                        "    Stop-Process -Name Ditto",
+                        "}",
+                        "$file = 'Ditto.Settings'",
+                        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+                        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+                        "    $CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
+                        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ditto",
+                    "file-name": "Ditto.exe"
+                }
+            ],
+            "persist": [
+                "Ditto.db",
+                "Ditto.Settings"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

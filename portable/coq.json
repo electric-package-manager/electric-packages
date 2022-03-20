@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "containerd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "containerd",
+        "latest-version": "1.4.4",
+        "1.4.4": {
+            "url": "https://github.com/containerd/containerd/releases/download/v1.4.4/containerd-1.4.4-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bin\\containerd.exe",
+                "bin\\containerd-shim-runhcs-v1.exe",
+                "bin\\ctr.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/coq/coq/releases/download/V$version/coq-$version-installer-windows-x86_64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://coq.inria.fr/"
+            }
+        }
+    }
+}

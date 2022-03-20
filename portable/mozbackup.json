@@ -1,0 +1,45 @@
+{
+    "display-name": "",
+    "package-name": "mozbackup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mozbackup",
+        "latest-version": "1.5.1",
+        "1.5.1": {
+            "url": "http://mozbackup.jasnapaka.com/files/1.5.1/MozBackup-1.5.1-EN.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MozBackup.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\backup.ini\")) {",
+                        "    $c = (Get-Content \"$dir\\backup.ini\") -replace '^(backupdir=)$', \"`$1$persist_dir\\backups\"",
+                        "    Set-Content \"$dir\\backup.ini\" $c -Encoding Ascii -Force",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MozBackup",
+                    "file-name": "MozBackup.exe"
+                }
+            ],
+            "persist": [
+                "backups",
+                "backup.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "http://mozbackup.jasnapaka.com/files/<version>/MozBackup-<version>-EN.zip",
+            "version-check": {
+                "webpage": "http://mozbackup.jasnapaka.com/changelog.txt",
+                "regex": "\\(MozBackup\\s+([\\d.]+)\\)"
+            }
+        }
+    }
+}

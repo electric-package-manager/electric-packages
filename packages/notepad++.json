@@ -1,0 +1,23 @@
+{
+    "display-name": "Notepad++",
+    "package-name": "notepad++",
+    "latest-version": "7.9.2",
+    "7.9.2": {
+        "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.2/npp.7.9.2.Installer.x64.exe",
+        "file-type": ".exe",
+        "thread": 4,
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "default-install-dir": "C:\\Program Files\\Notepad++",
+        "bin": [
+            "<install-directory>\\notepad++.exe"
+        ],
+        "checksum": "9EB36C992F1D4BB2D27CB9C0D14B9B0C762D59E544B27754AFC2BC0A9B219DCD",
+        "dependencies": []
+    }
+}

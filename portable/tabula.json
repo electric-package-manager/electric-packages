@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "tabula",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tabula",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/tabulapdf/tabula/releases/download/v1.2.1/tabula-win-1.2.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tabula.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "tabula",
+                    "file-name": "tabula.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/tabulapdf/tabula/releases/download/v<version>/tabula-win-<version>.zip",
+            "version-check": {
+                "webpage": "https://tabula.technology/"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "stoplight-prism",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stoplight-prism",
+        "latest-version": "4.1.2",
+        "4.1.2": {
+            "url": "https://github.com/stoplightio/prism/releases/download/v4.1.2/prism-cli.exe",
+            "file-type": ".exe",
+            "bin": [
+                "prism-cli.exe",
+                [
+                    "prism-cli.exe",
+                    "prism"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/stoplightio/prism/releases/download/v$version/prism-cli.exe",
+            "version-check": {
+                "webpage": "https://stoplight.io/open-source/prism"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "fsviewer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fsviewer",
+        "latest-version": "7.5",
+        "7.5": {
+            "url": "http://www.faststonesoft.net/DN/FSViewer75.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FSViewer.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'FSSettings.db', 'HisFolderList.db' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\") -and !(Test-Path \"$dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FastStone Image Viewer",
+                    "file-name": "FSViewer.exe"
+                }
+            ],
+            "persist": [
+                "FSSettings.db",
+                "HisFolderList.db"
+            ]
+        },
+        "auto-update": {
+            "url": "http://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip",
+            "version-check": {
+                "webpage": "https://www.faststone.org/FSIVDownload.htm",
+                "regex": "FastStone Image Viewer ([\\d.]+)"
+            }
+        }
+    }
+}

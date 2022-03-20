@@ -1,0 +1,17 @@
+{
+    "display-name": "Microsoft Visual Studio Community Edition",
+    "package-name": "visual-studio-community",
+    "latest-version": "16.9",
+    "16.9": {
+        "url": "https://aka.ms/vs/16/release/vs_Community.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "--quiet",
+            "--norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "--installPath=",
+        "dependencies": [],
+        "checksum": "8EB13958DC429A6E6F7E0D6704D43A55F18D02A253608351B6BF6723FFDAF24E"
+    }
+}

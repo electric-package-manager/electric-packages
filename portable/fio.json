@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fio",
+        "latest-version": "3.20",
+        "3.20": {
+            "url": "https://bsdio.com/fio/releases/fio-3.20-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fio.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

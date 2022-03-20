@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "boxes",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "boxes",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/ascii-boxes/boxes/releases/download/v2.0.0/boxes-2.0.0-intel-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "boxes.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ascii-boxes/boxes/releases/download/v<version>/boxes-<version>-intel-win32.zip",
+            "version-check": {
+                "webpage": "https://boxes.thomasjensen.com/"
+            }
+        }
+    }
+}

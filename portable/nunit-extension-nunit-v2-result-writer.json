@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "nunit-extension-nunit-v2-result-writer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nunit-extension-nunit-v2-result-writer",
+        "latest-version": "3.6.0",
+        "3.6.0": {
+            "url": "https://packages.chocolatey.org/nunit-extension-nunit-v2-result-writer.3.6.0.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/nunit-extension-nunit-v2-result-writer.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/nunit-extension-nunit-v2-result-writer",
+                "regex": "\\s+([\\d.]+)</title>"
+            }
+        }
+    }
+}

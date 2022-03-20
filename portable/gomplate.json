@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gomplate",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gomplate",
+        "latest-version": "3.9.0",
+        "3.9.0": {
+            "url": "https://github.com/hairyhenderson/gomplate/releases/download/v3.9.0/gomplate_windows-amd64.exe#/gomplate.exe",
+            "file-type": ".exe",
+            "bin": [
+                "gomplate.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

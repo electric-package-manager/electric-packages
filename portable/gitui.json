@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gitui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitui",
+        "latest-version": "0.14.0",
+        "0.14.0": {
+            "url": "https://github.com/extrawurst/gitui/releases/download/v0.14.0/gitui-win.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "gitui.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

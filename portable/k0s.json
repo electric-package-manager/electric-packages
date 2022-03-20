@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "k0s",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "k0s",
+        "latest-version": "0.13.0",
+        "0.13.0": {
+            "url": "https://github.com/k0sproject/k0s/releases/download/v0.13.0/k0s-v0.13.0-amd64.exe#/k0s.exe",
+            "file-type": ".exe",
+            "bin": [
+                "k0s.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

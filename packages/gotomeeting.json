@@ -1,0 +1,21 @@
+{
+  "display-name": "GoToMeeting",
+  "package-name": "gotomeeting",
+  "latest-version": "10.15.19228",
+  "auto-update": {
+    "url": "https://builds.cdn.getgo.com/builds/g2m/<build-version>/G2MSetup<version>_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care",
+    "version-check": {
+      "webpage": "https://www.google.com/search?q=gotomeeting+latest+version&oq=gotomeeting+la&aqs=edge.1.69i57j0i20i263j0l4j69i60.3840j0j4&sourceid=chrome&ie=UTF-8",
+      "regex": "GoToMeeting by LogMeIn ([\\d.]+)"
+    }
+  },
+  "10.15.19228": {
+    "url": "https://builds.cdn.getgo.com/builds/g2m/19228/G2MSetup10.15.19228_IT.msi?c_prod=g2mwt&c_cmp=care?c_prod=g2mwt&c_cmp=care",
+    "file-type": ".msi",
+    "checksum": "ED6E4CB0E96043E9F746C18BBED528DA93BC1C7A96E1D9060687358180548123",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
+    "dependencies": []
+  }
+}

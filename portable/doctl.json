@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "doctl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "doctl",
+        "latest-version": "1.59.0",
+        "1.59.0": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.59.0/doctl-1.59.0-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "doctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

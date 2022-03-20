@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "reshade",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "reshade",
+        "latest-version": "4.9.1",
+        "4.9.1": {
+            "url": "https://reshade.me/downloads/ReShade_Setup_4.9.1.exe#/ReShade.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ReShade.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ReShade",
+                    "file-name": "ReShade.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

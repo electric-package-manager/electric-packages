@@ -1,0 +1,17 @@
+{
+    "display-name": "",
+    "package-name": "lcow",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lcow",
+        "latest-version": "v4.14.35-v0.3.9",
+        "v4.14.35-v0.3.9": {
+            "url": "https://github.com/linuxkit/lcow/releases/download/v4.14.35-v0.3.9/release.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

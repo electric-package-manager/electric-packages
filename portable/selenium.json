@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "selenium",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "selenium",
+        "latest-version": "3.141.59",
+        "3.141.59": {
+            "url": "https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar#/selenium.jar",
+            "file-type": ".jar",
+            "bin": [
+                "selenium.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://selenium-release.storage.googleapis.com/$majorVersion.$minorVersion/selenium-server-standalone-<version>.jar#/selenium.jar",
+            "version-check": {
+                "webpage": "https://selenium.dev/downloads/",
+                "regex": "Latest stable version.*?>([\\d.]+)<"
+            }
+        }
+    }
+}

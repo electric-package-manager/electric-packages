@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "notepadplusplus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notepadplusplus",
+        "latest-version": "7.9.5",
+        "7.9.5": {
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.portable.x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "notepad++.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\session.xml\")) { New-Item \"$dir\\session.xml\" -Force | Out-Null }",
+                        "if (!(Test-Path \"$persist_dir\\userDefineLang.xml\")) { New-Item \"$dir\\userDefineLang.xml\" -Force | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notepad++",
+                    "file-name": "notepad++.exe"
+                }
+            ],
+            "persist": [
+                "backup",
+                "cloud",
+                "plugins",
+                "themes",
+                "userDefineLangs",
+                "config.xml",
+                "session.xml",
+                "userDefineLang.xml"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v$version/npp.$version.portable.x64.zip",
+            "version-check": {
+                "webpage": "https://notepad-plus-plus.org"
+            }
+        }
+    }
+}

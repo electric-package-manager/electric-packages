@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mediainfo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mediainfo",
+        "latest-version": "21.03",
+        "21.03": {
+            "url": "https://mediaarea.net/download/binary/mediainfo/21.03/MediaInfo_CLI_21.03_Windows_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mediainfo.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

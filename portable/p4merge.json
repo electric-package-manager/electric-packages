@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "p4merge",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "p4merge",
+        "latest-version": "152.131.2139",
+        "152.131.2139": {
+            "url": "https://raw.githubusercontent.com/parthopdas/p4vinst/master/p4vinst64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "Perforce\\Perforce\\p4merge.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

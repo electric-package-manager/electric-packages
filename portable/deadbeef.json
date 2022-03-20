@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "deadbeef",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deadbeef",
+        "latest-version": "2020-07-06",
+        "2020-07-06": {
+            "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/2020-07-06/deadbeef-2020-07-06-windows-x86_64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "deadbeef.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DeaDBeeF",
+                    "file-name": "deadbeef.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/DeaDBeeF-for-Windows/deadbeef/releases/download/$version/deadbeef-$version-windows-x86_64.exe",
+            "version-check": {
+                "webpage": "https://deadbeef-for-windows.github.io/",
+                "regex": "tag/([\\d-]+)"
+            }
+        }
+    }
+}

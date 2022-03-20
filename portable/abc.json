@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "abc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "abc",
+        "latest-version": "1.0.0-beta.2",
+        "1.0.0-beta.2": {
+            "url": "https://github.com/appbaseio/abc/releases/download/1.0.0-beta.2/abc-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "abc.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Rename-Item \"$dir\\abc-windows\" 'abc.exe' -ErrorAction SilentlyContinue"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/appbaseio/abc/releases/download/$version/abc-windows.zip",
+            "version-check": {
+                "webpage": "https://github.com/appbaseio/abc",
+                "regex": "tag/([\\w.-]+)"
+            }
+        }
+    }
+}

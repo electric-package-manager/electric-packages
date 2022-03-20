@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ansicon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ansicon",
+        "latest-version": "1.89",
+        "1.89": {
+            "url": "https://github.com/adoxa/ansicon/releases/download/v1.89/ansi189-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ansicon.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/adoxa/ansicon/releases/download/v<version>/ansi$cleanVersion-bin.zip",
+            "version-check": {
+                "webpage": "http://ansicon.adoxa.vze.com/"
+            }
+        }
+    }
+}

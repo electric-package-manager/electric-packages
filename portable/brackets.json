@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "brackets",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "brackets",
+        "latest-version": "1.14.2",
+        "1.14.2": {
+            "url": "https://github.com/adobe/brackets/releases/download/release-1.14.2/Brackets.Release.1.14.2.msi",
+            "file-type": ".msi",
+            "bin": [
+                "brackets.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Brackets",
+                    "file-name": "brackets.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/adobe/brackets/releases/download/release-<version>/Brackets.Release.<version>.msi",
+            "version-check": {
+                "webpage": "http://brackets.io/",
+                "regex": "/releases/tag/release-([\\d.]+)"
+            }
+        }
+    }
+}

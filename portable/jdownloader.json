@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "jdownloader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jdownloader",
+        "latest-version": "nightly",
+        "nightly": {
+            "url": [
+                "http://installer.jdownloader.org/JDownloader.jar",
+                "http://jdownloader.org/lib/tpl/arctic/images/favicon.ico#/icon.ico"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "JDownloader.bat"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Set-Content \"$dir\\JDownloader.bat\" @('@echo off', 'start javaw.exe -jar JDownloader.jar') -Encoding Ascii"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "JDownloader",
+                    "file-name": "JDownloader.bat"
+                }
+            ],
+            "persist": "cfg"
+        }
+    }
+}

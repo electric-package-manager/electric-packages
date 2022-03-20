@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "electrum",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "electrum",
+        "latest-version": "4.1.2",
+        "4.1.2": {
+            "url": "https://download.electrum.org/4.1.2/electrum-4.1.2-portable.exe#/electrum.exe",
+            "file-type": ".exe",
+            "bin": [
+                "electrum.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\electrum_data\\config\")) {",
+                        "   ensure \"$dir\\electrum_data\" | Out-Null",
+                        "   Set-Content \"$dir\\electrum_data\\config\" '{ \"check_updates\": false }' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Electrum",
+                    "file-name": "electrum.exe"
+                }
+            ],
+            "persist": "electrum_data"
+        },
+        "auto-update": {
+            "url": "https://download.electrum.org/<version>/electrum-<version>-portable.exe#/electrum.exe",
+            "version-check": {
+                "webpage": "https://raw.githubusercontent.com/spesmilo/electrum-web/master/panel-download.html",
+                "regex": "Latest release: Electrum-([\\d.]+)"
+            }
+        }
+    }
+}

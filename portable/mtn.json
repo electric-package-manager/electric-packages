@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "mtn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mtn",
+        "latest-version": "3.4",
+        "3.4": {
+            "url": "https://bitbucket.org/wahibre/mtn/downloads/mtn-3.4.0-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\mtn.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bitbucket.org/wahibre/mtn/downloads/$matchFilename",
+            "version-check": {
+                "webpage": "https://bitbucket.org/wahibre/mtn/downloads/?tab=downloads",
+                "regex": "(?<filename>mtn-(?<version>[\\d.]+)\\.[\\w.-]*win32\\.zip)"
+            }
+        }
+    }
+}

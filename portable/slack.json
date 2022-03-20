@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "slack",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "slack",
+        "latest-version": "4.15.0",
+        "4.15.0": {
+            "url": "https://downloads.slack-edge.com/releases/windows/4.15.0/prod/x64/slack-4.15.0-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "slack.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Slack",
+                    "file-name": "slack.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.slack-edge.com/releases/windows/$version/prod/x64/slack-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://slack.com/intl/en-cn/release-notes/windows",
+                "regex": "<h2>Slack ([\\d.]+)"
+            }
+        }
+    }
+}

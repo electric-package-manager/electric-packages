@@ -1,0 +1,18 @@
+{
+    "display-name": "RabbitMQ",
+    "package-name": "rabbitmq",
+    "latest-version": "3.8.11",
+    "3.8.11": {
+        "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.8.11/rabbitmq-server-3.8.11.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": ["erlang"],
+        "checksum": "0CDD258056CD614A27135009F1849AC370AB41A04B7C2FD78D78ADEBB5AE771"
+    }
+}

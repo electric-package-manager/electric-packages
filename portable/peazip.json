@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "peazip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "peazip",
+        "latest-version": "7.8.0",
+        "7.8.0": {
+            "url": "https://dotsrc.dl.osdn.net/osdn/peazip/74800/peazip_portable-7.8.0.WIN64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "peazip.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if(!(Test-Path \"$persist_dir\\res\\bookmarks.txt\")) { New-Item \"$dir\\res\\bookmarks.txt\" | Out-Null }",
+                        "if(!(Test-Path \"$persist_dir\\res\\custedit.txt\")) { New-Item \"$dir\\res\\custedit.txt\" | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PeaZip",
+                    "file-name": "peazip.exe"
+                }
+            ],
+            "persist": [
+                "res\\altconf.txt",
+                "res\\bookmarks.txt",
+                "res\\conf.txt",
+                "res\\conf-lastgood.txt",
+                "res\\custedit.txt"
+            ]
+        },
+        "auto-update": {
+            "url": "https://dotsrc.dl.osdn.net/osdn/peazip/$matchRelease/peazip_portable-$version.WIN64.zip",
+            "version-check": {
+                "webpage": "https://osdn.net/projects/peazip/",
+                "regex": "<a href=\"/projects/peazip/releases/(?<release>[\\d]*)\">peazip ([\\d.]+)</a>"
+            }
+        }
+    }
+}

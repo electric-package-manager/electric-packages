@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "networkminer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "networkminer",
+        "latest-version": "2.6",
+        "2.6": {
+            "url": "https://www.netresec.com/?download=NetworkMiner#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "NetworkMiner.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NetworkMiner",
+                    "file-name": "NetworkMiner.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.netresec.com/?download=NetworkMiner#/dl.zip",
+            "version-check": {
+                "webpage": "https://www.netresec.com/updatecheck.ashx?l=1250",
+                "regex": "^([\\d.]+)\\s+"
+            }
+        }
+    }
+}

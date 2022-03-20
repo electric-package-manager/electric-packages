@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "gopass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gopass",
+        "latest-version": "1.12.5",
+        "1.12.5": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.12.5/gopass-1.12.5-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gopass.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://www.gopass.pw/"
+            }
+        }
+    }
+}

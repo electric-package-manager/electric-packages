@@ -1,0 +1,18 @@
+{
+    "display-name": "Logitech Webcam Software",
+    "package-name": "logitech-webcam-software",
+    "latest-version": "2.80.853.0",
+    "2.80.853.0": {
+        "url": "https://download01.logi.com/web/ftp/pub/video/lws/lws280.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "A9CBBA5638BEA99F1D760DD979819026B5969BF7A4DD3591E3FA9639FAB22142"
+    }
+}

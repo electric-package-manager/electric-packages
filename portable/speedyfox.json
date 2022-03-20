@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "speedyfox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "speedyfox",
+        "latest-version": "2.0.30",
+        "2.0.30": {
+            "url": "https://www.crystalidea.com/downloads/speedyfox.zip",
+            "file-type": ".zip",
+            "bin": [
+                "speedyfox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SpeedyFox",
+                    "file-name": "speedyfox.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.crystalidea.com/downloads/speedyfox.zip",
+            "version-check": {
+                "webpage": "https://crystalidea.com/speedyfox/release-notes",
+                "regex": ">\\s*Version ([\\d.]+)\\s*<"
+            }
+        }
+    }
+}

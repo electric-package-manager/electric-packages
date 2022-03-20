@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "sonarqube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sonarqube",
+        "latest-version": "7.9.6",
+        "7.9.6": {
+            "url": "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.6.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [
+                "conf",
+                "data",
+                "extensions",
+                "logs",
+                "temp"
+            ]
+        },
+        "auto-update": {
+            "url": "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.sonarqube.org/downloads/",
+                "regex": "sonarqube-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

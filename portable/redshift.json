@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "redshift",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "redshift",
+        "latest-version": "1.12",
+        "1.12": {
+            "url": "https://github.com/jonls/redshift/releases/download/v1.12/redshift-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "redshift.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "http://jonls.dk/redshift"
+            }
+        }
+    }
+}

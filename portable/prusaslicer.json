@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "prusaslicer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "prusaslicer",
+        "latest-version": "2.3.0",
+        "2.3.0": {
+            "url": "https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.3.0/PrusaSlicer-2.3.0+win64-202101111315.zip",
+            "file-type": ".zip",
+            "bin": [
+                "prusa-slicer.exe",
+                "prusa-slicer-console.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PrusaSlicer",
+                    "file-name": "prusa-slicer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/prusa3d/PrusaSlicer/releases/download/version_$version/PrusaSlicer-$version+win64-$matchTimestamp64.zip",
+            "version-check": {
+                "webpage": "https://www.prusa3d.com/prusaslicer/",
+                "regex": "(?sm)PrusaSlicer-[\\d.]+\\+win32-(?<timestamp32>\\d+)\\.zip.*?PrusaSlicer-([\\w.-]+)\\+win64-(?<timestamp64>\\d+)\\.zip"
+            }
+        }
+    }
+}

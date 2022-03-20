@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "geekuninstaller",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "geekuninstaller",
+        "latest-version": "1.4.7.142",
+        "1.4.7.142": {
+            "url": "https://geekuninstaller.com/geek.7z",
+            "file-type": ".7z",
+            "bin": [
+                "geek.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Geek Uninstaller",
+                    "file-name": "geek.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://geekuninstaller.com/geek.7z",
+            "version-check": {
+                "webpage": "https://geekuninstaller.com/download",
+                "regex": "<b>([\\d.]+)"
+            }
+        }
+    }
+}

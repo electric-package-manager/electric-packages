@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "winnfsd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "winnfsd",
+        "latest-version": "2.4.0",
+        "2.4.0": {
+            "url": "https://github.com/winnfsd/winnfsd/releases/download/2.4.0/WinNFSd.exe",
+            "file-type": ".exe",
+            "bin": [
+                "WinNFSd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

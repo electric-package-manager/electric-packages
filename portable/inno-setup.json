@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "inno-setup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "inno-setup",
+        "latest-version": "6.1.2",
+        "6.1.2": {
+            "url": "http://files.jrsoftware.org/is/6/innosetup-6.1.2.exe",
+            "file-type": ".exe",
+            "bin": [
+                "iscc.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Inno Setup Compiler",
+                    "file-name": "Compil32.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Invoke-WebRequest -Uri 'http://www.jrsoftware.org/download.php/iscrypt.dll' -OutFile \"$dir\\ISCrypt.dll\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "http://files.jrsoftware.org/is/$majorVersion/innosetup-<version>.exe",
+            "version-check": {
+                "webpage": "http://www.jrsoftware.org/isdl.php",
+                "regex": "innosetup-([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

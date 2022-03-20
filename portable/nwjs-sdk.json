@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "nwjs-sdk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nwjs-sdk",
+        "latest-version": "0.52.2",
+        "0.52.2": {
+            "url": "https://dl.nwjs.io/v0.52.2/nwjs-sdk-v0.52.2-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nwjs-sdk\\nw.exe",
+                "nwjs-sdk\\nwjc.exe",
+                "nwjs-sdk\\payload.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.nwjs.io/v$version/nwjs-sdk-v$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://nwjs.io/versions.json",
+                "regex": "v([\\d.]+)"
+            }
+        }
+    }
+}

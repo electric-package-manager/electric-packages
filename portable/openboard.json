@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "openboard",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openboard",
+        "latest-version": "1.5.4",
+        "1.5.4": {
+            "url": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v1.5.4/OpenBoard_Installer_1.5.4.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenBoard",
+                    "file-name": "OpenBoard.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/OpenBoard-org/OpenBoard/releases/download/v<version>/OpenBoard_Installer_<version>.exe",
+            "version-check": {
+                "webpage": "https://www.openboard.ch/index.en.html"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "swig",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "swig",
+        "latest-version": "4.0.2",
+        "4.0.2": {
+            "url": "https://downloads.sourceforge.net/project/swig/swigwin/swigwin-4.0.2/swigwin-4.0.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "swig.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/swig/swigwin/swigwin-<version>/swigwin-<version>.zip",
+            "version-check": {
+                "webpage": "http://www.swig.org/download.html",
+                "regex": "swigwin-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

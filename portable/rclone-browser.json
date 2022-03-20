@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "rclone-browser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rclone-browser",
+        "latest-version": "1.8.0",
+        "1.8.0": {
+            "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-windows-64-bit.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\tasks.bin\")) { New-Item \"$dir\\tasks.bin\" | Out-Null }",
+                        "if (Test-Path \"$persist_dir\\RcloneBrowser.ini\") {",
+                        "   Copy-Item \"$persist_dir\\RcloneBrowser.ini\" \"$dir\"",
+                        "} else {",
+                        "   $forwardPer = \"$persist_dir\\downloads\" -replace '\\\\', '/'",
+                        "   Set-Content \"$dir\\RcloneBrowser.ini\" @(",
+                        "       '[Settings]', 'checkRcloneBrowserUpdates=false', 'checkRcloneUpdates=false', \"defaultDownloadDir=$forwardPer\"",
+                        "   ) -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Rclone Browser",
+                    "file-name": "RcloneBrowser.exe"
+                }
+            ],
+            "persist": [
+                "downloads",
+                "tasks.bin"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-64-bit.exe",
+            "version-check": {
+                "webpage": "https://github.com/kapitainsky/RcloneBrowser",
+                "regex": "/rclone-browser-([\\d.]+)-(?<commit>[a-fA-F0-9]+)-windows"
+            }
+        }
+    }
+}

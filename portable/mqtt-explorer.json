@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "mqtt-explorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mqtt-explorer",
+        "latest-version": "0.3.5",
+        "0.3.5": {
+            "url": "https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v0.3.5/MQTT-Explorer-Setup-0.3.5.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "MQTT Explorer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MQTT Explorer",
+                    "file-name": "MQTT Explorer.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v<version>/MQTT-Explorer-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://mqtt-explorer.com/"
+            }
+        }
+    }
+}

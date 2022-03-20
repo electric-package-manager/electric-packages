@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "listmonk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "listmonk",
+        "latest-version": "0.9.0-beta",
+        "0.9.0-beta": {
+            "url": "https://github.com/knadh/listmonk/releases/download/v0.9.0-beta/listmonk_0.9.0-beta_windows_amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "listmonk.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

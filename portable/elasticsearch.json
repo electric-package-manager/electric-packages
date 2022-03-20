@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "elasticsearch",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "elasticsearch",
+        "latest-version": "7.12.0",
+        "7.12.0": {
+            "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.12.0-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\elasticsearch.bat",
+                "bin\\elasticsearch-keystore.bat",
+                "bin\\elasticsearch-plugin.bat",
+                "bin\\elasticsearch-service.bat"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "    # Overwrite SCRIPT because elasticsearch-env.bat doesn't care if SCRIPT or ES_HOME are already set ...",
+                        "$file = \"$dir\\bin\\elasticsearch-env.bat\"",
+                        "$cont = (Get-Content \"$file\") -replace 'set SCRIPT=%0', \"set SCRIPT=$file\"",
+                        "Set-Content \"$file\" ($cont -join \"`r`n\") -Encoding ASCII",
+                        "    # use persistent data/logs directory",
+                        "$file = \"$dir\\config\\elasticsearch.yml\"",
+                        "$cont = (Get-Content \"$file\") -replace '#path.data:.*$', \"path.data: $persist_dir\\data\"",
+                        "$cont = $cont -replace '#path.logs:.*$', \"path.logs: $persist_dir\\logs\"",
+                        "Set-Content \"$file\" ($cont -join \"`r`n\") -Encoding ASCII"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "config",
+                "plugins"
+            ]
+        },
+        "auto-update": {
+            "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://www.elastic.co/downloads/elasticsearch",
+                "regex": "elasticsearch-([\\d.]+)-windows"
+            }
+        }
+    }
+}

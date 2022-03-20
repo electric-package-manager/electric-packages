@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/master/package-schema.json",
+  "display-name": "Opera",
+  "package-name": "opera",
+  "latest-version": "75.0.3969.218",
+  "75.0.3969.218": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/75.0.3969.218/win/Opera_75.0.3969.218_Setup_x64.exe",
+    "file-type": ".exe",
+    "iswitches": ["/silent", "/norestart", "/launchopera 0"],
+    "uswitches": ["/silent"],
+    "clswitch": "/installfolder=",
+    "dependencies": []
+  }
+}

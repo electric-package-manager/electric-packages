@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "microsip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "microsip",
+        "latest-version": "3.20.5",
+        "3.20.5": {
+            "url": "https://www.microsip.org/download/MicroSIP-Lite-3.20.5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MicroSIP.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "$manifest.persist | ForEach-Object { New-Item \"$dir\\$_\" -ItemType File -ErrorAction SilentlyContinue | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MicroSIP",
+                    "file-name": "MicroSIP.exe"
+                }
+            ],
+            "persist": [
+                "Contacts.xml",
+                "MicroSIP.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.microsip.org/download/MicroSIP-Lite-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.microsip.org/downloads",
+                "regex": "MicroSIP-Lite-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

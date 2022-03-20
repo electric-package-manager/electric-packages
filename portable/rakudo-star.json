@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "rakudo-star",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rakudo-star",
+        "latest-version": "2020.05.1-01",
+        "2020.05.1-01": {
+            "url": "https://rakudo.org/dl/star/rakudo-star-2020.05.1-01-win-x86_64-(JIT).msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\perl6.exe",
+                "bin\\raku.exe",
+                "bin\\rakudo.exe",
+                "share\\perl6\\site\\bin\\zef.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://rakudo.org/dl/star/rakudo-star-$version-win-x86_64-(JIT).msi",
+            "version-check": {
+                "webpage": "https://rakudo.org/downloads/star",
+                "regex": "rakudo-star-([\\d.-]+)-win-x86_64-\\(JIT\\)\\.msi"
+            }
+        }
+    }
+}

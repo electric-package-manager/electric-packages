@@ -1,0 +1,58 @@
+{
+    "display-name": "7-Zip",
+    "package-name": "7-Zip",
+    "latest-version": "21.07",
+    "auto-update": {
+        "url": "https://www.7-zip.org/a/7z<clean-version>-x64.exe",
+        "version-check": {
+            "webpage": "https://www.7-zip.org/download.html",
+            "regex": "Download 7-Zip ([\\d.]+)"
+        }
+    },
+    "19.00": {
+        "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+        "threads": 3,
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E"
+    },
+    "16.04": {
+        "url": "https://www.7-zip.org/a/7z1604-x64.msi",
+        "file-type": ".msi",
+        "threads": 3,
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B3885B2F090F1E9B5CF2B9F802B07FE88E472D70D60732DB9F830209AC296067"
+    },
+    "21.07": {
+        "url": "https://www.7-zip.org/a/7z2107-x64.exe",
+        "threads": 3,
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0B461F0A0ECCFC4F39733A80D70FD1210FDD69F600FB6B657E03940A734E5FC1"
+    }
+}

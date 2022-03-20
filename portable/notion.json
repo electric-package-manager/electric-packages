@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "notion",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notion",
+        "latest-version": "2.0.16",
+        "2.0.16": {
+            "url": "https://desktop-release.notion-static.com/Notion%20Setup%202.0.16.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notion",
+                    "file-name": "Notion.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://desktop-release.notion-static.com/latest.yml",
+                "regex": "version:\\s+([\\d.]+)"
+            }
+        }
+    }
+}

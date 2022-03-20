@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "qmk-toolbox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qmk-toolbox",
+        "latest-version": "0.0.21",
+        "0.0.21": {
+            "url": "https://github.com/qmk/qmk_toolbox/releases/download/0.0.21/qmk_toolbox.exe",
+            "file-type": ".exe",
+            "bin": [
+                "qmk_toolbox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QMK Toolbox",
+                    "file-name": "qmk_toolbox.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/qmk/qmk_toolbox/releases/download/<version>/qmk_toolbox.exe",
+            "version-check": {
+                "webpage": "https://qmk.fm/toolbox/"
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "display-name": "",
+    "package-name": "enpass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "enpass",
+        "latest-version": "6.6.1.809",
+        "6.6.1.809": {
+            "url": "https://dl.enpass.io/stable/windows/setup/6.6.1.809/Enpass-setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Enpass.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Enpass",
+                    "file-name": "Enpass.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$cmd = '\"' + \"$(appdir enpass $global)\\current\\Enpass.exe\" + '\" \"%1\"'",
+                        "$parent = \"HKCU:Software\\Classes\"",
+                        "",
+                        "foreach ($urlh in @('enpass', 'enpassauth', 'enpasscard', 'enpassstart')) {",
+                        "    $RKey = \"$parent\\$urlh\"",
+                        "    New-Item $RKey -Force | Out-Null",
+                        "    Set-Item $RKey \"URL:$urlh Protocol\" -Force | Out-Null",
+                        "    New-ItemProperty $RKey 'URL Protocol' -Force | Out-Null",
+                        "    New-Item \"$RKey\\shell\\open\\command\" -Force | Out-Null",
+                        "    Set-Item \"$RKey\\shell\\open\\command\" $cmd -Force | Out-Null",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://dl.enpass.io/stable/windows/setup/<version>/Enpass-setup.exe",
+            "version-check": {
+                "webpage": "https://www.enpass.io/downloads/",
+                "regex": "windows/setup/([\\d.]+)/Enpass"
+            }
+        }
+    }
+}

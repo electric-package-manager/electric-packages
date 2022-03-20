@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "centertaskbar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "centertaskbar",
+        "latest-version": "1.92",
+        "1.92": {
+            "url": "https://github.com/mdhiggins/CenterTaskbar/releases/download/1.92/CenterTaskbar.exe",
+            "file-type": ".exe",
+            "bin": [
+                "CenterTaskbar.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CenterTaskbar",
+                    "file-name": "CenterTaskbar.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

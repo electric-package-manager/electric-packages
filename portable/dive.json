@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dive",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dive",
+        "latest-version": "0.10.0",
+        "0.10.0": {
+            "url": "https://github.com/wagoodman/dive/releases/download/v0.10.0/dive_0.10.0_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dive.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

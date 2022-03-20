@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "dockercompletion",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dockercompletion",
+        "latest-version": "1.2010.0.201211",
+        "1.2010.0.201211": {
+            "url": "https://psg-prod-eastus.azureedge.net/packages/dockercompletion.1.2010.0.201211.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://psg-prod-eastus.azureedge.net/packages/dockercompletion.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://www.powershellgallery.com/packages/DockerCompletion",
+                "regex": "<h2>([\\d.]+)</h2>"
+            }
+        }
+    }
+}

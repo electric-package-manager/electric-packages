@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "unrar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "unrar",
+        "latest-version": "6.01",
+        "6.01": {
+            "url": "https://www.rarlab.com/rar/unrarw32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "UnRAR.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "roswell",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "roswell",
+        "latest-version": "20.06.14.107",
+        "20.06.14.107": {
+            "url": "https://github.com/roswell/roswell/releases/download/v20.06.14.107/roswell_20.06.14.107_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ros.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/roswell/roswell/releases/download/v$version/roswell_$version_amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/roswell/roswell/releases",
+                "regex": "roswell_([\\d.]+)_amd64\\.zip"
+            }
+        }
+    }
+}

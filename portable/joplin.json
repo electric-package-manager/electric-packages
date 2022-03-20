@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "joplin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "joplin",
+        "latest-version": "1.7.11",
+        "1.7.11": {
+            "url": "https://github.com/laurent22/joplin/releases/download/v1.7.11/Joplin-Setup-1.7.11.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Joplin.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Joplin",
+                    "file-name": "Joplin.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/laurent22/joplin/releases/download/v<version>/Joplin-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://joplinapp.org"
+            }
+        }
+    }
+}

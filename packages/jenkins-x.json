@@ -1,0 +1,178 @@
+{
+    "display-name": "Jenkins X",
+    "package-name": "jenkins-x",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Jenkins X",
+        "package-name": "jenkins-x",
+        "latest-version": "3.2.263",
+        "auto-update": {
+            "url": "https://github.com/jenkins-x/jx/releases/download/v<version>/jx-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/jenkins-x/jx",
+                "type": "github"
+            }
+        },
+        "3.2.46": {
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.46/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.147": {
+            "checksum": "",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.147/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.150": {
+            "checksum": "145FB999E2B3A1321FD0E96E97A01647D5A184249B7C1CAB97094C080B9ECCBB",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.150/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.151": {
+            "checksum": "BFD67401E3DEF227D1886BC99EF710DAEC10ECC41712B45D72FB467A3585AE18",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.151/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.152": {
+            "checksum": "87A98CAD0E994ACB3DF8520E20F0A8C7F0D3BFAECC6AE7A7546EAA5E420240A4",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.152/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.155": {
+            "checksum": "23FE53A97CEFD36540CBF838FE606515155DC82F3F7D21831EF2BD57FDD28659",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.155/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.157": {
+            "checksum": "FCB9AAAC8F15797FFFB830398B2900F34FC21BEBD5D1C9C414FBA9F746F32A1C",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.157/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.180": {
+            "checksum": "D0C90ACACE6EC8F811B3ADC0F63B56DEB2C329E39635CE8064476517C5E5FC3D",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.180/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.182": {
+            "checksum": "C2EEB8FD825642CCFE88968946AA0B84337FD9AE0592D89467E66F0FC998C002",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.182/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.184": {
+            "checksum": "4CA4C6CC81F4AAB4E247BB3E43975CD2853CFCF469D6BEDC6FD05F56C45EC9BE",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.184/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.186": {
+            "checksum": "260B715F481A0A0B1DC53E197AC114C6C18908A1F8B1540BC0B867DD170AAD10",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.186/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.190": {
+            "checksum": "ADC7B6670035C90DA2C02660910DDC48509857FDA9AAB64C399206CFC35365F0",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.190/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.253": {
+            "checksum": "1532E6D8DF400742EA9B3C0684C50CC37D2E38A84C8EF072381B208A2817C9C5",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.253/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.254": {
+            "checksum": "D5964FCC7F64D70ACD49B10CFD95BDC1818E0790BE73892968065E3A58750FC4",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.254/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.256": {
+            "checksum": "83DD02108034B0CE278B06916A1C3C94F6115A7ED5366E5A0523D799C6680226",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.256/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.257": {
+            "checksum": "E70FACF423DB44813FBBBD8586EA6931DA1BE18F00651EC974FBEC8483061398",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.257/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.259": {
+            "checksum": "AF971EE01283F299B66C18BE765D3C600984B7665666E92265312756AA3A907D",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.259/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.263": {
+            "checksum": "256576945C3064A85D706850C89B1912D95B69605EAD5E3CB2E5D1F082306291",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.263/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        }
+    }
+}

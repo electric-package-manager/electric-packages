@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "noti",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "noti",
+        "latest-version": "3.5.0",
+        "3.5.0": {
+            "url": "https://github.com/variadico/noti/releases/download/3.5.0/noti3.5.0.windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "noti.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "furmark",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "furmark",
+        "latest-version": "1.23.0.0",
+        "1.23.0.0": {
+            "url": "https://www.geeks3d.com/downloads/2020p/FurMark_1.23.0.0_Setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "FurMark.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FurMark",
+                    "file-name": "FurMark.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.geeks3d.com/downloads/$matchYearp/FurMark_<version>_Setup.exe",
+            "version-check": {
+                "webpage": "https://geeks3d.com/furmark/downloads/",
+                "regex": "<b>Version ([\\d.]+) - (?<year>\\d+)-\\d+-\\d+</b>"
+            }
+        }
+    }
+}

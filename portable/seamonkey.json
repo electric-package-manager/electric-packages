@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "seamonkey",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "seamonkey",
+        "latest-version": "2.53.7",
+        "2.53.7": {
+            "url": "https://archive.mozilla.org/pub/seamonkey/releases/2.53.7/win64/en-US/seamonkey-2.53.7.en-US.win64.installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "seamonkey.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SeaMonkey",
+                    "file-name": "seamonkey.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

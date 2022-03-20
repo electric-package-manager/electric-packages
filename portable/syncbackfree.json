@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "syncbackfree",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "syncbackfree",
+        "latest-version": "9.5.5.0",
+        "9.5.5.0": {
+            "url": "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "SyncBackFree.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SyncBackFree",
+                    "file-name": "SyncBackFree.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

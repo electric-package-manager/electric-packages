@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "freeclipboardviewer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freeclipboardviewer",
+        "latest-version": "4.0",
+        "4.0": {
+            "url": "https://freeclipboardviewer.com/FreeClipViewer.zip",
+            "file-type": ".zip",
+            "bin": [
+                "freeclipviewer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Free Clipboard Viewer",
+                    "file-name": "FreeClipViewer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

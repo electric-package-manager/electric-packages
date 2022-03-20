@@ -1,0 +1,49 @@
+{
+    "display-name": "",
+    "package-name": "apache",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "apache",
+        "latest-version": "2.4.46",
+        "2.4.46": {
+            "url": "https://fossies.org/windows/www/httpd-2.4.46-win64-VC15.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ab.exe",
+                "bin\\abs.exe",
+                "bin\\htcacheclean.exe",
+                "bin\\htdbm.exe",
+                "bin\\htdigest.exe",
+                "bin\\htpasswd.exe",
+                "bin\\httpd.exe",
+                "bin\\httxt2dbm.exe",
+                "bin\\logresolve.exe",
+                "bin\\rotatelogs.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "htdocs",
+                "conf"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# set directory in httpd.conf",
+                        "$conf = \"$dir/conf/httpd.conf\"",
+                        "$root=(scoop which httpd | split-path -res -par | split-path -par) -replace '\\\\', '/';",
+                        "(gc $conf) | % { $_ -replace 'c:/Apache24', \"$root\" } | sc $conf"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://fossies.org/windows/www/httpd-$version-win64-VC15.zip",
+            "version-check": {
+                "webpage": "https://fossies.org/search?q=folder_search&q1=httpd&ad=%2Ffresh%2Fwindows%2Fwww&ca=yes&dp=1",
+                "regex": "httpd-([\\d.]+)-win64-VC15\\.zip"
+            }
+        }
+    }
+}

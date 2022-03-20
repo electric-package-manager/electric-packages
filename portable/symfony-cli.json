@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "symfony-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "symfony-cli",
+        "latest-version": "4.23.5",
+        "4.23.5": {
+            "url": "https://github.com/symfony/cli/releases/download/v4.23.5/symfony_windows_amd64.exe#/symfony.exe",
+            "file-type": ".exe",
+            "bin": [
+                "symfony.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

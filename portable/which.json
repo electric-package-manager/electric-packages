@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "which",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "which",
+        "latest-version": "2.20",
+        "2.20": {
+            "url": "https://downloads.sourceforge.net/project/gnuwin32/which/2.20/which-2.20-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\which.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

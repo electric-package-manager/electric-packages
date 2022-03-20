@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "avrdude",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "avrdude",
+        "latest-version": "6.3-20171130",
+        "6.3-20171130": {
+            "url": "https://dotsrc.dl.osdn.net/osdn/avrdude/72328/avrdude-64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "avrdude.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

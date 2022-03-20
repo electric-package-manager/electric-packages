@@ -1,0 +1,17 @@
+{
+    "display-name": "",
+    "package-name": "netcat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "netcat",
+        "latest-version": "1.12",
+        "1.12": {
+            "url": "https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

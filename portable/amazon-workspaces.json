@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "amazon-workspaces",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "amazon-workspaces",
+        "latest-version": "3.1.6.2064",
+        "3.1.6.2064": {
+            "url": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi",
+            "file-type": ".msi",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# Disable the autoupdate of amazon-workspaces client",
+                        "$configFile = \"$dir\\workspaces.dll.config\"",
+                        "if (Test-Path -LiteralPath $configFile) {",
+                        "   [xml]$xml = Get-Content -LiteralPath $configFile",
+                        "   $key = $xml.SelectSingleNode(\"(//configuration/appSettings/add[@key='UpdateUrl'])[1]\")",
+                        "   $key.Value = ''",
+                        "   $xml.Save($configFile)",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Amazon Workspaces",
+                    "file-name": "workspaces.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://d2td7dqidlhjx7.cloudfront.net/prod/global/windows/Amazon+WorkSpaces.msi",
+            "version-check": {
+                "webpage": "https://d2td7dqidlhjx7.cloudfront.net/prod/dub/windows/WorkSpacesAppCast.xml",
+                "regex": "title>Version ([\\d.]+)</"
+            }
+        }
+    }
+}

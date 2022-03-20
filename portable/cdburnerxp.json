@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "cdburnerxp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cdburnerxp",
+        "latest-version": "4.5.8.7128",
+        "4.5.8.7128": {
+            "url": "https://download.cdburnerxp.se/portable/CDBurnerXP-x64-4.5.8.7128.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cdbxpp.exe",
+                "cdbxpcmd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (-not (Test-Path \"$persist_dir\\UserSettings.ini\")) {",
+                        "    Set-Content \"$dir\\UserSettings.ini\" @('[General]', 'UseCustomTempFolder=1', \"CustomTempFolder=$persist_dir\\tmp\", \"RemoveableMediaCache=$persist_dir\\cache\") -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CDBurnerXP",
+                    "file-name": "cdbxpp.exe"
+                }
+            ],
+            "persist": [
+                "cache",
+                "tmp",
+                "UserSettings.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://download.cdburnerxp.se/portable/CDBurnerXP-x64-$version.zip",
+            "version-check": {
+                "webpage": "https://update.cdburnerxp.se",
+                "regex": "^([\\d.]+)\\|"
+            }
+        }
+    }
+}

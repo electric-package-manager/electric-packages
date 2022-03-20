@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mpxplay",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpxplay",
+        "latest-version": "1.65",
+        "1.65": {
+            "url": "https://downloads.sourceforge.net/project/mpxplay/Mpxplay/Mpxplay%20v1.65/mpxp165w.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mpxplay.exe"
+            ],
+            "shortcuts": [],
+            "persist": "MPXPLAY.INI"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "dvc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dvc",
+        "latest-version": "2.0.17",
+        "2.0.17": {
+            "url": "https://github.com/iterative/dvc/releases/download/2.0.17/dvc-2.0.17.exe",
+            "file-type": ".exe",
+            "bin": [
+                "dvc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/iterative/dvc/releases/download/<version>/dvc-<version>.exe",
+            "version-check": {
+                "webpage": "https://dvc.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "pciutils",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pciutils",
+        "latest-version": "3.5.5",
+        "3.5.5": {
+            "url": "https://eternallybored.org/misc/pciutils/releases/pciutils-3.5.5-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lspci.exe",
+                "setpci.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

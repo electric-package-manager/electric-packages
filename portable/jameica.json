@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "jameica",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jameica",
+        "latest-version": "2.10.0",
+        "2.10.0": {
+            "url": "https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-win64-2.10.0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": "plugins"
+        },
+        "auto-update": {
+            "url": "https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-win64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.willuhn.de/products/jameica/download.php",
+                "regex": "Jameica\\s+([\\d.]+)\\s+-\\s+Aktuelle Version"
+            }
+        }
+    }
+}

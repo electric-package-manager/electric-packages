@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "qtranslate",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qtranslate",
+        "latest-version": "6.8.0.1",
+        "6.8.0.1": {
+            "url": "https://qtranslate2.appspot.com/QTranslate.6.8.0.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "QTranslate.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QTranslate",
+                    "file-name": "QTranslate.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://qtranslate2.appspot.com/QTranslate.<version>.zip",
+            "version-check": {
+                "webpage": "https://quest-app.appspot.com/download",
+                "regex": "<h3>QTranslate\\s+([\\d.]+)\\s+portable"
+            }
+        }
+    }
+}

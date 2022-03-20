@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "springboot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "springboot",
+        "latest-version": "2.3.9",
+        "2.3.9": {
+            "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.3.9.RELEASE/spring-boot-cli-2.3.9.RELEASE-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\spring.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/<version>.RELEASE/spring-boot-cli-<version>.RELEASE-bin.zip",
+            "version-check": {
+                "webpage": "https://spring.io/projects/spring-boot",
+                "regex": ">([\\d.]+)\\.RELEASE<"
+            }
+        }
+    }
+}

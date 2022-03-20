@@ -1,0 +1,52 @@
+{
+    "display-name": "",
+    "package-name": "akelpad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "akelpad",
+        "latest-version": "4.9.8",
+        "4.9.8": {
+            "url": [
+                "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%204/4.9.8/x64/AkelPad-4.9.8-x64-bin-eng.zip",
+                "http://akelpad.sourceforge.net/files/tools/AkelUpdater.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "AkelPad.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\AkelPad.ini\")) { Set-Content \"$dir\\AkelPad.ini\" '[Options]', 'SaveSettings=2' -Encoding Ascii }",
+                        "if (Test-Path \"$dir\\AkelUpdater.exe\") { Move-Item \"$dir\\AkelUpdater.exe\" \"$dir\\AkelFiles\" }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AkelPad",
+                    "file-name": "AkelPad.exe"
+                },
+                {
+                    "shortcut-name": "AkelUpdater",
+                    "file-name": "AkelFiles\\AkelUpdater.exe"
+                }
+            ],
+            "persist": [
+                "AkelPad.ini",
+                "AkelFiles\\Docs",
+                "AkelFiles\\Plugs",
+                "AkelFiles\\Langs"
+            ]
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/akelpad/files/AkelPad%20$majorVersion/$version/x64/AkelPad-$version-x64-bin-eng.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/akelpad/rss?path=/AkelPad%204",
+                "regex": "AkelPad-([\\d.]+)-x64-bin-eng\\.zip"
+            }
+        }
+    }
+}

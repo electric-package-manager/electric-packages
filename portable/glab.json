@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "glab",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "glab",
+        "latest-version": "1.16.0",
+        "1.16.0": {
+            "url": "http://github.com/profclems/glab/releases/download/v1.16.0/glab_1.16.0_windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\glab.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

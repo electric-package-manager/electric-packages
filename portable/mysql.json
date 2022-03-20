@@ -1,0 +1,76 @@
+{
+    "display-name": "",
+    "package-name": "mysql",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mysql",
+        "latest-version": "8.0.23",
+        "8.0.23": {
+            "url": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.23-winx64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ibd2sdi.exe",
+                "bin\\innochecksum.exe",
+                "bin\\lz4_decompress.exe",
+                "bin\\myisamchk.exe",
+                "bin\\myisamlog.exe",
+                "bin\\myisampack.exe",
+                "bin\\myisam_ftdump.exe",
+                "bin\\mysql.exe",
+                "bin\\mysqladmin.exe",
+                "bin\\mysqlbinlog.exe",
+                "bin\\mysqlcheck.exe",
+                "bin\\mysqld.exe",
+                "bin\\mysqldump.exe",
+                "bin\\mysqlimport.exe",
+                "bin\\mysqlpump.exe",
+                "bin\\mysqlshow.exe",
+                "bin\\mysqlslap.exe",
+                "bin\\mysql_config_editor.exe",
+                "bin\\mysql_secure_installation.exe",
+                "bin\\mysql_ssl_rsa_setup.exe",
+                "bin\\mysql_tzinfo_to_sql.exe",
+                "bin\\mysql_upgrade.exe",
+                "bin\\my_print_defaults.exe",
+                "bin\\perror.exe",
+                "bin\\zlib_decompress.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "data",
+                "my.ini"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$ini = \"$dir\\my.ini\"",
+                        "if (!(Test-Path \"$ini\")) {",
+                        "   # Using $dir instead of $persist_dir, causes this error:",
+                        "   # [ERROR] [MY-010187] [Server] Could not open file '~/scoop/apps/mysql/current/data/host.err' for error logging: Permission denied",
+                        "   Add-Content -Path \"$ini\" -Value \"[mysqld]`ndatadir=$($persist_dir -replace '\\\\', '/')/data\" -Encoding Ascii",
+                        "   # Set username so it's not required when connecting",
+                        "   Add-Content -Path \"$ini\" -Value \"[client]`nuser=root\" -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$dir\\data\\auto.cnf\")) {",
+                        "    warn 'Initializing data directory ...'",
+                        "    Invoke-ExternalCommand -FilePath \"$dir\\bin\\mysqld.exe\" -ArgumentList '--initialize-insecure'",
+                        "    warn 'Database has been initialized (username: root, password: <blank>)'",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "tokei",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tokei",
+        "latest-version": "12.1.2",
+        "12.1.2": {
+            "url": "https://github.com/XAMPPRocky/tokei/releases/download/v12.1.2/tokei-x86_64-pc-windows-msvc.exe#/tokei.exe",
+            "file-type": ".exe",
+            "bin": [
+                "tokei.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\tokei.toml\")) { New-Item \"$dir\\tokei.toml\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "tokei.toml"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

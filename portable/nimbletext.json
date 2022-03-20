@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "nimbletext",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nimbletext",
+        "latest-version": "3.1.0.17465",
+        "3.1.0.17465": {
+            "url": "http://nimbletext.com/Download/NimbleText.exe",
+            "file-type": ".exe",
+            "bin": [
+                "NimbleText.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NimbleText",
+                    "file-name": "NimbleText.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://nimbletext.com/Download/NimbleText.exe",
+            "version-check": {
+                "webpage": "http://nimbletext.com/Version/Notes",
+                "regex": "Version ([\\d.]+)"
+            }
+        }
+    }
+}

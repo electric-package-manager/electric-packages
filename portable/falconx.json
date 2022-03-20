@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "falconx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "falconx",
+        "latest-version": "1.4.5.0",
+        "1.4.5.0": {
+            "url": "https://github.com/ChrisAnd1998/FalconX-Center-Taskbar/releases/download/1.4.5.0/FalconX_02.03.2020_1.4.5.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FalconX.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FalconX Settings",
+                    "file-name": "FalconXSettings.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

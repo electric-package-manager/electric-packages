@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-keeagent",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-keeagent",
+        "latest-version": "0.12.1",
+        "0.12.1": {
+            "url": "https://github.com/dlech/KeeAgent/releases/download/v0.12.1/KeeAgent_v0.12.1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/dlech/KeeAgent/releases/download/v<version>/KeeAgent_v<version>.zip",
+            "version-check": {
+                "webpage": "https://lechnology.com/software/keeagent/"
+            }
+        }
+    }
+}

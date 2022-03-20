@@ -1,0 +1,77 @@
+{
+    "display-name": "Kubernetes Helm",
+    "package-name": "kubernetes-helm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Kubernetes Helm",
+        "package-name": "kubernetes-helm",
+        "latest-version": "3.8.1",
+        "auto-update": {
+            "url": "https://get.helm.sh/helm-v<version>-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/helm/helm",
+                "type": "github"
+            }
+        },
+        "3.5.2": {
+            "url": "https://get.helm.sh/helm-v3.5.2-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ],
+            "checksum": "079711EEADD3276DA0D946A116F4DC08D58B015CA1874D7B3F3CD633E079589E"
+        },
+        "3.6.1": {
+            "checksum": "079711EEADD3276DA0D946A116F4DC08D58B015CA1874D7B3F3CD633E079589E",
+            "url": "https://get.helm.sh/helm-v3.6.1-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ]
+        },
+        "3.6.2": {
+            "checksum": "D46805BF24D4C93C5CCC9AF2D49903E3A80771366D0C59AD6D18187450D888D0",
+            "url": "https://get.helm.sh/helm-v3.6.2-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ]
+        },
+        "3.6.3": {
+            "checksum": "71078748101DE3F2DF40B25031E4B7AA4BDF760FF7BCC6D3F503F988D24BD2C4",
+            "url": "https://get.helm.sh/helm-v3.6.3-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ]
+        },
+        "3.8.0": {
+            "checksum": "797D2ABD603A2646F2FB9C3FABBA46F2FABAE5CBD1EB87C20956EC5B4A2FC634",
+            "url": "https://get.helm.sh/helm-v3.8.0-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ]
+        },
+        "3.8.1": {
+            "checksum": "D52E0CDA6C4CC0E0717D5161CA1BA7A8D446437AFDBE42B3C565C145AC752888",
+            "url": "https://get.helm.sh/helm-v3.8.1-windows-amd64.zip",
+            "file-type": ".zip",
+            "extract-dir": "kubernetes-helm",
+            "chdir": "windows-amd64",
+            "bin": [
+                "helm.exe"
+            ]
+        }
+    }
+}

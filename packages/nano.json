@@ -1,0 +1,18 @@
+{
+    "display-name": "GNU Nano",
+    "package-name": "nano",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Gnu Nano",
+        "package-name": "nano",
+        "latest-version": "2.5.3",
+        "2.5.3": {
+            "url": "http://www.nano-editor.org/dist/v2.5/NT/nano-2.5.3.zip",
+            "file-type": ".zip",
+            "extract-dir": "nano",
+            "chdir": "nano-2.5.3-win32",
+            "bin": "nano.exe",
+            "checksum": "C012456B9F29E488B0E9A688AA43A34326DD573F9E99765CBDAC2B81A4BC1060"
+        }
+    }
+}

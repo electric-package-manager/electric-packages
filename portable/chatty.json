@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "chatty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chatty",
+        "latest-version": "0.14",
+        "0.14": {
+            "url": "https://github.com/chatty/chatty/releases/download/v0.14/Chatty_0.14_win_standalone.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Chatty.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\app\\Chatty.cfg\")) {",
+                        "    ensure \"$dir\\app\\portable_settings\" | Out-Null",
+                        "    $cfg = \"$dir\\app\\Chatty.cfg\"",
+                        "    (Get-Content $cfg) -replace '(\\[ArgOptions\\])', \"`$1`r`n-portable\" | Set-Content $cfg -Encoding Ascii -Force",
+                        "    Set-Content \"$dir\\app\\portable_settings\\settings\" '{ \"checkNewVersion\": false }' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chatty",
+                    "file-name": "Chatty.exe"
+                }
+            ],
+            "persist": [
+                "app\\portable_settings",
+                "app\\Chatty.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/chatty/chatty/releases/download/v<version>/Chatty_<version>_win_standalone.zip",
+            "version-check": {
+                "webpage": "https://chatty.github.io"
+            }
+        }
+    }
+}

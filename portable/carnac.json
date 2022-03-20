@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "carnac",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "carnac",
+        "latest-version": "2.3.13",
+        "2.3.13": {
+            "url": "https://github.com/Code52/carnac/releases/download/2.3.13/carnac-2.3.13-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Carnac",
+                    "file-name": "Carnac.exe"
+                }
+            ],
+            "persist": "Keymaps"
+        },
+        "auto-update": {
+            "url": "https://github.com/Code52/carnac/releases/download/<version>/carnac-<version>-full.nupkg",
+            "version-check": {
+                "webpage": "http://carnackeys.com/"
+            }
+        }
+    }
+}

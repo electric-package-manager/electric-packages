@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "pci-z",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pci-z",
+        "latest-version": "2.0-2017.07.01",
+        "2.0-2017.07.01": {
+            "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PCI-Z",
+                    "file-name": "PCI-Z.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
+            "version-check": {
+                "webpage": "https://www.pci-z.com/",
+                "regex": "Download PCI-Z (?<version>[\\d.]+) \\(.*?\\) \\(PCI ID version (?<pci>[\\d.]+)\\)"
+            }
+        }
+    }
+}

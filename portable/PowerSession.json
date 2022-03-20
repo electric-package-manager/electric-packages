@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "PowerSession",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "PowerSession",
+        "latest-version": "1.4.0",
+        "1.4.0": {
+            "url": "https://github.com/ibigbug/PowerSession/releases/download/release-v1.4.0/PowerSession.exe",
+            "file-type": ".exe",
+            "bin": [
+                "PowerSession.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ibigbug/PowerSession/releases/download/release-v$version/PowerSession.exe",
+            "version-check": {
+                "webpage": "https://github.com/ibigbug/PowerSession",
+                "regex": "tag/release-v([\\d.]+)"
+            }
+        }
+    }
+}

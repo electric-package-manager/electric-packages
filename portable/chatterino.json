@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "chatterino",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chatterino",
+        "latest-version": "2.2.2",
+        "2.2.2": {
+            "url": "https://chatterino.com/download/2.2.2/Chatterino%20Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "chatterino.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chatterino",
+                    "file-name": "chatterino.exe"
+                }
+            ],
+            "persist": [
+                "Settings",
+                "Cache"
+            ]
+        },
+        "auto-update": {
+            "url": "https://chatterino.com/download/$version/Chatterino%20Portable.zip",
+            "version-check": {
+                "webpage": "https://chatterino.com/download/",
+                "regex": ">([\\d.-]+)/<"
+            }
+        }
+    }
+}

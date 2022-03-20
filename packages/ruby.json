@@ -1,0 +1,25 @@
+{
+    "display-name": "Ruby",
+    "package-name": "ruby",
+    "latest-version": "3.0.0.1",
+    "3.0.0.1": {
+        "url": "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.0-1/rubyinstaller-3.0.0-1-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "9BCE78124F11C564B01196FA4D45B440197BB5B2FAA97750391F52863B726BDF"
+    }
+}

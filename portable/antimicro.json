@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "antimicro",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "antimicro",
+        "latest-version": "2.23",
+        "2.23": {
+            "url": "https://github.com/AntiMicro/antimicro/releases/download/2.23/antimicro-2.23-win32.portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "antimicro",
+                    "file-name": "antimicro.exe"
+                }
+            ],
+            "persist": [
+                "antimicro_settings.ini",
+                "profiles"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

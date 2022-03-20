@@ -1,0 +1,18 @@
+{
+    "package-name": "editplus",
+    "display-name": "EditPlus",
+    "latest-version": "5.4",
+    "5.4": {
+        "url": "https://www.editplus.com/ftp/epp540_3430_64bit.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s",
+            "-sp-s"
+        ],
+        "uswitches": [
+            "-s"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

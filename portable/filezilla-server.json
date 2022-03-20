@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "filezilla-server",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "filezilla-server",
+        "latest-version": "0.9.60.2",
+        "0.9.60.2": {
+            "url": "https://download.filezilla-project.org/server/FileZilla_Server-0_9_60_2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "FileZilla Server.exe",
+                [
+                    "FileZilla Server.exe",
+                    "filezilla_server"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FileZilla Server Interface",
+                    "file-name": "FileZilla Server Interface.exe"
+                },
+                {
+                    "shortcut-name": "Start FileZilla Server",
+                    "file-name": "FileZilla Server.exe"
+                },
+                {
+                    "shortcut-name": "Stop FileZilla Server",
+                    "file-name": "FileZilla Server.exe"
+                }
+            ],
+            "persist": "FileZilla Server.xml"
+        },
+        "auto-update": {
+            "url": "https://download.filezilla-project.org/server/FileZilla_Server-$underscoreVersion.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://filezilla-project.org/download.php?show_all=1&type=server",
+                "regex": "The latest stable version of FileZilla Server is ([\\d.]+)"
+            }
+        }
+    }
+}

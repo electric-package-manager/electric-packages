@@ -1,0 +1,90 @@
+{
+    "display-name": "Autohotkey",
+    "package-name": "autohotkey",
+    "latest-version": "1.1.33.10",
+    "auto-update": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "version-check": {
+            "webpage": "https://www.autohotkey.com/download/",
+            "regex": "v([\\d.]+) -"
+        }
+    },
+    "1.1.33.02": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "E8BB766B3A8EE577CCBD1828FCA1C1A4624687F7D8736BE169B4A671A9D04115"
+    },
+    "1.1.33.06": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "8705D2FE92FACCAC92BA98F223C68E8ECAE44AEFAF5DB1C1ABB731E285A8FAB3"
+    },
+    "1.1.33.07": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "C031C0AB79082C42B5F9745D71D7C785CA54462E9DAF40789F993AF69523081B"
+    },
+    "1.1.33.08": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "C031C0AB79082C42B5F9745D71D7C785CA54462E9DAF40789F993AF69523081B"
+    },
+    "1.1.33.09": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "AE16F667CF5069D3E26AD7DEA0BCE0BBF31435F353562BFAAAE425BF34868048"
+    },
+    "1.1.33.10": {
+        "url": "https://autohotkey.com/download/ahk-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "3F3B4324E8FE78131951ABCDA7F31173D4954179A4FC1A7559476AC04B45D759"
+    }
+}

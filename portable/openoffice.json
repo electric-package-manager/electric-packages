@@ -1,0 +1,62 @@
+{
+    "display-name": "",
+    "package-name": "openoffice",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openoffice",
+        "latest-version": "4.1.9",
+        "4.1.9": {
+            "url": "https://archive.apache.org/dist/openoffice/4.1.9/binaries/en-GB/Apache_OpenOffice_4.1.9_Win_x86_install_en-GB.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$splat = @{ 'DestinationPath' = \"$dir\\App\" }",
+                        "if (get_config 'MSIEXTRACT_USE_LESSMSI' $false) { $splat.Add('ExtractDir', 'OpenOffice 4') }",
+                        "(Get-ChildItem \"$dir\" 'openoffic*.msi').FullName | Expand-MsiArchive @splat",
+                        "Get-ChildItem \"$dir\" -Exclude 'App' | Remove-Item -Recurse",
+                        "Move-Item \"$dir\\App\\*\" \"$dir\" -Force",
+                        "Remove-Item \"$dir\\App\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice",
+                    "file-name": "program\\soffice.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Base",
+                    "file-name": "program\\sbase.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Calc",
+                    "file-name": "program\\scalc.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Draw",
+                    "file-name": "program\\sdraw.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Impress",
+                    "file-name": "program\\simpress.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Math",
+                    "file-name": "program\\smath.exe"
+                },
+                {
+                    "shortcut-name": "OpenOffice\\OpenOffice Writer",
+                    "file-name": "program\\swriter.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

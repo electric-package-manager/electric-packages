@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "radare2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "radare2",
+        "latest-version": "4.3.1",
+        "4.3.1": {
+            "url": "https://radare.mikelloc.com/get/4.3.1/radare2-msvc_64-4.3.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "bin\\radare2.exe",
+                    "r2"
+                ],
+                "bin\\r2agent.exe",
+                "bin\\rabin2.exe",
+                "bin\\radare2.exe",
+                "bin\\radiff2.exe",
+                "bin\\rafind2.exe",
+                "bin\\ragg2.exe",
+                "bin\\rahash2.exe",
+                "bin\\rarun2.exe",
+                "bin\\rasm2.exe",
+                "bin\\rax2.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://radare.mikelloc.com/get/$version/radare2-msvc_64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.radare.org/r/down.html",
+                "regex": "last release is ([\\d.]+)"
+            }
+        }
+    }
+}

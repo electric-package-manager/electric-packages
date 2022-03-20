@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "dumo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dumo",
+        "latest-version": "2.23.5.115",
+        "2.23.5.115": {
+            "url": "https://www.kcsoftwares.com/files/dumo.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DUMo.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\settings.ini\")) { Set-Content \"$dir\\settings.ini\" '[Settings]', 'AutoUpdate=0' -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DUMo - Drivers Update Monitor",
+                    "file-name": "DUMo.exe"
+                }
+            ],
+            "persist": "settings.ini"
+        },
+        "auto-update": {
+            "url": "https://www.kcsoftwares.com/files/dumo.zip",
+            "version-check": {
+                "webpage": "https://www.kcsoftwares.com/?download",
+                "regex": "(?sm)DUMo</h.*?Version\\s+:\\s*<code>([\\d.]+)</"
+            }
+        }
+    }
+}

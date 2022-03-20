@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "cloudflared",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cloudflared",
+        "latest-version": "2021.4.0",
+        "2021.4.0": {
+            "url": "https://github.com/cloudflare/cloudflared/releases/download/2021.4.0/cloudflared-windows-amd64.exe#/cloudflared.exe",
+            "file-type": ".exe",
+            "bin": [
+                "cloudflared.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

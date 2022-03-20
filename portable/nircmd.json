@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "nircmd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nircmd",
+        "latest-version": "2.86",
+        "2.86": {
+            "url": "https://www.nirsoft.net/utils/nircmd-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nircmdc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

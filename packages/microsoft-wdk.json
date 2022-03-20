@@ -1,0 +1,17 @@
+{
+    "display-name": "Microsoft Windows Driver Kit",
+    "package-name": "microsoft-wdk",
+    "latest-version": "10.1.19041.645",
+    "10.1.19041.645": {
+        "url": "https://download.microsoft.com/download/c/f/8/cf80b955-d578-4635-825c-2801911f9d79/wdk/wdksetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "/installpath=",
+        "dependencies": [],
+        "checksum": "5F4EA0C55AF099F97CB569A927C3A290C211F17EDCFC65009F5B9253B9827925"
+    }
+}

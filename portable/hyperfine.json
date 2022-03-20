@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "hyperfine",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hyperfine",
+        "latest-version": "1.11.0",
+        "1.11.0": {
+            "url": "https://github.com/sharkdp/hyperfine/releases/download/v1.11.0/hyperfine-v1.11.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hyperfine.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "emitter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emitter",
+        "latest-version": "2.704",
+        "2.704": {
+            "url": "https://github.com/emitter-io/emitter/releases/download/v2.704/emitter-windows-amd64.exe#/emitter.exe",
+            "file-type": ".exe",
+            "bin": [
+                "emitter.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

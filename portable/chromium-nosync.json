@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "chromium-nosync",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chromium-nosync",
+        "latest-version": "67.0.3396.99-r550428",
+        "67.0.3396.99-r550428": {
+            "url": "https://github.com/henrypp/chromium/releases/download/v67.0.3396.99-r550428-win64/chromium-nosync.zip",
+            "file-type": ".zip",
+            "bin": [
+                "chrome.exe",
+                [
+                    "chrome.exe",
+                    "chromium"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chromium",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/henrypp/chromium/releases/download/v$version-win64/chromium-nosync.zip",
+            "version-check": {
+                "webpage": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&type=stable&out=json",
+                "regex": "v([\\d.]+-r\\d+)-Win64"
+            }
+        }
+    }
+}

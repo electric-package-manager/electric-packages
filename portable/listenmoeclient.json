@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "listenmoeclient",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "listenmoeclient",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/LISTEN-moe/windows-app/releases/download/2.0.0/ListenMoeClient.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ListenMoeClient.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\listenMoeSettings.ini\")) { New-item \"$dir\\listenMoeSettings.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ListenMoe Client",
+                    "file-name": "ListenMoeClient.exe"
+                }
+            ],
+            "persist": "listenMoeSettings.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

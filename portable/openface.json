@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "openface",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openface",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_2.2.0/OpenFace_2.2.0_win_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FeatureExtraction.exe",
+                "FaceLandmarkVid.exe",
+                "FaceLandmarkVidMulti.exe",
+                "FaceLandmarkImg.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cambridge Face Tracker",
+                    "file-name": "HeadPoseLive.exe"
+                },
+                {
+                    "shortcut-name": "OpenFace Analyser",
+                    "file-name": "OpenFaceDemo.exe"
+                },
+                {
+                    "shortcut-name": "OpenFace Offline",
+                    "file-name": "OpenFaceOffline.exe"
+                }
+            ],
+            "persist": "model",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "& \"$dir\\download_models.ps1\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x64.zip",
+            "version-check": {
+                "webpage": "https://github.com/TadasBaltrusaitis/OpenFace",
+                "regex": "OpenFace_([\\d.]+)/"
+            }
+        }
+    }
+}

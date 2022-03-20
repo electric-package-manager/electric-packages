@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "crystaldiskmark",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "crystaldiskmark",
+        "latest-version": "8.0.1",
+        "8.0.1": {
+            "url": "https://dotsrc.dl.osdn.net/osdn/crystaldiskmark/73958/CrystalDiskMark8_0_1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'64', '32' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\DiskMark$_.ini\")) { New-Item \"$dir\\DiskMark$_.ini\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "DiskMark32.ini",
+                "DiskMark64.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

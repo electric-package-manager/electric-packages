@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "sigrok",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sigrok",
+        "latest-version": "0.7.2",
+        "0.7.2": {
+            "url": "https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-0.7.2-x86_64-installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "sigrok-cli.exe",
+                [
+                    "sigrok-cli.exe",
+                    "sigrok"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-$version-x86_64-installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://sigrok.org/download/binary/sigrok-cli/?C=M;O=D",
+                "regex": "sigrok-cli-([\\d.]+)-x86_64-installer\\.exe"
+            }
+        }
+    }
+}

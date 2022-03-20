@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "bat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bat",
+        "latest-version": "0.18.0",
+        "0.18.0": {
+            "url": "https://github.com/sharkdp/bat/releases/download/v0.18.0/bat-v0.18.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bat.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

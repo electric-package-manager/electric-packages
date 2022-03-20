@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "deta",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deta",
+        "latest-version": "1.1.2-beta",
+        "1.1.2-beta": {
+            "url": "https://github.com/deta/deta-cli/releases/download/v1.1.2-beta/deta-x86_64-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "deta.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/deta/deta-cli/releases/download/v$version/deta-x86_64-windows.zip",
+            "version-check": {
+                "webpage": "https://github.com/deta/deta-cli",
+                "regex": "tag/v([\\w.-]+)\""
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "7tt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "7tt",
+        "latest-version": "5.10",
+        "5.10": {
+            "url": "https://rammichael.com/downloads/7tt_setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "7+ Taskbar Tweaker.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if(!(test-path \"$persist_dir\\7+ Taskbar Tweaker.ini\")) { Add-Content \"$dir\\7+ Taskbar Tweaker.ini\" \"[Config]`r`nupdcheckauto=0`r`nupdcheck=0\" }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "7+ Taskbar Tweaker",
+                    "file-name": "7+ Taskbar Tweaker.exe"
+                }
+            ],
+            "persist": "7+ Taskbar Tweaker.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

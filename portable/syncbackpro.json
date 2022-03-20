@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "syncbackpro",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "syncbackpro",
+        "latest-version": "9.5.5.0",
+        "9.5.5.0": {
+            "url": "https://www.2brightsparks.com/assets/software/SyncBackPro64_Setup_NI.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SyncBackPro",
+                    "file-name": "SyncBackPro.exe"
+                }
+            ],
+            "persist": "settings",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Set-Content \"$dir\\SettingsFolder.ini\" @('[Settings]', 'Folder=%THISPATH%settings', 'Restricted=1') -Encoding ASCII"
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

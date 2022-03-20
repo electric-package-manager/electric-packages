@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "nvidia-profile-inspector",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nvidia-profile-inspector",
+        "latest-version": "2.3.0.10",
+        "2.3.0.10": {
+            "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/2.3.0.10/nvidiaProfileInspector.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nvidiaProfileInspector.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "nVidia Profile Inspector",
+                    "file-name": "nvidiaProfileInspector.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

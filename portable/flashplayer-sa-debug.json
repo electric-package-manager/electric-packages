@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "flashplayer-sa-debug",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flashplayer-sa-debug",
+        "latest-version": "32.0.0.465",
+        "32.0.0.465": {
+            "url": "https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flashplayer_32_sa_debug.exe#/flashplayerdebug.exe",
+            "file-type": ".exe",
+            "bin": [
+                "flashplayerdebug.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Adobe Flash Player - Debug",
+                    "file-name": "flashplayerdebug.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "memcached",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "memcached",
+        "latest-version": "1.6.9",
+        "1.6.9": {
+            "url": "https://github.com/nono303/memcached/archive/1.6.9.zip",
+            "file-type": ".zip",
+            "bin": [
+                "memcached.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/nono303/memcached/archive/<version>.zip",
+            "version-check": {
+                "webpage": "https://raw.githubusercontent.com/nono303/memcached/master/README.md",
+                "regex": "version\\s+\\[([\\d.]+)\\]"
+            }
+        }
+    }
+}

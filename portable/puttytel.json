@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "puttytel",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "puttytel",
+        "latest-version": "0.74",
+        "0.74": {
+            "url": "https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe",
+            "file-type": ".exe",
+            "bin": [
+                "puttytel.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

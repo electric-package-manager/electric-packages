@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "speedcrunch",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "speedcrunch",
+        "latest-version": "0.12",
+        "0.12": {
+            "url": "https://bitbucket.org/heldercorreia/speedcrunch/downloads/SpeedCrunch-0.12-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "speedcrunch.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SpeedCrunch",
+                    "file-name": "speedcrunch.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bitbucket.org/heldercorreia/speedcrunch/downloads/SpeedCrunch-<version>-win32.zip",
+            "version-check": {
+                "webpage": "http://speedcrunch.org/download.html",
+                "regex": "<h1>Version\\s+([\\d.]+)<\\/h1>"
+            }
+        }
+    }
+}

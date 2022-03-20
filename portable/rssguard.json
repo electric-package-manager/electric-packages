@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "rssguard",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rssguard",
+        "latest-version": "3.9.2",
+        "3.9.2": {
+            "url": "https://github.com/martinrotter/rssguard/releases/download/3.9.2/rssguard-3.9.2-407646a8-win64.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\vc_redis*\""
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RSS Guard",
+                    "file-name": "rssguard.exe"
+                }
+            ],
+            "persist": "data"
+        },
+        "auto-update": {
+            "url": "https://github.com/martinrotter/rssguard/releases/download/$version/rssguard-$version-$matchCommit-win64.7z",
+            "version-check": {
+                "webpage": "https://github.com/martinrotter/rssguard",
+                "regex": "rssguard-([\\d.]+)-(?<commit>\\w+)-win64\\.7z"
+            }
+        }
+    }
+}

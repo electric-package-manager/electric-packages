@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "homebank",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "homebank",
+        "latest-version": "5.5.1",
+        "5.5.1": {
+            "url": "http://homebank.free.fr/public/HomeBank-5.5.1-setup.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "HomeBank",
+                    "file-name": "HomeBank.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "http://homebank.free.fr/public/HomeBank-<version>-setup.exe",
+            "version-check": {
+                "webpage": "http://homebank.free.fr/en/downloads.php",
+                "regex": "HomeBank-([\\d.]+)-setup\\.exe"
+            }
+        }
+    }
+}

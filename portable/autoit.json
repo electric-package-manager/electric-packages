@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "autoit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "autoit",
+        "latest-version": "3.3.14.5",
+        "3.3.14.5": {
+            "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$editor = versiondir 'autoit-script-editor' 'current'",
+                        "if (Test-Path $editor) {",
+                        "   Remove-Item \"$dir\\SciTe\" -Recurse -Force",
+                        "   New-Item -Path \"$dir\\SciTE\" -Value \"$editor\" -ItemType Junction | Out-Null",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
+            "version-check": {
+                "webpage": "https://www.autoitscript.com/site/autoit/downloads/",
+                "regex": "<td>v([\\d.]+)</td>"
+            }
+        }
+    }
+}

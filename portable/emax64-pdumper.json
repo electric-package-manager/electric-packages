@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "emax64-pdumper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emax64-pdumper",
+        "latest-version": "20180619",
+        "20180619": {
+            "url": "https://github.com/m-parashar/emax64/releases/download/pdumper-20180619/emax64-pdumper-bin-20180619.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\runemacs.exe",
+                "bin\\emacs.exe",
+                "bin\\emacsclientw.exe",
+                "bin\\emacs-27.0.50.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "EMAX64",
+                    "file-name": "bin\\runemacs.exe"
+                },
+                {
+                    "shortcut-name": "EMAX64 Client",
+                    "file-name": "bin\\emacsclientw.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/m-parashar/emax64/releases/download/pdumper-$version/emax64-pdumper-bin-$version.7z",
+            "version-check": {
+                "webpage": "https://github.com/m-parashar/emax64/releases",
+                "regex": "/releases/tag/pdumper-(\\d+)"
+            }
+        }
+    }
+}

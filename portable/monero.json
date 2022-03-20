@@ -1,0 +1,55 @@
+{
+    "display-name": "",
+    "package-name": "monero",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "monero",
+        "latest-version": "0.17.2.0",
+        "0.17.2.0": {
+            "url": "https://dlsrc.getmonero.org/gui/monero-gui-win-x64-v0.17.2.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "monerod.exe",
+                "monero-wallet-gui.exe",
+                [
+                    "start-low-graphics-mode.bat",
+                    "monero-wallet-gui-low"
+                ],
+                "extras\\monero-wallet-rpc.exe",
+                "extras\\monero-wallet-cli.exe",
+                "extras\\monero-gen-trusted-multisig.exe",
+                "extras\\monero-blockchain-usage.exe",
+                "extras\\monero-blockchain-mark-spent-outputs.exe",
+                "extras\\monero-blockchain-import.exe",
+                "extras\\monero-blockchain-export.exe",
+                "extras\\monero-blockchain-depth.exe",
+                "extras\\monero-blockchain-ancestry.exe",
+                "extras\\monero-blockchain-prune.exe",
+                "extras\\monero-blockchain-prune-known-spent-data.exe",
+                "extras\\monero-blockchain-stats.exe",
+                [
+                    "extras\\monero-blockchain-mark-spent-outputs.exe",
+                    "monero-blockchain-blackball"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Monero\\Monero Wallet GUI",
+                    "file-name": "monero-wallet-gui.exe"
+                },
+                {
+                    "shortcut-name": "Monero\\Monero Wallet GUI (Low Graphics Mode)",
+                    "file-name": "start-low-graphics-mode.bat"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dlsrc.getmonero.org/gui/monero-gui-win-x64-v$version.zip",
+            "version-check": {
+                "webpage": "https://getmonero.org"
+            }
+        }
+    }
+}

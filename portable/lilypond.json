@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "lilypond",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lilypond",
+        "latest-version": "2.22.0-1",
+        "2.22.0-1": {
+            "url": "http://lilypond.org/download/binaries/mingw/lilypond-2.22.0-1.mingw.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "usr\\bin\\lilypond.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LilyPad",
+                    "file-name": "usr\\bin\\lilypad.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://lilypond.org/download/binaries/mingw/lilypond-<version>.mingw.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://lilypond.org/windows.html",
+                "regex": "/lilypond-([\\d.-]+).mingw\\.exe"
+            }
+        }
+    }
+}

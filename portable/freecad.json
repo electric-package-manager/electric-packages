@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "freecad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freecad",
+        "latest-version": "0.18.4",
+        "0.18.4": {
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x64-installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\FreeCADCmd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse -Force"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FreeCAD",
+                    "file-name": "bin\\FreeCAD.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/FreeCAD/FreeCAD/releases/download/$version/FreeCAD-$matchBuild-WIN-x64-installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.freecadweb.org",
+                "regex": "releases/download/([\\d.]+)/FreeCAD-(?<build>[\\w.]+)-WIN"
+            }
+        }
+    }
+}

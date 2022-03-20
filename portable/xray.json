@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "xray",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "xray",
+        "latest-version": "1.4.2",
+        "1.4.2": {
+            "url": "https://github.com/XTLS/Xray-core/releases/download/v1.4.2/Xray-windows-64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "xray.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

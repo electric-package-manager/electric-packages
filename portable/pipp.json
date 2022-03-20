@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "pipp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pipp",
+        "latest-version": "2.5.9",
+        "2.5.9": {
+            "url": "https://sites.google.com/site/astropipp/downloads/pipp_install_x64_2.5.9.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PIPP.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PIPP",
+                    "file-name": "PIPP.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://sites.google.com/site/astropipp/downloads/pipp_install_x64_$version.zip",
+            "version-check": {
+                "webpage": "https://sites.google.com/site/astropipp/downloads",
+                "regex": "Windows Installer \\(v([\\d.]+)\\)"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "soulseekqt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "soulseekqt",
+        "latest-version": "2019-7-22",
+        "2019-7-22": {
+            "url": "https://www.slsknet.org/SoulseekQt/Windows/SoulseekQt-2019-7-22-64bit.exe",
+            "file-type": ".exe",
+            "bin": [
+                "SoulseekQt.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SoulseekQt",
+                    "file-name": "SoulseekQt.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

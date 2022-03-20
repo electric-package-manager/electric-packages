@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "kops",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kops",
+        "latest-version": "1.20.0",
+        "1.20.0": {
+            "url": "https://github.com/kubernetes/kops/releases/download/v1.20.0/kops-windows-amd64#/kops.exe",
+            "file-type": ".exe",
+            "bin": [
+                "kops.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kubernetes/kops/releases/download/v$version/kops-windows-amd64#/kops.exe",
+            "version-check": {
+                "webpage": "https://kops.sigs.k8s.io"
+            }
+        }
+    }
+}

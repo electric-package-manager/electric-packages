@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "fluent-reader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fluent-reader",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/yang991178/fluent-reader/releases/download/v1.0.0/Fluent.Reader.Unpacked.1.0.0.x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Fluent Reader",
+                    "file-name": "Fluent Reader.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/yang991178/fluent-reader/releases/download/v$version/Fluent.Reader.Unpacked.$matchHead.x64.zip",
+            "version-check": {
+                "webpage": "https://hyliu.me/fluent-reader/",
+                "regex": "tag/v([\\w.-]+)"
+            }
+        }
+    }
+}

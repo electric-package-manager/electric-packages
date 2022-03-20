@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "groovyserv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "groovyserv",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-1.2.0-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\groovyclient.exe",
+                "bin\\groovyserver.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-<version>-bin.zip",
+            "version-check": {
+                "webpage": "https://kobo.github.io/groovyserv/"
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "display-name": "",
+    "package-name": "notepad3",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notepad3",
+        "latest-version": "5.20.722.1",
+        "5.20.722.1": {
+            "url": [
+                "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_5.20.722.1/Notepad3_5.20.722.1_x64.7z",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/notepad3/replace-windows-notepad.reg",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/notepad3/restore-windows-notepad.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "Notepad3.exe",
+                "minipath.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Notepad3",
+                    "file-name": "Notepad3.exe"
+                },
+                {
+                    "shortcut-name": "minipath",
+                    "file-name": "minipath.exe"
+                }
+            ],
+            "persist": [
+                "Favorites",
+                "minipath.ini",
+                "Notepad3.ini"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (Test-Path \"$dir\\replace-windows-notepad.reg\") {",
+                        "    $notepad3 = \"$dir\\Notepad3.exe\".Replace('\\', '\\\\')",
+                        "    $content = (Get-Content \"$dir\\replace-windows-notepad.reg\").Replace('$notepad3', $notepad3)",
+                        "    Set-Content \"$dir\\replace-windows-notepad.reg\" $content -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x64.7z",
+            "version-check": {
+                "webpage": "https://github.com/rizonesoft/Notepad3/releases",
+                "regex": "tag/RELEASE_([\\d.]+)"
+            }
+        }
+    }
+}

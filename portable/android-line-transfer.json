@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "android-line-transfer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "android-line-transfer",
+        "latest-version": "3.1.64",
+        "3.1.64": {
+            "url": "https://www.backuptrans.com/download/exe/android-line-transfer_x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*nsis\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Backuptrans Android Line Transfer",
+                    "file-name": "AndroidLineTransfer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.backuptrans.com/download/exe/android-line-transfer_x64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.backuptrans.com/download.html",
+                "regex": "(?sm)Backuptrans Android Line Transfer.*?V([\\d.]+)"
+            }
+        }
+    }
+}

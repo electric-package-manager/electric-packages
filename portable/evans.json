@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "evans",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "evans",
+        "latest-version": "0.9.3",
+        "0.9.3": {
+            "url": "https://github.com/ktr0731/evans/releases/download/0.9.3/evans_windows_amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "evans.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ktr0731/evans/releases/download/$version/evans_windows_amd64.tar.gz",
+            "version-check": {
+                "webpage": "https://evans.syfm.me"
+            }
+        }
+    }
+}

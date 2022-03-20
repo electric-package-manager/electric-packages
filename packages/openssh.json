@@ -1,0 +1,25 @@
+{
+    "display-name": "OpenSSH",
+    "package-name": "opessh",
+    "is-portable": true,
+    "portable": {
+        "latest-version": "v8.1.0.0p1-Beta",
+        "v8.1.0.0p1-Beta": {
+            "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.1.0.0p1-Beta/OpenSSH-Win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "scp.exe",
+                "sftp.exe",
+                "sftp-server.exe",
+                "ssh.exe",
+                "ssh-add.exe",
+                "ssh-agent.exe",
+                "sshd.exe",
+                "ssh-keygen.exe",
+                "ssh-keyscan.exe",
+                "ssh-shellhost.exe"
+            ],
+            "dependencies": []
+        }
+    }
+}

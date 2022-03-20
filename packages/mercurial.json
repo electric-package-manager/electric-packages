@@ -1,0 +1,21 @@
+{
+  "display-name": "Mercurial",
+  "package-name": "mercurial",
+  "latest-version": "5.7.1",
+  "5.7.1": {
+    "url": "https://www.mercurial-scm.org/release/windows/Mercurial-5.7.1-x64.exe",
+    "file-type": ".exe",
+    "checksum": "F5E06AA96E468CC61948F1CE16B8F650D50D8B8059E8E0C4B93EA7A17258F764",
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "clswitch": "/DIR=",
+    "dependencies": []
+  }
+}

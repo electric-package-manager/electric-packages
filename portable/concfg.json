@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "concfg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "concfg",
+        "latest-version": "0.2020.03.15",
+        "0.2020.03.15": {
+            "url": "https://github.com/lukesampson/concfg/archive/2976a9ffc435a8ba8f2ba47e95cd631f2a73221d.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\concfg.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lukesampson/concfg/archive/$matchSha.zip",
+            "version-check": {
+                "webpage": "https://github.com/lukesampson/concfg/commits/master.atom",
+                "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
+            }
+        }
+    }
+}

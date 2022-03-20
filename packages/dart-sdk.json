@@ -1,0 +1,143 @@
+{
+    "display-name": "Dart SDK",
+    "package-name": "dart-sdk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Dart SDK",
+        "package-name": "dart-sdk",
+        "latest-version": "2.16.1",
+        "auto-update": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/<version>/sdk/dartsdk-windows-x64-release.zip",
+            "version-check": {
+                "webpage": "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION",
+                "regex": "\"version\":\\s*\"(.*)\""
+            }
+        },
+        "2.10.5": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.10.5/sdk/dartsdk-windows-x64-release.zip",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ],
+            "checksum": "CC52CB55BB4A0268365599BFD5BDDE3E86DF3FFA9676595060DB4E6FD5AF8BD9"
+        },
+        "2.12.4": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.12.4/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "FA58260D63BB64975EE4FD4DFBF3187188FDC6933E0DEEC033FC18EEB01536C8",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.13.0": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.13.0/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "AA0783E26B1973ECB90AA4B5EA0386674C6658DDBEFC49D01A2BDF00A54BAAEE",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.13.1": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.13.1/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "A4FA3A9F08F53891187600BC7DD09D1DE5FC83171120057A375E85202C79D297",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.13.3": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.13.3/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "CCDB35A71D08370EA97C7446D97E3E6606A6DBF82CC70B90A4F52168F9CDBAC2",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.13.4": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.13.4/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "30E981AA3C8244175BBB91103AABB2FF1E3442D0DDA2E71F5933FAC6D6CB7606",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.16.1": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.16.1/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "57AD4C06EA94BA6937103DF495D8702AE9DD302774545DA001068C44D73D5DD5",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        }
+    }
+}

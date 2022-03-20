@@ -1,0 +1,21 @@
+{
+    "display-name": "Microsoft .NET Core SDK",
+    "package-name": "dotnet-core-sdk",
+    "latest-version": "3.1.408",
+    "3.1.408": {
+        "url": "https://download.visualstudio.microsoft.com/download/pr/fa20039c-5871-4597-8a7b-f0553a12edcc/4fb1cce6214049fe639dd230a9265133/dotnet-sdk-3.1.408-win-x64.exe",
+        "file-type": ".exe",
+        "checksum": "2B0A9151FE35E4AB65608A0552F4335380CF1B2483AD2E9D42CF842D38CA2EED",
+        "iswitches": [
+            "/install",
+            "/passive",
+            "/norestart"   
+        ],
+        "uswitches": [
+            "/uninstall",
+            "/quiet"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

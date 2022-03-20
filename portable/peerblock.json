@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "peerblock",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "peerblock",
+        "latest-version": "1.1.691",
+        "1.1.691": {
+            "url": "https://github.com/ScoopInstaller/Binary/raw/master/peerblock/PeerBlock-Setup_v1.1%2B_r691.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "   #Create placeholder files",
+                        "function CreateFile([String] $file, [String] $content = $null) {",
+                        "    if(!(Test-Path \"$persist_dir\\$file\")) {",
+                        "        Write-Host \"Create placeholder for peerblock: $file\"",
+                        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+                        "    }",
+                        "}",
+                        "CreateFile 'cache.p2b'",
+                        "CreateFile 'peerblock.conf'",
+                        "CreateFile 'peerblock.conf.bak'",
+                        "CreateFile 'peerblock.conf.failed'"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PeerBlock",
+                    "file-name": "peerblock.exe"
+                }
+            ],
+            "persist": [
+                "lists",
+                "cache.p2b",
+                "peerblock.conf",
+                "peerblock.conf.bak",
+                "peerblock.conf.failed"
+            ]
+        }
+    }
+}

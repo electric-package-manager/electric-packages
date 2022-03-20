@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "glide",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "glide",
+        "latest-version": "0.13.3",
+        "0.13.3": {
+            "url": "https://github.com/Masterminds/glide/releases/download/v0.13.3/glide-v0.13.3-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "glide.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://glide.sh/"
+            }
+        }
+    }
+}

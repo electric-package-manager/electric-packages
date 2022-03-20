@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "node-compiler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "node-compiler",
+        "latest-version": "1.5.0",
+        "1.5.0": {
+            "url": "http://enclose.io/nodec/nodec-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nodec.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Get-ChildItem \"$dir\\nodec-*.exe\" | Rename-Item -NewName \"$dir\\nodec.exe\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

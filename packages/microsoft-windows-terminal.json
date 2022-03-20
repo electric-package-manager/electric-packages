@@ -1,0 +1,15 @@
+{
+    "display-name": "Microsoft Windows Terminal",
+    "package-name": "microsoft-windows-terminal",
+    "latest-version": "1.6.10571.0",
+    "1.6.10571.0": {
+        "url": "https://github.com/microsoft/terminal/releases/download/v1.6.10571.0/Microsoft.WindowsTerminal_1.6.10571.0_8wekyb3d8bbwe.msixbundle",
+        "file-type": ".msixbundle",
+        "uninstall-bundle-identifier": "Microsoft.WindowsTerminal",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "4F21686DFF1ADEC21820CFC00BA300185273874DD8B75E61E2967515828068EB"
+    }
+}

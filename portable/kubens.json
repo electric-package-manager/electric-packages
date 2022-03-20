@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "kubens",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kubens",
+        "latest-version": "0.9.3",
+        "0.9.3": {
+            "url": "https://github.com/ahmetb/kubectx/releases/download/v0.9.3/kubens_v0.9.3_windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "kubens.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ahmetb/kubectx/releases/download/v$version/kubens_v$version_windows_x86_64.zip",
+            "version-check": {
+                "webpage": "https://kubectx.dev"
+            }
+        }
+    }
+}

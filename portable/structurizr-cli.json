@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "structurizr-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "structurizr-cli",
+        "latest-version": "1.9.0",
+        "1.9.0": {
+            "url": "https://github.com/structurizr/cli/releases/download/v1.9.0/structurizr-cli-1.9.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "structurizr.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

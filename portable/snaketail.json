@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "snaketail",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "snaketail",
+        "latest-version": "1.9.6",
+        "1.9.6": {
+            "url": "https://github.com/snakefoot/snaketail-net/releases/download/1.9.6/SnakeTail.v1.9.6.x64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "SnakeTail.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SnakeTail",
+                    "file-name": "SnakeTail.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x64.msi",
+            "version-check": {
+                "webpage": "http://snakenest.com/snaketail/"
+            }
+        }
+    }
+}

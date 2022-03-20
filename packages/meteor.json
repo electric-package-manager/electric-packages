@@ -1,0 +1,38 @@
+{
+  "display-name": "Meteor",
+  "package-name": "meteor",
+  "latest-version": "2.2",
+  "2.2": {
+    "install-override-command": [
+      {
+        "type": "python",
+        "code": [
+          "from colorama import Fore",
+          "import os",
+          "os.system('refreshenv')",
+          "pid = os.system('electric install --node meteor')",
+          "if pid == 0:",
+          "    print(f'{Fore.LIGHTMAGENTA_EX}Successfully Installed Meteor{Fore.RESET}')",
+          "    os.system('electric register meteor <version>",
+          "else:",
+          "    print(f'{Fore.LIGHTRED_EX}Failed To Install Meteor{Fore.RESET}')"
+        ]
+      }
+    ],
+    "uninstall-override-command": [
+      {
+        "type": "python",
+        "code": [
+          "import os",
+          "pid = os.system('npm uninstall -g meteor')",
+          "if pid == 0:",
+          "    print(f'{Fore.LIGHTMAGENTA_EX}Successfully Uninstalled Meteor{Fore.RESET}')",
+          "    os.system('electric deregister meteor <version>",
+          "else:",
+          "    print(f'{Fore.LIGHTRED_EX}Failed To Uninstall Meteor{Fore.RESET}')"
+        ]
+      }
+    ],
+    "dependencies": ["nodejs"]
+  }
+}

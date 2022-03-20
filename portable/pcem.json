@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "pcem",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pcem",
+        "latest-version": "17",
+        "17": {
+            "url": "https://pcem-emulator.co.uk/files/PCemV17Win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PCem.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\pcem.cfg\")) { New-Item \"$dir\\pcem.cfg\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PCem",
+                    "file-name": "PCem.exe"
+                }
+            ],
+            "persist": [
+                "configs",
+                "nvr",
+                "roms",
+                "screenshots",
+                "pcem.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "https://pcem-emulator.co.uk/files/PCemV<version>Win.zip",
+            "version-check": {
+                "webpage": "https://pcem-emulator.co.uk/downloads.html",
+                "regex": ">PCem\\s+v([\\d.]+)\\s+for Windows</"
+            }
+        }
+    }
+}

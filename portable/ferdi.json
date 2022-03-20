@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "ferdi",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ferdi",
+        "latest-version": "5.5.0",
+        "5.5.0": {
+            "url": "https://github.com/getferdi/ferdi/releases/download/v5.5.0/Ferdi-Setup-5.5.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Ferdi.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ferdi",
+                    "file-name": "Ferdi.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/getferdi/ferdi/releases/download/v<version>/Ferdi-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://getferdi.com/"
+            }
+        }
+    }
+}

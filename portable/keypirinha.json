@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "keypirinha",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keypirinha",
+        "latest-version": "2.26",
+        "2.26": {
+            "url": "https://github.com/Keypirinha/Keypirinha/releases/download/v2.26/keypirinha-2.26-x64-portable.7z",
+            "file-type": ".7z",
+            "bin": [
+                "keypirinha.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Keypirinha",
+                    "file-name": "keypirinha.exe"
+                }
+            ],
+            "persist": "portable"
+        },
+        "auto-update": {
+            "url": "https://github.com/Keypirinha/Keypirinha/releases/download/v$version/keypirinha-$version-x64-portable.7z",
+            "version-check": {
+                "webpage": "http://keypirinha.com"
+            }
+        }
+    }
+}

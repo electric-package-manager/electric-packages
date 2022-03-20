@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "hexchat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hexchat",
+        "latest-version": "2.14.3",
+        "2.14.3": {
+            "url": "https://dl.hexchat.net/hexchat/HexChat%202.14.3%20x64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "hexchat.exe",
+                "hexchat-text.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "HexChat",
+                    "file-name": "hexchat.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://dl.hexchat.net/hexchat/HexChat%20$version%20x64.exe",
+            "version-check": {
+                "webpage": "https://hexchat.github.io"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "discord-canary",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "discord-canary",
+        "latest-version": "0.0.304",
+        "0.0.304": {
+            "url": "http://dl-canary.discordapp.net/apps/win/DiscordCanary-0.0.304-full.nupkg#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "DiscordCanary.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Discord Canary",
+                    "file-name": "DiscordCanary.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://dl-canary.discordapp.net/apps/win/DiscordCanary-<version>-full.nupkg#/dl.7z",
+            "version-check": {
+                "webpage": "https://discordapp.com/api/updates/canary/RELEASES",
+                "regex": "DiscordCanary-([\\d.]+)"
+            }
+        }
+    }
+}

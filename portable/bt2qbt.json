@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "bt2qbt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bt2qbt",
+        "latest-version": "1.10",
+        "1.10": {
+            "url": "https://github.com/rumanzo/bt2qbt/releases/download/v1.10/bt2qbt_v1.10_amd64.exe#/bt2qbt.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bt2qbt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

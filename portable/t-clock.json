@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "t-clock",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "t-clock",
+        "latest-version": "2.4.4",
+        "2.4.4": {
+            "url": "https://github.com/White-Tiger/T-Clock/releases/download/v2.4.4%23492-rc/T-Clock.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (Test-Path \"$persist_dir\\T-Clock.ini\") {",
+                        "    Copy-Item \"$persist_dir\\T-Clock.ini\" \"$dir\"",
+                        "} else {",
+                        "    New-Item \"$dir\\T-Clock.ini\" | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

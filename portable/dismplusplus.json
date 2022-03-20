@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "dismplusplus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dismplusplus",
+        "latest-version": "10.1.1001.10",
+        "10.1.1001.10": {
+            "url": "http://cdn.chuyu.me/Dism++10.1.1001.10_d4ba4eb035254b3326d6adc6638bc9c8daea7018.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DISM++x86.exe",
+                "DISM++x64.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DISM++ (x86)",
+                    "file-name": "DISM++x86.exe"
+                },
+                {
+                    "shortcut-name": "DISM++ (x64)",
+                    "file-name": "DISM++x64.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://cdn.chuyu.me/Dism++<version>_$matchHash.zip",
+            "version-check": {
+                "webpage": "http://www.chuyu.me/en/",
+                "regex": "Dism\\+\\+([\\w.]+)_(?<hash>[a-fA-F\\d]{40})\\.zip"
+            }
+        }
+    }
+}

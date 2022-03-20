@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "capture2text",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "capture2text",
+        "latest-version": "4.6.2",
+        "4.6.2": {
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v4.6.2/Capture2Text_v4.6.2_64bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Capture2Text_CLI.exe",
+                [
+                    "Capture2Text_CLI.exe",
+                    "Capture2Text"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Capture2Text",
+                    "file-name": "Capture2Text.exe"
+                }
+            ],
+            "persist": "Capture2Text"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/capture2text/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/capture2text/rss?path=/Capture2Text",
+                "regex": "Capture2Text_v([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "picard",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "picard",
+        "latest-version": "2.6",
+        "2.6": {
+            "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-2.6.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "picard.exe",
+                "fpcalc.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MusicBrainz Picard",
+                    "file-name": "picard.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://picard.musicbrainz.org/downloads/",
+                "regex": "picard-setup-([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

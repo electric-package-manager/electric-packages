@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "natural-docs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "natural-docs",
+        "latest-version": "2.1.1",
+        "2.1.1": {
+            "url": "http://www.naturaldocs.org/download/natural_docs/2.1.1/Natural_Docs_2.1.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "NaturalDocs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.naturaldocs.org/download/natural_docs/<version>/Natural_Docs_<version>.zip",
+            "version-check": {
+                "webpage": "http://www.naturaldocs.org/download/",
+                "regex": "Natural Docs ([\\d+.]+)"
+            }
+        }
+    }
+}

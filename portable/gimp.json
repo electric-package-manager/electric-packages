@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "gimp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gimp",
+        "latest-version": "2.10.20-1",
+        "2.10.20-1": {
+            "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.20-setup-1.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\gimp-console-2.10.exe",
+                [
+                    "bin\\gimp-console-2.10.exe",
+                    "gimp-console"
+                ],
+                [
+                    "bin\\gimp-console-2.10.exe",
+                    "gimp"
+                ],
+                "bin\\gimptool-2.0.exe",
+                [
+                    "bin\\gimptool-2.0.exe",
+                    "gimptool"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GIMP",
+                    "file-name": "bin\\gimp-2.10.exe"
+                }
+            ],
+            "persist": [
+                "etc\\gimp",
+                "share\\gimp"
+            ]
+        }
+    }
+}

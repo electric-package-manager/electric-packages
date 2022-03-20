@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "altdrag",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "altdrag",
+        "latest-version": "1.1",
+        "1.1": {
+            "url": "https://github.com/stefansundin/altdrag/releases/download/v1.1/AltDrag-1.1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\AltDrag.ini\")) {",
+                        "    (Get-Content \"$dir\\AltDrag.ini\") -replace 'CheckOnStartup=1', 'CheckOnStartup=0' | Set-Content \"$dir\\AltDrag.ini\" -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AltDrag",
+                    "file-name": "AltDrag.exe"
+                }
+            ],
+            "persist": "AltDrag.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/stefansundin/altdrag/releases/download/v<version>/AltDrag-<version>.zip",
+            "version-check": {
+                "webpage": "https://stefansundin.github.io/altdrag/"
+            }
+        }
+    }
+}

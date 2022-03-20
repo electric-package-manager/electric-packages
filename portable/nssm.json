@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "nssm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nssm",
+        "latest-version": "2.24-103",
+        "2.24-103": {
+            "url": "https://nssm.cc/ci/nssm-2.24-103-gdee49fc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nssm.exe",
+                [
+                    "nssm.exe",
+                    "service"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://nssm.cc/ci/nssm-<version>-$matchBuild.zip",
+            "version-check": {
+                "webpage": "https://nssm.cc/builds",
+                "regex": "nssm-([\\d.]+-\\d+)-(?<build>.*?).zip"
+            }
+        }
+    }
+}

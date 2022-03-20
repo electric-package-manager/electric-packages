@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "aimp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aimp",
+        "latest-version": "4.70.2248",
+        "4.70.2248": {
+            "url": "http://www.aimp.ru/?do=download.file&id=8#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AIMP.exe",
+                "AIMPac.exe",
+                "AIMPate.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AIMP",
+                    "file-name": "AIMP.exe"
+                },
+                {
+                    "shortcut-name": "AIMP Audio Converter",
+                    "file-name": "AIMPac.exe"
+                },
+                {
+                    "shortcut-name": "AIMP Advanced Tag Editor",
+                    "file-name": "AIMPate.exe"
+                }
+            ],
+            "persist": "Profile"
+        },
+        "auto-update": {
+            "url": "http://www.aimp.ru/?do=download.file&id=8#/dl.zip",
+            "version-check": {
+                "webpage": "http://aimp.su/update.php?id=1234&b=2169&p=aimp&lng=english&u=1",
+                "regex": "aimp_([\\d.]+)\\."
+            }
+        }
+    }
+}

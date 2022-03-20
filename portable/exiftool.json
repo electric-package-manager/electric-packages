@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "exiftool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "exiftool",
+        "latest-version": "12.24",
+        "12.24": {
+            "url": "https://exiftool.org/exiftool-12.24.zip",
+            "file-type": ".zip",
+            "bin": [
+                "exiftool.exe",
+                "exiftool(-k).exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Copy-Item \"$dir\\exiftool(-k).exe\" \"$dir\\exiftool.exe\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://exiftool.org/exiftool-<version>.zip",
+            "version-check": {
+                "webpage": "https://exiftool.org/ver.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

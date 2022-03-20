@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "hugo-extended",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hugo-extended",
+        "latest-version": "0.82.0",
+        "0.82.0": {
+            "url": "https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_extended_0.82.0_windows-64bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hugo.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/gohugoio/hugo/releases/download/v$version/hugo_extended_$version_windows-64bit.zip",
+            "version-check": {
+                "webpage": "https://gohugo.io"
+            }
+        }
+    }
+}

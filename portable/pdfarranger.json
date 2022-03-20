@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pdfarranger",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdfarranger",
+        "latest-version": "1.7.1",
+        "1.7.1": {
+            "url": "https://github.com/pdfarranger/pdfarranger/releases/download/1.7.1/pdfarranger-1.7.1-windows-portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pdfarranger.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PDF Arranger",
+                    "file-name": "pdfarranger.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

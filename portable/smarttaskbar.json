@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "smarttaskbar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "smarttaskbar",
+        "latest-version": "1.1.9",
+        "1.1.9": {
+            "url": "https://github.com/ChanpleCai/SmartTaskbar/releases/download/v1.1.9/SmartTaskbar_Setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "SmartTaskbar.exe",
+                "smarttaskbar-add-startup.ps1",
+                "smarttaskbar-remove-startup.ps1"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SmartTaskbar",
+                    "file-name": "SmartTaskbar.exe"
+                }
+            ],
+            "persist": "SmartTaskbar.exe.config"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

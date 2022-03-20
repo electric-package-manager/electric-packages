@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "bitwarden-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bitwarden-cli",
+        "latest-version": "1.15.1",
+        "1.15.1": {
+            "url": "https://github.com/bitwarden/cli/releases/download/v1.15.1/bw-windows-1.15.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bw.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/bitwarden/cli/releases/download/v$version/bw-windows-$version.zip",
+            "version-check": {
+                "webpage": "https://bitwarden.com/"
+            }
+        }
+    }
+}

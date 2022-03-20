@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "rocketchat-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rocketchat-client",
+        "latest-version": "3.1.1",
+        "3.1.1": {
+            "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.1.1/rocketchat-setup-3.1.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "Rocket.Chat.exe",
+                    "rocketchat"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Rocket Chat",
+                    "file-name": "Rocket.Chat.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*exe\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/<version>/rocketchat-setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://rocket.chat"
+            }
+        }
+    }
+}

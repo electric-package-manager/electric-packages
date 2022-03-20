@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "depends",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "depends",
+        "latest-version": "2.2",
+        "2.2": {
+            "url": "http://www.dependencywalker.com/depends22_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "depends.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dependency Walker",
+                    "file-name": "depends.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

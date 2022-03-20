@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "fsresizer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fsresizer",
+        "latest-version": "4.3",
+        "4.3": {
+            "url": "http://www.faststonesoft.net/DN/FSResizer43.zip",
+            "file-type": ".zip",
+            "bin": [
+                "FSResizer.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\FSResizerSettings.db\")) { New-Item \"$dir\\FSResizerSettings.db\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FastStone Photo Resizer",
+                    "file-name": "FSResizer.exe"
+                }
+            ],
+            "persist": "FSResizerSettings.db"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

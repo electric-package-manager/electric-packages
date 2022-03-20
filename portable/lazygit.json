@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "lazygit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lazygit",
+        "latest-version": "0.27.4",
+        "0.27.4": {
+            "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.27.4/lazygit_0.27.4_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lazygit.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

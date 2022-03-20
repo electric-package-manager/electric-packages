@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "maxto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "maxto",
+        "latest-version": "2.1.5",
+        "2.1.5": {
+            "url": "https://files.maxto.net/releases/2.1.5/MaxTo-2.1.5-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "MaxTo.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MaxTo",
+                    "file-name": "MaxTo.Core.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://files.maxto.net/releases/<version>/MaxTo-<version>-full.nupkg",
+            "version-check": {
+                "webpage": "https://maxto.net/en/release",
+                "regex": "MaxTo-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

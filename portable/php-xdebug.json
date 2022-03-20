@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "php-xdebug",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "php-xdebug",
+        "latest-version": "3.0.4-8.0",
+        "3.0.4-8.0": {
+            "url": "https://xdebug.org/files/php_xdebug-3.0.4-8.0-vs16-x86_64.dll#/php_xdebug.dll",
+            "file-type": ".dll",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$phpconfd = \"$persist_dir\\..\\php\\cli\\conf.d\"",
+                        "$ini = \"zend_extension=$dir\\php_xdebug.dll`n[xdebug]`nxdebug.remote_enable=on`nxdebug.remote_autostart=on`nxdebug.remote_connect_back=on\"",
+                        "if (!(Test-Path \"$phpconfd\\xdebug.ini\")) {",
+                        "    ensure $phpconfd | Out-Null",
+                        "    Write-Output \"Enabling extension '$phpconfd\\xdebug.ini'\"",
+                        "    Add-Content -Value $ini -Path \"$phpconfd\\xdebug.ini\"",
+                        "} else {",
+                        "    Write-Host -f Yellow \"PHP was not installed through scoop, you have to activate php_xdebug.dll manually! Add the following:`n\"",
+                        "    Write-Host -f Cyan \"$ini`n`n\"",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://xdebug.org/files/php_xdebug-$version-vs16-x86_64.dll#/php_xdebug.dll",
+            "version-check": {
+                "webpage": "https://xdebug.org/download.php",
+                "regex": "php_xdebug-([\\d.]+-8\\.0)-vs16-x86_64\\.dll"
+            }
+        }
+    }
+}

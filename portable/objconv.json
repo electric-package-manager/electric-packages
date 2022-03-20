@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "objconv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "objconv",
+        "latest-version": "2.52",
+        "2.52": {
+            "url": "https://www.agner.org/optimize/objconv.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "objconv.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Move-Item \"$dir\\C_\\_Public\\objconv\\x64\\Release\\objconv.exe\" \"$dir\"",
+                        "Get-ChildItem \"$dir\" -Exclude 'objconv.exe' | Remove-Item -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

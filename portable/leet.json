@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "leet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "leet",
+        "latest-version": "2014.8.29",
+        "2014.8.29": {
+            "url": [
+                "https://raw.githubusercontent.com/vidarkongsli/posh1337/654074d92608d90427b188b24e4e8325c247f1d6/leet.psm1",
+                "https://raw.githubusercontent.com/vidarkongsli/posh1337/654074d92608d90427b188b24e4e8325c247f1d6/leet.ps1"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

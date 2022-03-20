@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "qnapi",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qnapi",
+        "latest-version": "0.2.3",
+        "0.2.3": {
+            "url": "https://github.com/QNapi/qnapi/releases/download/0.2.3/QNapi-0.2.3-portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "qnapi.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QNapi",
+                    "file-name": "qnapi.exe"
+                }
+            ],
+            "persist": "qnapi.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/QNapi/qnapi/releases/download/<version>/QNapi-<version>-portable.zip",
+            "version-check": {
+                "webpage": "https://qnapi.github.io/"
+            }
+        }
+    }
+}

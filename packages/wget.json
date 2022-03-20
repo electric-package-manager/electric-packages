@@ -1,0 +1,19 @@
+{
+    "display-name": "Wget",
+    "package-name": "wget",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Wget",
+        "package-name": "wget",
+        "latest-version": "1.20.3",
+        "1.20.3": {
+            "url": "https://eternallybored.org/misc/wget/releases/wget-1.20.3-win64.zip",
+            "file-type": ".zip",
+            "extract-dir": "wget",
+            "bin": [
+                "wget.exe"
+            ],
+            "checksum": "50000CF94EDB5203C0BDD803E5CEC61407CA16AF537E6BA96A85E68170A0B0DC"
+        }
+    }
+}

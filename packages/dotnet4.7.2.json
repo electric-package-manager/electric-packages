@@ -1,0 +1,17 @@
+{
+    "display-name": "Microsoft .NET Framework 4*",
+    "package-name": "dotnet4.7.2",
+    "latest-version": "4.7.2.20180712",
+    "4.7.2.20180712": {
+        "url": "https://go.microsoft.com/fwlink/?LinkId=863262",
+        "file-type": ".exe",
+        "iswitches": [
+            "/passive",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "dependencies": [],
+        "clswitch": "",
+        "checksum": "4E49C56E4CF9DF2E837A8A3010F5A8B4DEB096429D56E7FD9FF70AB394663678"
+    }
+}

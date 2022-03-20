@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "devd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "devd",
+        "latest-version": "0.9",
+        "0.9": {
+            "url": "https://github.com/cortesi/devd/releases/download/v0.9/devd-0.9-windows64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "devd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cortesi/devd/releases/download/v$version/devd-$version-windows64.zip",
+            "version-check": {
+                "webpage": "https://corte.si/posts/devd/intro/index.html"
+            }
+        }
+    }
+}

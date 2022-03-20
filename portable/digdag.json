@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "digdag",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "digdag",
+        "latest-version": "0.10.0",
+        "0.10.0": {
+            "url": "https://dl.bintray.com/digdag/maven/digdag-0.10.0.jar#/digdag.jar",
+            "file-type": ".jar",
+            "bin": [
+                "digdag.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.bintray.com/digdag/maven/digdag-<version>.jar#/digdag.jar",
+            "version-check": {
+                "webpage": "https://api.bintray.com/packages/digdag/maven/digdag"
+            }
+        }
+    }
+}

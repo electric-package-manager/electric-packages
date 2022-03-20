@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "infoqube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "infoqube",
+        "latest-version": "0.9.116m",
+        "0.9.116m": {
+            "url": "https://infoqubeim.com/downloadarea/InfoQube0.9.116mPortable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "InfoQube",
+                    "file-name": "InfoQube.exe"
+                }
+            ],
+            "persist": "Users"
+        }
+    }
+}

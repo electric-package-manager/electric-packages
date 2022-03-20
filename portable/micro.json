@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "micro",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "micro",
+        "latest-version": "2.0.8",
+        "2.0.8": {
+            "url": "https://github.com/zyedidia/micro/releases/download/v2.0.8/micro-2.0.8-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "micro.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/zyedidia/micro/releases/download/v$version/micro-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://micro-editor.github.io/"
+            }
+        }
+    }
+}

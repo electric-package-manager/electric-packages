@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "eartrumpet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eartrumpet",
+        "latest-version": "2.1.8.0",
+        "2.1.8.0": {
+            "url": "https://packages.chocolatey.org/eartrumpet.2.1.8.0.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "EarTrumpet.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\choco*\"",
+                        "Expand-ZipArchive \"$dir\\Release.zip\" -Removal"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "EarTrumpet",
+                    "file-name": "EarTrumpet.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/eartrumpet.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/eartrumpet",
+                "regex": "Downloads of v\\s+([\\d.]+)"
+            }
+        }
+    }
+}

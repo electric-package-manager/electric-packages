@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "pkg-config",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pkg-config",
+        "latest-version": "0.26-1",
+        "0.26-1": {
+            "url": [
+                "https://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-config_0.26-1_win32.zip",
+                "https://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.28/glib_2.28.8-1_win32.zip",
+                "https://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/gettext-runtime_0.18.1.1-2_win32.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "pkg-config.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

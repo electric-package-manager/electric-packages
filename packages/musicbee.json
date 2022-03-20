@@ -1,0 +1,39 @@
+{
+    "display-name": "MusicBee",
+    "package-name": "musicbee",
+    "latest-version": "3.3.7491",
+    "3.3.7491": {
+        "url": "https://www.mediafire.com/file/q7xbxr7hipn1ccu/MusicBeeSetup_3_3_Update6.zip/file",
+        "file-type": ".zip",
+        "pre-install": [
+            {
+                "type": "python",
+                "admin": false,
+                "override": true,
+                "code": [
+                    "import zipfile",
+                    "import os",
+                    "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
+                    "    zip_ref.extractall(r'<temp>\\electric')",
+                    "path = r'<temp>\\electric\\MusicBeeSetup_3_3_Update6.exe'",
+                    "if not \"<directory>\":",
+                    "    os.system(f'{path} /S')",
+                    "else:",
+                    "    os.system(f'{path} /S /D=<directory>')",
+                    "os.system('electric register <package-name> --version <version>')",
+                    "print('Successfully Installed <display-name>')"
+                ]
+            }
+        ],
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "run-check": true,
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "F605013152D7D4AA33ADF0DDD36E0233D14CD5FD52EDB7EAECD35D516D82693E"
+    }
+}

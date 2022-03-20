@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "figlet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "figlet",
+        "latest-version": "1.0-go",
+        "1.0-go": {
+            "url": "https://github.com/lukesampson/figlet/releases/download/go-1.0-win/figlet-go-1.0-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "figlet.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

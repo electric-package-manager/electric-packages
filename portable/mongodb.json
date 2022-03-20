@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "mongodb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mongodb",
+        "latest-version": "4.4.5",
+        "4.4.5": {
+            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.5-signed.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\mongo.exe",
+                [
+                    "bin\\mongod.exe",
+                    "mongod",
+                    "--config \"$dir\\bin\\mongod.cfg\""
+                ],
+                "bin\\mongos.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\bin\\mongod.cfg\")) {",
+                        "    $cfg = Get-Content \"$dir\\bin\\mongod.cfg\"",
+                        "    $cfg = $cfg -replace '%MONGO_DATA_PATH%', \"$dir\\data\"",
+                        "    $cfg = $cfg -replace '%MONGO_LOG_PATH%', \"$dir\\log\"",
+                        "    Set-Content \"$dir\\bin\\mongod.cfg\" $cfg -Encoding Ascii -Force",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "bin\\mongod.cfg",
+                "data",
+                "log"
+            ]
+        },
+        "auto-update": {
+            "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-$version-signed.msi",
+            "version-check": {
+                "webpage": "http://downloads.mongodb.org.s3.amazonaws.com/current.json"
+            }
+        }
+    }
+}

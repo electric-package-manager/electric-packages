@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "format-factory",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "format-factory",
+        "latest-version": "5.7.1.0",
+        "5.7.1.0": {
+            "url": "http://public.pcfreetime.com/FFSetup5.7.1.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\*\" -Exclude 'Carrier.exe' -Force -Recurse",
+                        "Expand-7zipArchive \"$dir\\Carrier.exe\" -Removal",
+                        "Remove-Item \"$dir\\`$*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Format Factory",
+                    "file-name": "FormatFactory.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

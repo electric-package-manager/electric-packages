@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "recuva",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "recuva",
+        "latest-version": "1.53.1087",
+        "1.53.1087": {
+            "url": "https://download.ccleaner.com/rcsetup153.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ASCII",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninst.exe\" -Recurse -Force",
+                        "if(!(Test-Path \"$persist_dir\\recuva.ini\")) {",
+                        "   Set-Content \"$dir\\recuva.ini\" (@('[Software\\Piriform\\Recuva]', 'UpdateCheck=0') -join \"`r`n\") -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": "recuva.ini"
+        },
+        "auto-update": {
+            "url": "https://download.ccleaner.com/rcsetup$majorVersion$minorVersion.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.ccleaner.com/recuva/version-history",
+                "regex": ">v([\\d.]+)"
+            }
+        }
+    }
+}

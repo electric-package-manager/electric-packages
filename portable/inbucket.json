@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "inboxer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "inboxer",
+        "latest-version": "1.3.2",
+        "1.3.2": {
+            "url": "https://github.com/denysdovhan/inboxer/releases/download/v1.3.2/inboxer-setup-1.3.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Inboxer",
+                    "file-name": "Inboxer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/inbucket/inbucket/releases/download/v$version/inbucket_$version_windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://www.inbucket.org/binaries/",
+                "regex": "inbucket_([\\d.]+)_windows"
+            }
+        }
+    }
+}

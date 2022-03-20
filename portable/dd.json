@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "dd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dd",
+        "latest-version": "0.6beta3",
+        "0.6beta3": {
+            "url": "http://www.chrysocome.net/downloads/dd-0.6beta3.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "lightcord",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lightcord",
+        "latest-version": "0.1.5",
+        "0.1.5": {
+            "url": "https://github.com/Lightcord/Lightcord/releases/download/0.1.5/lightcord-win32-ia32.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lightcord",
+                    "file-name": "Lightcord.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Lightcord/Lightcord/releases/download/<version>/lightcord-win32-ia32.zip",
+            "version-check": {
+                "webpage": "https://lightcord.org"
+            }
+        }
+    }
+}

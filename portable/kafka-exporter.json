@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "kafka-exporter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kafka-exporter",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/danielqsj/kafka_exporter/releases/download/v1.2.0/kafka_exporter-1.2.0.windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "kafka_exporter.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "putty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "putty",
+        "latest-version": "0.74",
+        "0.74": {
+            "url": "https://the.earth.li/~sgtatham/putty/0.74/w64/putty.zip",
+            "file-type": ".zip",
+            "bin": [
+                "putty.exe",
+                "puttygen.exe",
+                "pscp.exe",
+                "pageant.exe",
+                "psftp.exe",
+                "plink.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PuTTY",
+                    "file-name": "putty.exe"
+                },
+                {
+                    "shortcut-name": "Pageant",
+                    "file-name": "pageant.exe"
+                },
+                {
+                    "shortcut-name": "PSFTP",
+                    "file-name": "psftp.exe"
+                },
+                {
+                    "shortcut-name": "PuTTYgen",
+                    "file-name": "puttygen.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

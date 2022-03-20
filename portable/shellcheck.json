@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "shellcheck",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shellcheck",
+        "latest-version": "0.7.1",
+        "0.7.1": {
+            "url": "https://github.com/koalaman/shellcheck/releases/download/v0.7.1/shellcheck-v0.7.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "shellcheck.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Get-ChildItem \"$dir\\shellcheck-*.exe\" | Rename-Item -NewName 'shellcheck.exe'"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/koalaman/shellcheck/releases/download/v<version>/shellcheck-v<version>.zip",
+            "version-check": {
+                "webpage": "https://shellcheck.net/"
+            }
+        }
+    }
+}

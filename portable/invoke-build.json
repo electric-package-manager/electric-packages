@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "invoke-build",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "invoke-build",
+        "latest-version": "5.7.3",
+        "5.7.3": {
+            "url": "https://nuget.org/api/v2/package/Invoke-Build/5.7.3#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://nuget.org/api/v2/package/Invoke-Build/<version>#/dl.7z",
+            "version-check": {
+                "webpage": "https://github.com/nightroman/Invoke-Build/releases",
+                "regex": "releases/tag/v([\\d.]+)"
+            }
+        }
+    }
+}

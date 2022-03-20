@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "yori",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yori",
+        "latest-version": "1.51",
+        "1.51": {
+            "url": "http://www.malsmith.net/download/?obj=yori/1.51/win32/ysetup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "yori.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Yori",
+                    "file-name": "yori.exe"
+                }
+            ],
+            "persist": "YoriInit.d"
+        },
+        "auto-update": {
+            "url": "http://www.malsmith.net/download/?obj=yori/<version>/win32/ysetup.exe",
+            "version-check": {
+                "webpage": "http://www.malsmith.net/yori/"
+            }
+        }
+    }
+}

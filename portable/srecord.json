@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "srecord",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "srecord",
+        "latest-version": "1.64",
+        "1.64": {
+            "url": "https://downloads.sourceforge.net/project/srecord/srecord-win32/1.64/srecord-1.64-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "srec_cat.exe",
+                "srec_cmp.exe",
+                "srec_info.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/srecord/srecord-win32/<version>/srecord-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/srecord/rss?path=/",
+                "regex": "srecord-([\\d.]+)-win32"
+            }
+        }
+    }
+}

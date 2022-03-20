@@ -1,0 +1,25 @@
+{
+    "display-name": "pgAdmin4",
+    "package-name": "pgadmin4",
+    "latest-version": "5.1",
+    "5.1": {
+        "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v5.1/windows/pgadmin4-5.1-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "checksum": "1AF12D927B95A5911E11182CB3525C1BE2A52ADC5DEB1084BDC28D9FD0EBA41A",
+        "clswitch": "/DIR=",
+        "dependencies": []
+    }
+}

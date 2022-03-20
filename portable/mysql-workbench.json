@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "mysql-workbench",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mysql-workbench",
+        "latest-version": "8.0.23",
+        "8.0.23": {
+            "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.23-winx64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "MySQLWorkbench.exe",
+                "mysql.exe",
+                "mysqldump.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MySQLWorkbench",
+                    "file-name": "MySQLWorkbench.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

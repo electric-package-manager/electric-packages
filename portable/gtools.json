@@ -1,0 +1,54 @@
+{
+    "display-name": "",
+    "package-name": "gtools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gtools",
+        "latest-version": "4.2",
+        "4.2": {
+            "url": "http://p-nand-q.com/download/gtools/gtools-4.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "ddupe.exe",
+                "dllusage.exe",
+                "GKalk.exe",
+                "md5sums.exe",
+                "pathed.exe",
+                "pserv4.exe",
+                "regdiff.exe",
+                "remove_admin_shares.exe",
+                [
+                    "su.exe",
+                    "gtools-su"
+                ],
+                [
+                    "touch.exe",
+                    "gtools-touch"
+                ],
+                [
+                    "which.exe",
+                    "gtools-which"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\`$*\" -Recurse",
+                        "Remove-Item \"$dir\\*\" -Include '*.pdb', 'pserv4.7z', '*vshost*', '*.exp' -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://p-nand-q.com/download/gtools/gtools-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://p-nand-q.com/download/gtools/index.html",
+                "regex": "<h1>gtools ([\\d.]+)<"
+            }
+        }
+    }
+}

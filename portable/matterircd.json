@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "matterircd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "matterircd",
+        "latest-version": "0.24.0",
+        "0.24.0": {
+            "url": "https://github.com/42wim/matterircd/releases/download/v0.24.0/matterircd-0.24.0-windows-64bit.exe#/matterircd.exe",
+            "file-type": ".exe",
+            "bin": [
+                "matterircd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

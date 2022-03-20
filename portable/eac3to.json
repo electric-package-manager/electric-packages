@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "eac3to",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eac3to",
+        "latest-version": "3.34",
+        "3.34": {
+            "url": "http://madshi.net/eac3to.zip",
+            "file-type": ".zip",
+            "bin": [
+                "eac3to.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

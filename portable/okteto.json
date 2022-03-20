@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "okteto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "okteto",
+        "latest-version": "1.12.6",
+        "1.12.6": {
+            "url": "https://github.com/okteto/okteto/releases/download/1.12.6/okteto.exe",
+            "file-type": ".exe",
+            "bin": [
+                "okteto.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/okteto/okteto/releases/download/$version/okteto.exe",
+            "version-check": {
+                "webpage": "https://okteto.com"
+            }
+        }
+    }
+}

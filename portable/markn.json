@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "markn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "markn",
+        "latest-version": "0.2.1",
+        "0.2.1": {
+            "url": "https://github.com/minodisk/markn/releases/download/v0.2.1/Markn-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Markn.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Markn",
+                    "file-name": "Markn.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

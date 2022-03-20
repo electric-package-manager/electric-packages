@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "retroshare",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "retroshare",
+        "latest-version": "0.6.5",
+        "0.6.5": {
+            "url": "https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/RetroShare-0.6.5-Windows-Portable-20190204-1-gfb005f041-Qt-5.12.0.7z",
+            "file-type": ".7z",
+            "bin": [
+                "retroshare.exe",
+                "retroshare-nogui.exe",
+                [
+                    "retroshare-nogui.exe",
+                    "retroshare-webui",
+                    "--webinterface 9090",
+                    "--docroot \"$dir\\webui\""
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RetroShare",
+                    "file-name": "retroshare.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://github.com/RetroShare/RetroShare/releases/download/v<version>/RetroShare-<version>-Windows-Portable-$matchBuild.7z",
+            "version-check": {
+                "webpage": "https://retroshare.cc/downloads.html",
+                "regex": "RetroShare-([\\d.]+)-Windows-Portable-(?<build>[\\w-.]+).7z\">Retroshare \\(Portable\\)"
+            }
+        }
+    }
+}

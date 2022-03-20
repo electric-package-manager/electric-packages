@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "jfrog",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jfrog",
+        "latest-version": "1.44.0",
+        "1.44.0": {
+            "url": "https://dl.bintray.com/jfrog/jfrog-cli-go/1.44.0/jfrog-cli-windows-amd64/jfrog.exe",
+            "file-type": ".exe",
+            "bin": [
+                "jfrog.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.bintray.com/jfrog/jfrog-cli-go/$version/jfrog-cli-windows-amd64/jfrog.exe",
+            "version-check": {
+                "webpage": "https://bintray.com/package/generalTab?pkgPath=/jfrog/jfrog-cli-go/jfrog-cli-windows-amd64",
+                "regex": "ver:\\s*([\\d.]+)"
+            }
+        }
+    }
+}

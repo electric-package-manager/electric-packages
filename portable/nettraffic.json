@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "nettraffic",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nettraffic",
+        "latest-version": "1.65.1",
+        "1.65.1": {
+            "url": "https://files02.tchspt.com/storage2/temp/NetTraffic1.65.1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Expand-7zipArchive \"$dir\\NetTraffic $version.exe\" -Removal",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NetTraffic",
+                    "file-name": "NetTraffic.exe"
+                }
+            ],
+            "persist": "Data"
+        }
+    }
+}

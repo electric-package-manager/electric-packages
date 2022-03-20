@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "kaf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kaf",
+        "latest-version": "0.1.39",
+        "0.1.39": {
+            "url": "https://github.com/birdayz/kaf/releases/download/v0.1.39/kaf_0.1.39_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "kaf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

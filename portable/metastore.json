@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "metastore",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "metastore",
+        "latest-version": "1.1.2-9-gdafa727",
+        "1.1.2-9-gdafa727": {
+            "url": "https://github.com/rasa/metastore/releases/download/v1.1.2-9-gdafa727/metastore-x64.exe#/metastore.exe",
+            "file-type": ".exe",
+            "bin": [
+                "metastore.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rasa/metastore/releases/download/v$version/metastore-x64.exe#/metastore.exe",
+            "version-check": {
+                "webpage": "https://github.com/rasa/metastore",
+                "regex": "/releases/tag/v([\\w.-]+)\""
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "nmap",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nmap",
+        "latest-version": "7.91",
+        "7.91": {
+            "url": "https://nmap.org/dist/nmap-7.91-setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "nmap.exe",
+                "ncat.exe",
+                "ndiff.exe",
+                "zenmap.exe",
+                "nping.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Nmap - Zenmap GUI",
+                    "file-name": "zenmap.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://nmap.org/dist/nmap-<version>-setup.exe",
+            "version-check": {
+                "webpage": "https://nmap.org/download.html",
+                "regex": "nmap-([\\d.]+)-setup\\.exe"
+            }
+        }
+    }
+}

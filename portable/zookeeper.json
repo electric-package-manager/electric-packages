@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "zookeeper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "zookeeper",
+        "latest-version": "3.7.0",
+        "3.7.0": {
+            "url": "https://www.apache.org/dist/zookeeper/zookeeper-3.7.0/apache-zookeeper-3.7.0-bin.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bin\\zkServer.cmd",
+                "bin\\zkCli.cmd"
+            ],
+            "shortcuts": [],
+            "persist": "data",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$dataDirPath = (\"$dir\\data\").replace('\\', '\\\\')",
+                        "(Get-Content \"$dir\\conf\\zoo_sample.cfg\") -Replace '^dataDir=(.+)$', \"dataDir=$dataDirPath\" | Set-Content \"$dir\\conf\\zoo.cfg\" -Encoding Ascii"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.apache.org/dist/zookeeper/zookeeper-<version>/apache-zookeeper-<version>-bin.tar.gz",
+            "version-check": {
+                "webpage": "https://www.apache.org/dist/zookeeper/",
+                "regex": "zookeeper-([\\d.]+)/"
+            }
+        }
+    }
+}

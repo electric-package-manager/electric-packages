@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "clementine",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "clementine",
+        "latest-version": "1.3.1",
+        "1.3.1": {
+            "url": "https://github.com/clementine-player/Clementine/releases/download/1.3.1/ClementineSetup-1.3.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "clementine.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Clementine",
+                    "file-name": "clementine.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/clementine-player/Clementine/releases/download/<version>/ClementineSetup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.clementine-player.org/"
+            }
+        }
+    }
+}

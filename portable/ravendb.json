@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "ravendb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ravendb",
+        "latest-version": "5.1.6",
+        "5.1.6": {
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-5.1.6-windows-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Server\\rvn.exe",
+                "Server\\Raven.Server.exe",
+                "Server\\Raven.Debug.exe",
+                [
+                    "run.ps1",
+                    "raven-run"
+                ],
+                [
+                    "setup-as-service.ps1",
+                    "raven-setup-as-service"
+                ],
+                [
+                    "uninstall-service.ps1",
+                    "raven-uninstall-service"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": "Server\\settings.json"
+        },
+        "auto-update": {
+            "url": "https://daily-builds.s3.amazonaws.com/RavenDB-$version-windows-x64.zip",
+            "version-check": {
+                "webpage": "https://ravendb.net/download",
+                "regex": "Latest STABLE <span class=\"text-primary\">([\\d.]+)</span></h1>"
+            }
+        }
+    }
+}

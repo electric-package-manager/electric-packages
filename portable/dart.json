@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "dart",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dart",
+        "latest-version": "2.12.3",
+        "2.12.3": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.12.3/sdk/dartsdk-windows-x64-release.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/$version/sdk/dartsdk-windows-x64-release.zip",
+            "version-check": {
+                "webpage": "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION"
+            }
+        }
+    }
+}

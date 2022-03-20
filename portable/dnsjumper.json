@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "dnsjumper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dnsjumper",
+        "latest-version": "2.2",
+        "2.2": {
+            "url": "https://www.sordum.org/files/dns-jumper/DnsJumper.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dnsjumper.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DNS Jumper",
+                    "file-name": "dnsjumper.exe"
+                }
+            ],
+            "persist": "DnsJumper.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

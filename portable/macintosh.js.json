@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "macintosh.js",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "macintosh.js",
+        "latest-version": "1.1.0",
+        "1.1.0": {
+            "url": "https://github.com/felixrieseberg/macintosh.js/releases/download/v1.1.0/macintosh.js-win32-x64-1.1.0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "macintosh.js",
+                    "file-name": "macintosh.js.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

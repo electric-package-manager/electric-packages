@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "win-acme",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "win-acme",
+        "latest-version": "2.1.16.1030",
+        "2.1.16.1030": {
+            "url": "https://github.com/win-acme/win-acme/releases/download/v2.1.16/win-acme.v2.1.16.1030.x64.trimmed.zip",
+            "file-type": ".zip",
+            "bin": [
+                "wacs.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\settings.json\")) { Copy-Item \"$dir\\settings_default.json\" \"$dir\\settings.json\" }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "settings.json"
+        },
+        "auto-update": {
+            "url": "https://github.com/win-acme/win-acme/releases/download/v$matchHead/win-acme.v$version.x64.trimmed.zip",
+            "version-check": {
+                "webpage": "https://www.win-acme.com",
+                "regex": "acme\\.v([\\d.]+)\\.x"
+            }
+        }
+    }
+}

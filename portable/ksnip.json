@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "ksnip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ksnip",
+        "latest-version": "1.8.2",
+        "1.8.2": {
+            "url": "https://github.com/ksnip/ksnip/releases/download/v1.8.2/ksnip-1.8.2-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ksnip.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ksnip",
+                    "file-name": "ksnip.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

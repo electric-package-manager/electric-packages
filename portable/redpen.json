@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "redpen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "redpen",
+        "latest-version": "1.10.4",
+        "1.10.4": {
+            "url": "https://github.com/redpen-cc/redpen/releases/download/redpen-1.10.4/redpen-distribution-1.10.4-assembled.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bin\\redpen.bat",
+                "bin\\redpen-server.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/redpen-cc/redpen/releases/download/redpen-<version>/redpen-distribution-<version>-assembled.tar.gz",
+            "version-check": {
+                "webpage": "http://redpen.cc",
+                "regex": "Release ([\\d.]+)"
+            }
+        }
+    }
+}

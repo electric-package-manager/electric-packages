@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "yq",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yq",
+        "latest-version": "4.6.3",
+        "4.6.3": {
+            "url": "https://github.com/mikefarah/yq/releases/download/v4.6.3/yq_windows_amd64.exe#/yq.exe",
+            "file-type": ".exe",
+            "bin": [
+                "yq.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mikefarah/yq/releases/download/v$version/yq_windows_amd64.exe#/yq.exe",
+            "version-check": {
+                "webpage": "https://mikefarah.gitbook.io/yq/"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "oxipng",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "oxipng",
+        "latest-version": "4.0.3",
+        "4.0.3": {
+            "url": "https://github.com/shssoichiro/oxipng/releases/download/v4.0.3/oxipng-4.0.3-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "oxipng.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

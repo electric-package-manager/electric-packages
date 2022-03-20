@@ -1,0 +1,46 @@
+{
+    "display-name": "Corsair iCUE",
+    "package-name": "icue",
+    "latest-version": "3.38.61",
+    "auto-update": {
+        "url": "https://downloads.corsair.com/Files/CUE/iCUESetup_<version>_release.msi",
+        "version-check": {
+            "webpage": "https://www.corsair.com/ww/en/downloads",
+            "regex": "CORSAIR iCUE v([\\d.]+)"
+        }
+    },
+    "3.37.140": {
+        "url": "https://downloads.corsair.com/Files/CUE/iCUESetup_3.37.140_release.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B036D9AE5539337BE98C96E9D5A267507446EDBE4000022A20D41E6872C2406A"
+    },
+    "3.38.61": {
+        "url": "https://downloads.corsair.com/Files/CUE/iCUESetup_3.38.61_release.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B3126D202DC95F077CDEF004E308578F271039EBBEB9FED95A3B41BA5B2DFE9E"
+    }
+}

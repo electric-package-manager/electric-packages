@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fontreg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fontreg",
+        "latest-version": "2.1.3",
+        "2.1.3": {
+            "url": "http://code.kliu.org/misc/fontreg/fontreg-2.1.3-redist.7z",
+            "file-type": ".7z",
+            "bin": [
+                "FontReg.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

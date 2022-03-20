@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "syncany-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "syncany-cli",
+        "latest-version": "0.4.9",
+        "0.4.9": {
+            "url": "https://www.syncany.org/dist/releases/syncany-cli-0.4.9-alpha.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\sy.bat",
+                "bin\\syncany.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.syncany.org/dist/releases/syncany-cli-<version>-alpha.exe",
+            "version-check": {
+                "webpage": "https://get.syncany.org/dist/releases/?C=M;O=D",
+                "regex": "syncany-cli-([\\d.]+)-alpha\\.exe"
+            }
+        }
+    }
+}

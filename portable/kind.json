@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "kind",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kind",
+        "latest-version": "0.10.0",
+        "0.10.0": {
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v0.10.0/kind-windows-amd64#/kind.exe",
+            "file-type": ".exe",
+            "bin": [
+                "kind.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kubernetes-sigs/kind/releases/download/v$version/kind-windows-amd64#/kind.exe",
+            "version-check": {
+                "webpage": "https://kind.sigs.k8s.io/docs/user/quick-start"
+            }
+        }
+    }
+}

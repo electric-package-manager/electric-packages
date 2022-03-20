@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "authy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "authy",
+        "latest-version": "1.8.3",
+        "1.8.3": {
+            "url": "https://s3.amazonaws.com/authy-electron-repository-production/authy/stable/1.8.3/win32/x64/authy-1.8.3-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Authy Desktop",
+                    "file-name": "Authy Desktop.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://s3.amazonaws.com/authy-electron-repository-production/authy/stable/$version/win32/x64/authy-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://s3.amazonaws.com/authy-electron-repository-production/_squirrel/authy/stable/x64/RELEASES",
+                "regex": "authy-([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

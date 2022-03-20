@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "guetzli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "guetzli",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://github.com/google/guetzli/releases/download/v1.0.1/guetzli_windows_x86-64.exe#/guetzli.exe",
+            "file-type": ".exe",
+            "bin": [
+                "guetzli.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

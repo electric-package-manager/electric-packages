@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "pandoc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pandoc",
+        "latest-version": "2.13",
+        "2.13": {
+            "url": "https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pandoc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jgm/pandoc/releases/download/$version/pandoc-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://pandoc.org"
+            }
+        }
+    }
+}

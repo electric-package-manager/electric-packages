@@ -1,0 +1,19 @@
+{
+    "display-name": "ProcDump",
+    "package-name": "procdump",
+    "is-portable": true,
+    "portable": {
+        "display-name": "ProcDump",
+        "package-name": "procdump",
+        "latest-version": "10.0",
+        "10.0": {
+            "url": "https://download.sysinternals.com/files/Procdump.zip",
+            "file-type": ".zip",
+            "extract-dir": "procdump",
+            "bin": [
+                "procdump.exe"
+            ],
+            "checksum": "CF3ECE5F2D9B39C35CA008E7016831213F5033AE4470FB64F396A3FBDED17D19"
+        }
+    }
+}

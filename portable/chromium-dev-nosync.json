@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "chromium-dev-nosync",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chromium-dev-nosync",
+        "latest-version": "86.0.4185.0-r769185",
+        "86.0.4185.0-r769185": {
+            "url": "https://github.com/macchrome/chromium/releases/download/v86.0.4185.0-r769185-Win64/Chrome-bin.7z",
+            "file-type": ".7z",
+            "bin": [
+                "chrome.exe",
+                [
+                    "chrome.exe",
+                    "chromium-dev"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chromium (dev)",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/macchrome/chromium/releases/download/v$version-Win64/Chrome-bin.7z",
+            "version-check": {
+                "webpage": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&type=dev-codecs-nosync&out=json",
+                "regex": "v([\\d.]+-r\\d+)-Win64"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "dhall",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dhall",
+        "latest-version": "1.38.1",
+        "1.38.1": {
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.38.1/dhall-1.38.1-x86_64-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dhall.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/$version/dhall-$version-x86_64-windows.zip",
+            "version-check": {
+                "webpage": "https://dhall-lang.org"
+            }
+        }
+    }
+}

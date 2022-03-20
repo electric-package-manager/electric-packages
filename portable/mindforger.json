@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "mindforger",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mindforger",
+        "latest-version": "1.52.0",
+        "1.52.0": {
+            "url": "https://github.com/dvorka/mindforger/releases/download/1.52.0/mindforger-windows-installer-1.52.0.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\mindforger.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MindForger",
+                    "file-name": "bin\\mindforger.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/dvorka/mindforger/releases/download/$version/mindforger-windows-installer-$version.exe",
+            "version-check": {
+                "webpage": "https://mindforger.com"
+            }
+        }
+    }
+}

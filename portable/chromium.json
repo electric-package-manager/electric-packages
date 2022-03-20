@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "chromium",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chromium",
+        "latest-version": "85.0.4183.83",
+        "85.0.4183.83": {
+            "url": "https://github.com/macchrome/winchrome/releases/download/v85.0.4183.83-r782793-Win64/ungoogled-chromium-85.0.4183.83-2_Win64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "chrome.exe",
+                [
+                    "chrome.exe",
+                    "chromium"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Chromium",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win64.7z",
+            "version-check": {
+                "webpage": "https://www.chromium.org",
+                "regex": "v([\\d.]+)-r(?<build>\\d+)-Win64"
+            }
+        }
+    }
+}

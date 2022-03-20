@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "lzip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lzip",
+        "latest-version": "1.20",
+        "1.20": {
+            "url": "https://download.savannah.gnu.org/releases/lzip/lzip-1.20-w32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\lzip.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.savannah.gnu.org/releases/lzip/lzip-<version>-w32.zip",
+            "version-check": {
+                "webpage": "https://download.savannah.gnu.org/releases/lzip/",
+                "regex": "lzip-([\\d.]+)-w32\\.zip"
+            }
+        }
+    }
+}

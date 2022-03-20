@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "sysinternals",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sysinternals",
+        "latest-version": "2021.March.23",
+        "2021.March.23": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "version-check": {
+                "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+                "regex": "\\bUpdated:\\s*(\\w+)\\s+(\\d+),\\s+(\\d+)\\b"
+            }
+        }
+    }
+}

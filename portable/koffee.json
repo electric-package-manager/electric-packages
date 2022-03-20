@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "koffee",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "koffee",
+        "latest-version": "0.5.2",
+        "0.5.2": {
+            "url": "https://github.com/mattstermiller/koffee/releases/download/v0.5.2/Koffee-0.5.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Koffee.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Koffee",
+                    "file-name": "Koffee.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

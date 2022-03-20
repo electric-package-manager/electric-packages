@@ -1,0 +1,27 @@
+{
+    "display-name": "Node JS (Portable)",
+    "package-name": "npm",
+    "is-portable": true,
+    "portable": {
+        "latest-version": "14.15.3",
+        "14.15.3": {
+            "url": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-win-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "nodejs",
+            "bin": [
+                "node.exe",
+                "npm.cmd",
+                "install_tools.bat",
+                "nodevars.bat",
+                "npx.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "name": "Node.js",
+                    "file-name": "node.exe"
+                }
+            ],
+            "checksum": "B2A0765240F8FBD3BA90A050B8C87069D81DB36C9F3745AFF7516E833E4D2ED6"
+        }
+    }
+}

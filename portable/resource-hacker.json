@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "resource-hacker",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "resource-hacker",
+        "latest-version": "5.1.8.360",
+        "5.1.8.360": {
+            "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ResourceHacker.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\ResourceHacker.ini\")) { New-Item \"$dir\\ResourceHacker.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Resource Hacker",
+                    "file-name": "ResourceHacker.exe"
+                }
+            ],
+            "persist": "ResourceHacker.ini"
+        },
+        "auto-update": {
+            "url": "http://www.angusj.com/resourcehacker/resource_hacker.zip",
+            "version-check": {
+                "webpage": "http://www.angusj.com/resourcehacker/",
+                "regex": "Changes in ([\\d.]+)\\s+\\((\\d+)\\)"
+            }
+        }
+    }
+}

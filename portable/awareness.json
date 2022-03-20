@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "awareness",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "awareness",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "http://iamfutureproof.com/downloads/InstallAwareness.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Awareness",
+                    "file-name": "Awareness.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

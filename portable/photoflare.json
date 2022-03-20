@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "photoflare",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "photoflare",
+        "latest-version": "1.6.7",
+        "1.6.7": {
+            "url": "https://launchpad.net/photofiltre-lx/trunk/v1.6.7/%2Bdownload/Photoflare_CE_1.6.7_amd64_win_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ce_photoflare.exe",
+                [
+                    "ce_photoflare.exe",
+                    "photoflare"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PhotoFlare",
+                    "file-name": "ce_photoflare.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://launchpad.net/photofiltre-lx/trunk/v$version/%2Bdownload/Photoflare_CE_$matchHead_amd64_win_portable.zip",
+            "version-check": {
+                "webpage": "https://photoflare.io/changelog/",
+                "regex": ">([\\d.]+)\\s+&#8211;\\s+\\d{2}"
+            }
+        }
+    }
+}

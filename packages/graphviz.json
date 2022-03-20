@@ -1,0 +1,18 @@
+{
+    "display-name": "Graphviz",
+    "package-name": "graphviz",
+    "latest-version": "2.46.1",
+    "2.46.1": {
+        "url": "https://gitlab.com/graphviz/graphviz/-/package_files/7097345/download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "8E4B73F56691A2DAE7ECB4BBEA3CE62AD4D8583D4E99A516254DBDDB93C100D9"
+    }
+}

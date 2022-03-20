@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "git-sizer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-sizer",
+        "latest-version": "1.3.0",
+        "1.3.0": {
+            "url": "https://github.com/github/git-sizer/releases/download/v1.3.0/git-sizer-1.3.0-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "git-sizer.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

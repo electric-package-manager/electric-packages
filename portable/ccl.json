@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "ccl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ccl",
+        "latest-version": "1.12",
+        "1.12": {
+            "url": "https://github.com/Clozure/ccl/releases/download/v1.12/ccl-1.12-windowsx86.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Clozure/ccl/releases/download/v<version>/ccl-<version>-windowsx86.zip",
+            "version-check": {
+                "webpage": "https://ccl.clozure.com/"
+            }
+        }
+    }
+}

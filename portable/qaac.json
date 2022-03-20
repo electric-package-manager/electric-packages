@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "qaac",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qaac",
+        "latest-version": "2.71",
+        "2.71": {
+            "url": "https://github.com/nu774/qaac/releases/download/v2.71/qaac_2.71.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/nu774/qaac/releases/download/v<version>/qaac_<version>.zip",
+            "version-check": {
+                "webpage": "https://sites.google.com/site/qaacpage/"
+            }
+        }
+    }
+}

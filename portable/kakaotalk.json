@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "kakaotalk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kakaotalk",
+        "latest-version": "3.2.5.2742",
+        "3.2.5.2742": {
+            "url": "http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\unisntall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "KakaoTalk",
+                    "file-name": "KakaoTalk.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://app.pc.kakao.com/talk/win32/patch/patch.txt",
+                "regex": "kakaotalk_([\\d.]+)_full\\.pak"
+            }
+        }
+    }
+}

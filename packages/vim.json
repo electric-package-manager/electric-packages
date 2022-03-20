@@ -1,0 +1,18 @@
+{
+    "display-name": "Vim",
+    "package-name": "vim",
+    "latest-version": "8.2.2553",
+    "8.2.2553": {
+        "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "EF71A74ECBCEB3C72095E33F6CCDB68035B546EB426B19A0BB65CFCB94E562ED"
+    }
+}

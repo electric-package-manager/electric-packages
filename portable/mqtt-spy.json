@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "mqtt-spy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mqtt-spy",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/eclipse/paho.mqtt-spy/releases/download/1.0.0/mqtt-spy-1.0.0.jar#/mqtt-spy.jar",
+            "file-type": ".jar",
+            "bin": [
+                "mqtt-spy.jar"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mqtt-spy",
+                    "file-name": "..\\..\\..\\shims\\mqtt-spy.cmd"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

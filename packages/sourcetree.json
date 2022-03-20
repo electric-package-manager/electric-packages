@@ -1,0 +1,14 @@
+{
+  "display-name": "SourceTree",
+  "package-name": "sourcetree",
+  "latest-version": "3.4.1",
+  "3.4.1": {
+    "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.1.msi",
+    "file-type": ".msi",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
+    "dependencies": [],
+    "checksum": "6720D2278C309D0FB9117451CF92ED2AF25A26588FBD39A08DA5266578004E74"
+  }
+}

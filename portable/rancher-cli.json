@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rancher-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rancher-cli",
+        "latest-version": "2.4.10",
+        "2.4.10": {
+            "url": "https://github.com/rancher/cli/releases/download/v2.4.10/rancher-windows-amd64-v2.4.10.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rancher.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

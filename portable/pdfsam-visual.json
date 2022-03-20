@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "pdfsam-visual",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdfsam-visual",
+        "latest-version": "3.0.11",
+        "3.0.11": {
+            "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v3.0.11/pdfsam-visual_3.0.11-windows_x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PDFsam Visual",
+                    "file-name": "PDFsam Visual.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/torakiki/pdfsam-visual-public/releases/download/v$version/pdfsam-visual_$version-windows_x64.zip",
+            "version-check": {
+                "webpage": "https://pdfsam.org/pdfsam-visual/"
+            }
+        }
+    }
+}

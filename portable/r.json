@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "r",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "r",
+        "latest-version": "4.0.5",
+        "4.0.5": {
+            "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.5-win.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://cloud.r-project.org/bin/windows/base/R-<version>-win.exe",
+            "version-check": {
+                "webpage": "https://cloud.r-project.org/bin/windows/base/md5sum.txt",
+                "regex": "R-([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "forge",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "forge",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://github.com/fsharp-editing/Forge/releases/download/2.2.0/forge.zip",
+            "file-type": ".zip",
+            "bin": [
+                "forge.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/fsharp-editing/Forge/releases/download/<version>/forge.zip",
+            "version-check": {
+                "webpage": "https://www.forge.run/"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "goldendict",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "goldendict",
+        "latest-version": "1.5.0-RC2-372-gc3ff15f",
+        "1.5.0-RC2-372-gc3ff15f": {
+            "url": "https://downloads.sourceforge.net/project/goldendict/early%20access%20builds/GoldenDict-1.5.0-RC2-372-gc3ff15f_(QT_486).7z",
+            "file-type": ".7z",
+            "bin": [
+                "GoldenDict.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GoldenDict",
+                    "file-name": "GoldenDict.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/goldendict/early%20access%20builds/GoldenDict-<version>_(QT_486).7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/p/goldendict/activity/feed",
+                "regex": "GoldenDict-([\\w.-]+)_\\(QT_486\\)\\.7z"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "protoc-gen-grpc-web",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "protoc-gen-grpc-web",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/grpc/grpc-web/releases/download/1.2.1/protoc-gen-grpc-web-1.2.1-windows-x86_64.exe#/protoc-gen-grpc-web.exe",
+            "file-type": ".exe",
+            "bin": [
+                "protoc-gen-grpc-web.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/grpc/grpc-web/releases/download/$version/protoc-gen-grpc-web-$version-windows-x86_64.exe#/protoc-gen-grpc-web.exe",
+            "version-check": {
+                "webpage": "https://grpc.io"
+            }
+        }
+    }
+}

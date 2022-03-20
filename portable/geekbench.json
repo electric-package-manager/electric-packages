@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "geekbench",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "geekbench",
+        "latest-version": "5.4.0",
+        "5.4.0": {
+            "url": "https://cdn.geekbench.com/Geekbench-5.4.0-WindowsSetup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "geekbench.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GeekBench",
+                    "file-name": "geekbench_gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://cdn.geekbench.com/Geekbench-$version-WindowsSetup.exe",
+            "version-check": {
+                "webpage": "https://www.geekbench.com/download/windows/",
+                "regex": "Geekbench-([\\d.]+)-WindowsSetup\\.exe"
+            }
+        }
+    }
+}

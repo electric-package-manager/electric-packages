@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "picgo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "picgo",
+        "latest-version": "2.2.2",
+        "2.2.2": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.2.2/PicGo-Setup-2.2.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "PicGo.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PicGo",
+                    "file-name": "PicGo.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://github.com/Molunerfinn/PicGo/releases",
+                "regex": "/PicGo-Setup-([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

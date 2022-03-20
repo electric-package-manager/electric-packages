@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "ndm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ndm",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/720kb/ndm/releases/download/v1.2.0/ndm-1.2.0-ia32-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ndm.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ndm",
+                    "file-name": "ndm.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/720kb/ndm/releases/download/v<version>/ndm-<version>-ia32-win.zip",
+            "version-check": {
+                "webpage": "https://720kb.github.io/ndm/"
+            }
+        }
+    }
+}

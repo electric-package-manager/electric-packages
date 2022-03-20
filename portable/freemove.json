@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "freemove",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freemove",
+        "latest-version": "2.1.0",
+        "2.1.0": {
+            "url": "https://github.com/imDema/FreeMove/releases/download/2.1.0/FreeMove.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FreeMove",
+                    "file-name": "FreeMove.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

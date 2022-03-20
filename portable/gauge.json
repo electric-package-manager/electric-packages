@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "gauche",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gauche",
+        "latest-version": "0.9.10",
+        "0.9.10": {
+            "url": "https://github.com/shirok/Gauche/releases/download/release0_9_10/Gauche-mingw-0.9.10-64bit.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\gauche-cesconv.exe",
+                "bin\\gauche-config.exe",
+                "bin\\gauche-install.exe",
+                "bin\\gauche-package.exe",
+                "bin\\gosh.exe",
+                "bin\\gosh-noconsole.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Gosh",
+                    "file-name": "bin\\gosh.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/getgauge/gauge/releases/download/v$version/gauge-$version-windows.x86_64.zip",
+            "version-check": {
+                "webpage": "https://gauge.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "y-cruncher",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "y-cruncher",
+        "latest-version": "0.7.8.9507",
+        "0.7.8.9507": {
+            "url": "http://www.numberworld.org/y-cruncher/y-cruncher%20v0.7.8.9507.zip",
+            "file-type": ".zip",
+            "bin": [
+                "y-cruncher.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

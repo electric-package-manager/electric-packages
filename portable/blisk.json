@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "blisk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "blisk",
+        "latest-version": "14.0.71.69",
+        "14.0.71.69": {
+            "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_14.0.71.69.exe#/cosi.7z",
+            "file-type": ".7z",
+            "bin": [
+                "blisk.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Blisk",
+                    "file-name": "blisk.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bliskcloudstorage.blob.core.windows.net/win-installers/BliskInstaller_<version>.exe#/cosi.7z",
+            "version-check": {
+                "webpage": "https://blisk.io/questions/install-blisk-browser-offline",
+                "regex": "BliskInstaller_([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

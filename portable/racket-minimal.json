@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "racket-minimal",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "racket-minimal",
+        "latest-version": "8.0",
+        "8.0": {
+            "url": "https://mirror.racket-lang.org/installers/8.0/racket-minimal-8.0-x86_64-win32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "racket.exe",
+                "raco.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://mirror.racket-lang.org/installers/$version/racket-minimal-$version-x86_64-win32.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://download.racket-lang.org/",
+                "regex": "Version ([\\d.]+)"
+            }
+        }
+    }
+}

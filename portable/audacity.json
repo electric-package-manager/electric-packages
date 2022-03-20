@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "audacity",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "audacity",
+        "latest-version": "3.0.0",
+        "3.0.0": {
+            "url": "https://fossies.org/windows/misc/audacity-win-3.0.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "audacity.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Audacity",
+                    "file-name": "audacity.exe"
+                }
+            ],
+            "persist": "Portable Settings"
+        },
+        "auto-update": {
+            "url": "https://fossies.org/windows/misc/audacity-win-<version>.zip",
+            "version-check": {
+                "webpage": "https://fossies.org/windows/misc/",
+                "regex": "[Aa]udacity-win-([\\d.]+)\\.zip\""
+            }
+        }
+    }
+}

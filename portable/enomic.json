@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "enomic",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "enomic",
+        "latest-version": "1.5.1",
+        "1.5.1": {
+            "url": "https://repo.enonic.com/public/com/enonic/cli/enonic/1.5.1/enonic_1.5.1_Windows_64-bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "enonic.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://repo.enonic.com/public/com/enonic/cli/enonic/$version/enonic_$version_Windows_64-bit.zip",
+            "version-check": {
+                "webpage": "https://repo.enonic.com/public/com/enonic/cli/enonic/",
+                "regex": "<a[^>]+>([\\d.]+)/</a>"
+            }
+        }
+    }
+}

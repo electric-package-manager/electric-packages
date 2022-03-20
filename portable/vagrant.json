@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "vagrant",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vagrant",
+        "latest-version": "2.2.15",
+        "2.2.15": {
+            "url": "https://releases.hashicorp.com/vagrant/2.2.15/vagrant_2.2.15_x86_64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\vagrant.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://releases.hashicorp.com/vagrant/$version/vagrant_$version_x86_64.msi",
+            "version-check": {
+                "webpage": "https://releases.hashicorp.com/vagrant/",
+                "regex": "vagrant_([\\d.]+)</a>"
+            }
+        }
+    }
+}

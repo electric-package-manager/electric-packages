@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "apktool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "apktool",
+        "latest-version": "2.5.0",
+        "2.5.0": {
+            "url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.5.0/apktool_2.5.0.jar#/apktool.jar",
+            "file-type": ".jar",
+            "bin": [
+                "apktool.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/iBotPeaches/Apktool/releases/download/v<version>/apktool_<version>.jar#/apktool.jar",
+            "version-check": {
+                "webpage": "https://ibotpeaches.github.io/Apktool/"
+            }
+        }
+    }
+}

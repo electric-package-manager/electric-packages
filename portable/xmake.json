@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "xmake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "xmake",
+        "latest-version": "2.5.3",
+        "2.5.3": {
+            "url": "https://github.com/xmake-io/xmake/releases/download/v2.5.3/xmake-v2.5.3.win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "xmake.exe",
+                "xrepo.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/xmake-io/xmake/releases/download/v$version/xmake-v$version.win64.zip",
+            "version-check": {
+                "webpage": "https://xmake.io"
+            }
+        }
+    }
+}

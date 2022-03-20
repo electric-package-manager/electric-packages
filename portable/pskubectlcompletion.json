@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "pskubectlcompletion",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pskubectlcompletion",
+        "latest-version": "1.0.4",
+        "1.0.4": {
+            "url": "https://psg-prod-eastus.azureedge.net/packages/pskubectlcompletion.1.0.4.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://psg-prod-eastus.azureedge.net/packages/pskubectlcompletion.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://www.powershellgallery.com/packages/PSKubectlCompletion",
+                "regex": "<h2>([\\d.]+)</h2>"
+            }
+        }
+    }
+}

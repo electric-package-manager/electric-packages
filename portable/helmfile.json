@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "helmfile",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "helmfile",
+        "latest-version": "0.138.7",
+        "0.138.7": {
+            "url": "https://github.com/roboll/helmfile/releases/download/v0.138.7/helmfile_windows_amd64.exe#/helmfile.exe",
+            "file-type": ".exe",
+            "bin": [
+                "helmfile.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

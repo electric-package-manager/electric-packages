@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "cscope",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cscope",
+        "latest-version": "15.8a",
+        "15.8a": {
+            "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cscope-win32/cscope-15.8a-win64rev1-static.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cscope.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

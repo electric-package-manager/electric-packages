@@ -1,0 +1,8 @@
+name: auto-update-toolkit
+version: 1.0.0
+description: A toolkit for automatically updating your packages!
+dependencies:
+  - python
+  - git
+shell: pip install -e .
+uninstall: pip uninstall auto-update -y

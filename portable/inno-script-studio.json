@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "inno-script-studio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "inno-script-studio",
+        "latest-version": "2.5.1",
+        "2.5.1": {
+            "url": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Inno Script Studio",
+                    "file-name": "ISStudio.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$regpath = \"HKCU:\\Software\\Kymoto Solutions\\Inno Script Studio 2\\Options\\Compiler\"",
+                        "New-Item -Path $regpath -Type Directory -Force | Out-Null",
+                        "New-ItemProperty -Path $regpath -Name \"InnoCompilerPath\" -Value (versiondir 'inno-setup' 'current') | Out-Null"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
+            "version-check": {
+                "webpage": "https://www.kymoto.org/products/inno-script-studio/release-history",
+                "regex": "Inno Script Studio v([\\d.]+)"
+            }
+        }
+    }
+}

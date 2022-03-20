@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "ntop",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ntop",
+        "latest-version": "0.3.4",
+        "0.3.4": {
+            "url": "https://github.com/Nuke928/NTop/releases/download/v0.3.4/ntop.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ntop.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

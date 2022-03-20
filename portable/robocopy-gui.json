@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "robocopy-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "robocopy-gui",
+        "latest-version": "3.1.2.0",
+        "3.1.2.0": {
+            "url": "http://download.microsoft.com/download/f/d/0/fd05def7-68a1-4f71-8546-25c359cc0842/utilityspotlight2006_11.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Robocopy GUI",
+                    "file-name": "RobocopyGW.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

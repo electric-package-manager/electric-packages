@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "clingo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "clingo",
+        "latest-version": "5.4.1",
+        "5.4.1": {
+            "url": "https://github.com/potassco/clingo/releases/download/v5.4.0/clingo-5.4.0-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "clingo.exe",
+                "clasp.exe",
+                "gringo.exe",
+                "reify.exe",
+                "lpconvert.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/potassco/clingo/releases/download/v$version/clingo-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://potassco.org/clingo/"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "fmedia",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fmedia",
+        "latest-version": "1.24",
+        "1.24": {
+            "url": "https://github.com/stsaz/fmedia/releases/download/v1.24/fmedia-1.24-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fmedia.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "fmedia",
+                    "file-name": "fmedia-gui.exe"
+                }
+            ],
+            "persist": "fmedia.conf"
+        },
+        "auto-update": {
+            "url": "https://github.com/stsaz/fmedia/releases/download/v$version/fmedia-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://stsaz.github.io/fmedia/"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "jx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jx",
+        "latest-version": "3.2.32",
+        "3.2.32": {
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.32/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Stop-Process -Name jx -Verbose -ErrorAction Ignore"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

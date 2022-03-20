@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "neatdownloadmanager",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "neatdownloadmanager",
+        "latest-version": "1.2",
+        "1.2": {
+            "url": "http://neatdownloadmanager.com/file/NeatDM_setup.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Neat Download Manager",
+                    "file-name": "NeatDM.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

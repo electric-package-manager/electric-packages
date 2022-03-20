@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "ipfilter-updater",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ipfilter-updater",
+        "latest-version": "3.0.2.9-beta",
+        "3.0.2.9-beta": {
+            "url": "https://github.com/DavidMoore/ipfilter/releases/download/3.0.2.9-beta/IPFilter.msi",
+            "file-type": ".msi",
+            "bin": [
+                "ipfilter.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "IPFilter Updater",
+                    "file-name": "IPFilter.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/DavidMoore/ipfilter/releases/download/<version>/IPFilter.msi",
+            "version-check": {
+                "webpage": "https://github.com/DavidMoore/ipfilter/releases",
+                "regex": "/tree/([\\w.-]+)"
+            }
+        }
+    }
+}

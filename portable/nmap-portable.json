@@ -1,0 +1,45 @@
+{
+    "display-name": "",
+    "package-name": "nmap-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nmap-portable",
+        "latest-version": "7.91",
+        "7.91": {
+            "url": "https://nmap.org/dist/nmap-7.91-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "nmap.exe",
+                "ncat.exe",
+                "ndiff.exe",
+                "zenmap.exe",
+                "nping.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Get-ChildItem \"$dir\\`$PLUGINSDIR\\npcap-*.exe\" | Select-Object -First 1 | Rename-Item -NewName 'npcap-oem.exe'",
+                        "Move-Item \"$dir\\`$PLUGINSDIR\\npcap-oem.exe\" \"$dir\"",
+                        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Nmap - Zenmap GUI",
+                    "file-name": "zenmap.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://nmap.org/dist/nmap-<version>-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://nmap.org/download.html",
+                "regex": "nmap-([\\d.]+)-setup\\.exe"
+            }
+        }
+    }
+}

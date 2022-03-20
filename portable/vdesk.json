@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "vdesk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vdesk",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/eksime/VDesk/releases/download/v1.2.0/VDeskSetup.msi",
+            "file-type": ".msi",
+            "bin": [
+                "vdesk.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if ([System.Environment]::OSVersion.Version.Major -lt 10) { error 'Application requires Windows 10'; break }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

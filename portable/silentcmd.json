@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "silentcmd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "silentcmd",
+        "latest-version": "1.4",
+        "1.4": {
+            "url": "https://github.com/stbrenner/SilentCMD/releases/download/v1.4/SilentCMD.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SilentCMD.exe"
+            ],
+            "shortcuts": [],
+            "persist": "SilentCMD.exe.config"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "joe",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "joe",
+        "latest-version": "4.6",
+        "4.6": {
+            "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/4.6/joewin-4.6.msi",
+            "file-type": ".msi",
+            "bin": [
+                "jmacs.exe",
+                "joe.exe",
+                "jpico.exe",
+                "jstar.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/joe-editor/JOE%20for%20Windows/<version>/joewin-<version>.msi",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/joe-editor/rss?path=/",
+                "regex": "joewin-([\\d.]+)\\.msi"
+            }
+        }
+    }
+}

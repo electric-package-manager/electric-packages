@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "gping",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gping",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/orf/gping/releases/download/v1.2.1/gping-Windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gping.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/orf/gping/releases/download/v$version/gping-Windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://github.com/orf/gping/releases",
+                "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.]+)"
+            }
+        }
+    }
+}

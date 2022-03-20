@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "quiterss",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "quiterss",
+        "latest-version": "0.19.4",
+        "0.19.4": {
+            "url": "https://quiterss.org/files/0.19.4_/QuiteRSS-0.19.4.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$conf = 'feeds.db', 'QuiteRss.ini'",
+                        "ensure \"$persist_dir\" | Out-Null",
+                        "foreach ($_ in $conf) {",
+                        "    if (Test-Path \"$persist_dir\\$_\" -Type Container) { Remove-Item \"$persist_dir\\$_\" -Recurse }",
+                        "    if ($_ -eq 'feeds.db') { continue }",
+                        "    if (-not (Test-Path \"$persist_dir\\$_\")) {",
+                        "        Set-Content \"$dir\\$_\" '[Settings]', 'updateCheckEnabled=false' -Encoding Ascii",
+                        "    }",
+                        "}",
+                        "Copy-Item \"$persist_dir\\*\" \"$dir\" -Include $conf -ErrorAction SilentlyContinue"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QuiteRSS",
+                    "file-name": "QuiteRSS.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://quiterss.org/files/<version>_/QuiteRSS-<version>.zip",
+            "version-check": {
+                "webpage": "https://quiterss.org/en/download",
+                "regex": "QuiteRSS\\s+([\\d.]+)\\s+Portable"
+            }
+        }
+    }
+}

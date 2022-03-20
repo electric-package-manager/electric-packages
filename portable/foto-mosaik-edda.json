@@ -1,0 +1,49 @@
+{
+    "display-name": "",
+    "package-name": "foto-mosaik-edda",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "foto-mosaik-edda",
+        "latest-version": "7.7.20050.1",
+        "7.7.20050.1": {
+            "url": "https://fmedda.com/ext/download/Foto-Mosaik-Edda-Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Foto-Mosaik-Edda.exe",
+                "Rapid-Mosaic.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "[xml]$xml = Get-Content \"$dir\\Rapid-Mosaic.exe.config\"",
+                        "$xml.SelectSingleNode(\"/configuration/appSettings/add[@key='LocalizationLanguageId']\").value = 'en'",
+                        "$xml.Save(\"$dir\\Rapid-Mosaic.exe.config\")",
+                        "[xml]$xml = Get-Content \"$dir\\Data\\settings.config\"",
+                        "$xml.SelectSingleNode('/Settings/ProgramConfig/ProgramConfig/CheckForUpdates').InnerText = 'false'",
+                        "$xml.Save(\"$dir\\Data\\settings.config\")"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Foto-Mosaik-Edda",
+                    "file-name": "Foto-Mosaik-Edda.exe"
+                },
+                {
+                    "shortcut-name": "Rapid-Mosaic",
+                    "file-name": "Rapid-Mosaic.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://fmedda.com/ext/download/Foto-Mosaik-Edda-Portable.zip",
+            "version-check": {
+                "webpage": "https://fmedda.com/en/download",
+                "regex": "Version:</td>\\s+<td>([\\d.]+)"
+            }
+        }
+    }
+}

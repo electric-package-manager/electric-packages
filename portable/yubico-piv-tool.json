@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "yubico-piv-tool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yubico-piv-tool",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-2.2.0-win64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\yubico-piv-tool.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win64.msi",
+            "version-check": {
+                "webpage": "https://developers.yubico.com/yubico-piv-tool/Releases/",
+                "regex": "yubico-piv-tool-([\\d.]+)-win64\\.msi"
+            }
+        }
+    }
+}

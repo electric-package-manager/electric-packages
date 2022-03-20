@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "bfg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bfg",
+        "latest-version": "1.14.0",
+        "1.14.0": {
+            "url": "https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar#/bfg.jar",
+            "file-type": ".jar",
+            "bin": [
+                "bfg.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://repo1.maven.org/maven2/com/madgag/bfg/<version>/bfg-<version>.jar#/bfg.jar",
+            "version-check": {
+                "webpage": "https://search.maven.org/solrsearch/select/?q=g:com.madgag+AND+a:bfg"
+            }
+        }
+    }
+}

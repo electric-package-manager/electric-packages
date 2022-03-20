@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
+    "display-name": "TreeSizeFree",
+    "package-name": "treesizefree",
+    "latest-version": "4.42",
+    "4.42": {
+        "url": "https://downloads.jam-software.de/treesize_free/TreeSizeFreeSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "24023783B8C49C02D96093207BDD6F3BB116BC7F189F34BBDC8DD5784004DD92"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "display-name": "Zabbix Agent",
+    "package-name": "zabbix-agent",
+    "latest-version": "6.0.1",
+    "auto-update": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/<major-version>.<minor-version>/<version>/zabbix_agent-<version>-windows-amd64-openssl.msi",
+        "version-check": {
+            "webpage": "https://www.zabbix.com/release_notes",
+            "regex": "ZABBIX ([\\d.]+)</a>"
+        }
+    },
+    "5.2.5": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.2/5.2.5/zabbix_agent-5.2.5-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "010412BA3FEC14AB30E8E61B1F7F3179AC35B29F8E605E343FA2F749D59926EE"
+    },
+    "5.0.11": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.0/5.0.11/zabbix_agent-5.0.11-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "7AA680AD1046A461860211D18544BE1E4107AA26140740F7E345CD2A02C1B13B"
+    },
+    "5.4.0": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.4/5.4.0/zabbix_agent-5.4.0-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "9DC35A86C4C0DC5BEE476B8607095A8371676363E26E93FDF6B8CBDC2AC6C984"
+    },
+    "5.0.12": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.0/5.0.12/zabbix_agent-5.0.12-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "B387AA7E4D3C8869EEF65803D4E74F17C27BFC68DB97A4A58CF6CA8CA9B42C0A"
+    },
+    "5.4.1": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.4/5.4.1/zabbix_agent-5.4.1-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "7BB1317197901031B5A2CA17EA623F480A20414DA897CAADB01DC5A9C9983CC5"
+    },
+    "5.4.2": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.4/5.4.2/zabbix_agent-5.4.2-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "8DDDA81E3E4377C2431716EA33C4216C17962E9117FF7BBCF79F79DD9067D8F8"
+    },
+    "5.4.3": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/5.4/5.4.3/zabbix_agent-5.4.3-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "3153C70E17C124D5BCA05D5F6AE52700870491959BFC968BB3A2FCD1F349B2C7"
+    },
+    "6.0.0": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/6.0/6.0.0/zabbix_agent-6.0.0-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "52AD64B3F3AD40A73AEB5342B63DC9F0C314A0EA3A0A3128DD3C39131003E31C"
+    },
+    "6.0.1": {
+        "url": "https://cdn.zabbix.com/zabbix/binaries/stable/6.0/6.0.1/zabbix_agent-6.0.1-windows-amd64-openssl.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A515023D00F4EB1D5A736ECEAA3EC5383F44047D272C99D5B45B9E605014C1C7"
+    }
+}

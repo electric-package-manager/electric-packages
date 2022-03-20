@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "gnucash",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gnucash",
+        "latest-version": "4.5",
+        "4.5": {
+            "url": "https://github.com/Gnucash/gnucash/releases/download/4.5/gnucash-4.5.setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\gnucash.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GnuCash",
+                    "file-name": "bin\\gnucash.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Gnucash/gnucash/releases/download/<version>/gnucash-$matchHead.setup.exe",
+            "version-check": {
+                "webpage": "https://www.gnucash.org/",
+                "regex": "download/([\\w.]+)"
+            }
+        }
+    }
+}

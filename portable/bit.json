@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "bit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bit",
+        "latest-version": "1.0.6",
+        "1.0.6": {
+            "url": "https://github.com/chriswalz/bit/releases/download/v1.0.6/bit_1.0.6_Windows_amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "bit.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

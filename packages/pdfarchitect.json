@@ -1,0 +1,15 @@
+{
+    "display-name": "PDF Architect 8",
+    "package-name": "pdfarchitect",
+    "latest-version": "8.0.48",
+    "8.0.48": {
+        "url": "https://cyan.download.pdfforge.org/pdfarchitect8/8.0.48/PDF_Architect_8_Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/quiet"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

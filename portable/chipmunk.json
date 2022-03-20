@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "chipmunk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chipmunk",
+        "latest-version": "2.16.3",
+        "2.16.3": {
+            "url": "https://github.com/esrlabs/chipmunk/releases/download/2.16.3/chipmunk@2.16.3-win64-portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "chipmunk",
+                    "file-name": "chipmunk.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

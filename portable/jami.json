@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "jami",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jami",
+        "latest-version": "202103251843",
+        "202103251843": {
+            "url": "https://dl.jami.net/windows/archive/jami_x86_64-202103251843.msi",
+            "file-type": ".msi",
+            "bin": [
+                "Jami.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Jami",
+                    "file-name": "Jami.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.jami.net/windows/archive/jami_x86_64-$version.msi",
+            "version-check": {
+                "webpage": "https://dl.jami.net/windows/archive/?C=M;O=D",
+                "regex": "jami_x86_64-(\\d+)\\.msi"
+            }
+        }
+    }
+}

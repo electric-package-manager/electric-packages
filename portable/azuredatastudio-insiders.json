@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "azuredatastudio-insiders",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "azuredatastudio-insiders",
+        "latest-version": "nightly",
+        "nightly": {
+            "url": "https://azuredatastudio-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\azuredatastudio-insiders.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Azure Data Studio - Insiders",
+                    "file-name": "azuredatastudio-insiders.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

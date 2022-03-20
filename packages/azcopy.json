@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Azure Storage AzCopy*",
+    "package-name": "azcopy",
+    "latest-version": "8.1.0",
+    "8.1.0": {
+        "url": "https://azcopy.azureedge.net/azcopy-8-1-0/MicrosoftAzureStorageAzCopy_netcore_x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A84F70851BAC44C4F1D977F510744E394F34471E9BD5655782EA4F7551B893AF"
+    }
+}

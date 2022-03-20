@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "byenow",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "byenow",
+        "latest-version": "0.5",
+        "0.5": {
+            "url": "https://iobureau.com/byenow/byenow-0.5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "byenow.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

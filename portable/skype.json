@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "skype",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "skype",
+        "latest-version": "8.67.0.99",
+        "8.67.0.99": {
+            "url": "https://download.skype.com/s4l/download/win/Skype-8.67.0.99.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Skype",
+                    "file-name": "Skype.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.skype.com/s4l/download/win/Skype-<version>.exe",
+            "version-check": {
+                "webpage": "http://www.skaip.org/",
+                "regex": "Skype ([\\d.]+) for Windows"
+            }
+        }
+    }
+}

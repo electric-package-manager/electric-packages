@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "poppler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "poppler",
+        "latest-version": "21.03.0",
+        "21.03.0": {
+            "url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v21.03.0/Release-21.03.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\pdfattach.exe",
+                "bin\\pdfdetach.exe",
+                "bin\\pdffonts.exe",
+                "bin\\pdfimages.exe",
+                "bin\\pdfinfo.exe",
+                "bin\\pdfseparate.exe",
+                "bin\\pdftocairo.exe",
+                "bin\\pdftohtml.exe",
+                "bin\\pdftoppm.exe",
+                "bin\\pdftops.exe",
+                "bin\\pdftotext.exe",
+                "bin\\pdfunite.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/oschwartz10612/poppler-windows/releases/download/v$version/Release-$matchHead.zip",
+            "version-check": {
+                "webpage": "https://github.com/oschwartz10612/poppler-windows",
+                "regex": "tag/v([\\w.-]+)"
+            }
+        }
+    }
+}

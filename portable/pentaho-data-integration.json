@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "pentaho-data-integration",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pentaho-data-integration",
+        "latest-version": "9.1.0.0-324",
+        "9.1.0.0-324": {
+            "url": "https://downloads.sourceforge.net/project/pentaho/Pentaho%209.1/client-tools/pdi-ce-9.1.0.0-324.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Spoon.bat",
+                "SpoonConsole.bat",
+                "SpoonDebug.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/pentaho/Pentaho%20$matchShort/client-tools/pdi-ce-<version>.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/pentaho/rss?path=/",
+                "regex": "Pentaho (?<short>[\\d.]+)/client-tools/pdi-ce-(?<version>[\\w.-]+)\\.zip"
+            }
+        }
+    }
+}

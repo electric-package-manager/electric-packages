@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "paint.net-plugin-pyrochild",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "paint.net-plugin-pyrochild",
+        "latest-version": "2020-11-21",
+        "2020-11-21": {
+            "url": "https://forums.getpaint.net/applications/core/interface/file/attachment.php?id=18335#/dl.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$pluginFolder = Join-Path (appdir 'paint.net' $global) 'current\\Effects'",
+                        "Copy-Item \"$dir\\*.dll\" $pluginFolder -Force",
+                        "(Get-ChildItem \"$dir\\*.dll\").Name | Out-File \"$dir\\plugins.txt\" -Encoding Ascii"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

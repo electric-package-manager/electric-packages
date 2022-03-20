@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "bulk-crap-uninstaller",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bulk-crap-uninstaller",
+        "latest-version": "4.16",
+        "4.16": {
+            "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.16/BCUninstaller_4.16_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "BCUninstaller.exe",
+                "BCU-console.exe",
+                "StoreAppHelper.exe",
+                "SteamHelper.exe",
+                "OculusHelper.exe",
+                "UninstallerAutomatizer.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$persist_dir\" | Out-Null",
+                        "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction SilentlyContinue"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Bulk Crap Uninstaller",
+                    "file-name": "BCUninstaller.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v<version>/BCUninstaller_<version>_portable.zip",
+            "version-check": {
+                "webpage": "https://www.bcuninstaller.com/"
+            }
+        }
+    }
+}

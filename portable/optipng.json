@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "optipng",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "optipng",
+        "latest-version": "0.7.7",
+        "0.7.7": {
+            "url": "https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.7/optipng-0.7.7-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "optipng.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

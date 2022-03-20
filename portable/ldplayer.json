@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "ldplayer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ldplayer",
+        "latest-version": "4.0.53",
+        "4.0.53": {
+            "url": "https://encdn.ldmnq.com/download/package/LDPlayer_4.0.53.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LDPlayer\\LDPlayer",
+                    "file-name": "dnplayer.exe"
+                },
+                {
+                    "shortcut-name": "LDPlayer\\LDMultiPlayer",
+                    "file-name": "dnmultiplayer.exe"
+                },
+                {
+                    "shortcut-name": "LDPlayer\\LDPlayer Repairer",
+                    "file-name": "dnrepairer.exe"
+                }
+            ],
+            "persist": [
+                "ldrecord\\video",
+                "vms"
+            ]
+        },
+        "auto-update": {
+            "url": "https://encdn.ldmnq.com/download/package/LDPlayer_$matchHead.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.ldplayer.net/other/version-history-and-release-notes.html",
+                "regex": "version:\"(4[\\d.]+)\""
+            }
+        }
+    }
+}

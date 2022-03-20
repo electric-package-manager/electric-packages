@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "paket",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "paket",
+        "latest-version": "5.257.0",
+        "5.257.0": {
+            "url": "https://github.com/fsprojects/Paket/releases/download/5.257.0/paket.exe",
+            "file-type": ".exe",
+            "bin": [
+                "paket.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/fsprojects/Paket/releases/download/<version>/paket.exe",
+            "version-check": {
+                "webpage": "https://fsprojects.github.io/Paket/"
+            }
+        }
+    }
+}

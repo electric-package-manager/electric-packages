@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "transmission-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "transmission-cli",
+        "latest-version": "3.00",
+        "3.00": {
+            "url": "https://github.com/transmission/transmission-releases/raw/master/transmission-3.00-x64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "transmission-create.exe",
+                "transmission-daemon.exe",
+                "transmission-edit.exe",
+                "transmission-remote.exe",
+                "transmission-show.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/transmission/transmission-releases/raw/master/transmission-$version-x64.msi",
+            "version-check": {
+                "webpage": "https://transmissionbt.com/"
+            }
+        }
+    }
+}

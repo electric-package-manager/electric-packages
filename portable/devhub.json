@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "devhub",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "devhub",
+        "latest-version": "0.102.0",
+        "0.102.0": {
+            "url": "https://github.com/devhubapp/devhub/releases/download/v0.102.0/devhub-setup-0.102.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DevHub",
+                    "file-name": "DevHub.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/devhubapp/devhub/releases/download/v$version/devhub-setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://devhubapp.com"
+            }
+        }
+    }
+}

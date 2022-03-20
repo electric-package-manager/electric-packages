@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "latexindent",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "latexindent",
+        "latest-version": "3.9.2",
+        "3.9.2": {
+            "url": "http://mirrors.ctan.org/support/latexindent.zip",
+            "file-type": ".zip",
+            "bin": [
+                "latexindent.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://mirrors.ctan.org/support/latexindent.zip",
+            "version-check": {
+                "webpage": "https://ctan.org/pkg/latexindent",
+                "regex": "Version</td><td>([\\d.]+)"
+            }
+        }
+    }
+}

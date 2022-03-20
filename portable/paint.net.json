@@ -1,0 +1,55 @@
+{
+    "display-name": "",
+    "package-name": "paint.net",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "paint.net",
+        "latest-version": "4.2.15",
+        "4.2.15": {
+            "url": "https://www.dotpdn.com/files/paint.net.4.2.15.install.zip",
+            "file-type": ".zip",
+            "bin": [
+                "paintdotnet.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "paint.net",
+                    "file-name": "PaintDotNet.exe"
+                }
+            ],
+            "persist": [
+                "PaintDotNet.AppSettings.json",
+                "Effects",
+                "FileTypes",
+                "Shapes"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Expand-7zipArchive \"$dir\\paint.net.$version.install.exe\" \"$dir\\tmp\" -Removal",
+                        "Set-Content \"$dir\\PaintDotNet.AppSettings.json\" '{}' -Encoding Ascii"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\tmp\", \"$dir\\Paint*.msi\" -Recurse -Force",
+                        "$config = [xml](Get-Content \"$dir\\PaintDotNet.exe.config\")",
+                        "$elem = $config.CreateElement('add')",
+                        "$elem.SetAttribute('key', 'PaintDotNet.EnablePortableMode')",
+                        "$elem.SetAttribute('value', 'true')",
+                        "[void]$config.configuration.appSettings.appendChild($elem)",
+                        "$config.Save(\"$dir\\PaintDotNet.exe.config\")"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

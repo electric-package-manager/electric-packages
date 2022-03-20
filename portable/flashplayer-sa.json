@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "flashplayer-sa",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flashplayer-sa",
+        "latest-version": "32.0.0.465",
+        "32.0.0.465": {
+            "url": "https://fpdownload.macromedia.com/pub/flashplayer/updaters/32/flashplayer_32_sa.exe#/flashplayer.exe",
+            "file-type": ".exe",
+            "bin": [
+                "flashplayer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Adobe Flash Player",
+                    "file-name": "flashplayer.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

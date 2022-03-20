@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "b3sum",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "b3sum",
+        "latest-version": "0.3.7",
+        "0.3.7": {
+            "url": "https://github.com/BLAKE3-team/BLAKE3/releases/download/0.3.7/b3sum_windows_x64_bin.exe#/b3sum.exe",
+            "file-type": ".exe",
+            "bin": [
+                "b3sum.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

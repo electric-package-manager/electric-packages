@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "zeebe",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "zeebe",
+        "latest-version": "0.26.3",
+        "0.26.3": {
+            "url": "https://github.com/zeebe-io/zeebe/releases/download/0.26.3/zeebe-distribution-0.26.3.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "bin\\broker.bat",
+                    "zeebe-broker"
+                ],
+                [
+                    "bin\\gateway.bat",
+                    "zeebe-gateway"
+                ],
+                "bin\\zbctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/zeebe-io/zeebe/releases/download/$version/zeebe-distribution-$version.zip",
+            "version-check": {
+                "webpage": "https://zeebe.io"
+            }
+        }
+    }
+}

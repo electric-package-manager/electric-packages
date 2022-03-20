@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rga",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rga",
+        "latest-version": "0.9.6",
+        "0.9.6": {
+            "url": "https://github.com/phiresky/ripgrep-all/releases/download/v0.9.6/ripgrep_all-v0.9.6-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rga.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

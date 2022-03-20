@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "protobuf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "protobuf",
+        "latest-version": "3.15.8",
+        "3.15.8": {
+            "url": "https://github.com/google/protobuf/releases/download/v3.15.8/protoc-3.15.8-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\protoc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

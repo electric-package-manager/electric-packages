@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "jar2app",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jar2app",
+        "latest-version": "nightly",
+        "nightly": {
+            "url": "https://github.com/Jorl17/jar2app/archive/master.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jar2app.ps1"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "echo \"python `\"$dir\\jar2app.py`\" @args\" | out-file \"$dir\\jar2app.ps1\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

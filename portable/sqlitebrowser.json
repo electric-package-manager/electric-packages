@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "sqlitebrowser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sqlitebrowser",
+        "latest-version": "3.12.1",
+        "3.12.1": {
+            "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DB Browser for SQLite.exe",
+                "DB Browser for SQLCipher.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DB Browser for SQLite",
+                    "file-name": "DB Browser for SQLite.exe"
+                },
+                {
+                    "shortcut-name": "DB Browser for SQLCipher",
+                    "file-name": "DB Browser for SQLCipher.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://github.com/sqlitebrowser/sqlitebrowser/releases",
+                "regex": "SQLite-([\\d.]+)-win64\\.zip"
+            }
+        }
+    }
+}

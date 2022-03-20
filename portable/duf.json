@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "duf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "duf",
+        "latest-version": "0.6.2",
+        "0.6.2": {
+            "url": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "duf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

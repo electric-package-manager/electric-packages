@@ -1,0 +1,57 @@
+{
+    "display-name": "Kubernetes CLI",
+    "package-name": "kubernetes-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Kubernetes CLI",
+        "package-name": "kubernetes-cli",
+        "latest-version": "1.23.0",
+        "auto-update": {
+            "url": "https://dl.k8s.io/v<version>/kubernetes-client-windows-amd64.tar.gz",
+            "version-check": {
+                "webpage": "https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/",
+                "regex": "latest release v([\\d.]+)<"
+            }
+        },
+        "1.20.0": {
+            "url": "https://dl.k8s.io/v1.20.4/kubernetes-client-windows-amd64.tar.gz",
+            "file-type": ".tar.gz",
+            "extract-dir": "kubernetes-cli",
+            "chdir": "kubernetes\\client\\bin",
+            "bin": [
+                "kubectl.exe"
+            ],
+            "checksum": "0D5C74F98CCEE3F74EF4D3C67050EA7A3BB0AE0F09D1DD2CAFC2C7EEC0C8F627"
+        },
+        "1.21.0": {
+            "url": "https://dl.k8s.io/v1.21.0/kubernetes-client-windows-amd64.tar.gz",
+            "checksum": "8AB131E6FC4FB4DE99D7EF5A1ED7B8E1DF2E868541063CB2BCF30E96243EF7CD",
+            "file-type": ".tar.gz",
+            "extract-dir": "kubernetes-cli",
+            "chdir": "kubernetes\\client\\bin",
+            "bin": [
+                "kubectl.exe"
+            ]
+        },
+        "1.22.0": {
+            "url": "https://dl.k8s.io/v1.22.0/kubernetes-client-windows-amd64.tar.gz",
+            "checksum": "5937C2C0CFA956C16C6BC0C2FB1F628686E74224E3145B68D3773A278E1C7E0D",
+            "file-type": ".tar.gz",
+            "extract-dir": "kubernetes-cli",
+            "chdir": "kubernetes\\client\\bin",
+            "bin": [
+                "kubectl.exe"
+            ]
+        },
+        "1.23.0": {
+            "url": "https://dl.k8s.io/v1.23.0/kubernetes-client-windows-amd64.tar.gz",
+            "checksum": "B8EA0D8C5A8C0F3C4F0D9BFD83F2F71165BF40B9087253C688EAC1A1EAA1FBA2",
+            "file-type": ".tar.gz",
+            "extract-dir": "kubernetes-cli",
+            "chdir": "kubernetes\\client\\bin",
+            "bin": [
+                "kubectl.exe"
+            ]
+        }
+    }
+}

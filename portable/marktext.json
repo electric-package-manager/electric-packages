@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "marktext",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "marktext",
+        "latest-version": "0.16.3",
+        "0.16.3": {
+            "url": "https://github.com/marktext/marktext/releases/download/v0.16.3/marktext-x64-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "Mark Text.exe",
+                    "marktext"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mark Text",
+                    "file-name": "Mark Text.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/marktext/marktext/releases/download/v$version/marktext-x64-win.zip",
+            "version-check": {
+                "webpage": "https://marktext.app"
+            }
+        }
+    }
+}

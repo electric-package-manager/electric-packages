@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "grep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grep",
+        "latest-version": "2.5.4",
+        "2.5.4": {
+            "url": [
+                "https://downloads.sourceforge.net/project/gnuwin32/grep/2.5.4/grep-2.5.4-bin.zip",
+                "https://downloads.sourceforge.net/project/gnuwin32/grep/2.5.4/grep-2.5.4-dep.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "bin\\grep.exe",
+                "bin\\egrep.exe",
+                "bin\\fgrep.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

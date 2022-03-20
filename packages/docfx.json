@@ -1,0 +1,62 @@
+{
+    "display-name": "DocFX",
+    "package-name": "docfx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "DocFX",
+        "package-name": "docfx",
+        "latest-version": "2.59.0",
+        "auto-update": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v<version>/docfx.zip",
+            "version-check": {
+                "webpage": "https://github.com/dotnet/docfx/releases/latest",
+                "regex": "Version ([\\d.]+)"
+            }
+        },
+        "2.56.7": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.56.7/docfx.zip",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ],
+            "checksum": "95F96BE280998E7EA6581D418C9B0D99DFFB0C86BCCA7F1DD257062163E0A79C"
+        },
+        "2.57.2": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.57.2/docfx.zip",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ],
+            "checksum": "9F6D01B35CECF852902325B50F05B6F1A66AA6DE46A98A96573D75D0C53E90C9"
+        },
+        "2.58": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.58/docfx.zip",
+            "checksum": "A6AD1B9983DEBAE0613816D83F31211D7BAD0AAAEF947CB25FEF888294C48EBE",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ]
+        },
+        "2.58.1": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.58.1/docfx.zip",
+            "checksum": "39E1D80A2BB913D110459E1C34A54C9EFFD0E3237D332C9B9593E0ABD4B4525A",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ]
+        },
+        "2.59.0": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.59.0/docfx.zip",
+            "checksum": "E6BD6D788DDB07D9BCB6D90F2822D7E2E6C4FEB0E2CAEABC60FF39232D07BC52",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ]
+        }
+    }
+}

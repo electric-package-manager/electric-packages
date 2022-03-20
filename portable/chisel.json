@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "chisel",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chisel",
+        "latest-version": "1.7.6",
+        "1.7.6": {
+            "url": "https://github.com/jpillora/chisel/releases/download/v1.7.6/chisel_1.7.6_windows_amd64.gz",
+            "file-type": ".gz",
+            "bin": [
+                "chisel.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

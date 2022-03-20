@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "licecap",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "licecap",
+        "latest-version": "1.28",
+        "1.28": {
+            "url": "https://www.cockos.com/licecap/licecap128-install.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "licecap.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LICEcap",
+                    "file-name": "licecap.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

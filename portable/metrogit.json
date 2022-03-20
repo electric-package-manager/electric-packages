@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "metrogit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "metrogit",
+        "latest-version": "0.4.0",
+        "0.4.0": {
+            "url": "https://github.com/Yamazaki93/MetroGit/releases/download/v0.4.0/metrogit-setup-0.4.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MetroGit",
+                    "file-name": "MetroGit.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

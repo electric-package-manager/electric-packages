@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "rstudio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rstudio",
+        "latest-version": "1.4.1106",
+        "1.4.1106": {
+            "url": "https://download1.rstudio.org/desktop/windows/RStudio-1.4.1106.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\rstudio.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "R Studio",
+                    "file-name": "bin\\rstudio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download1.rstudio.org/desktop/windows/RStudio-$version.zip",
+            "version-check": {
+                "webpage": "https://rstudio.com/products/rstudio/download/",
+                "regex": ">RStudio Desktop ([\\d.]+)<"
+            }
+        }
+    }
+}

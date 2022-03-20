@@ -1,0 +1,18 @@
+{
+    "display-name": "SimpleNote",
+    "package-name": "simplenote",
+    "latest-version": "2.9.0",
+    "2.9.0": {
+        "url": "https://github.com/Automattic/simplenote-electron/releases/download/v2.9.0/Simplenote-win-2.9.0.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "17E0EEE8F5D9A50A5E8693F4A738727C40631DE0217BC203D54A66CF5F45A5EE"
+    }
+}

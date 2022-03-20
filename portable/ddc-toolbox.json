@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "ddc-toolbox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ddc-toolbox",
+        "latest-version": "1.4",
+        "1.4": {
+            "url": "https://github.com/ThePBone/DDCToolbox/releases/download/1.4/Portable_DDCToolbox_win64_1.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DDCToolbox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DDCToolbox",
+                    "file-name": "DDCToolbox.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

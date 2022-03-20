@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "defraggler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "defraggler",
+        "latest-version": "2.22.995",
+        "2.22.995": {
+            "url": "https://download.ccleaner.com/dfsetup222.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding Ascii",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninst.exe\" -Recurse -Force",
+                        "if (!(Test-Path \"$persist_dir\\Defraggler.ini\")) {",
+                        "   Set-Content \"$dir\\Defraggler.ini\" @('[Software\\Piriform\\Defraggler]', 'UpdateCheck=0') -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": "Defraggler.ini"
+        },
+        "auto-update": {
+            "url": "https://download.ccleaner.com/dfsetup$majorVersion$minorVersion.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.ccleaner.com/defraggler/version-history",
+                "regex": ">v([\\d.]+)"
+            }
+        }
+    }
+}

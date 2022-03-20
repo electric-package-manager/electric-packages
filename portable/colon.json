@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "colon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "colon",
+        "latest-version": "1.4.4",
+        "1.4.4": {
+            "url": "https://github.com/Chhekur/colon-ide/releases/download/v1.4.4/Colon-Setup-1.4.4.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Colon",
+                    "file-name": "Colon.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Chhekur/colon-ide/releases/download/v<version>/Colon-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://chhekur.github.io/colon-ide/"
+            }
+        }
+    }
+}

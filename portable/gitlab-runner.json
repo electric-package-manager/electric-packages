@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "gitlab-runner",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitlab-runner",
+        "latest-version": "13.10.0",
+        "13.10.0": {
+            "url": "https://gitlab-runner-downloads.s3.amazonaws.com/v13.10.0/binaries/gitlab-runner-windows-amd64.exe#/gitlab-runner.exe",
+            "file-type": ".exe",
+            "bin": [
+                "gitlab-runner.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://gitlab-runner-downloads.s3.amazonaws.com/v$version/binaries/gitlab-runner-windows-amd64.exe#/gitlab-runner.exe",
+            "version-check": {
+                "webpage": "https://gitlab.com/gitlab-org/gitlab-runner/-/tags?format=atom",
+                "regex": "/tags/v([\\d.]+)<"
+            }
+        }
+    }
+}

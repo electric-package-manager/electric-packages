@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "musicbee",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "musicbee",
+        "latest-version": "3.4.7764",
+        "3.4.7764": {
+            "url": "https://www.mediafire.com/file/96w1zpgkwdqbcsj/MusicBeePortable_3_4.zip/file#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MusicBee.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "(Get-ChildItem \"$dir\" 'MusicBee*.exe').FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MusicBee",
+                    "file-name": "MusicBee.exe"
+                }
+            ],
+            "persist": [
+                "Library",
+                "AppData"
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.mediafire.com/file/$matchRandom/MusicBeePortable_$matchMajorminor.zip/file#/dl.zip",
+            "version-check": {
+                "webpage": "https://getmusicbee.com/downloads/",
+                "regex": "(?sm)MusicBee\\s*([\\d.]+)<.*https://www\\.mediafire\\.com/file/(?<random>[^/]+)/MusicBeePortable_(?<majorminor>[^.]+)\\."
+            }
+        }
+    }
+}

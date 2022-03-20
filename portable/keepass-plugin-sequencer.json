@@ -1,0 +1,21 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-sequencer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-sequencer",
+        "latest-version": "0.1.1",
+        "0.1.1": {
+            "url": [
+                "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll",
+                "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll.config",
+                "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/options.xml"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

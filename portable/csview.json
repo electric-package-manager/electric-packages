@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "csview",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "csview",
+        "latest-version": "0.3.8",
+        "0.3.8": {
+            "url": "https://github.com/wfxr/csview/releases/download/v0.3.8/csview-v0.3.8-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "csview.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

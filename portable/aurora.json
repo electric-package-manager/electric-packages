@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "aurora",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aurora",
+        "latest-version": "0.8.1",
+        "0.8.1": {
+            "url": "https://github.com/antonpup/Aurora/releases/download/v0.8.1/Aurora-v0.8.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "aurora.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Aurora",
+                    "file-name": "aurora.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/antonpup/Aurora/releases/download/v<version>/Aurora-v<version>.zip",
+            "version-check": {
+                "webpage": "http://www.project-aurora.com"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "sonar-scanner",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sonar-scanner",
+        "latest-version": "4.6.0.2311",
+        "4.6.0.2311": {
+            "url": "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.0.2311.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\sonar-scanner.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-<version>.zip",
+            "version-check": {
+                "webpage": "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
+            }
+        }
+    }
+}

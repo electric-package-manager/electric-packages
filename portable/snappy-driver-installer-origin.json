@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "snappy-driver-installer-origin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "snappy-driver-installer-origin",
+        "latest-version": "1.10.1.730",
+        "1.10.1.730": {
+            "url": "https://snappy-driver-installer.org/downloads/SDIO_1.10.1.730.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SDIO.exe",
+                [
+                    "del_old_driverpacks.bat",
+                    "SDIO_del_old_driverpacks.bat"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Snappy Driver Installer Origin",
+                    "file-name": "SDIO.exe"
+                }
+            ],
+            "persist": [
+                "drivers",
+                "indexes",
+                "logs",
+                "scripts",
+                "update",
+                "sdi.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "https://snappy-driver-installer.org/downloads/SDIO_<version>.zip",
+            "version-check": {
+                "webpage": "https://www.snappy-driver-installer.org/download",
+                "regex": "SDIO_([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

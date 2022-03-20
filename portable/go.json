@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "go-ipfs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "go-ipfs",
+        "latest-version": "0.8.0",
+        "0.8.0": {
+            "url": "https://github.com/ipfs/go-ipfs/releases/download/v0.8.0/go-ipfs_v0.8.0_windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ipfs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.google.com/go/go$version.windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://golang.org/dl/",
+                "regex": "go([\\d.]+)\\."
+            }
+        }
+    }
+}

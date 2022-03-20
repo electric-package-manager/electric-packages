@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "powerping",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "powerping",
+        "latest-version": "1.3.3",
+        "1.3.3": {
+            "url": "https://github.com/Killeroo/PowerPing/releases/download/v1.3.3/PowerPing.exe",
+            "file-type": ".exe",
+            "bin": [
+                "PowerPing.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

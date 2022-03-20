@@ -1,0 +1,60 @@
+{
+    "display-name": "",
+    "package-name": "shadowsocksr-csharp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shadowsocksr-csharp",
+        "latest-version": "4.9.2",
+        "4.9.2": {
+            "url": "https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.2/ShadowsocksR-win-4.9.2.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "ShadowsocksR-dotnet4.0.exe",
+                "ShadowsocksR-dotnet2.0.exe",
+                [
+                    "ShadowsocksR-dotnet4.0.exe",
+                    "ShadowsocksR"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "   #Create placeholder files",
+                        "function CreateFile([String] $file, [String] $content = $null) {",
+                        "    if(!(Test-Path \"$persist_dir\\$file\")) {",
+                        "        Write-Host \"Create placeholder for shadowsocksr-csharp: $file\"",
+                        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+                        "    }",
+                        "}",
+                        "CreateFile 'gui-config.json' '{}'",
+                        "CreateFile 'pac.txt'",
+                        "CreateFile 'transfer_log.json' '{}'",
+                        "CreateFile 'user-rule.txt'"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ShadowsocksR .Net 4.0",
+                    "file-name": "ShadowsocksR-dotnet4.0.exe"
+                },
+                {
+                    "shortcut-name": "ShadowsocksR .Net 2.0",
+                    "file-name": "ShadowsocksR-dotnet2.0.exe"
+                }
+            ],
+            "persist": [
+                "gui-config.json",
+                "pac.txt",
+                "transfer_log.json",
+                "user-rule.txt",
+                "temp"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

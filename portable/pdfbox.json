@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "pdfbox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdfbox",
+        "latest-version": "2.0.22",
+        "2.0.22": {
+            "url": [
+                "https://www.apache.org/dist/pdfbox/2.0.22/pdfbox-app-2.0.22.jar#/pdfbox.jar",
+                "https://www.apache.org/dist/pdfbox/2.0.22/preflight-app-2.0.22.jar#/preflight.jar"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "pdfbox.jar",
+                "preflight.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

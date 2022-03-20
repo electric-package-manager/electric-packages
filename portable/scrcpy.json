@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "scrcpy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scrcpy",
+        "latest-version": "1.17",
+        "1.17": {
+            "url": "https://github.com/Genymobile/scrcpy/releases/download/v1.17/scrcpy-win64-v1.17.zip",
+            "file-type": ".zip",
+            "bin": [
+                "scrcpy.exe",
+                "scrcpy-console.bat",
+                "scrcpy-noconsole.vbs"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (Test-Path \"$dir\\adb.exe\") { Remove-Item \"$dir\\adb.exe\" }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "scrcpy",
+                    "file-name": "scrcpy-noconsole.vbs"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

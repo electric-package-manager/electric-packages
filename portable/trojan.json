@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "trojan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "trojan",
+        "latest-version": "1.16.0",
+        "1.16.0": {
+            "url": "https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "trojan.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\VC_red*exe\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": "config.json"
+        },
+        "auto-update": {
+            "url": "https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip",
+            "version-check": {
+                "webpage": "https://trojan-gfw.github.io/trojan/"
+            }
+        }
+    }
+}

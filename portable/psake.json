@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "psake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "psake",
+        "latest-version": "4.9.0",
+        "4.9.0": {
+            "url": "https://nuget.org/api/v2/package/psake/4.9.0#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "psake.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

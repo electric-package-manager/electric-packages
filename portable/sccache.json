@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "sccache",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sccache",
+        "latest-version": "0.2.14",
+        "0.2.14": {
+            "url": "https://github.com/mozilla/sccache/releases/download/0.2.14/sccache-0.2.14-x86_64-pc-windows-msvc.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "sccache.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mozilla/sccache/releases/download/$version/sccache-$version-x86_64-pc-windows-msvc.tar.gz",
+            "version-check": {
+                "webpage": "https://github.com/mozilla/sccache/releases",
+                "regex": "sccache-([\\d.]+)-x86_64-pc-windows"
+            }
+        }
+    }
+}

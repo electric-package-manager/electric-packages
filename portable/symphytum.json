@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "symphytum",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "symphytum",
+        "latest-version": "2.6",
+        "2.6": {
+            "url": "https://github.com/giowck/symphytum/releases/download/v2.6/Symphytum-windows-portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\portable_data\")) {",
+                        "    ensure \"$dir\\portable_data\" | Out-Null",
+                        "    Set-Content \"$dir\\portable_data\\settings.ini\" '[symphytum]', 'userConfirmUpdatesCheck=true', 'checkUpdates=false' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Symphytum",
+                    "file-name": "symphytum.exe"
+                }
+            ],
+            "persist": "portable_data"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

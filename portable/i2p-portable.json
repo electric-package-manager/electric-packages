@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "i2p-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "i2p-portable",
+        "latest-version": "0.9.49",
+        "0.9.49": {
+            "url": "https://launchpad.net/i2p/trunk/0.9.49/%2Bdownload/i2pinstall_0.9.49_windows.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "I2P.exe",
+                "I2Psvc.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Start I2P",
+                    "file-name": "I2Psvc.exe"
+                }
+            ],
+            "persist": "i2p"
+        },
+        "auto-update": {
+            "url": "https://launchpad.net/i2p/trunk/<version>/%2Bdownload/i2pinstall_<version>_windows.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://launchpad.net/i2p/trunk",
+                "regex": "Latest version is ([\\d.]+)"
+            }
+        }
+    }
+}

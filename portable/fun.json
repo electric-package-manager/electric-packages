@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "fun",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fun",
+        "latest-version": "3.6.21",
+        "3.6.21": {
+            "url": "https://funcruft-release.oss-accelerate.aliyuncs.com/fun/fun-v3.6.21-win.exe.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fun.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Move-Item \"$dir\\fun*win.exe\" \"$dir\\fun.exe\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://funcruft-release.oss-accelerate.aliyuncs.com/fun/fun-v$version-win.exe.zip",
+            "version-check": {
+                "webpage": "https://alibabacloud.com/help/doc-detail/64204.html?lang=en"
+            }
+        }
+    }
+}

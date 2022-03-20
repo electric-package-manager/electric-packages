@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "bitmessage",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bitmessage",
+        "latest-version": "0.6.3.2",
+        "0.6.3.2": {
+            "url": "https://github.com/Bitmessage/PyBitmessage/releases/download/0.6.3.2/Bitmessage_x86_0.6.3.2.exe#/bitmessage.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bitmessage.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Bitmessage",
+                    "file-name": "bitmessage.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Bitmessage/PyBitmessage/releases/download/$version/Bitmessage_x64_$version.exe#/bitmessage.exe",
+            "version-check": {
+                "webpage": "https://bitmessage.org/"
+            }
+        }
+    }
+}

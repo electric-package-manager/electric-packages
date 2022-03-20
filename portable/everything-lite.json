@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "everything-lite",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "everything-lite",
+        "latest-version": "1.4.1.1005",
+        "1.4.1.1005": {
+            "url": "https://www.voidtools.com/Everything-1.4.1.1005.x64.Lite.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Everything.exe",
+                [
+                    "Everything.exe",
+                    "Everything-lite"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$persist_dir\" | Out-Null",
+                        "if (!(Test-Path \"$persist_dir\\Everything.ini\")) { Invoke-ExternalCommand \"$dir\\Everything.exe\" -Args @('-install-config null') | Out-Null }",
+                        "Get-ChildItem \"$persist_dir\\*\" -Include 'Everything.db', 'Bookmarks.csv', 'Everything.ini' | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Everything Lite",
+                    "file-name": "Everything.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

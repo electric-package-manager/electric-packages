@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "restic",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "restic",
+        "latest-version": "0.12.0",
+        "0.12.0": {
+            "url": "https://github.com/restic/restic/releases/download/v0.12.0/restic_0.12.0_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "restic.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Move-Item -Path \"$dir\\restic*.exe\" -Destination \"$dir\\restic.exe\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/restic/restic/releases/download/v$version/restic_$version_windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://restic.net/"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "czkawka-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "czkawka-cli",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/qarmin/czkawka/releases/download/2.0.0/windows_czkawka_cli.exe#/czkawka.exe",
+            "file-type": ".exe",
+            "bin": [
+                "czkawka.exe",
+                [
+                    "czkawka.exe",
+                    "windows_czkawka_cli"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

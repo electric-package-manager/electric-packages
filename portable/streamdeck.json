@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "streamdeck",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "streamdeck",
+        "latest-version": "4.9.4.13228",
+        "4.9.4.13228": {
+            "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_4.9.4.13228.msi",
+            "file-type": ".msi",
+            "bin": [
+                "StreamDeck.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "StreamDeck",
+                    "file-name": "StreamDeck.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_$version.msi",
+            "version-check": {
+                "webpage": "https://gc-updates.elgato.com/windows/sd-update/final/app-version-check.json"
+            }
+        }
+    }
+}

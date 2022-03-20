@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "blat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "blat",
+        "latest-version": "3.2.22",
+        "3.2.22": {
+            "url": "https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat3222_64.full.zip",
+            "file-type": ".zip",
+            "bin": [
+                "full\\blat.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat$cleanVersion_64.full.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/blat/rss?path=/Blat%20Full%20Version",
+                "regex": "blat(\\d)(\\d)(\\d+)_32\\.full\\.zip"
+            }
+        }
+    }
+}

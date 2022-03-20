@@ -1,0 +1,21 @@
+{
+    "display-name": "",
+    "package-name": "rust-nightly",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rust-nightly",
+        "latest-version": "nightly",
+        "nightly": {
+            "url": "https://static.rust-lang.org/dist/rust-nightly-x86_64-pc-windows-gnu.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\rustc.exe",
+                "bin\\rustdoc.exe",
+                "bin\\cargo.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

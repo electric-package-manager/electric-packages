@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "mill",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mill",
+        "latest-version": "0.9.6",
+        "0.9.6": {
+            "url": "https://github.com/lihaoyi/mill/releases/download/0.9.6/0.9.6-assembly#/mill.bat",
+            "file-type": ".bat",
+            "bin": [
+                "mill.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lihaoyi/mill/releases/download/$matchHead/<version>-assembly#/mill.bat",
+            "version-check": {
+                "webpage": "http://www.lihaoyi.com/mill/"
+            }
+        }
+    }
+}

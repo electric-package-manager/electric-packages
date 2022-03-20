@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "obs-studio-small",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "obs-studio-small",
+        "latest-version": "21.1.2",
+        "21.1.2": {
+            "url": "https://github.com/obsproject/obs-studio/releases/download/21.1.2/OBS-Studio-21.1.2-Small.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(test-path \"$persist_dir\\portable_mode.txt\")) { Add-Content \"$dir\\portable_mode.txt\" $null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OBS Studio (64bit)",
+                    "file-name": "bin\\64bit\\obs64.exe"
+                },
+                {
+                    "shortcut-name": "OBS Studio (32bit)",
+                    "file-name": "bin\\32bit\\obs32.exe"
+                }
+            ],
+            "persist": [
+                "config",
+                "portable_mode.txt"
+            ]
+        }
+    }
+}

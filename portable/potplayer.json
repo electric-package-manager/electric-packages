@@ -1,0 +1,58 @@
+{
+    "display-name": "",
+    "package-name": "potplayer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "potplayer",
+        "latest-version": "210318",
+        "210318": {
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/210318/PotPlayerSetup64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\`$*\" -Force -Recurse",
+                        "$CONT = @(",
+                        "    '[Settings]'",
+                        "    'AutoUpdateStart=0'",
+                        "    'CheckAutoUpdate=0'",
+                        "    'FastAutoUpdate=0'",
+                        ")",
+                        "    # Set Configs for all executables",
+                        "foreach ($f in @('PotPlayerMini64.ini', 'PotPlayerMini.ini', 'PotPlayer64.ini', 'PotPlayer.ini')) {",
+                        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+                        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+                        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "Capture",
+                "Extension",
+                "Extention",
+                "IconPack",
+                "Logos",
+                "Playlist",
+                "Skins",
+                "UrlList",
+                "PotPlayer.ini",
+                "PotPlayer64.ini",
+                "PotPlayerMini.ini",
+                "PotPlayerMini64.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",
+                "regex": "\\[(\\d+)\\]"
+            }
+        }
+    }
+}

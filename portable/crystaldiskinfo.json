@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "crystaldiskinfo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "crystaldiskinfo",
+        "latest-version": "8.12.0",
+        "8.12.0": {
+            "url": "https://dotsrc.dl.osdn.net/osdn/crystaldiskinfo/74801/CrystalDiskInfo8_12_0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\DiskInfo.ini\")) { New-Item \"$dir\\DiskInfo.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "Smart",
+                "DiskInfo.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

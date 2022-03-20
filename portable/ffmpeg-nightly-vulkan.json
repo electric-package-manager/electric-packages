@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "ffmpeg-nightly-vulkan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ffmpeg-nightly-vulkan",
+        "latest-version": "101857",
+        "101857": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-04-04-12-39/ffmpeg-N-101857-g0617e578a3-win64-gpl-vulkan.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl-vulkan.zip",
+            "version-check": {
+                "webpage": "https://ffmpeg.org",
+                "regex": "/autobuild-(?<time>[\\d-]+)/ffmpeg-N-(\\d+)-g(?<hash>\\w+)-win64-gpl-vulkan\\.zip"
+            }
+        }
+    }
+}

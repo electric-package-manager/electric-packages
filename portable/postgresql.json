@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "portainer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "portainer",
+        "latest-version": "1.23.2",
+        "1.23.2": {
+            "url": "https://github.com/portainer/portainer/releases/download/1.23.2/portainer-1.23.2-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "portainer.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64-binaries.zip",
+            "version-check": {
+                "webpage": "https://www.enterprisedb.com/download-postgresql-binaries",
+                "regex": "<b>Version ([\\d.]+)<"
+            }
+        }
+    }
+}

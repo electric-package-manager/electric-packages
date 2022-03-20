@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "fvie",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fvie",
+        "latest-version": "1.5.0.0",
+        "1.5.0.0": {
+            "url": "https://www.carifred.com/fvie/FVIE.exe",
+            "file-type": ".exe",
+            "bin": [
+                "FVIE.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FVIE",
+                    "file-name": "FVIE.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

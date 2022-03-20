@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "mro",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mro",
+        "latest-version": "4.0.2",
+        "4.0.2": {
+            "url": "https://mran.blob.core.windows.net/install/mro/4.0.2/Windows/microsoft-r-open-4.0.2.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://mran.blob.core.windows.net/install/mro/$version/Windows/microsoft-r-open-$version.exe",
+            "version-check": {
+                "webpage": "https://mran.microsoft.com/assets/configurations/app.config.json"
+            }
+        }
+    }
+}

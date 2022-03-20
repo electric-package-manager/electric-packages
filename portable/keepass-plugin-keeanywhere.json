@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-keeanywhere",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-keeanywhere",
+        "latest-version": "1.6.0",
+        "1.6.0": {
+            "url": "https://github.com/Kyrodan/KeeAnywhere/releases/download/v1.6.0/KeeAnywhere-1.6.0.plgx#/KeeAnywhere.plgx",
+            "file-type": ".plgx",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "eagleget-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eagleget-portable",
+        "latest-version": "2.1.5.10",
+        "2.1.5.10": {
+            "url": "http://dl.eagleget.com/latest/EagleGetProtable_2.1.5.10.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "EagleGet",
+                    "file-name": "EagleGet.exe"
+                }
+            ],
+            "persist": [
+                "EagleGet\\configs",
+                "EGDownloads"
+            ]
+        },
+        "auto-update": {
+            "url": "http://dl.eagleget.com/latest/EagleGetProtable_<version>.zip",
+            "version-check": {
+                "webpage": "http://www.eagleget.com/download-eagleget-portable/",
+                "regex": "EagleGet Portable v([\\d.]+)"
+            }
+        }
+    }
+}

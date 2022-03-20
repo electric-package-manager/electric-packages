@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "phraseexpress",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "phraseexpress",
+        "latest-version": "15.0.86d",
+        "15.0.86d": {
+            "url": "https://www.phraseexpress.com/PhraseExpress_USB.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PhraseExpress.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PhraseExpress",
+                    "file-name": "PhraseExpress.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

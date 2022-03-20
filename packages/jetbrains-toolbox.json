@@ -1,0 +1,77 @@
+{
+    "display-name": "JetBrains ToolBox",
+    "package-name": "jetBrains-toolbox",
+    "latest-version": "1.22.10970",
+    "auto-update": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-<version>.exe",
+        "version-check": {
+            "webpage": "https://data.services.jetbrains.com/products/releases?code=TB&latest=true&type=release",
+            "regex": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-([\\d.]+).exe"
+        }
+    },
+    "1.20.7940": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.20.7940.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "CCC6A1A1083DCA541DBA7668DE54A62E7A1BCF7E4DAD0D10F9ECAEDE84CF704C"
+    },
+    "1.20.8804": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.20.8804.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "72E3FAE148D5108D204F1C8F28A8DCC11628C458537E19038340A5D0786917B9"
+    },
+    "1.21.9547": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.21.9547.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "35B10E97CF3206A2507E4824CB58B24773BEFBD233EB0409369183E87E628BE9"
+    },
+    "1.21.9712": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.21.9712.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "0C7D7F612FB849BC9E898ABA87019F857B5C690367007F02755069A8B418E6BE"
+    },
+    "1.22.10970": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "4BBF66219B7ACE875C15FC14E86211DA86423C7B2FEECB1347194891FF15E74E"
+    }
+}

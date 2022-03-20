@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "patheditor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "patheditor",
+        "latest-version": "1.0",
+        "1.0": {
+            "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/1.0/PathEditor-1.0-64bit.exe#/PathEditor.exe",
+            "file-type": ".exe",
+            "bin": [
+                "PathEditor.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PathEditor",
+                    "file-name": "PathEditor.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe#/PathEditor.exe",
+            "version-check": {
+                "webpage": "https://archive.codeplex.com/?p=patheditor2"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "streamlabs-chatbot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "streamlabs-chatbot",
+        "latest-version": "1.0.2.64",
+        "1.0.2.64": {
+            "url": "https://cdn.streamlabs.com/chatbot/Streamlabs+Chatbot+Installer.exe?v=1.0.2.64",
+            "file-type": ".64",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Streamlabs Chatbot",
+                    "file-name": "Streamlabs Chatbot.exe"
+                }
+            ],
+            "persist": "Services"
+        },
+        "auto-update": {
+            "url": "https://cdn.streamlabs.com/chatbot/Streamlabs+Chatbot+Installer.exe?v=<version>",
+            "version-check": {
+                "webpage": "https://streamlabs.com/api/v5/changelog",
+                "regex": "Streamlabs Chatbot - Version ([\\d.]+)"
+            }
+        }
+    }
+}

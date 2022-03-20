@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "sharpkeys",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sharpkeys",
+        "latest-version": "3.9.2",
+        "3.9.2": {
+            "url": "https://github.com/randyrants/sharpkeys/releases/download/v3.9.2/sharpkeys392.msi",
+            "file-type": ".msi",
+            "bin": [
+                "SharpKeys.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SharpKeys",
+                    "file-name": "SharpKeys.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

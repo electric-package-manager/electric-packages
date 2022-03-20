@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "processhacker",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "processhacker",
+        "latest-version": "2.39",
+        "2.39": {
+            "url": "https://github.com/processhacker2/processhacker2/releases/download/v2.39/processhacker-2.39-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "processhacker.exe",
+                "peview.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Process Hacker",
+                    "file-name": "processhacker.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/processhacker2/processhacker2/releases/download/v<version>/processhacker-<version>-bin.zip",
+            "version-check": {
+                "webpage": "http://processhacker.sourceforge.net/"
+            }
+        }
+    }
+}

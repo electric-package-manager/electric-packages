@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "appbuster",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "appbuster",
+        "latest-version": "1.1.1339",
+        "1.1.1339": {
+            "url": "https://dl5.oo-software.com/files/ooappbuster/OOAPB.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\OOAPB.ini\")) { New-Item \"$dir\\OOAPB.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "O&O AppBuster",
+                    "file-name": "OOAPB.exe"
+                }
+            ],
+            "persist": "OOAPB.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

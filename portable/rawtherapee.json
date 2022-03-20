@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "rawtherapee",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rawtherapee",
+        "latest-version": "5.8",
+        "5.8": {
+            "url": "https://rawtherapee.com/shared/builds/windows/RawTherapee_5.8.exe",
+            "file-type": ".exe",
+            "bin": [
+                "rawtherapee.exe",
+                "rawtherapee-cli.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RawTherapee",
+                    "file-name": "rawtherapee.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://rawtherapee.com/shared/builds/windows/RawTherapee_$version.exe",
+            "version-check": {
+                "webpage": "https://rawtherapee.com"
+            }
+        }
+    }
+}

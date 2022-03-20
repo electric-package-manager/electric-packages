@@ -1,0 +1,17 @@
+{
+    "display-name": "OpenCover",
+    "package-name": "opencover",
+    "is-portable": true,
+    "portable": {
+        "display-name": "OpenCover",
+        "package-name": "opencover",
+        "latest-version": "4.7.9.22",
+        "4.7.9.22": {
+            "url": "https://github.com/OpenCover/opencover/releases/download/4.7.922/opencover.4.7.922.zip",
+            "file-type": ".zip",
+            "checksum": "253845CAEDCFEE5A9A19F1E74D2C434802328EB153B6292E4B4BACC29200257C",
+            "bin": [],
+            "dependencies": []
+        }
+    }
+}

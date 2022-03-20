@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "dbvis",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dbvis",
+        "latest-version": "11.0.5",
+        "11.0.5": {
+            "url": "https://www.dbvis.com/product_download/dbvis-11.0.5/media/dbvis_windows-x64_11_0_5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dbvis.exe",
+                "dbviscmd.bat"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DbVisualizer",
+                    "file-name": "dbvis.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

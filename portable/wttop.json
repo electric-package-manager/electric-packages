@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "wttop",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wttop",
+        "latest-version": "1.1",
+        "1.1": {
+            "url": "https://github.com/jchomarat/wttop/releases/download/1.1/wttop.exe",
+            "file-type": ".exe",
+            "bin": [
+                "wttop.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

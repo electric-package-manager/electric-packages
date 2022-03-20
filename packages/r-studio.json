@@ -1,0 +1,18 @@
+{
+    "display-name": "R Studio",
+    "package-name": "r-studio",
+    "latest-version": "1.4.1103",
+    "1.4.1103": {
+        "url": "https://download1.rstudio.org/desktop/windows/RStudio-1.4.1103.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "C33841891C71E2C3BFD28A7BE7756622F5194A849644B68B80361869296ECB39"
+    }
+}

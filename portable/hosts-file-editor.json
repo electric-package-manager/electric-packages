@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "hosts-file-editor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hosts-file-editor",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/scottlerch/HostsFileEditor/releases/download/v1.2.0/HostsFileEditorSetup-1.2.0.msi",
+            "file-type": ".msi",
+            "bin": [
+                "HostsFileEditor.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Hosts File Editor",
+                    "file-name": "HostsFileEditor.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/scottlerch/HostsFileEditor/releases/download/v<version>/HostsFileEditorSetup-<version>.msi",
+            "version-check": {
+                "webpage": "https://hostsfileeditor.com"
+            }
+        }
+    }
+}

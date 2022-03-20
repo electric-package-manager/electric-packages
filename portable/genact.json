@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "genact",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "genact",
+        "latest-version": "0.11.0",
+        "0.11.0": {
+            "url": "https://github.com/svenstaro/genact/releases/download/v0.11.0/genact-v0.11.0-windows-x86_64.exe#/genact.exe",
+            "file-type": ".exe",
+            "bin": [
+                "genact.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

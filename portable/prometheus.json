@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "prometheus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "prometheus",
+        "latest-version": "2.26.0",
+        "2.26.0": {
+            "url": "https://github.com/prometheus/prometheus/releases/download/v2.26.0/prometheus-2.26.0.windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                [
+                    "prometheus.exe",
+                    "prometheus",
+                    "--config.file \"$persist_dir\\prometheus.yml\""
+                ],
+                "promtool.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "data",
+                "prometheus.yml"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/prometheus/prometheus/releases/download/v$version/prometheus-$version.windows-amd64.tar.gz",
+            "version-check": {
+                "webpage": "https://prometheus.io"
+            }
+        }
+    }
+}

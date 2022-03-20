@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "papercut",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "papercut",
+        "latest-version": "5.7.0",
+        "5.7.0": {
+            "url": "https://github.com/ChangemakerStudios/Papercut/releases/download/5.7.0/Papercut.5.7.0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\rules.json\")) { Set-Content \"$dir\\rules.json\" '[]' -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Papercut",
+                    "file-name": "Papercut.exe"
+                }
+            ],
+            "persist": [
+                "Incoming",
+                "Logs",
+                "rules.json"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

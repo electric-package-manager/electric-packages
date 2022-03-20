@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "etlas",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "etlas",
+        "latest-version": "1.5.0.0",
+        "1.5.0.0": {
+            "url": "https://cdnverify.eta-lang.org/eta-binaries/etlas-1.5.0.0/binaries/x86_64-windows/etlas.exe",
+            "file-type": ".exe",
+            "bin": [
+                "etlas.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

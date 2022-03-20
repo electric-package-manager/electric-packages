@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "bes",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bes",
+        "latest-version": "1.7.8",
+        "1.7.8": {
+            "url": "http://mion.faireal.net/archive/BES/bes_1.7.8.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bes.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\bes.ini\")) { New-Item \"$dir\\bes.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BES - Battle Encoder Shiras\u00e9",
+                    "file-name": "bes.exe"
+                }
+            ],
+            "persist": "bes.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

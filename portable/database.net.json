@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "database.net",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "database.net",
+        "latest-version": "32.1.7761.1",
+        "32.1.7761.1": {
+            "url": "https://fishcodelib.com/files/DatabaseNet4.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Database .NET",
+                    "file-name": "Database4.exe"
+                }
+            ],
+            "persist": "Database_Files"
+        }
+    }
+}

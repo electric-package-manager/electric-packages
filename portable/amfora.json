@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "amfora",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "amfora",
+        "latest-version": "1.8.0",
+        "1.8.0": {
+            "url": "https://github.com/makeworld-the-better-one/amfora/releases/download/v1.8.0/amfora_1.8.0_windows_64-bit.exe#/amfora.exe",
+            "file-type": ".exe",
+            "bin": [
+                "amfora.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "rescuetime",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rescuetime",
+        "latest-version": "2.16.5.1",
+        "2.16.5.1": {
+            "url": "https://www.rescuetime.com/installers/RescueTimeInstaller_2.16.5.1.exe",
+            "file-type": ".exe",
+            "bin": [
+                "RescueTime.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RescueTime",
+                    "file-name": "RescueTime.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.rescuetime.com/installers/RescueTimeInstaller_<version>.exe",
+            "version-check": {
+                "webpage": "https://www.rescuetime.com/updates/win_release_notes.html",
+                "regex": "<strong>([\\d.]+)</strong>"
+            }
+        }
+    }
+}

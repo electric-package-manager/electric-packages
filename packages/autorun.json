@@ -1,0 +1,53 @@
+{
+    "display-name": "Autorun",
+    "package-name": "autorun",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Autorun",
+        "package-name": "autorun",
+        "latest-version": "14.09",
+        "auto-update": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "version-check": {
+                "webpage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+                "regex": "Autoruns for Windows v([\\d.]+)"
+            }
+        },
+        "13.98": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "file-type": ".zip",
+            "extract-dir": "autorun",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Autoruns",
+                    "file-name": "Autoruns.exe"
+                }
+            ],
+            "checksum": "9B34804FE89BF35FF5400B39FE56DC4E6F191E850DFA4B5C4EB915D389233E20"
+        },
+        "13.100": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "checksum": "4E50DEC081FEAEFA8EE1C5F132398D2AE25F03C8D1557B8ABB2367870A0530F8",
+            "file-type": ".zip",
+            "extract-dir": "autorun",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Autoruns",
+                    "file-name": "Autoruns.exe"
+                }
+            ]
+        },
+        "14.09": {
+            "url": "https://download.sysinternals.com/files/Autoruns.zip",
+            "checksum": "F82294355E98051AED850E567C676466C16BECA333E1FE96FE7CAB003E987764",
+            "file-type": ".zip",
+            "extract-dir": "autorun",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Autoruns",
+                    "file-name": "Autoruns.exe"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "display-name": "",
+    "package-name": "calibre-normal",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "calibre-normal",
+        "latest-version": "5.14.0",
+        "5.14.0": {
+            "url": "https://github.com/kovidgoyal/calibre/releases/download/v5.14.0/calibre-64bit-5.14.0.msi",
+            "file-type": ".msi",
+            "bin": [
+                "calibre.exe",
+                "calibre-customize.exe",
+                "calibredb.exe",
+                "calibre-debug.exe",
+                "calibre-server.exe",
+                "calibre-smtp.exe",
+                "ebook-convert.exe",
+                "ebook-device.exe",
+                "ebook-edit.exe",
+                "ebook-meta.exe",
+                "ebook-polish.exe",
+                "ebook-viewer.exe",
+                "fetch-ebook-metadata.exe",
+                "lrf2lrs.exe",
+                "lrs2lrf.exe",
+                "lrfviewer.exe",
+                "markdown-calibre.exe",
+                "web2disk.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Calibre",
+                    "file-name": "calibre.exe"
+                },
+                {
+                    "shortcut-name": "Calibre E-Book Editor",
+                    "file-name": "ebook-edit.exe"
+                },
+                {
+                    "shortcut-name": "Calibre E-Book Viewer",
+                    "file-name": "ebook-viewer.exe"
+                },
+                {
+                    "shortcut-name": "Calibre LRF Viewer",
+                    "file-name": "lrfviewer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-64bit-$version.msi",
+            "version-check": {
+                "webpage": "https://calibre-ebook.com"
+            }
+        }
+    }
+}

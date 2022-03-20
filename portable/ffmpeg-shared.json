@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "ffmpeg-shared",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ffmpeg-shared",
+        "latest-version": "4.4-4",
+        "4.4-4": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-04-11-12-36/ffmpeg-n4.4-4-gacb339bb88-win64-gpl-shared-4.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-n$version-g$matchHash-win64-gpl-shared-$majorVersion.$minorVersion.zip",
+            "version-check": {
+                "webpage": "https://ffmpeg.org",
+                "regex": "/autobuild-(?<time>[\\d-]+)/ffmpeg-n(?<version>[\\d.]+)-(?<commit>\\d+)-g(?<hash>[a-z\\d]+)-win64-gpl-shared-[\\d.]+\\.zip"
+            }
+        }
+    }
+}

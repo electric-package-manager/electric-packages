@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "openhab",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openhab",
+        "latest-version": "2.5.12",
+        "2.5.12": {
+            "url": "https://dl.bintray.com/openhab/mvn/org/openhab/distro/openhab/2.5.12/openhab-2.5.12.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "runtime\\bin\\karaf.bat",
+                    "openhab"
+                ],
+                [
+                    "runtime\\bin\\client.bat",
+                    "openhab-client"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": [
+                "conf",
+                "userdata"
+            ]
+        },
+        "auto-update": {
+            "url": "https://dl.bintray.com/openhab/mvn/org/openhab/distro/openhab/<version>/openhab-<version>.zip",
+            "version-check": {
+                "webpage": "https://api.bintray.com/packages/openhab/mvn/openhab-distro"
+            }
+        }
+    }
+}

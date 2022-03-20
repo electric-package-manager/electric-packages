@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "sql-workbench-dev",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sql-workbench-dev",
+        "latest-version": "127.4",
+        "127.4": {
+            "url": "https://www.sql-workbench.eu/Workbench-Build127.4-with-optional-libs.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sqlwbconsole.cmd"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "ext",
+                "sqlwbconsole64.ini",
+                "sqlwbconsole.ini",
+                "SQLWorkbench64.ini",
+                "SQLWorkbench.ini"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@('sqlwbconsole64.ini', 'sqlwbconsole.ini', 'SQLWorkbench64.ini', 'SQLWorkbench.ini') | ForEach-Object {",
+                        "    if(!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -Type File | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "if((Test-Path \"$dir\\ext.original\")) { Copy-Item \"$dir\\ext.original\\*\" -Destination \"$persist_dir\\ext\" }"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.sql-workbench.eu/Workbench-Build<version>-with-optional-libs.zip",
+            "version-check": {
+                "webpage": "https://www.sql-workbench.eu/dev-download.html",
+                "regex": "Current dev-build: ([\\d.]+)"
+            }
+        }
+    }
+}

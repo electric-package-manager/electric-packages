@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "deno",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deno",
+        "latest-version": "1.9.0",
+        "1.9.0": {
+            "url": "https://github.com/denoland/deno/releases/download/v1.9.0/deno-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "deno.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/denoland/deno/releases/download/v$version/deno-x86_64-pc-windows-msvc.zip",
+            "version-check": {
+                "webpage": "https://deno.land"
+            }
+        }
+    }
+}

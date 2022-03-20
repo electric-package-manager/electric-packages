@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "gb-studio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gb-studio",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/chrismaltby/gb-studio/releases/download/v1.2.1/GB-Studio-Windows-64bit-standalone-1.2.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gb-studio.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GB Studio",
+                    "file-name": "gb-studio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/chrismaltby/gb-studio/releases/download/v$version/GB-Studio-Windows-64bit-standalone-$version.zip",
+            "version-check": {
+                "webpage": "https://www.gbstudio.dev"
+            }
+        }
+    }
+}

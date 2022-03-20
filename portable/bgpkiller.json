@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "bgpkiller",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bgpkiller",
+        "latest-version": "0.9.6.0",
+        "0.9.6.0": {
+            "url": "http://bgpkiller.weebly.com/uploads/4/1/2/2/41220059/bgpkiller_setup_v0.9.6.0.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bgpkiller.exe",
+                "bgpkiller-add-startup.ps1",
+                "bgpkiller-remove-startup.ps1"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BGPKiller",
+                    "file-name": "bgpkiller.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://bgpkiller.weebly.com/uploads/4/1/2/2/41220059/bgpkiller_setup_v<version>.exe",
+            "version-check": {
+                "webpage": "http://bgpkiller.weebly.com/download.html",
+                "regex": "bgpkiller_setup_v([\\d.]+).exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "sentry-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sentry-cli",
+        "latest-version": "1.64.0",
+        "1.64.0": {
+            "url": "https://github.com/getsentry/sentry-cli/releases/download/1.64.0/sentry-cli-Windows-x86_64.exe#/sentry.exe",
+            "file-type": ".exe",
+            "bin": [
+                "sentry.exe",
+                [
+                    "sentry.exe",
+                    "sentry-cli"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-x86_64.exe#/sentry.exe",
+            "version-check": {
+                "webpage": "https://docs.sentry.io/cli/"
+            }
+        }
+    }
+}

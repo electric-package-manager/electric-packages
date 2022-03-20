@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "exaile",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "exaile",
+        "latest-version": "4.1.1",
+        "4.1.1": {
+            "url": "https://github.com/exaile/exaile/releases/download/4.1.1/exaile-4.1.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "exaile.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Exaile",
+                    "file-name": "exaile.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/exaile/exaile/releases/download/<version>/exaile-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.exaile.org/"
+            }
+        }
+    }
+}

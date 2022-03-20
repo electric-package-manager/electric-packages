@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "csvtosql",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "csvtosql",
+        "latest-version": "v0.1.1-alpha",
+        "v0.1.1-alpha": {
+            "url": "https://github.com/deevus/CsvToSql/archive/v0.1.1-alpha.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ConvertCsvTo-Sql.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

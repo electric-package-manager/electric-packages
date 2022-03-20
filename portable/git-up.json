@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "git-up",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-up",
+        "latest-version": "2.0.2",
+        "2.0.2": {
+            "url": "https://github.com/msiemens/PyGitUp/archive/v2.0.2.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "pushd \"$dir\"",
+                        "try {",
+                        "    scoop reset python",
+                        "    iex \"$(scoop which python) setup.py install\"",
+                        "}",
+                        "finally {",
+                        "    popd",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

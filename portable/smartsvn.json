@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "smartsvn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "smartsvn",
+        "latest-version": "14.0.3",
+        "14.0.3": {
+            "url": "https://www.smartsvn.com/downloads/smartsvn/smartsvn-windows-portable-14_0_3.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": ".settings"
+        },
+        "auto-update": {
+            "url": "https://www.smartsvn.com/downloads/smartsvn/smartsvn-windows-portable-$underscoreVersion.zip",
+            "version-check": {
+                "webpage": "https://www.smartsvn.com/documents/smartsvn/changelog.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

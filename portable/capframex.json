@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "capframex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "capframex",
+        "latest-version": "1.6.0",
+        "1.6.0": {
+            "url": "https://github.com/CXWorld/CapFrameX/releases/download/v1.6.0/CapFrameX_v1.6.0_Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "CapFrameX.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CapFrameX",
+                    "file-name": "CapFrameX.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

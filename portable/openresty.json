@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "openresty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openresty",
+        "latest-version": "1.19.3.1",
+        "1.19.3.1": {
+            "url": "https://openresty.org/download/openresty-1.19.3.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "nginx.exe",
+                    "openresty"
+                ],
+                "resty.bat",
+                "restydoc.bat",
+                "restydoc-index.bat"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "conf",
+                "html",
+                "logs"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

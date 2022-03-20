@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "lean-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lean-cli",
+        "latest-version": "0.24.2",
+        "0.24.2": {
+            "url": "https://github.com/leancloud/lean-cli/releases/download/v0.24.2/lean-windows-x64.exe#/lean.exe",
+            "file-type": ".exe",
+            "bin": [
+                "lean.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/leancloud/lean-cli/releases/download/v$version/lean-windows-x64.exe#/lean.exe",
+            "version-check": {
+                "webpage": "https://leancloud.cn/docs/leanengine_cli.html"
+            }
+        }
+    }
+}

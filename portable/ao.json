@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "ao",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ao",
+        "latest-version": "6.9.0",
+        "6.9.0": {
+            "url": "https://github.com/klaussinani/ao/releases/download/v6.9.0/ao-6.9.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Ao.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ao",
+                    "file-name": "Ao.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/klaussinani/ao/releases/download/v<version>/ao-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://klaussinani.tech/ao/"
+            }
+        }
+    }
+}

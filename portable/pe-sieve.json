@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "pe-sieve",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pe-sieve",
+        "latest-version": "0.2.9",
+        "0.2.9": {
+            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.9/pe-sieve64.exe#/pe-sieve.exe",
+            "file-type": ".exe",
+            "bin": [
+                "pe-sieve.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v$version/pe-sieve64.exe#/pe-sieve.exe",
+            "version-check": {
+                "webpage": "https://hshrzd.wordpress.com/pe-sieve/"
+            }
+        }
+    }
+}

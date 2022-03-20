@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "signal",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "signal",
+        "latest-version": "5.0.0",
+        "5.0.0": {
+            "url": "https://updates.signal.org/desktop/signal-desktop-win-5.0.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "signal.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Signal",
+                    "file-name": "signal.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://updates.signal.org/desktop/signal-desktop-win-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://updates.signal.org/desktop/latest.yml",
+                "regex": "version:\\s([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "balena-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "balena-cli",
+        "latest-version": "12.44.9",
+        "12.44.9": {
+            "url": "https://github.com/balena-io/balena-cli/releases/download/v12.44.9/balena-cli-v12.44.9-windows-x64-standalone.zip",
+            "file-type": ".zip",
+            "bin": [
+                "balena.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

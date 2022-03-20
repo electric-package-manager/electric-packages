@@ -1,0 +1,50 @@
+{
+    "display-name": "FFmpeg",
+    "package-name": "ffmpeg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "FFmpeg",
+        "package-name": "ffmpeg",
+        "latest-version": "5.0",
+        "auto-update": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "version-check": {
+                "webpage": "https://ffmpeg.org/download.html",
+                "regex": "FFmpeg ([\\d.]+)"
+            }
+        },
+        "4.3.2": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "file-type": ".zip",
+            "extract-dir": "ffmpeg",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ],
+            "checksum": "D77782FA3EA48A52A52BFF35637CEE14143480473A590E6EB3CB97D80488A513"
+        },
+        "4.4": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "checksum": "B61572975ECE8A3FE86BB590EDB0C5681D9E85A0332B305BDCFBF299344146E8",
+            "file-type": ".zip",
+            "extract-dir": "ffmpeg",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ]
+        },
+        "5.0": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "checksum": "39CCFE072CDEB4FF3D6580B2B496F202026FC47069422C9BCBFA5DF119F0BA23",
+            "file-type": ".zip",
+            "extract-dir": "ffmpeg",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ]
+        }
+    }
+}

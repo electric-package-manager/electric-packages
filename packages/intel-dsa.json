@@ -1,0 +1,14 @@
+{
+  "display-name": "Intel Driver & Support Assistant",
+  "package-name": "intel-dsa",
+  "latest-version": "21.1.5.2",
+  "21.1.5.2": {
+    "url": "https://downloadmirror.intel.com/28425/a08/Intel-Driver-and-Support-Assistant-Installer.exe",
+    "file-type": ".exe",
+    "iswitches": ["-s", "-norestart"],
+    "uswitches": [],
+    "clswitch": "",
+    "dependencies": [],
+    "checksum": "350C6A4ECB33EE2260865BA65A42EB18A2EA31D3F0C2EE6FF814954647BBD52E"
+  }
+}

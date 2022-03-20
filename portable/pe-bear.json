@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "pe-bear",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pe-bear",
+        "latest-version": "0.5.3.2",
+        "0.5.3.2": {
+            "url": "https://github.com/hasherezade/pe-bear-releases/releases/download/0.5.3.2/PE-bear_0.5.3.2_x64_win_vs17.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PE-bear.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PE-bear",
+                    "file-name": "PE-bear.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/hasherezade/pe-bear-releases/releases/download/$version/PE-bear_$version_x64_win_vs17.zip",
+            "version-check": {
+                "webpage": "https://hshrzd.wordpress.com/pe-bear/"
+            }
+        }
+    }
+}

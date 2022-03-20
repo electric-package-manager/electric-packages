@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "envsubst",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "envsubst",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/a8m/envsubst/releases/download/v1.2.0/envsubst.exe",
+            "file-type": ".exe",
+            "bin": [
+                "envsubst.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

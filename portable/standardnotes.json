@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "standardnotes",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "standardnotes",
+        "latest-version": "3.6.6",
+        "3.6.6": {
+            "url": "https://github.com/standardnotes/desktop/releases/download/v3.6.6/standard-notes-3.6.6-win.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Standard Notes.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Standard Notes",
+                    "file-name": "Standard Notes.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/standardnotes/desktop/releases/download/v<version>/standard-notes-<version>-win.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://standardnotes.org/"
+            }
+        }
+    }
+}

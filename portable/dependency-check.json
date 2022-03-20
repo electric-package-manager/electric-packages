@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "dependency-check",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dependency-check",
+        "latest-version": "6.1.5",
+        "6.1.5": {
+            "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v6.1.5/dependency-check-6.1.5-release.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\dependency-check.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v<version>/dependency-check-<version>-release.zip",
+            "version-check": {
+                "webpage": "https://jeremylong.github.io/DependencyCheck/current.txt",
+                "regex": "(.+)"
+            }
+        }
+    }
+}

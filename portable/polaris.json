@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "polaris",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "polaris",
+        "latest-version": "0.13.4",
+        "0.13.4": {
+            "url": "https://github.com/agersant/polaris/releases/download/0.13.4/Polaris_0.13.4.msi",
+            "file-type": ".msi",
+            "bin": [
+                [
+                    "polaris.exe",
+                    "polaris",
+                    "-w \"$dir\\web\" -s \"$dir\\swagger\" -d \"$dir\\db.sqlite\""
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$persist_dir\" | Out-Null",
+                        "Copy-Item \"$persist_dir\\db.sqlite\" \"$dir\" -ErrorAction SilentlyContinue -Force"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "polaris",
+                    "file-name": "polaris.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

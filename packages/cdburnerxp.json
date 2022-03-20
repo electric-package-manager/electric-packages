@@ -1,0 +1,29 @@
+{
+    "display-name": "CDBurnerXP*",
+    "package-name": "cdburnerxp",
+    "latest-version": "4.5.8.7128",
+    "auto-update": {
+        "url": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_<version>.msi",
+        "version-check": {
+            "webpage": "https://cdburnerxp.se/en/download",
+            "regex": "<small>\\(([\\d.]+)\\)</small>"
+        }
+    },
+    "4.5.8.7128": {
+        "url": "https://download.cdburnerxp.se/msi/cdbxp_setup_x64_4.5.8.7128.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "AF80A5B901100D73855DD1F04845C79511CC2F1299C0CA38DFAC8D03CE8FED00"
+    }
+}

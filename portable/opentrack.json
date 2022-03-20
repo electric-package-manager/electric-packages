@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "opentrack",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "opentrack",
+        "latest-version": "2.3.13",
+        "2.3.13": {
+            "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-2.3.13/opentrack-2.3.13-portable.7z",
+            "file-type": ".7z",
+            "bin": [
+                "opentrack.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Opentrack",
+                    "file-name": "opentrack.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-<version>/opentrack-<version>-portable.7z",
+            "version-check": {
+                "webpage": "https://github.com/opentrack/opentrack",
+                "regex": "tag/opentrack-([\\d.]+)"
+            }
+        }
+    }
+}

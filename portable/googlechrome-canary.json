@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "googlechrome-canary",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "googlechrome-canary",
+        "latest-version": "89.0.4349.3",
+        "89.0.4349.3": {
+            "url": "https://dl.google.com/release2/chrome/ALLIpT4Xvtp1or36MSzf1sQ_89.0.4349.3/89.0.4349.3_chrome_installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "chrome.exe",
+                    "chrome-canary"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Google Chrome (Canary)",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://chrome-dl.com/api/chrome.min.xml",
+                "regex": "(?sm)<canary32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<canary64>.+release2/chrome/(?<64>[\\w-]+)_.+</canary64>"
+            }
+        }
+    }
+}

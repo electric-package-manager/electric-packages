@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "eclipse-platform",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eclipse-platform",
+        "latest-version": "4.19-202103031800",
+        "4.19-202103031800": {
+            "url": "http://download.eclipse.org/eclipse/downloads/drops4/R-4.19-202103031800/eclipse-platform-4.19-win32-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "eclipsec.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse Platform",
+                    "file-name": "eclipse.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://download.eclipse.org/eclipse/downloads/drops$majorVersion/R-$version/eclipse-platform-$matchHead-win32-x86_64.zip",
+            "version-check": {
+                "webpage": "https://download.eclipse.org/eclipse/downloads/",
+                "regex": "/R-([\\d.-]+)/\" title=\"Latest Release"
+            }
+        }
+    }
+}

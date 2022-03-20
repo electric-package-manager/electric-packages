@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "mill",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mill",
+        "latest-version": "0.9.6",
+        "0.9.6": {
+            "url": "https://github.com/lihaoyi/mill/releases/download/0.9.6/0.9.6-assembly#/mill.bat",
+            "file-type": ".bat",
+            "bin": [
+                "mill.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-busybox-64-bit.zip",
+            "version-check": {
+                "webpage": "https://git-for-windows.github.io/",
+                "regex": "v([\\w.]+)/MinGit-(?<full>[\\w.]+)-64-bit"
+            }
+        }
+    }
+}

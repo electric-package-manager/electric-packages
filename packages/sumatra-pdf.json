@@ -1,0 +1,16 @@
+{
+    "display-name": "Sumatra PDF",
+    "package-name": "sumatrapdf",
+    "latest-version": "3.2",
+    "3.2": {
+        "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-64-install.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "36D95DADF36CEAE35F49BA0DFF47FF628E3433B1150FB5A845F646BE67F90198"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "ldc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ldc",
+        "latest-version": "1.25.1",
+        "1.25.1": {
+            "url": "https://github.com/ldc-developers/ldc/releases/download/v1.25.1/ldc2-1.25.1-windows-x64.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ldc-developers/ldc/releases/download/v$version/ldc2-$version-windows-x64.7z",
+            "version-check": {
+                "webpage": "https://dlang.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "madvr",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "madvr",
+        "latest-version": "0.92.17",
+        "0.92.17": {
+            "url": "https://www.videohelp.com/download/madVR09217.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (-not (Test-Path \"$persist_dir\\settings.bin\")) { New-Item \"$dir\\settings.bin\" | Out-Null }",
+                        "(Get-Content \"$dir\\install.bat\") -replace '@pause >nul' | Out-File \"$dir\\install.bat\" -Encoding Ascii -Force",
+                        "(Get-Content \"$dir\\uninstall.bat\") -replace '@pause >nul' | Out-File \"$dir\\uninstall.bat\" -Encoding Ascii -Force"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "madTPG",
+                    "file-name": "madTPG.exe"
+                },
+                {
+                    "shortcut-name": "NVidia & Intel RGB Levels Tweaker",
+                    "file-name": "madLevelsTweaker.exe"
+                },
+                {
+                    "shortcut-name": "mad Home Cinema Control",
+                    "file-name": "madHcCtrl.exe"
+                }
+            ],
+            "persist": "settings.bin"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

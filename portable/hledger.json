@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "hledger",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hledger",
+        "latest-version": "1.21",
+        "1.21": {
+            "url": "https://github.com/simonmichael/hledger/releases/download/1.21/hledger-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hledger.exe",
+                "hledger-web.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/simonmichael/hledger/releases/download/$version/hledger-windows.zip",
+            "version-check": {
+                "webpage": "https://hledger.org"
+            }
+        }
+    }
+}

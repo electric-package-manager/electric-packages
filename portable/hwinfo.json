@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "hwinfo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hwinfo",
+        "latest-version": "7.02-4430",
+        "7.02-4430": {
+            "url": "https://www.hwinfo.com/files/hwi_702.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'64' | ForEach-Object {",
+                        "    if (-not (Test-Path \"$persist_dir\\HWiNFO$_.INI\")) { Set-Content \"$dir\\HWiNFO$_.INI\" '[Settings]', 'AutoUpdate=0' -Encoding Ascii}",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "HWiNFO64.INI",
+                "HWiNFO32.INI"
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip",
+            "version-check": {
+                "webpage": "https://www.hwinfo.com/ver.txt",
+                "regex": "([\\d-.]+)"
+            }
+        }
+    }
+}

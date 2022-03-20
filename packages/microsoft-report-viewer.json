@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Report Viewer 2012",
+    "package-name": "microsoft-report-viewer-2012",
+    "latest-version": "11.0.3452.0",
+    "11.0.3452.0": {
+        "url": "https://download.microsoft.com/download/F/B/7/FB728406-A1EE-4AB5-9C56-74EB8BDDF2FF/ReportViewer.msi",
+        "file-type": ".msi",
+        "checksum": "948F28452ABDDD90B27DC80ABA1B48C3FAEDCF2BD42254C71B5B1E19AC5C6DAF",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

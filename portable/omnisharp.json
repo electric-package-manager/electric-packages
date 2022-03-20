@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "omnisharp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "omnisharp",
+        "latest-version": "1.37.8",
+        "1.37.8": {
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.37.8/omnisharp-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "omnisharp.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp-win-x64.zip",
+            "version-check": {
+                "webpage": "http://www.omnisharp.net"
+            }
+        }
+    }
+}

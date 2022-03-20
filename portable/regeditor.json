@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "regeditor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "regeditor",
+        "latest-version": "12.0.2172",
+        "12.0.2172": {
+            "url": "https://dl5.oo-software.com/files/ooregeditor12/120/ooregeditor.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\OORegEdt.ini\")) {",
+                        "   New-Item \"$dir\\OORegEdt.ini\" -ItemType File  | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": "OORegEdt.ini"
+        },
+        "auto-update": {
+            "url": "https://dl5.oo-software.com/files/ooregeditor$majorVersion/$majorVersion$minorVersion/ooregeditor.zip",
+            "version-check": {
+                "webpage": "https://www.oo-software.com/en/download/current/ooregeditor",
+                "regex": "Build\\s+([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "display-name": "Epic Games Launcher",
+    "package-name": "epicinstaller",
+    "latest-version": "13.0.0",
+    "auto-update": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-<version>.msi",
+        "version-check": {
+            "webpage": "https://www.techspot.com/downloads/7126-epic-games-store.html",
+            "regex": "<span class=\"subver\" itemprop=\"softwareVersion\">([\\d.]+)</span>"
+        }
+    },
+    "12.1.1": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR=",
+        "dependencies": [],
+        "checksum": "B6464A18CBC852599D0DC45323C1C053746692AB6429E50B31C5AB2FE85A40AF"
+    },
+    "12.1.7": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-12.1.7.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR=",
+        "dependencies": [],
+        "checksum": "6B069AB06AC7F0885B17214980B1CED6BFEC5311D44CD510EF884CA5BF516AA1"
+    },
+    "13.0.0": {
+        "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-13.0.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/passive",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "/TARGETDIR=",
+        "dependencies": [],
+        "checksum": "0AECA6B283679678AD79D0400ED76936B0E943DC7A04996FAC17D306B2763E99"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "mednafen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mednafen",
+        "latest-version": "1.26.1",
+        "1.26.1": {
+            "url": "https://mednafen.github.io/releases/files/mednafen-1.26.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mednafen.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\mednafen.cfg\")) { New-Item \"$dir\\mednafen.cfg\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "cheats",
+                "firmware",
+                "mcm",
+                "mcs",
+                "palettes",
+                "pgconfig",
+                "sav",
+                "snaps",
+                "mednafen.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "https://mednafen.github.io/releases/files/mednafen-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://mednafen.github.io/documentation/ChangeLog.txt",
+                "regex": "--\\s+([\\d.]+):\\s+--"
+            }
+        }
+    }
+}

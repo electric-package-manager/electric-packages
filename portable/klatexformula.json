@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "klatexformula",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "klatexformula",
+        "latest-version": "4.1.0",
+        "4.1.0": {
+            "url": "https://downloads.sourceforge.net/project/klatexformula/klatexformula/klatexformula-4.1.0/klatexformula-4.1.0-win32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\klatexformula_cmdl.exe",
+                [
+                    "bin\\klatexformula_cmdl.exe",
+                    "klatexformula"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "kLatexFormula",
+                    "file-name": "bin\\klatexformula.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/klatexformula/klatexformula/klatexformula-<version>/klatexformula-<version>-win32.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/klatexformula/rss?path=/klatexformula",
+                "regex": "klatexformula-([\\d.]+)-win32"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "empty-recycle-bin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "empty-recycle-bin",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/sindresorhus/empty-recycle-bin/releases/download/1.0.0/empty-recycle-bin.exe",
+            "file-type": ".exe",
+            "bin": [
+                "empty-recycle-bin.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

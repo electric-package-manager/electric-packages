@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "matterbridge",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "matterbridge",
+        "latest-version": "1.22.1",
+        "1.22.1": {
+            "url": "https://github.com/42wim/matterbridge/releases/download/v1.22.1/matterbridge-1.22.1-windows-64bit.exe#/matterbridge.exe",
+            "file-type": ".exe",
+            "bin": [
+                "matterbridge.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

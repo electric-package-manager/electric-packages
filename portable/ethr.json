@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "ethr",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ethr",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/Microsoft/ethr/releases/download/v1.0.0/ethr_windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ethr.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

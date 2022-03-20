@@ -1,0 +1,36 @@
+{
+    "display-name": "FileZilla",
+    "package-name": "filezilla",
+    "latest-version": "3.54.1",
+    "auto-update": {
+        "url": "https://download.filezilla-project.org/client/FileZilla_<version>_win64_sponsored-setup.exe",
+        "version-check": {
+            "webpage": "https://filezilla-project.org/",
+            "regex": "FileZilla Client ([\\d.]+)"
+        }
+    },
+    "3.52.2": {
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.52.2_win64_sponsored-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "3.54.1": {
+        "url": "https://download.filezilla-project.org/client/FileZilla_3.54.1_win64_sponsored-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

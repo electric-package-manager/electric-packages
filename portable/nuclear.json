@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "nuclear",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nuclear",
+        "latest-version": "0.6.3",
+        "0.6.3": {
+            "url": "https://github.com/nukeop/nuclear/releases/download/v0.6.3/nuclear-Setup-fca030.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Nuclear",
+                    "file-name": "Nuclear.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/nukeop/nuclear/releases/download/v$version/nuclear-Setup-$matchCommit.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://github.com/nukeop/nuclear/releases",
+                "regex": "v([\\d.]+)/nuclear-Setup-(?<commit>\\w+)\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display-name": "Vagrant",
+    "package-name": "vagrant",
+    "latest-version": "2.2.14",
+    "2.2.14": {
+        "url": "https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.msi",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "128FB976FD0CE9DB20A4C45DC1C7BCC8D165AAC5DBA7BA7D29E1ECF1612A0596"
+    }
+}

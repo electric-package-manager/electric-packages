@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "streamlabs-obs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "streamlabs-obs",
+        "latest-version": "1.0.7",
+        "1.0.7": {
+            "url": "https://slobs-cdn.streamlabs.com/Streamlabs+OBS+Setup+1.0.7.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Streamlabs OBS",
+                    "file-name": "Streamlabs OBS.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://slobs-cdn.streamlabs.com/Streamlabs+OBS+Setup+$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://api.github.com/repos/stream-labs/streamlabs-obs/tags?per_page=100",
+                "regex": "\"v([\\d.]+)\""
+            }
+        }
+    }
+}

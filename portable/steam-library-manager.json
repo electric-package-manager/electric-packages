@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "steam-library-manager",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "steam-library-manager",
+        "latest-version": "1.6.0.4",
+        "1.6.0.4": {
+            "url": "https://github.com/RevoLand/Steam-Library-Manager/releases/download/v1.6.0.4/Steam.Library.Manager.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Steam Library Manager.exe",
+                [
+                    "Steam Library Manager.exe",
+                    "Steam-Library-Manager"
+                ],
+                [
+                    "Steam Library Manager.exe",
+                    "Steam.Library.Manager"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Steam Library Manager",
+                    "file-name": "Steam Library Manager.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

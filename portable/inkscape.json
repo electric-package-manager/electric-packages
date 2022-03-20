@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "inkscape",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "inkscape",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.0.1-x64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\inkscape.com",
+                "bin\\inkview.com"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Inkscape",
+                    "file-name": "bin\\inkscape.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://media.inkscape.org/dl/resources/file/inkscape-$version-x64.7z",
+            "version-check": {
+                "webpage": "https://inkscape.org/release",
+                "regex": ">Inkscape\\s+([\\d.]+)</"
+            }
+        }
+    }
+}

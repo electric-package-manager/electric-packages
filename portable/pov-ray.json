@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "pov-ray",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pov-ray",
+        "latest-version": "3.7.0",
+        "3.7.0": {
+            "url": [
+                "https://www.povray.org/ftp/pub/povray/Official/povwin-3.7-agpl3-setup.exe",
+                "https://www.povray.org/download/povwin-3.7-editor.exe"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [],
+            "shortcuts": [],
+            "persist": "userdocs",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "pvengine /QINSTALL \"$dir\" \"$dir\\userdocs\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.povray.org/ftp/pub/povray/Official/povwin-$majorVersion.$minorVersion-agpl3-setup.exe",
+            "version-check": {
+                "webpage": "https://www.povray.org/download/",
+                "regex": "Download POV-Ray ([\\d.]+)"
+            }
+        }
+    }
+}

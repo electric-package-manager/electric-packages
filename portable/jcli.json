@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "jcli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jcli",
+        "latest-version": "0.0.37",
+        "0.0.37": {
+            "url": "https://github.com/jenkins-zh/jenkins-cli/releases/download/v0.0.37/jcli-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jcli.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jenkins-zh/jenkins-cli/releases/download/v$version/jcli-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://jenkins-zh.github.io/jcli-docs/"
+            }
+        }
+    }
+}

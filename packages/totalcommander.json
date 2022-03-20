@@ -1,0 +1,18 @@
+{
+    "display-name": "Total Commander",
+    "package-name": "totalcommander",
+    "latest-version": "9.51",
+    "9.51": {
+        "url": "https://totalcommander.ch/win/fixed/tcmd951x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/AHMGDU"
+        ],
+        "uswitches": [
+            "/7"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "B440EC35EA6C4FF7296B51C96E7BF55336A1CEBAF211524E6CAA2F4DB3FE60B2"
+    }
+}

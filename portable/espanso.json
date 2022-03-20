@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "espanso",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "espanso",
+        "latest-version": "0.7.3",
+        "0.7.3": {
+            "url": "https://github.com/federico-terzi/espanso/releases/download/v0.7.3/espanso-win-installer.exe",
+            "file-type": ".exe",
+            "bin": [
+                "espanso.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Espanso",
+                    "file-name": "espanso.exe"
+                }
+            ],
+            "persist": ".espanso"
+        },
+        "auto-update": {
+            "url": "https://github.com/federico-terzi/espanso/releases/download/v$version/espanso-win-installer.exe",
+            "version-check": {
+                "webpage": "https://espanso.org"
+            }
+        }
+    }
+}

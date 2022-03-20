@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "sliksvn",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sliksvn",
+        "latest-version": "1.12.0",
+        "1.12.0": {
+            "url": "https://sliksvn.com/pub/Slik-Subversion-1.12.0-x64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\svn.exe",
+                "bin\\svnadmin.exe",
+                "bin\\svnauthz-validate.exe",
+                "bin\\svndumpfilter.exe",
+                "bin\\svnlook.exe",
+                "bin\\svnmucc.exe",
+                "bin\\svn-populate-node-origins-index.exe",
+                "bin\\svnrdump.exe",
+                "bin\\svnserve.exe",
+                "bin\\svnsync.exe",
+                "bin\\svnversion.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://sliksvn.com/pub/Slik-Subversion-$version-x64.msi",
+            "version-check": {
+                "webpage": "https://sliksvn.com/download/",
+                "regex": "<a.*>SVN ([\\d.]+), 64 bit</a>"
+            }
+        }
+    }
+}

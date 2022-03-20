@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/electric-package-manager/electric-packages/master/package-schema.json",
+    "display-name": "Skype",
+    "package-name": "skype",
+    "latest-version": "8.68.0.96",
+    "8.68.0.96": {
+        "url": "https://go.skype.com/windows.desktop.download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "819D1D8013702DA63248D23AC3025046D1E1AD6CABA653B760138BE65462A9B9"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display-name": "LessMSI",
+    "package-name": "lessmsi",
+    "is-portable": true,
+    "portable": {
+        "display-name": "LessMSI",
+        "package-name": "lessmsi",
+        "latest-version": "1.10.0",
+        "auto-update": {
+            "url": "https://github.com/activescott/lessmsi/releases/download/v<version>/lessmsi-v<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/activescott/lessmsi/",
+                "type": "github"
+            }
+        },
+        "1.8.1": {
+            "url": "https://github.com/activescott/lessmsi/releases/download/v1.8.1/lessmsi-v1.8.1.zip",
+            "file-type": ".zip",
+            "extract-dir": "lessmsi",
+            "bin": [
+                "lessmsi.exe"
+            ],
+            "checksum": "1309C1BA220806CA54C4603E53463C4AB50A9D1DC74D9DA7ABFE0822F2778012"
+        },
+        "1.10.0": {
+            "checksum": "1309C1BA220806CA54C4603E53463C4AB50A9D1DC74D9DA7ABFE0822F2778012",
+            "url": "https://github.com/activescott/lessmsi/releases/download/v1.10.0/lessmsi-v1.10.0.zip",
+            "file-type": ".zip",
+            "extract-dir": "lessmsi",
+            "bin": [
+                "lessmsi.exe"
+            ]
+        }
+    }
+}

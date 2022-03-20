@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "fbflipper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fbflipper",
+        "latest-version": "0.84.0",
+        "0.84.0": {
+            "url": "https://github.com/facebook/flipper/releases/download/v0.84.0/Flipper-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Flipper.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Facebook Flipper",
+                    "file-name": "Flipper.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/facebook/flipper/releases/download/v$version/Flipper-win.zip",
+            "version-check": {
+                "webpage": "https://fbflipper.com"
+            }
+        }
+    }
+}

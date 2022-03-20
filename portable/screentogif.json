@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "screentogif",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "screentogif",
+        "latest-version": "2.27.3",
+        "2.27.3": {
+            "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.27.3/ScreenToGif.2.27.3.Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ScreenToGif.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ScreenToGif",
+                    "file-name": "ScreenToGif.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/<version>/ScreenToGif.<version>.Portable.zip",
+            "version-check": {
+                "webpage": "https://www.screentogif.com/"
+            }
+        }
+    }
+}

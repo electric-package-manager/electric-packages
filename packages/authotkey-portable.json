@@ -1,0 +1,22 @@
+{
+    "display-name": "Autohotkey (Portable)",
+    "package-name": "autohotkey-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Autohotkey",
+        "package-name": "autohotkey",
+        "latest-version": "1.1.33.02",
+        "1.1.33.02": {
+            "url": "https://autohotkey.com/download/ahk.zip",
+            "file-type": ".zip",
+            "extract-dir": "autohotkey",
+            "shortcuts": [
+                {
+                    "shortcut-name": "AutoHotkey",
+                    "file-name": "AutoHotkeyU64.exe"
+                }
+            ],
+            "checksum": "26DE679C45BAC976FC2DE686A9C93C0080165CC60B4BEB66CB28042232AB8865"
+        }
+    }
+}

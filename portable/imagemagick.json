@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "imagemagick",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "imagemagick",
+        "latest-version": "7.0.11-7",
+        "7.0.11-7": {
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.11-7-portable-Q16-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "compare.exe",
+                "composite.exe",
+                "conjure.exe",
+                "convert.exe",
+                [
+                    "convert.exe",
+                    "imconvert"
+                ],
+                "dcraw.exe",
+                "identify.exe",
+                "IMDisplay.exe",
+                "magick.exe",
+                "mogrify.exe",
+                "montage.exe",
+                "stream.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

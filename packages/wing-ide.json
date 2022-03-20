@@ -1,0 +1,25 @@
+{
+    "display-name": "Wing Pro*",
+    "package-name": "wing-ide",
+    "latest-version": "7.2.9.0",
+    "7.2.9.0": {
+        "url": "https://wingware.com/pub/wingpro/7.2.9.0/wingpro-7.2.9.0.exe",
+        "file-type": ".exe",
+        "checksum": "45ACFD6E751EF961F82A90244F618E1C952474C3F0544C58685BE0AE67334E17",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "jdupes",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jdupes",
+        "latest-version": "1.19.2",
+        "1.19.2": {
+            "url": "https://github.com/jbruchon/jdupes/releases/download/v1.19.2/jdupes-1.19.2-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jdupes.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

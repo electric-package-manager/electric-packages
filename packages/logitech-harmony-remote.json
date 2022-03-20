@@ -1,0 +1,22 @@
+{
+    "display-name": "MyHarmony",
+    "package-name": "logitech-harmony-remote",
+    "latest-version": "1.0.1.308",
+    "1.0.1.308": {
+        "url": "https://app.myharmony.com/prod/win/1.0/MyHarmony-App.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "245C352B579A8F79329CA34A1003A496E7834B62011FDD1912775CB81EC19784"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "obsidian",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "obsidian",
+        "latest-version": "0.11.13",
+        "0.11.13": {
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.11.13/Obsidian.0.11.13.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Obsidian",
+                    "file-name": "Obsidian.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian.$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://obsidian.md"
+            }
+        }
+    }
+}

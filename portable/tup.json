@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "tup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tup",
+        "latest-version": "0.7.10",
+        "0.7.10": {
+            "url": "http://gittup.org/tup/win32/tup-latest.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tup.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://gittup.org/tup/win32/tup-latest.zip",
+            "version-check": {
+                "webpage": "http://gittup.org/tup/win32",
+                "regex": "tup-v([\\w.-]+)\\.zip"
+            }
+        }
+    }
+}

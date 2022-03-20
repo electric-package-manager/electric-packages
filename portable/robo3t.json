@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "robo3t",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "robo3t",
+        "latest-version": "1.4.2",
+        "1.4.2": {
+            "url": "https://download.studio3t.com/robomongo/windows/robo3t-1.4.2-windows-x86_64-8650949.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Robo 3T",
+                    "file-name": "robo3t.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "oripa",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "oripa",
+        "latest-version": "1.45",
+        "1.45": {
+            "url": "https://github.com/oripa/oripa/releases/download/v1.45_release/oripa-1.45.jar#/oripa.jar",
+            "file-type": ".jar",
+            "bin": [
+                "oripa.jar"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Set-Content \"$dir\\oripa.bat\" \"@start javaw -jar \"\"%~dp0\\$fname\"\" %*\" -Encoding ASCII"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ORIPA",
+                    "file-name": "oripa.bat"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/oripa/oripa/releases/download/v<version>_release/oripa-<version>.jar#/oripa.jar",
+            "version-check": {
+                "webpage": "http://mitani.cs.tsukuba.ac.jp/oripa/"
+            }
+        }
+    }
+}

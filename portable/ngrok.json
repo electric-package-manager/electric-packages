@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "ngrok",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ngrok",
+        "latest-version": "2.3.38",
+        "2.3.38": {
+            "url": "https://bin.equinox.io/a/kDgjLwTH9Ur/ngrok-2.3.38-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ngrok.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bin.equinox.io/a/$matchHash64bit/ngrok-$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://dl.equinox.io/ngrok/ngrok/stable/archive",
+                "regex": "/a/(?<hash64bit>\\w+)/ngrok-([\\d.]+)-windows-amd64.zip(?:.|\\n)+?/a/(?<hash32bit>\\w+)/ngrok-([\\d.]+)-windows-386.zip"
+            }
+        }
+    }
+}

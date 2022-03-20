@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mach2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mach2",
+        "latest-version": "0.7.0.0",
+        "0.7.0.0": {
+            "url": "https://github.com/riverar/mach2/releases/download/0.7.0.0/mach2_0.7.0.0_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mach2.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "yara",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yara",
+        "latest-version": "4.0.5-1554",
+        "4.0.5-1554": {
+            "url": "https://github.com/VirusTotal/yara/releases/download/v4.0.5/yara-v4.0.5-1554-win64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/VirusTotal/yara/releases/download/v$matchHead/yara-v$version-win64.zip",
+            "version-check": {
+                "webpage": "https://virustotal.github.io/yara/",
+                "regex": "yara-v([\\d.-]+)-win64"
+            }
+        }
+    }
+}

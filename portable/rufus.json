@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "rufus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rufus",
+        "latest-version": "3.13",
+        "3.13": {
+            "url": "https://github.com/pbatard/rufus/releases/download/v3.13/rufus-3.13p.exe#/rufus.exe",
+            "file-type": ".exe",
+            "bin": [
+                "rufus.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if(!(Test-Path(\"$dir\\rufus.ini\"))) { New-Item \"$dir\\rufus.ini\" -type file | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Rufus",
+                    "file-name": "rufus.exe"
+                }
+            ],
+            "persist": [
+                "rufus.ini",
+                "rufus_files"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/pbatard/rufus/releases/download/v<version>/rufus-<version>p.exe#/rufus.exe",
+            "version-check": {
+                "webpage": "https://rufus.ie/"
+            }
+        }
+    }
+}

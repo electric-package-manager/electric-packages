@@ -1,0 +1,78 @@
+{
+    "display-name": "K-Lite Codec Pack Mega",
+    "package-name": "k-litecodecpackmega",
+    "latest-version": "16.9.0",
+    "auto-update": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_<clean-version>_Mega.exe",
+        "version-check": {
+            "webpage": "https://codecguide.com/download_k-lite_codec_pack_mega.htm",
+            "regex": "Version ([\\d.]+) Mega ~"
+        }
+    },
+    "16.0.5": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1605_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "F4789368CDD1ACB2E5007360C4046DF165511A1F57D68B01E6D3DA209D355FB3"
+    },
+    "16.3.0": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1630_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "B234FCF4534F56AD157DC5B07C74EBB97FFEC714471A94860083B4FFF4B4AC75"
+    },
+    "16.3.5": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1635_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "CEAEDD6EF6E5DB3BD87576990330201D5498E6F1BE97E568A533CE3C3093C8B2"
+    },
+    "16.8.0": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1680_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "FBBB77666A4F18112B2DA202836102480855CDCAE0DF8699EC03D0DBA270C67B"
+    },
+    "16.8.7": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1687_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "2D1E495BD5E5F088ECCC8252045342B935D3A05A584EF9935CD38F382DD99A58"
+    },
+    "16.9.0": {
+        "url": "https://files3.codecguide.com/K-Lite_Codec_Pack_1690_Mega.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/VERYSILENT"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "0C3BA6E118537370133DBA58461CAF002C3B06AF0AB2BD5E2EA5DA9133C10462"
+    }
+}

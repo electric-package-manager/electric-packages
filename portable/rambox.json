@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "rambox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rambox",
+        "latest-version": "0.7.7",
+        "0.7.7": {
+            "url": "https://github.com/ramboxapp/community-edition/releases/download/0.7.7/Rambox-0.7.7-win.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Rambox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Rambox Community Edition",
+                    "file-name": "Rambox.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/ramboxapp/community-edition/releases/download/<version>/Rambox-<version>-win.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://rambox.pro/"
+            }
+        }
+    }
+}

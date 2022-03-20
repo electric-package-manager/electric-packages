@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "octave",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "octave",
+        "latest-version": "6.2.0",
+        "6.2.0": {
+            "url": "https://ftp.gnu.org/gnu/octave/windows/octave-6.2.0-w64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://ftp.gnu.org/gnu/octave/windows/octave-$version-w64.zip",
+            "version-check": {
+                "webpage": "https://wiki.octave.org/GNU_Octave_Wiki",
+                "regex": "GNU Octave ([\\d.]+).*is the current stable release"
+            }
+        }
+    }
+}

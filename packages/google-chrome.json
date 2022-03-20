@@ -1,0 +1,46 @@
+{
+    "display-name": "Google Chrome",
+    "package-name": "google-chrome",
+    "latest-version": "2",
+    "auto-update": {
+        "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        "version-check": {
+            "webpage": "https://chromereleases.googleblog.com/2021/",
+            "regex": "([\\d.]+)"
+        }
+    },
+    "87.0.4280.88": {
+        "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "8AC8FB866387497105C9845729CFD619000BFECDE5A2DB4BF86340D29964955F"
+    },
+    "2": {
+        "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "D23A84A287FD2C547447B88AFCD407C88E4680B65914476FFCD6D62EEE679553"
+    }
+}

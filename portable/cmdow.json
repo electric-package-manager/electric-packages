@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "cmdow",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cmdow",
+        "latest-version": "1.4.8",
+        "1.4.8": {
+            "url": "https://github.com/ritchielawrence/cmdow/archive/v1.4.8.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\Release\\cmdow.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ritchielawrence/cmdow/archive/v<version>.zip",
+            "version-check": {
+                "webpage": "https://ritchielawrence.github.io/cmdow/"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "draw.io",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "draw.io",
+        "latest-version": "14.5.1",
+        "14.5.1": {
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v14.5.1/draw.io-14.5.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "draw.io.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "draw.io",
+                    "file-name": "draw.io.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.draw.io"
+            }
+        }
+    }
+}

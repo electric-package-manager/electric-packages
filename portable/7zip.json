@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "7zip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "7zip",
+        "latest-version": "19.00",
+        "19.00": {
+            "url": "https://7-zip.org/a/7z1900-x64.msi",
+            "file-type": ".msi",
+            "bin": [
+                "7z.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "7-Zip",
+                    "file-name": "7zFM.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://7-zip.org/a/7z$cleanVersion-x64.msi",
+            "version-check": {
+                "webpage": "https://www.7-zip.org/download.html",
+                "regex": "Download 7-Zip ([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display-name": "Unity Hub",
+    "package-name": "unity-hub",
+    "latest-version": "2.4.2",
+    "2.4.2": {
+        "url": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "3CB22764AE2C467486448088D3C045E7D5D209B4ADFECCC3E7DE84BEADB2EF36"
+    }
+}

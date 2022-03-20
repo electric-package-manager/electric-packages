@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "goreleaser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "goreleaser",
+        "latest-version": "0.162.0",
+        "0.162.0": {
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.162.0/goreleaser_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "goreleaser.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip",
+            "version-check": {
+                "webpage": "https://goreleaser.com"
+            }
+        }
+    }
+}

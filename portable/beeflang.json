@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "beeflang",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "beeflang",
+        "latest-version": "0.43.0",
+        "0.43.0": {
+            "url": "https://github.com/beefytech/Beef/releases/download/0.43.0/BeefSetup_0_43_0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\BeefBuild.exe",
+                [
+                    "bin\\BeefIDE.exe",
+                    "beef"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

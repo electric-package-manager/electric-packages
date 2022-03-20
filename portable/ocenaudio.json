@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "ocenaudio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ocenaudio",
+        "latest-version": "3.10.5",
+        "3.10.5": {
+            "url": "https://www.ocenaudio.com/downloads/ocenaudio64_portable.zip?version=v3.10.5",
+            "file-type": ".5",
+            "bin": [
+                "ocenaudio.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ocenaudio",
+                    "file-name": "ocenaudio.exe"
+                }
+            ],
+            "persist": "settings"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

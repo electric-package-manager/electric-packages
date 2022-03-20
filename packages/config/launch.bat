@@ -1,0 +1,1 @@
+py "C:\Users\xtrem\Desktop\Electric\Electric Packages\packages\config\auto-update.py"

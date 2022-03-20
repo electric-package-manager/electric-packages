@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "claws-mail",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "claws-mail",
+        "latest-version": "3.17.8-1",
+        "3.17.8-1": {
+            "url": "https://www.claws-mail.org/win32/claws-mail-3.17.8-1-64bit.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "claws-mail.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\claws-mail-uninstall.exe\" -Force -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Claws Mail",
+                    "file-name": "claws-mail.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.claws-mail.org/win32/claws-mail-$version-64bit.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.claws-mail.org/win32/",
+                "regex": "claws-mail-([\\d.-]+)-32bit\\.exe"
+            }
+        }
+    }
+}

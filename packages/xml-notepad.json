@@ -1,0 +1,14 @@
+{
+    "display-name": "Microsoft XML Notepad",
+    "package-name": "xml-notepad",
+    "latest-version": "2.8.0.26",
+    "2.8.0.26": {
+        "url": "https://lovettsoftwarestorage.blob.core.windows.net/downloads/XmlNotepad.Net/2.8.0.26/XmlNotepadPackage_2.8.0.26_Test/XmlNotepadPackage_2.8.0.26_AnyCPU.msixbundle",
+        "file-type": ".msixbundle",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "AE50108E5298AF99E807A347D561BBB3655FDDD204533B6656CD0CE5A0F61960"
+    }
+}

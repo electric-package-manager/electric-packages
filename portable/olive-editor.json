@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "olive-editor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "olive-editor",
+        "latest-version": "0.1.0",
+        "0.1.0": {
+            "url": "https://olivevideoeditor.org/dl/Olive-1e3cf53-Windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "olive-editor.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'config.xml', 'layout', 'shortcuts' | ForEach-Object { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
+                        "New-Item \"$dir\\portable\" -ErrorAction SilentlyContinue | Out-Null"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Olive Editor",
+                    "file-name": "olive-editor.exe"
+                }
+            ],
+            "persist": [
+                "config.xml",
+                "layout",
+                "shortcuts"
+            ]
+        },
+        "auto-update": {
+            "url": "https://olivevideoeditor.org/dl/Olive-$matchCommit-Windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://github.com/olive-editor/olive/releases",
+                "regex": "(?sm)Release build \\(([\\d.]+).*?Olive-(?<commit>\\w+)-Windows-"
+            }
+        }
+    }
+}

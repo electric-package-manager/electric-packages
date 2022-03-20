@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "aliyun",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aliyun",
+        "latest-version": "3.0.73",
+        "3.0.73": {
+            "url": "https://github.com/aliyun/aliyun-cli/releases/download/v3.0.73/aliyun-cli-windows-3.0.73-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "aliyun.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "vmaf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vmaf",
+        "latest-version": "2.1.1",
+        "2.1.1": {
+            "url": "https://github.com/Netflix/vmaf/releases/download/v2.1.1/vmaf.exe",
+            "file-type": ".exe",
+            "bin": [
+                "vmaf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

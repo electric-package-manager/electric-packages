@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "iphone-sms-backup-and-restore",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "iphone-sms-backup-and-restore",
+        "latest-version": "2.14.39",
+        "2.14.39": {
+            "url": "https://www.backuptrans.com/download/exe/iphone-sms-backup-and-restore_x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst*nsis\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Backuptrans iPhone SMS Backup & Restore",
+                    "file-name": "iPhoneSmsBackupAndRestore.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.backuptrans.com/download/exe/iphone-sms-backup-and-restore_x64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.backuptrans.com/download.html",
+                "regex": "(?sm)Backuptrans iPhone SMS Backup & Restore.*?V([\\d.]+)"
+            }
+        }
+    }
+}

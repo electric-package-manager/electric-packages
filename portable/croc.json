@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "croc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "croc",
+        "latest-version": "8.6.12",
+        "8.6.12": {
+            "url": "https://github.com/schollz/croc/releases/download/v8.6.12/croc_8.6.12_Windows-64bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "croc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/schollz/croc/releases/download/v$version/croc_$version_Windows-64bit.zip",
+            "version-check": {
+                "webpage": "https://schollz.com/software/croc6"
+            }
+        }
+    }
+}

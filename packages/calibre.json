@@ -1,0 +1,250 @@
+{
+    "display-name": "Calibre",
+    "package-name": "calibre",
+    "latest-version": "5.39.1",
+    "auto-update": {
+        "url": "https://download.calibre-ebook.com/<version>/calibre-64bit-<version>.msi",
+        "version-check": {
+            "webpage": "https://calibre-ebook.com/download_windows",
+            "regex": "Version: ([\\d.]+)"
+        }
+    },
+    "5.12.0": {
+        "url": "https://download.calibre-ebook.com/5.16.1/calibre-64bit-5.16.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1F8768135B9FB2CADFA57B3B4BDBBBF646E5BA2BB2160CA3BB86E5F889253B64"
+    },
+    "5.16.1": {
+        "url": "https://download.calibre-ebook.com/5.16.1/calibre-64bit-5.16.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1F8768135B9FB2CADFA57B3B4BDBBBF646E5BA2BB2160CA3BB86E5F889253B64"
+    },
+    "5.17.0": {
+        "url": "https://download.calibre-ebook.com/5.17.0/calibre-64bit-5.17.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "AFADCFB0D101D6A320E8EB85DBE5087902D6ED04FD81F5AA8CE40DD4F72E5651"
+    },
+    "5.19.0": {
+        "url": "https://download.calibre-ebook.com/5.19.0/calibre-64bit-5.19.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1DDAA00D6376FDA5902ABF7E0586D21C0F14DF1706E5C4CB6EC3D5A46F11583C"
+    },
+    "5.20.0": {
+        "url": "https://download.calibre-ebook.com/5.20.0/calibre-64bit-5.20.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "EA309CC9EA9DBA0E2B943B18E69626B25BB665908A3467AA030B1F5A683DBB82"
+    },
+    "5.21.0": {
+        "url": "https://download.calibre-ebook.com/5.21.0/calibre-64bit-5.21.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "5AC8BBD813210A0D1E9B3C7A8852F11AEEC15ABCBB89ED2B6EDD09F51240C44A"
+    },
+    "5.22.0": {
+        "url": "https://download.calibre-ebook.com/5.22.0/calibre-64bit-5.22.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0013B18EFEB06010D7F677CCAD279E9A809C78CD0A07CCF2940BBD790604F4D1"
+    },
+    "5.22.1": {
+        "url": "https://download.calibre-ebook.com/5.22.1/calibre-64bit-5.22.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "4FA8724AA756B738B9DA4C2C2C2BA0A514B65F7B6F3C7FA9556A006B93A58E62"
+    },
+    "5.24.0": {
+        "url": "https://download.calibre-ebook.com/5.24.0/calibre-64bit-5.24.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A151E9181FB7DCB7E86A8B130BD0CF8A8F4BD26652BEC44BE89499D1EAF9BF78"
+    },
+    "5.25.0": {
+        "url": "https://download.calibre-ebook.com/5.25.0/calibre-64bit-5.25.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "63926DA460640DABD6B3DF4681BC1649D882F50BB8B2B4AD4C208B0043E9559B"
+    },
+    "5.36.0": {
+        "url": "https://download.calibre-ebook.com/5.36.0/calibre-64bit-5.36.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "DC88074A90D3ACAFB4C9AEB56245A5853AD3FCC10F31A77CE22EEB1FEB3A7941"
+    },
+    "5.37.0": {
+        "url": "https://download.calibre-ebook.com/5.37.0/calibre-64bit-5.37.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "E84F13B9130A6B379A5D26D4EAC116C392B61D37AF38592A0B48EEA38CD59EAD"
+    },
+    "5.38.0": {
+        "url": "https://download.calibre-ebook.com/5.38.0/calibre-64bit-5.38.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "5510AC9A0E4C13F4F14D9383171AD13E96C7DAE3930BD3DDA0B13FF4579910F8"
+    },
+    "5.39.1": {
+        "url": "https://download.calibre-ebook.com/5.39.1/calibre-64bit-5.39.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "0774877169B76DD0E76B0F7B1288E6EA7292395AD3B10F6653CC620969985CD1"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "logseq",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "logseq",
+        "latest-version": "0.0.19",
+        "0.0.19": {
+            "url": "https://github.com/logseq/logseq/releases/download/0.0.19/logseq-win-x64-0.0.19.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Expand-7ZipArchive \"$dir\\logseq-*-full.nupkg\" -ExtractDir 'lib\\net45' -Removal",
+                        "Remove-Item \"$dir\\lib\", \"$dir\\Update*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Logseq",
+                    "file-name": "Logseq.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/logseq/logseq/releases/download/$version/logseq-win-x64-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://logseq.com"
+            }
+        }
+    }
+}

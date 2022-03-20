@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "iperf3",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "iperf3",
+        "latest-version": "3.1.3",
+        "3.1.3": {
+            "url": "https://iperf.fr/download/windows/iperf-3.1.3-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "iperf3.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/coin-or/Ipopt/releases/download/releases%2F$version/Ipopt-$version-win64-msvs2019-md.zip",
+            "version-check": {
+                "webpage": "https://coin-or.github.io/Ipopt/",
+                "regex": "download/releases%2F([\\d.]+)"
+            }
+        }
+    }
+}

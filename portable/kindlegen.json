@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "kindlegen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kindlegen",
+        "latest-version": "2.9",
+        "2.9": {
+            "url": "https://kindlegen.s3.amazonaws.com/kindlegen_win32_v2_9.zip",
+            "file-type": ".zip",
+            "bin": [
+                "kindlegen.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

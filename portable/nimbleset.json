@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "nimbleset",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nimbleset",
+        "latest-version": "2.2.0.41590",
+        "2.2.0.41590": {
+            "url": "http://nimbletext.com/Download/NimbleSET.exe",
+            "file-type": ".exe",
+            "bin": [
+                "NimbleSET.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NimbleSET",
+                    "file-name": "NimbleSET.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://nimbletext.com/Download/NimbleSET.exe",
+            "version-check": {
+                "webpage": "http://nimbletext.com/SET/VersionNotes",
+                "regex": "Version ([\\d.]+)"
+            }
+        }
+    }
+}

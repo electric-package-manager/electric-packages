@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "nuget",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nuget",
+        "latest-version": "5.8.1",
+        "5.8.1": {
+            "url": "https://dist.nuget.org/win-x86-commandline/v5.8.1/NuGet.exe",
+            "file-type": ".exe",
+            "bin": [
+                "NuGet.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dist.nuget.org/win-x86-commandline/v<version>/NuGet.exe",
+            "version-check": {
+                "webpage": "https://dist.nuget.org/index.json"
+            }
+        }
+    }
+}

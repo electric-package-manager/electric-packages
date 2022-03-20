@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "rdiff-backup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rdiff-backup",
+        "latest-version": "2.0.5",
+        "2.0.5": {
+            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v2.0.5/rdiff-backup-2.0.5.win32exe.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rdiff-backup.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rdiff-backup/rdiff-backup/releases/download/v<version>/rdiff-backup-<version>.win32exe.zip",
+            "version-check": {
+                "webpage": "https://rdiff-backup.net"
+            }
+        }
+    }
+}

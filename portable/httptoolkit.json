@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "httptoolkit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "httptoolkit",
+        "latest-version": "1.2.3",
+        "1.2.3": {
+            "url": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.2.3/HttpToolkit-win-x64-1.2.3.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "HTTP Toolkit",
+                    "file-name": "HTTP Toolkit.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v$version/HttpToolkit-win-x64-$version.zip",
+            "version-check": {
+                "webpage": "https://httptoolkit.tech"
+            }
+        }
+    }
+}

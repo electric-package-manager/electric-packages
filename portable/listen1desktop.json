@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "listen1desktop",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "listen1desktop",
+        "latest-version": "2.20.1",
+        "2.20.1": {
+            "url": "https://github.com/listen1/listen1_desktop/releases/download/v2.20.1/listen1_2.20.1_win.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Listen1.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Listen1",
+                    "file-name": "Listen1.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://listen1.github.io/listen1/"
+            }
+        }
+    }
+}

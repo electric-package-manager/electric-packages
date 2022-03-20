@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "chk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chk",
+        "latest-version": "3.21",
+        "3.21": {
+            "url": "http://compressme.net/chk321.zip",
+            "file-type": ".zip",
+            "bin": [
+                "chk.ps1"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Set-Content \"$dir\\chk.ps1\" -Value 'Start-Process \"$PSScriptRoot\\chk.exe\" -WorkingDirectory $PSScriptRoot' -Encoding Ascii",
+                        "if (!(Test-Path \"$persist_dir\\chk.cfg\")) { New-Item \"$dir\\chk.cfg\" | Out-Null }",
+                        "if (!(Test-Path \"$persist_dir\\lang.txt\")) { New-Item \"$dir\\lang.txt\" | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CHK",
+                    "file-name": "chk.exe"
+                }
+            ],
+            "persist": [
+                "chk.cfg",
+                "lang.txt"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

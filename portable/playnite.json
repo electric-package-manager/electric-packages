@@ -1,0 +1,45 @@
+{
+    "display-name": "",
+    "package-name": "playnite",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "playnite",
+        "latest-version": "8.11",
+        "8.11": {
+            "url": "https://playnite.link/update/stable/8.11/Playnite811.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "Playnite.DesktopApp.exe",
+                    "Playnite"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Copy-Item \"$persist_dir\\config.json\" \"$dir\" -ErrorAction SilentlyContinue"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Playnite",
+                    "file-name": "Playnite.DesktopApp.exe"
+                }
+            ],
+            "persist": [
+                "browsercache",
+                "cache",
+                "ExtensionsData",
+                "library"
+            ]
+        },
+        "auto-update": {
+            "url": "https://playnite.link/update/stable/<version>/Playnite$cleanVersion.zip",
+            "version-check": {
+                "webpage": "https://playnite.link/download.html",
+                "regex": "/download/([\\d.]+)/Playnite"
+            }
+        }
+    }
+}

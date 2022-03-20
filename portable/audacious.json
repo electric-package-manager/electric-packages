@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "audacious",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "audacious",
+        "latest-version": "4.1",
+        "4.1": {
+            "url": "https://distfiles.audacious-media-player.org/audacious-4.1-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\audacious.exe",
+                "bin\\audtool.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Audacious",
+                    "file-name": "bin\\audacious.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://distfiles.audacious-media-player.org/audacious-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://audacious-media-player.org/download",
+                "regex": "Current stable release: ([\\d.]+)"
+            }
+        }
+    }
+}

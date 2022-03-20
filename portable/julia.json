@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "julia",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "julia",
+        "latest-version": "1.6.0",
+        "1.6.0": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.0-win64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bin\\julia.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Julia",
+                    "file-name": "bin\\julia.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.exe",
+            "version-check": {
+                "webpage": "https://julialang.org/downloads/",
+                "regex": "Current stable release: v([\\d.]+)"
+            }
+        }
+    }
+}

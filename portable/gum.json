@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "gum",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gum",
+        "latest-version": "0.10.0",
+        "0.10.0": {
+            "url": "https://github.com/kordamp/gm/releases/download/v0.10.0/gm_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "gm.exe",
+                    "gum"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "modd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "modd",
+        "latest-version": "0.8",
+        "0.8": {
+            "url": "https://github.com/cortesi/modd/releases/download/v0.8/modd-0.8-windows64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "modd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cortesi/modd/releases/download/v$version/modd-$version-windows64.zip",
+            "version-check": {
+                "webpage": "https://corte.si/posts/modd/announce/index.html"
+            }
+        }
+    }
+}

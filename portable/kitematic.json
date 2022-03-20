@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "kitematic",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kitematic",
+        "latest-version": "0.17.13",
+        "0.17.13": {
+            "url": "https://github.com/docker/kitematic/releases/download/v0.17.13/Kitematic-0.17.13-Windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Kitematic.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Kitematic",
+                    "file-name": "Kitematic.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

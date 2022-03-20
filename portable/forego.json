@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "forego",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "forego",
+        "latest-version": "20180217041714",
+        "20180217041714": {
+            "url": "https://bin.equinox.io/a/cNQswJNYTQe/forego-20180217041714-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "forego.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bin.equinox.io/a/$matchDir/forego-$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://dl.equinox.io/ddollar/forego/stable/archive",
+                "regex": "https://bin.equinox.io/a/(?<dir>\\w+)/forego-(\\d+)-windows-amd64.zip"
+            }
+        }
+    }
+}

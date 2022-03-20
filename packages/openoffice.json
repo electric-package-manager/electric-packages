@@ -1,0 +1,14 @@
+{
+  "display-name": "Apache OpenOffice",
+  "package-name": "openoffice",
+  "latest-version": "4.1.9",
+  "4.1.9": {
+    "url": "https://excellmedia.dl.sourceforge.net/project/openofficeorg.mirror/4.1.9/binaries/en-US/Apache_OpenOffice_4.1.9_Win_x86_install_en-US.exe",
+    "file-type": ".exe",
+    "iswitches": ["/S"],
+    "uswitches": ["/S"],
+    "clswitch": "/D=",
+    "dependencies": [],
+    "checksum": "3B142B424BAF8D10A69F966D4FC314FB88B82341A1B9AB18F234F8922B764A0E"
+  }
+}

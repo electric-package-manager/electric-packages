@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "mdcat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mdcat",
+        "latest-version": "0.22.3",
+        "0.22.3": {
+            "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.22.3/mdcat-0.22.3-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mdcat.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-$version/mdcat-$version-x86_64-pc-windows-msvc.zip",
+            "version-check": {
+                "webpage": "https://github.com/lunaryorn/mdcat",
+                "regex": "mdcat-([\\d.]+)"
+            }
+        }
+    }
+}

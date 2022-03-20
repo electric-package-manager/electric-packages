@@ -1,0 +1,17 @@
+{
+    "display-name": "Classic Shell",
+    "package-name": "classic-shell",
+    "latest-version": "4.3.1.20180405",
+    "4.3.1.20180405": {
+        "url": "https://srv-store4.gofile.io/download/GJ9Vzb/230d1965a035bc4c894941caa3d19a32/ClassicShellSetup_4_3_1.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/qn",
+            "NOSTART=1"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": [],
+        "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+}

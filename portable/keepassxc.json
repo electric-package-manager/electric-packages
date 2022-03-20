@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "keepassxc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepassxc",
+        "latest-version": "2.6.4",
+        "2.6.4": {
+            "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.6.4/KeePassXC-2.6.4-Win64-Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "KeePassXC.exe",
+                "keepassxc-cli.exe",
+                "keepassxc-proxy.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "KeePassXC",
+                    "file-name": "KeePassXC.exe"
+                }
+            ],
+            "persist": "config",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (Test-Path \"$persist_dir\\keepassxc.ini\") { Move-Item \"$persist_dir\\keepassxc.ini\" \"$dir\\config\" -Force }"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/keepassxreboot/keepassxc/releases/download/$version/KeePassXC-$version-Win64-Portable.zip",
+            "version-check": {
+                "webpage": "https://keepassxc.org"
+            }
+        }
+    }
+}

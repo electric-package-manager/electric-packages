@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "lwc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lwc",
+        "latest-version": "0.4.5",
+        "0.4.5": {
+            "url": "https://github.com/timdp/lwc/releases/download/v0.4.5/lwc-0.4.5-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "lwc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

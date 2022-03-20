@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "autohotkey",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "autohotkey",
+        "latest-version": "1.1.33.06",
+        "1.1.33.06": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.33.06/AutoHotkey_1.1.33.06_setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v$version/AutoHotkey_$version_setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.autohotkey.com/"
+            }
+        }
+    }
+}

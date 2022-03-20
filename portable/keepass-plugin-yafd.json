@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-yafd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-yafd",
+        "latest-version": "1.2.4.0",
+        "1.2.4.0": {
+            "url": "https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader/releases/download/v1.2.4.0/YetAnotherFaviconDownloader.plgx",
+            "file-type": ".plgx",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

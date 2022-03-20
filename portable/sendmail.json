@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "sendmail",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sendmail",
+        "latest-version": "32",
+        "32": {
+            "url": "https://www.glob.com.au/sendmail/sendmail.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sendmail.exe"
+            ],
+            "shortcuts": [],
+            "persist": "sendmail.ini"
+        }
+    }
+}

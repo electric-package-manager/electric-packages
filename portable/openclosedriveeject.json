@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "openclosedriveeject",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openclosedriveeject",
+        "latest-version": "2.22",
+        "2.22": {
+            "url": "https://www.softwareok.com/Download/OpenCloseDriveEject_x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\OpenCloseDriveEject.ini\")) { New-Item \"$dir\\OpenCloseDriveEject.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "OpenCloseDriveEject.ini"
+        },
+        "auto-update": {
+            "url": "https://www.softwareok.com/Download/OpenCloseDriveEject_x64.zip",
+            "version-check": {
+                "webpage": "https://www.softwareok.com/?seite=Microsoft/OpenCloseDriveEject/History",
+                "regex": "version ([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "display-name": "JetBrains dotPeek 2021.1.1",
+    "package-name": "dotpeek",
+    "latest-version": "2021.3.3",
+    "auto-update": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.<version>/JetBrains.dotPeek.<version>.web.exe",
+        "version-check": {
+            "webpage": "https://data.services.jetbrains.com/products/releases?code=DPK&latest=true&type=release",
+            "regex": "https://download.jetbrains.com/resharper/dotUltimate.[\\d.]+/dotPeek32.([\\d.]+).exe"
+        }
+    },
+    "2021.1.1": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.1/JetBrains.dotPeek.2021.1.1.web.exe",
+        "file-type": ".exe",
+        "checksum": "28DA188DB0628537F20F3BBD37E56AFFC238C15A8B2C478DABD43ABD58FA4DDB",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek <version>",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek <version>",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "2021.1.2": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.2/JetBrains.dotPeek.2021.1.2.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "AFCD5502404CF2CA65DD801A65D4CDEE0A3824ADEE7E0707D6A84C7112288296"
+    },
+    "2021.1.3": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.3/JetBrains.dotPeek.2021.1.3.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "70D54A6AA694DBBC41744EC976EF832EB992A8730EAC8466D7D76EB91D2962A5"
+    },
+    "2021.1.5": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.1.5/JetBrains.dotPeek.2021.1.5.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "7AED6ED8966FACAF3DCE8C3A813F6ABEA05A7B8DE23D75064481A62109D74BCA"
+    },
+    "2021.2": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.2/JetBrains.dotPeek.2021.2.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "F5D0C3A1B2A06921711743DCEB0887656EEE5F32CFB668E65A2D9214186B8963"
+    },
+    "2021.3.3": {
+        "url": "https://download-cf.jetbrains.com/resharper/dotUltimate.2021.3.3/JetBrains.dotPeek.2021.3.3.web.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/Silent=True",
+            "/SpecificProductNames=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "uswitches": [
+            "/Silent=True",
+            "/SpecificProductNamesToRemove=dotPeek 2021.1.1",
+            "/VsVersion=*"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "E48D06758C8AB98C312852500439053CE80FABC0BF7CAE69987A5A9DDF00615E"
+    }
+}

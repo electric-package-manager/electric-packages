@@ -1,0 +1,72 @@
+{
+    "display-name": "Flutter SDK",
+    "package-name": "flutter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Flutter SDK",
+        "package-name": "flutter",
+        "latest-version": "2.5.0",
+        "auto-update": {
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_<version>-stable.zip",
+            "version-check": {
+                "webpage": "https://github.com/flutter/flutter",
+                "type": "github"
+            }
+        },
+        "1.22.6": {
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.6-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ],
+            "checksum": "8A1BB036C8495C768B6D94855DCC4F603C7B1A76DCEB70A15B2C48E0C9853EF3"
+        },
+        "2.0.6": {
+            "checksum": "8A1BB036C8495C768B6D94855DCC4F603C7B1A76DCEB70A15B2C48E0C9853EF3",
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.0.6-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ]
+        },
+        "2.2.0": {
+            "checksum": "CF9B3863E8A71E9D82AF5FC10E2F8F60C56EBD38D1075383D358D52F538CE109",
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.2.0-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ]
+        },
+        "2.3.0": {
+            "checksum": "63E912C9BA0944E9B7A56A4FD7C0184657AFF7E955B5BF9E0E62232BE1B3EEC3",
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.3.0-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ]
+        },
+        "2.5.0": {
+            "checksum": "9BA94B2D9267D0922C8A841DF4E0DFE344089C9D3346F969DD988755970D1A17",
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.5.0-stable.zip",
+            "file-type": ".zip",
+            "extract-dir": "flutter",
+            "chdir": "flutter",
+            "bin": [
+                "bin\\dart.bat",
+                "bin\\flutter.bat"
+            ]
+        }
+    }
+}

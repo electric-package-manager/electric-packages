@@ -1,0 +1,17 @@
+{
+    "display-name": "",
+    "package-name": "freemind",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freemind",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://downloads.sourceforge.net/project/freemind/freemind/1.0.1/freemind-bin-max-1.0.1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

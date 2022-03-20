@@ -1,0 +1,29 @@
+{
+    "display-name": "Yandex",
+    "package-name": "yandex",
+    "latest-version": "21.3.1",
+    "21.3.1": {
+        "url": "https://cache-man01i.cdn.yandex.net/download.cdn.yandex.net/browser/int/21_3_1_81_21706/en/lite/Yandex.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "--silent",
+            "--system-level",
+            "--norestart"
+        ],
+        "uswitches": [
+            "--system-level",
+            "--force-uninstall"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "run-check": true,
+        "valid-install-exit-codes": [
+            1,
+            3
+        ],
+        "valid-uninstall-exit-codes": [
+            5
+        ],
+        "dependencies": [],
+        "checksum": "22A48B4C46CC63E5EB2A44068A4F0CE7B3AC88943DFFEB3472C7ECFCD4E09F98"
+    }
+}

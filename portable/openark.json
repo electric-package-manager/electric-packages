@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "openark",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openark",
+        "latest-version": "1.1.0",
+        "1.1.0": {
+            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v1.1.0/OpenArk64.exe#/OpenArk.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenArk",
+                    "file-name": "OpenArk.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/BlackINT3/OpenArk/releases/download/v$version/OpenArk64.exe#/OpenArk.exe",
+            "version-check": {
+                "webpage": "https://openark.blackint3.com"
+            }
+        }
+    }
+}

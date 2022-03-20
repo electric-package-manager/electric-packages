@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "meld",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "meld",
+        "latest-version": "3.20.3",
+        "3.20.3": {
+            "url": "https://download.gnome.org/binaries/win32/meld/3.20/Meld-3.20.3-mingw.msi",
+            "file-type": ".msi",
+            "bin": [
+                "Meld.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Meld",
+                    "file-name": "Meld.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "dark",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dark",
+        "latest-version": "3.11.2",
+        "3.11.2": {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/dark/dark-3.11.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dark.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/dark/dark-<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/ScoopInstaller/Binary/tree/master/dark",
+                "regex": "dark-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

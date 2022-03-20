@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "orca",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "orca",
+        "latest-version": "5.0.18362.1",
+        "5.0.18362.1": {
+            "url": [
+                "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/Orca-x86_en-us.msi",
+                "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/838060235bcd28bf40ef7532c50ee032.cab",
+                "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/a35cd6c9233b6ba3da66eecaa9190436.cab",
+                "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/fe38b2fd0d440e3c6740b626f51a22fc.cab"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "Orca.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\*.cab\" -Force"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Orca",
+                    "file-name": "Orca.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "digikam",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "digikam",
+        "latest-version": "7.2.0",
+        "7.2.0": {
+            "url": "https://download.kde.org/stable/digikam/7.2.0/digiKam-7.2.0-Win64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "digikam.exe",
+                "showfoto.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "digiKam",
+                    "file-name": "digikam.exe"
+                },
+                {
+                    "shortcut-name": "Showfoto",
+                    "file-name": "showfoto.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.kde.org/stable/digikam/$version/digiKam-$version-Win64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.digikam.org/download/",
+                "regex": "digiKam-([\\d.]+)-Win64"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "ffqueue",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ffqueue",
+        "latest-version": "1.7.56",
+        "1.7.56": {
+            "url": "https://www.videohelp.com/download/FFQueue_1_7_56.7z",
+            "file-type": ".7z",
+            "bin": [
+                "FFQueue.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FFQueue",
+                    "file-name": "FFQueue.exe"
+                },
+                {
+                    "shortcut-name": "FFQueue Documentation",
+                    "file-name": "FFQueue.htm"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.videohelp.com/download/FFQueue_$underscoreVersion.7z",
+            "version-check": {
+                "webpage": "https://www.videohelp.com/software/FFQueue",
+                "regex": "FFQueue ([\\d.]+)"
+            }
+        }
+    }
+}

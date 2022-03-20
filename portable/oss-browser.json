@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "oss-browser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "oss-browser",
+        "latest-version": "1.9.5",
+        "1.9.5": {
+            "url": "https://oss-attachment.cn-hangzhou.oss.aliyun-inc.com/oss-browser/1.9.5/oss-browser-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "oss-browser.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OSS Browser",
+                    "file-name": "oss-browser.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://oss-attachment.cn-hangzhou.oss.aliyun-inc.com/oss-browser/$version/oss-browser-win32-x64.zip",
+            "version-check": {
+                "webpage": "https://raw.githubusercontent.com/aliyun/oss-browser/master/all-releases.md",
+                "regex": "/([\\d.]+)/oss-browser-win32-x64\\.zip"
+            }
+        }
+    }
+}

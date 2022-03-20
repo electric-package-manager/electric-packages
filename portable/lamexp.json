@@ -1,0 +1,50 @@
+{
+    "display-name": "",
+    "package-name": "lamexp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lamexp",
+        "latest-version": "4.18.2240",
+        "4.18.2240": {
+            "url": "https://downloads.sourceforge.net/project/lamexp/LameXP.2019-12-18.Release-Static.Build-2240.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Rename-Item \"$dir\\LameXP.exe\" \"$dir\\LameXP-Portable.exe\"",
+                        "$ini = \"LameXP-Portable.ini\"",
+                        "if (!(Test-Path \"$persist_dir\\$ini\")) {",
+                        "   New-Item \"$dir\\$ini\" | Out-Null",
+                        "} else {",
+                        "   $version -match '(\\d+).(\\d+).(\\d+)' | Out-Null",
+                        "   $cleanVersion = $Matches[1] + $Matches[2] + '0' + $Matches[3]",
+                        "   (Get-Content \"$persist_dir\\$ini\") -replace 'LameXP_\\d+', \"LameXP_$cleanVersion\" | Set-Content \"$persist_dir\\$ini\"",
+                        "},",
+                        "$aac = versiondir 'nero-aac' 'current'",
+                        "if (Test-Path \"$aac\") {",
+                        "   info 'Adding Nero AAC Codec Support'",
+                        "   Copy-Item \"$aac\\win32\\*.exe\" \"$dir\"",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LameXP",
+                    "file-name": "LameXP-Portable.exe"
+                }
+            ],
+            "persist": "LameXP-Portable.ini"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/lamexp/LameXP.$matchRelease.Release-Static.Build-$patchVersion.zip",
+            "version-check": {
+                "webpage": "https://muldersoft.com",
+                "regex": "\\[(?<release>[\\d-]+)\\]&nbsp;LameXP v([\\d.]+) Final \\(Build #(\\d+)\\)"
+            }
+        }
+    }
+}

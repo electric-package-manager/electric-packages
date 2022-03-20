@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "etcher-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "etcher-cli",
+        "latest-version": "1.4.9",
+        "1.4.9": {
+            "url": "https://github.com/balena-io/etcher/releases/download/v1.4.9/balena-etcher-cli-1.4.9-windows-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "balena-etcher.exe",
+                    "etcher"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

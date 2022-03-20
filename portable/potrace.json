@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "potrace",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "potrace",
+        "latest-version": "1.16",
+        "1.16": {
+            "url": "http://potrace.sourceforge.net/download/1.16/potrace-1.16.win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "potrace.exe",
+                "mkbitmap.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

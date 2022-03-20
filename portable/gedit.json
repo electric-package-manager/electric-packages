@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "gedit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gedit",
+        "latest-version": "3.20.1",
+        "3.20.1": {
+            "url": "https://download.gnome.org/binaries/win64/gedit/gedit-x86_64-3.20.1.msi",
+            "file-type": ".msi",
+            "bin": [
+                "bin\\gedit.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "gedit",
+                    "file-name": "bin\\gedit.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.gnome.org/binaries/win64/gedit/gedit-x86_64-3.20.1.msi",
+            "version-check": {
+                "webpage": "https://download.gnome.org/binaries/win64/gedit/",
+                "regex": "gedit-x86_64-([\\d.]+)\\.msi"
+            }
+        }
+    }
+}

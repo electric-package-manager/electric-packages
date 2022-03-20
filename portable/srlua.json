@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "srlua",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "srlua",
+        "latest-version": "5.4.3",
+        "5.4.3": {
+            "url": [
+                "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-5.4.3_Win64_bin.zip",
+                "https://joedf.ahkscript.org/LuaBuilds/hdata/libgcc_s_dw2-1.dll.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "srlua.exe",
+                "srglue.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://joedf.ahkscript.org/LuaBuilds/hdata/srlua-$version_Win64_bin.zip",
+            "version-check": {
+                "webpage": "https://joedf.ahkscript.org/LuaBuilds/",
+                "regex": "Lua ([\\d.]+(-[\\w]+)?)"
+            }
+        }
+    }
+}

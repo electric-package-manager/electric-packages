@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "servicebusexplorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "servicebusexplorer",
+        "latest-version": "5.0.2",
+        "5.0.2": {
+            "url": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/5.0.2/servicebusexplorer.5.0.2.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "tools\\servicebusexplorer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Service Bus Explorer",
+                    "file-name": "tools\\servicebusexplorer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

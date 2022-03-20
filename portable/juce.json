@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "juce",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "juce",
+        "latest-version": "6.0.8",
+        "6.0.8": {
+            "url": "https://github.com/juce-framework/JUCE/releases/download/6.0.8/juce-6.0.8-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Projucer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Projucer",
+                    "file-name": "Projucer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/juce-framework/JUCE/releases/download/$version/juce-$version-windows.zip",
+            "version-check": {
+                "webpage": "https://juce.com"
+            }
+        }
+    }
+}

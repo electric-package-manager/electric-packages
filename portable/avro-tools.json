@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "avro-tools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "avro-tools",
+        "latest-version": "1.10.2",
+        "1.10.2": {
+            "url": "https://apache.org/dist/avro/avro-1.10.2/java/avro-tools-1.10.2.jar#/avro-tools.jar",
+            "file-type": ".jar",
+            "bin": [
+                "avro-tools.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://apache.org/dist/avro/avro-<version>/java/avro-tools-<version>.jar#/avro-tools.jar",
+            "version-check": {
+                "webpage": "https://avro.apache.org/releases.html",
+                "regex": "Avro ([\\d.]+) Released"
+            }
+        }
+    }
+}

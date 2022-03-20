@@ -1,0 +1,86 @@
+{
+    "display-name": "",
+    "package-name": "bizhawk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bizhawk",
+        "latest-version": "2.6.1",
+        "2.6.1": {
+            "url": "https://github.com/TASVideos/BizHawk/releases/download/2.6.1/BizHawk-2.6.1-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "EmuHawk.exe",
+                [
+                    "EmuHawk.exe",
+                    "BizHawk"
+                ],
+                "DiscoHawk.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\config.ini\")) { New-Item \"$dir\\config.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BizHawk",
+                    "file-name": "EmuHawk.exe"
+                },
+                {
+                    "shortcut-name": "DiscoHawk",
+                    "file-name": "DiscoHawk.exe"
+                }
+            ],
+            "persist": [
+                "config.ini",
+                "ExternalTools",
+                "Firmware",
+                "Lua",
+                "Movies",
+                "shaders",
+                "Tools",
+                "AmstradCPC",
+                "Apple II",
+                "Atari 2600",
+                "Atari 7800",
+                "C64",
+                "Coleco",
+                "Dual Gameboy",
+                "Game Gear",
+                "Gameboy",
+                "GB3x",
+                "GB4x",
+                "GBA",
+                "Genesis",
+                "Intellivision",
+                "Libretro",
+                "Lynx",
+                "MSX",
+                "N64",
+                "NES",
+                "NGP",
+                "O2",
+                "PC Engine",
+                "PCFX",
+                "PSX",
+                "Saturn",
+                "SG-1000",
+                "SMS",
+                "SNES",
+                "TI83",
+                "VB",
+                "VEC",
+                "WonderSwan",
+                "ZXSpectrum"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/TASVideos/BizHawk/releases/download/$version/BizHawk-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "http://tasvideos.org/BizHawk.html"
+            }
+        }
+    }
+}

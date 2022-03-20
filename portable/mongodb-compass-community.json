@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mongodb-compass-community",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mongodb-compass-community",
+        "latest-version": "1.21.2",
+        "1.21.2": {
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-community-1.21.2-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MongoDBCompassCommunity.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MongoDBCompass Community Edition",
+                    "file-name": "MongoDBCompassCommunity.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.mongodb.com/compass/mongodb-compass-community-$version-win32-x64.zip",
+            "version-check": {
+                "webpage": "https://www.mongodb.com/try/download/compass",
+                "regex": "([\\d.]+)\\s+\\(Stable\\)"
+            }
+        }
+    }
+}

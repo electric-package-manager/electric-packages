@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "bencode-editor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bencode-editor",
+        "latest-version": "0.7.1.0",
+        "0.7.1.0": {
+            "url": "https://sites.google.com/site/ultimasites/files/bencode-editor.0710x.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "BEncode Editor.exe",
+                    "bencode-editor"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BEncode Editor",
+                    "file-name": "BEncode Editor.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

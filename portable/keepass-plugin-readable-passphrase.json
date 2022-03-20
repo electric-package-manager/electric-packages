@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-readable-passphrase",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-readable-passphrase",
+        "latest-version": "1.2.1",
+        "1.2.1": {
+            "url": "https://github.com/ligos/readablepassphrasegenerator/releases/download/release-1.2.1/ReadablePassphrase.1.2.1.plgx#/ReadablePassphrase.plgx",
+            "file-type": ".plgx",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ligos/readablepassphrasegenerator/releases/download/release-<version>/ReadablePassphrase.<version>.plgx#/ReadablePassphrase.plgx",
+            "version-check": {
+                "webpage": "https://github.com/ligos/readablepassphrasegenerator",
+                "regex": "tag/release-([\\d.]+)"
+            }
+        }
+    }
+}

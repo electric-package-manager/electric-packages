@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "armor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "armor",
+        "latest-version": "0.4.14",
+        "0.4.14": {
+            "url": "https://github.com/labstack/armor/releases/download/v0.4.14/armor_0.4.14_windows_64-bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "armor.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

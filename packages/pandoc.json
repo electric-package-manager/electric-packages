@@ -1,0 +1,18 @@
+{
+    "display-name": "Pandoc",
+    "package-name": "pandoc",
+    "latest-version": "2.11.4",
+    "2.11.4": {
+        "url": "https://github.com/jgm/pandoc/releases/download/2.11.4/pandoc-2.11.4-windows-x86_64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "344C1F1043E735E25EA54A1E9598B0A20FBB12C51CD71A7AFDE6F0E16D26907E"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "harmony",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "harmony",
+        "latest-version": "0.9.1",
+        "0.9.1": {
+            "url": "https://github.com/vincelwt/harmony/releases/download/v0.9.1/harmony-0.9.1-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Harmony",
+                    "file-name": "Harmony.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/vincelwt/harmony/releases/download/v$version/harmony-$version-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://getharmony.xyz/"
+            }
+        }
+    }
+}

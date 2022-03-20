@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "imageglass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "imageglass",
+        "latest-version": "8.0.12.8",
+        "8.0.12.8": {
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/8.0.12.8/ImageGlass_8.0.12.8_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ImageGlass.exe",
+                "igcmd.exe",
+                "igcmdWin10.exe",
+                "igtasks.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\igconfig.xml\")) {",
+                        "    Add-Content \"$dir\\igconfig.xml\" '<ImageGlass><Configuration><Info/><Content><Item key=\"AutoUpdate\" value=\"0\" /></Content></Configuration></ImageGlass>' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ImageGlass",
+                    "file-name": "ImageGlass.exe"
+                }
+            ],
+            "persist": [
+                "Themes",
+                "igconfig.xml"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/d2phap/ImageGlass/releases/download/$version/ImageGlass_$version_x64.zip",
+            "version-check": {
+                "webpage": "https://imageglass.org"
+            }
+        }
+    }
+}

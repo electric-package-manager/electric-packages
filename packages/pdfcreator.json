@@ -1,0 +1,27 @@
+{
+    "display-name": "PDF Creator",
+    "package-name": "pdfcreator",
+    "latest-version": "4.2.0",
+    "4.2.0": {
+        "url": "http://download.pdfforge.org/download/pdfcreator/PDFCreator-stable?download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS",
+            "/LANG=english",
+            "/COMPONENTS=\"program,ghostscript,comsamples\""
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "27EA7A6A894E019CFBB24B6AACB2F323F09E9DF1186F9657B1EFCF3BEDF95891"
+    }
+}

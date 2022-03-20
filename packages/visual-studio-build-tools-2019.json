@@ -1,0 +1,20 @@
+{
+    "display-name": "Visual Studio Build Tools 2019*",
+    "package-name": "visual-studio-build-tools-2019",
+    "latest-version": "16.9.4.0",
+    "16.9.4.0": {
+        "url": "https://aka.ms/vs/16/release/vs_BuildTools.exe",
+        "file-type": ".exe",
+        "checksum": "67584DBCE4956291C76A5DEABBADC15C9AD6A50D6A5F4458765B6BD3A924AEAD",
+        "iswitches": [
+            "--passive", 
+            "--add Microsoft.VisualStudio.Product.BuildTools"
+        ],
+        "uswitches": [
+            "--passive", 
+            "--norestart"
+        ],
+        "clswitch": "--install-path ",
+        "dependencies": []
+    }
+}

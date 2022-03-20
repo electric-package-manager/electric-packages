@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "smartgit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "smartgit",
+        "latest-version": "20.2.4",
+        "20.2.4": {
+            "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-20_2_4.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": ".settings"
+        },
+        "auto-update": {
+            "url": "https://www.syntevo.com/downloads/smartgit/smartgit-portable-$underscoreVersion.7z",
+            "version-check": {
+                "webpage": "https://www.syntevo.com/smartgit/download/",
+                "regex": "smartgit-portable-(\\d+)_(\\d+)_(\\d+)\\.7z"
+            }
+        }
+    }
+}

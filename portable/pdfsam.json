@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pdfsam",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pdfsam",
+        "latest-version": "4.2.3",
+        "4.2.3": {
+            "url": "https://github.com/torakiki/pdfsam/releases/download/v4.2.3/pdfsam-4.2.3-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pdfsam.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PDFsam",
+                    "file-name": "pdfsam.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

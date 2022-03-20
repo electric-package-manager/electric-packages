@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "kiwi-for-gmail",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kiwi-for-gmail",
+        "latest-version": "2.0.514",
+        "2.0.514": {
+            "url": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/KiwiForGmail-2.0.514-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Kiwi for Gmail.exe",
+                [
+                    "Kiwi for Gmail.exe",
+                    "kiwi"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Kiwi for Gmail",
+                    "file-name": "Kiwi for Gmail.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/KiwiForGmail-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://s3-us-west-1.amazonaws.com/kiwiforgmail/windows/release/64bit/RELEASES",
+                "regex": "KiwiForGmail-([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

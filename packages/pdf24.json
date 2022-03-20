@@ -1,0 +1,22 @@
+{
+    "display-name": "PDF24",
+    "package-name": "pdf24",
+    "latest-version": "10.0.11",
+    "10.0.11": {
+        "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.11.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "00A0B6DD799039F7E90A08C24427A8EC42C1A07BFB1632F72E5B3017B5097637"
+    }
+}

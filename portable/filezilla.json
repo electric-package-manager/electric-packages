@@ -1,0 +1,63 @@
+{
+    "display-name": "",
+    "package-name": "filezilla",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "filezilla",
+        "latest-version": "3.53.1",
+        "3.53.1": {
+            "url": "https://download.filezilla-project.org/client/FileZilla_3.53.1_win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "filezilla.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@'",
+                        "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>",
+                        "<FileZilla3>",
+                        "  <Settings>",
+                        "    <Setting name=\"Config Location\">config</Setting>",
+                        "    <Setting name=\"Disable update check\">1</Setting>",
+                        "  </Settings>",
+                        "</FileZilla3>",
+                        "'@ | Out-File \"$dir\\fzdefaults.xml\" -Encoding Ascii",
+                        "",
+                        "$oldfzdefault = \"$persist_dir\\fzdefaults.xml\"",
+                        "if (Test-Path \"$oldfzdefault\") {",
+                        "    Write-Host 'Adopting new persist configuration...' -f Yellow",
+                        "    $oldConfigDir = \"$((Get-Item \"$persist_dir\").PSDrive.Root)filezilla\"",
+                        "    $newConfigDir = \"$persist_dir\\config\"",
+                        "    if (Test-Path \"$oldConfigDir\") {",
+                        "        Write-Host \"Moving existing configuration from '$oldConfigDir' to '$newConfigDir'\" -f Yellow",
+                        "        if (Test-Path \"$newConfigDir\") {",
+                        "            Move-Item \"$oldConfigDir\\*\" \"$newConfigDir\"",
+                        "        } else { ",
+                        "            Move-Item \"$oldConfigDir\" \"$newConfigDir\"",
+                        "        }",
+                        "    }",
+                        "    Rename-Item \"$oldfzdefault\" \"fzdefaults.xml.bak\"",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FileZilla",
+                    "file-name": "filezilla.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://download.filezilla-project.org/client/FileZilla_$version_win64.zip",
+            "version-check": {
+                "webpage": "https://filezilla-project.org/download.php?show_all=1",
+                "regex": "The latest stable version of FileZilla Client is ([\\d.]+)"
+            }
+        }
+    }
+}

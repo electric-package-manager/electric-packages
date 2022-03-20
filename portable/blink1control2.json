@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "blink1control2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "blink1control2",
+        "latest-version": "2.2.4",
+        "2.2.4": {
+            "url": "https://github.com/todbot/Blink1Control2/releases/download/v2.2.4/Blink1Control2-2.2.4-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Blink1Control2.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Blink1Control2",
+                    "file-name": "Blink1Control2.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://blink1.thingm.com/"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "scoop-validator",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scoop-validator",
+        "latest-version": "1.0.2",
+        "1.0.2": {
+            "url": "https://github.com/ScoopInstaller/Validator/releases/download/v1.0.2/validator.zip",
+            "file-type": ".zip",
+            "bin": [
+                "validator.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

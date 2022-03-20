@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "atom",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "atom",
+        "latest-version": "1.56.0",
+        "1.56.0": {
+            "url": "https://github.com/atom/atom/releases/download/v1.56.0/atom-x64-1.56.0-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "resources\\cli\\atom.cmd",
+                "resources\\app\\apm\\bin\\apm.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Atom",
+                    "file-name": "atom.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/atom/atom/releases/download/v$version/atom-x64-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://atom.io/"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ahoy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ahoy",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/ahoy-cli/ahoy/releases/download/2.0.0/ahoy-bin-windows-amd64.exe#/ahoy.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ahoy.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ahoy-cli/ahoy/releases/download/<version>/ahoy-bin-windows-amd64.exe#/ahoy.exe",
+            "version-check": {
+                "webpage": "http://ahoycli.com"
+            }
+        }
+    }
+}

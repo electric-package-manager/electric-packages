@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "r128gain",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "r128gain",
+        "latest-version": "1.0.3",
+        "1.0.3": {
+            "url": "https://github.com/desbma/r128gain/releases/download/1.0.3/r128gain_win64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "r128gain.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "display-name": "",
+    "package-name": "gitextensions",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitextensions",
+        "latest-version": "3.4.3.9999",
+        "3.4.3.9999": {
+            "url": "https://github.com/gitextensions/gitextensions/releases/download/v3.4.3/GitExtensions-Portable-3.4.3.9999-d4b0f48bb.zip",
+            "file-type": ".zip",
+            "bin": [
+                "GitExtensions.exe",
+                [
+                    "GitExtensions.exe",
+                    "gite"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if(!(Test-Path \"$persist_dir\\GitExtensions.settings\")) {",
+                        "    New-Item \"$dir\\GitExtensions.settings\" | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Git Extensions",
+                    "file-name": "GitExtensions.exe"
+                }
+            ],
+            "persist": "GitExtensions.settings"
+        },
+        "auto-update": {
+            "url": "https://github.com/gitextensions/gitextensions/releases/download/v$matchHead/GitExtensions-Portable-<version>-$matchCommit.zip",
+            "version-check": {
+                "webpage": "https://gitextensions.github.io/",
+                "regex": "/GitExtensions-Portable-([\\d.]+)-(?<commit>[\\w]+)\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "display-name": "",
+    "package-name": "rtss",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rtss",
+        "latest-version": "7.3.1",
+        "7.3.1": {
+            "url": "https://download-eu2.guru3d.com/rtss/%5BGuru3D.com%5D-RTSSSetup731Build24485.zip#/sourceforge.net.zip",
+            "file-type": ".zip",
+            "bin": [
+                "RTSS.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RivaTuner Statistics Server",
+                    "file-name": "RTSS.exe"
+                }
+            ],
+            "persist": [
+                "Plugins\\Client\\Overlays",
+                "Profiles"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Expand-7zipArchive \"$dir\\RTSSSetup*.exe\" -Removal",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\Guru3D.com\", \"$dir\\Uninstall*\" -Recurse",
+                        "Move-Item \"$dir\\RTSSHooks.dll.copy\" \"$dir\\RTSSHooks.dll\"",
+                        "Move-Item \"$dir\\RTSSHooks64.dll.copy\" \"$dir\\RTSSHooks64.dll\""
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$rtssProfiles = \"$persist_dir\\..\\msiafterburner\\RTSS_Profiles\"",
+                        "if (Test-Path \"$rtssProfiles\") {",
+                        "    warn 'Migrating RTSS profiles...'",
+                        "    Move-Item -Path \"$rtssProfiles\\*\" -Destination \"$persist_dir\\Profiles\"",
+                        "    Remove-Item \"$rtssProfiles\" -Recurse",
+                        "}"
+                    ]
+                }
+            ]
+        }
+    }
+}

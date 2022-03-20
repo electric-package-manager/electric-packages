@@ -1,0 +1,124 @@
+{
+    "display-name": "Discord Canary",
+    "package-name": "discord-canary",
+    "latest-version": "0.0.316",
+    "auto-update": {
+        "url": "https://dl-canary.discordapp.net/apps/win/<version>/DiscordCanarySetup.exe",
+        "version-check": {
+            "webpage": "https://discordapp.com/api/updates/canary/RELEASES",
+            "regex": "DiscordCanary-([\\d.]+)"
+        }
+    },
+    "0.0.259": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.259/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "475E7880E5103DFD38AB51EBE68ABE9C36233F940BBEA4507A5F7868A0EE1569"
+    },
+    "0.0.304": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.304/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "96C68B834A12BC63F20B1C373D5B51FCC73F28BB699A10289B45A930052CEC77"
+    },
+    "0.0.306": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.306/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "4F2C06DDF4B68538735D7CA47E254820508D55F313F0B6A59F45C7BD421A091A"
+    },
+    "0.0.308": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.308/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "F2300BE25E0CE15169415BDA9A4900F74E397D3697FFBD64966EA9785E1B5BAA"
+    },
+    "0.0.309": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.309/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "3CB2A0C64337D29346FF0BEA9EA751266637AACBC6669FDD7AC0BB7D5FB737B3"
+    },
+    "0.0.310": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.310/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "68F93AAF58BC895BEDF5391C855EF1575C980C1C9CF770D821527E22ED6722F5"
+    },
+    "0.0.311": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.311/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "C9E144AB4B9DDEE56BBE1CBC6C24F33FD3ED82791188BC2074D22C77E38990E0"
+    },
+    "0.0.316": {
+        "url": "https://dl-canary.discordapp.net/apps/win/0.0.316/DiscordCanarySetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s",
+            "--uninstall"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "C1F290CA6D95A5BC7B8DAD653B531016058E932E2FE7417A5476E79CE21789E6"
+    }
+}

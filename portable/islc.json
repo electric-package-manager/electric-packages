@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "islc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "islc",
+        "latest-version": "1.0.2.2",
+        "1.0.2.2": {
+            "url": "https://www.wagnardsoft.com/ISLC/ISLC%20v1.0.2.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Intelligent Standby List Cleaner (ISLC)",
+                    "file-name": "Intelligent standby list cleaner ISLC.exe"
+                }
+            ],
+            "persist": "Intelligent standby list cleaner ISLC.exe.Config"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

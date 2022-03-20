@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "neovide",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "neovide",
+        "latest-version": "0.5.0",
+        "0.5.0": {
+            "url": "https://github.com/Kethku/neovide/releases/download/0.5.0/neovide.exe",
+            "file-type": ".exe",
+            "bin": [
+                "neovide.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Neovide",
+                    "file-name": "neovide.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

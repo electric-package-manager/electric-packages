@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "gitea",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitea",
+        "latest-version": "1.14.0",
+        "1.14.0": {
+            "url": "https://dl.gitea.io/gitea/1.14.0/gitea-1.14.0-windows-4.0-amd64.exe.xz",
+            "file-type": ".xz",
+            "bin": [
+                "gitea.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "custom",
+                "repositories",
+                "log",
+                "data"
+            ]
+        },
+        "auto-update": {
+            "url": "https://dl.gitea.io/gitea/$version/gitea-$version-windows-4.0-amd64.exe.xz",
+            "version-check": {
+                "webpage": "https://blog.gitea.io/",
+                "regex": "Gitea.*?([\\d.]+)"
+            }
+        }
+    }
+}

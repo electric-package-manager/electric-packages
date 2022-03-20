@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "speedfan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "speedfan",
+        "latest-version": "4.52",
+        "4.52": {
+            "url": "http://www.almico.com/speedfan452.exe",
+            "file-type": ".exe",
+            "bin": [
+                "speedfan.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "foreach ($emptyFile in $manifest.persist) { New-Item \"$dir\\$emptyFile\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "speedfanevents.cfg",
+                "speedfanparams.cfg",
+                "speedfansens.cfg"
+            ]
+        },
+        "auto-update": {
+            "url": "http://www.almico.com/speedfan$cleanVersion.exe",
+            "version-check": {
+                "webpage": "http://www.almico.com/sfdownload.php",
+                "regex": "<a href=\"speedfan\\d+\\.exe\">SpeedFan ([\\d.]+)</a>"
+            }
+        }
+    }
+}

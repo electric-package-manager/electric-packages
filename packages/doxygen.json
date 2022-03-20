@@ -1,0 +1,52 @@
+{
+    "display-name": "Doxygen",
+    "package-name": "doxygen",
+    "latest-version": "1.9.3",
+    "auto-update": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-<version>/doxygen-<version>-setup.exe/download",
+        "version-check": {
+            "webpage": "https://sourceforge.net/projects/doxygen/files/",
+            "regex": "rel-([\\d.]+)"
+        }
+    },
+    "1.9.1": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.1/doxygen-1.9.1-setup.exe/download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "ACC0AE71D219E0D4EC41DC74A7DA42B88165A1D7D06FE04D97BE41E966A1E443"
+    },
+    "1.9.3": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.3/doxygen-1.9.3-setup.exe/download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "0A75835EC20E8951E18DF8A2D6355614CFAE5359E65B09B8D2ECCDF5ACCD77A1"
+    }
+}

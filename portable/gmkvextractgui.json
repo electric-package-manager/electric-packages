@@ -1,0 +1,41 @@
+{
+    "display-name": "",
+    "package-name": "gmkvextractgui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gmkvextractgui",
+        "latest-version": "2.5.2",
+        "2.5.2": {
+            "url": "https://downloads.sourceforge.net/project/gmkvextractgui/v2.5.2/gMKVExtractGUI.v2.5.2.7z",
+            "file-type": ".7z",
+            "bin": [
+                "gMKVExtractGUI.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+                        "    New-Item -Force -Path \"$dir\" -Name 'gMKVExtractGUI.ini' -Value \"MKVToolnix Path:$(versiondir 'mkvtoolnix' 'current' $global)\" | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "gMKVExtractGUI",
+                    "file-name": "gMKVExtractGUI.exe"
+                }
+            ],
+            "persist": "gMKVExtractGUI.ini"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/gmkvextractgui/v<version>/gMKVExtractGUI.v<version>.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/gmkvextractgui/files/",
+                "regex": "gmkvextractgui/files/v([\\d.]+)"
+            }
+        }
+    }
+}

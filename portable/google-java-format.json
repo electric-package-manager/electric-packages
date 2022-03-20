@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "google-java-format",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "google-java-format",
+        "latest-version": "1.10.0",
+        "1.10.0": {
+            "url": "https://github.com/google/google-java-format/releases/download/v1.10.0/google-java-format-1.10.0-all-deps.jar#/google-java-format.jar",
+            "file-type": ".jar",
+            "bin": [
+                "google-java-format.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/google/google-java-format/releases/download/v<version>/google-java-format-<version>-all-deps.jar#/google-java-format.jar",
+            "version-check": {
+                "webpage": "https://github.com/google/google-java-format"
+            }
+        }
+    }
+}

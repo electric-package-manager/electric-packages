@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "vector",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vector",
+        "latest-version": "0.12.2",
+        "0.12.2": {
+            "url": "https://github.com/timberio/vector/releases/download/v0.12.2/vector-0.12.2-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\vector.exe"
+            ],
+            "shortcuts": [],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://github.com/timberio/vector/releases/download/v$version/vector-$version-x86_64-pc-windows-msvc.zip",
+            "version-check": {
+                "webpage": "https://vector.dev"
+            }
+        }
+    }
+}

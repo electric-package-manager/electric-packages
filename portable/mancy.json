@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "mancy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mancy",
+        "latest-version": "3.2.0",
+        "3.2.0": {
+            "url": "https://github.com/princejwesley/Mancy/releases/download/v3.2.0/Mancy-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Mancy.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mancy",
+                    "file-name": "Mancy.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

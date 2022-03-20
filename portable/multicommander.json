@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "multicommander",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "multicommander",
+        "latest-version": "11.0.0.2770",
+        "11.0.0.2770": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_(11.0.0.2770).zip",
+            "file-type": ".zip",
+            "bin": [
+                "MultiCommander.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Multi Commander",
+                    "file-name": "MultiCommander.exe"
+                }
+            ],
+            "persist": [
+                "Config",
+                "SessionConfig",
+                "Extensions",
+                "UserData"
+            ]
+        },
+        "auto-update": {
+            "url": "http://multicommander.com/files/updates/MultiCommander_x64_Portable_($version).zip",
+            "version-check": {
+                "webpage": "http://multicommander.com/updates/version.xml"
+            }
+        }
+    }
+}

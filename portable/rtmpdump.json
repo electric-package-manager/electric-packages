@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rtmpdump",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rtmpdump",
+        "latest-version": "2.3",
+        "2.3": {
+            "url": "https://rtmpdump.mplayerhq.hu/download/rtmpdump-2.3-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rtmpdump.exe",
+                "rtmpgw.exe",
+                "rtmpsrv.exe",
+                "rtmpsuck.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

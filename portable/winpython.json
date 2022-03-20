@@ -1,0 +1,122 @@
+{
+    "display-name": "",
+    "package-name": "winpython",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "winpython",
+        "latest-version": "3.8.8.0",
+        "3.8.8.0": {
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.8/3.8.8.0/Winpython64-3.8.8.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "scripts\\idle.bat",
+                "scripts\\idlex.bat",
+                "scripts\\qtconsole.bat",
+                "scripts\\winjupyter_lab.bat",
+                [
+                    "scripts\\winjupyter_lab.bat",
+                    "jupyter_lab"
+                ],
+                "scripts\\ipython_notebook.bat",
+                "scripts\\winpyzo.bat",
+                [
+                    "scripts\\winpyzo.bat",
+                    "pyzo"
+                ],
+                "scripts\\qtdesigner.bat",
+                "scripts\\qtlinguist.bat",
+                "scripts\\spyder.bat",
+                "scripts\\spyder_reset.bat",
+                "scripts\\winvscode.bat",
+                [
+                    "scripts\\winvscode.bat",
+                    "vscode"
+                ],
+                "scripts\\python.bat",
+                [
+                    "scripts\\python.bat",
+                    "python3"
+                ],
+                "scripts\\wpcp.bat",
+                "scripts\\winidle.bat",
+                "scripts\\winidlex.bat",
+                "scripts\\winpython.bat",
+                [
+                    "scripts\\WinPython_PS_Prompt.ps1",
+                    "winpython_prompt"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "WinPython\\IDLE (Python GUI)",
+                    "file-name": "IDLE (Python GUI).exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\IDLEX",
+                    "file-name": "IDLEX.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\IPython Qt Console",
+                    "file-name": "IPython Qt Console.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Jupyter Lab",
+                    "file-name": "Jupyter Lab.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Jupyter Notebook",
+                    "file-name": "Jupyter Notebook.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Pyzo",
+                    "file-name": "Pyzo.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Qt Designer",
+                    "file-name": "Qt Designer.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Qt Linguist",
+                    "file-name": "Qt Linguist.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Spyder",
+                    "file-name": "Spyder.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\Spyder reset",
+                    "file-name": "Spyder reset.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\VS Code",
+                    "file-name": "VS Code.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\WinPython Command Prompt",
+                    "file-name": "WinPython Command Prompt.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\WinPython Control Panel",
+                    "file-name": "WinPython Control Panel.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\WinPython Interpreter",
+                    "file-name": "WinPython Interpreter.exe"
+                },
+                {
+                    "shortcut-name": "WinPython\\WinPython Powershell Prompt",
+                    "file-name": "WinPython Powershell Prompt.exe"
+                }
+            ],
+            "persist": "settings"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/Winpython64-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://winpython.github.io/md5_sha1.txt",
+                "regex": "(?i)WinPython64-(3\\.8[\\d.]+)\\.exe"
+            }
+        }
+    }
+}

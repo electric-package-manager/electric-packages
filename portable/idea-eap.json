@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "idea-eap",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "idea-eap",
+        "latest-version": "211.6693.14",
+        "211.6693.14": {
+            "url": "https://download.jetbrains.com/idea/ideaIC-211.6693.14.win.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.jetbrains.com/idea/ideaIC-<version>.win.zip",
+            "version-check": {
+                "webpage": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=eap"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "telnet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "telnet",
+        "latest-version": "msys-inetutils-1.7-1",
+        "msys-inetutils-1.7-1": {
+            "url": [
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/msys-core/msys-1.0.13-2/msysCORE-1.0.13-2-msys-1.0.13-bin.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/termcap/termcap-0.20050421_1-2/termcap-0.20050421_1-2-msys-1.0.13-bin.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/minires/minires-1.02_1-2/libminires-1.02_1-2-msys-1.0.13-dll.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/bison/bison-2.4.2-1/bison-2.4.2-1-msys-1.0.13-rtm.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/inetutils/inetutils-1.7-1/inetutils-1.7-1-msys-1.0.13-bin.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Extension/inetutils/inetutils-1.7-1/inetutils-1.7-1-msys.RELEASE_NOTES.txt"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "bin\\telnet.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

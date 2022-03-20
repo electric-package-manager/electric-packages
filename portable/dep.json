@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dep",
+        "latest-version": "0.5.4",
+        "0.5.4": {
+            "url": "https://github.com/golang/dep/releases/download/v0.5.4/dep-windows-amd64.exe#/dep.exe",
+            "file-type": ".exe",
+            "bin": [
+                "dep.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "R For Windows",
+    "package-name": "r-project",
+    "latest-version": "4.0.5",
+    "4.0.5": {
+        "url": "https://cloud.r-project.org/bin/windows/base/R-4.0.5-win.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "9242EE27BA3C8C23800892C781ED015C146C76D8266F398FF20B11CF114307E8"
+    }
+}

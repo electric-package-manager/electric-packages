@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "ghostscript",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ghostscript",
+        "latest-version": "9.54.0",
+        "9.54.0": {
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9540/gs9540w64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs$cleanVersion/gs$cleanVersionw64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.ghostscript.com",
+                "regex": "Ghostscript/GhostPDL ([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "ticker",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ticker",
+        "latest-version": "4.1.1",
+        "4.1.1": {
+            "url": "https://github.com/achannarasappa/ticker/releases/download/v4.1.1/ticker-4.1.1-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "ticker.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

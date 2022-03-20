@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "cuetools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cuetools",
+        "latest-version": "2.1.6",
+        "2.1.6": {
+            "url": "http://www.cuetools.net/install/CUETools_2.1.6.zip",
+            "file-type": ".zip",
+            "bin": [
+                "CUERipper.exe",
+                "CUETools.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CUERipper",
+                    "file-name": "CUERipper.exe"
+                },
+                {
+                    "shortcut-name": "CUETools",
+                    "file-name": "CUETools.exe"
+                }
+            ],
+            "persist": [
+                "CUE Tools\\settings.txt",
+                "CUERipper\\settings.txt"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\user_profiles_enabled\""
+                }
+            ]
+        }
+    }
+}

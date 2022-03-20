@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "makemkv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "makemkv",
+        "latest-version": "1.16.3",
+        "1.16.3": {
+            "url": "https://www.makemkv.com/download/Setup_MakeMKV_v1.16.3.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MakeMKV",
+                    "file-name": "makemkv.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.makemkv.com/download/Setup_MakeMKV_v<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.makemkv.com/download/",
+                "regex": "MakeMKV ([\\d.]+)\\s"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "QPDF",
+    "package-name": "qpdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "QPDF",
+        "package-name": "qpdf",
+        "latest-version": "10.2.0",
+        "10.2.0": {
+            "url": "https://github.com/qpdf/qpdf/releases/download/release-qpdf-10.2.0/qpdf-10.2.0-bin-mingw64.zip",
+            "file-type": ".zip",
+            "extract-dir": "qpdf",
+            "chdir": "qpdf-10.2.0",
+            "bin": [
+                "bin\\qpdf.exe",
+                "bin\\zlib-flate.exe",
+                "bin\\fix-qdf.exe"
+            ],
+            "checksum": "47B017D54E84DD6D72D46044E57F24A23705543CA00C85B284B6B832376CE1D8"
+        }
+    }
+}

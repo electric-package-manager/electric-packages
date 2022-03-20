@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "uncrustify",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "uncrustify",
+        "latest-version": "0.72.0",
+        "0.72.0": {
+            "url": "https://downloads.sourceforge.net/project/uncrustify/uncrustify-0.72-0/uncrustify-0.72.0_f-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "uncrustify.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/uncrustify/uncrustify-$version/uncrustify-$version_f-win64.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/uncrustify/rss?path=/",
+                "regex": "/uncrustify-([\\d.]+)_"
+            }
+        }
+    }
+}

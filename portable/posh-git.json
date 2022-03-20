@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "posh-git",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "posh-git",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/dahlbyk/posh-git/archive/v1.0.0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/dahlbyk/posh-git/archive/v<version>.zip",
+            "version-check": {
+                "webpage": "http://dahlbyk.github.io/posh-git/"
+            }
+        }
+    }
+}

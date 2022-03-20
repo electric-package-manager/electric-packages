@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "mosquitto",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mosquitto",
+        "latest-version": "2.0.10",
+        "2.0.10": {
+            "url": "https://mosquitto.org/files/binary/win64/mosquitto-2.0.10-install-windows-x64.exe#dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mosquitto.exe",
+                "mosquitto_passwd.exe",
+                "mosquitto_pub.exe",
+                "mosquitto_rr.exe",
+                "mosquitto_sub.exe"
+            ],
+            "shortcuts": [],
+            "persist": "mosquitto.conf",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://mosquitto.org/files/binary/win64/mosquitto-$version-install-windows-x64.exe#dl.7z",
+            "version-check": {
+                "webpage": "https://mosquitto.org/download/",
+                "regex": "mosquitto-([\\d.a-z]+)-install-windows"
+            }
+        }
+    }
+}

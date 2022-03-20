@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "jira",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jira",
+        "latest-version": "1.0.27",
+        "1.0.27": {
+            "url": "https://github.com/Netflix-Skunkworks/go-jira/releases/download/v1.0.27/jira-windows-amd64.exe#/jira.exe",
+            "file-type": ".exe",
+            "bin": [
+                "jira.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display-name": "Logitech Options",
+    "package-name": "logitech-options",
+    "auto-update": {
+        "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_<version>.exe",
+        "version-check": {
+            "webpage": "https://www.logitech.com/en-roeu/product/options",
+            "regex": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_([\\d.]+).exe"
+        }
+    },
+    "latest-version": "8.54.161",
+    "8.36.86": {
+        "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.36.86.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "746C52C46C9E57D2C20922A4D9C5E11A1847AC24916A59ABFBC528235A356946"
+    },
+    "8.54.161": {
+        "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.54.161.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "0F3177999C2FFD510E2FE15FB78759C3E3F46AA1414FE4DC1E26DD7014B4ACA0"
+    }
+}

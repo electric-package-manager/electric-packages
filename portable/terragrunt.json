@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "terragrunt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "terragrunt",
+        "latest-version": "0.28.21",
+        "0.28.21": {
+            "url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.28.21/terragrunt_windows_amd64.exe#/terragrunt.exe",
+            "file-type": ".exe",
+            "bin": [
+                "terragrunt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "ausweisapp2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ausweisapp2",
+        "latest-version": "1.22.2",
+        "1.22.2": {
+            "url": "https://github.com/Governikus/AusweisApp2/releases/download/1.22.2/AusweisApp2-1.22.2.msi",
+            "file-type": ".msi",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AusweisApp2",
+                    "file-name": "AusweisApp2.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Governikus/AusweisApp2/releases/download/<version>/AusweisApp2-<version>.msi",
+            "version-check": {
+                "webpage": "https://www.ausweisapp.bund.de/en/ausweisapp2-home/"
+            }
+        }
+    }
+}

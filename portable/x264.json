@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "x264",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "x264",
+        "latest-version": "3053",
+        "3053": {
+            "url": "https://artifacts.videolan.org/x264/release-win64/x264-r3053-c347e7a.exe#/x264.exe",
+            "file-type": ".exe",
+            "bin": [
+                "x264.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://artifacts.videolan.org/x264/release-win64/x264-r$version-$matchCommit.exe#/x264.exe",
+            "version-check": {
+                "webpage": "https://artifacts.videolan.org/x264/release-win64/",
+                "regex": "x264-r([\\d]+)-(?<commit>[a-fA-F\\d]{7})\\.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mpv-git",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpv-git",
+        "latest-version": "20210404",
+        "20210404": {
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20210404-git-dd86f19.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mpv.com"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mpv",
+                    "file-name": "mpv.exe"
+                }
+            ],
+            "persist": "portable_config"
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-$version-git-$matchCommit.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/mpv-player-windows/rss?path=/64bit",
+                "regex": "mpv-x86_64-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
+            }
+        }
+    }
+}

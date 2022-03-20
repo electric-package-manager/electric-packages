@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "grpc-tools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grpc-tools",
+        "latest-version": "0.2.6",
+        "0.2.6": {
+            "url": "https://github.com/bradleyjkemp/grpc-tools/releases/download/v0.2.6/grpc-tools_0.2.6_Windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "grpc-dump.exe",
+                "grpc-fixture.exe",
+                "grpc-replay.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

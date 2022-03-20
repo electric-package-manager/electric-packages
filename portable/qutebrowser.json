@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "qutebrowser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qutebrowser",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v2.2.0/qutebrowser-2.2.0-windows-standalone-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "qutebrowser.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "qutebrowser",
+                    "file-name": "qutebrowser.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v$version/qutebrowser-$version-windows-standalone-amd64.zip",
+            "version-check": {
+                "webpage": "https://www.qutebrowser.org"
+            }
+        }
+    }
+}

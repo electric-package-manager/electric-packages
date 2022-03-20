@@ -1,0 +1,53 @@
+{
+    "display-name": "",
+    "package-name": "sagemath-installer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sagemath-installer",
+        "latest-version": "0.6.2-9.2",
+        "0.6.2-9.2": {
+            "url": "https://github.com/sagemath/sage-windows/releases/download/0.6.2-9.2/SageMath-9.2-Installer-v0.6.2.exe",
+            "file-type": ".exe",
+            "bin": [
+                "sagemath.ps1",
+                [
+                    "sagemath.ps1",
+                    "sage"
+                ],
+                [
+                    "sagemath.ps1",
+                    "sagemath-shell",
+                    "-sh"
+                ],
+                [
+                    "sagemath.ps1",
+                    "sagemath-notebook",
+                    "--notebook"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SageMath",
+                    "file-name": "runtime\\bin\\mintty.exe"
+                },
+                {
+                    "shortcut-name": "SageMath Shell",
+                    "file-name": "runtime\\bin\\mintty.exe"
+                },
+                {
+                    "shortcut-name": "SageMath Notebook",
+                    "file-name": "runtime\\bin\\mintty.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sagemath/sage-windows/releases/download/$version/SageMath-$preReleaseVersion-Installer-v$matchHead.exe",
+            "version-check": {
+                "webpage": "https://www.sagemath.org",
+                "regex": "tag/([\\d-.]+)"
+            }
+        }
+    }
+}

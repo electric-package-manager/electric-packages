@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "insect",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "insect",
+        "latest-version": "5.4.0",
+        "5.4.0": {
+            "url": "https://github.com/sharkdp/insect/releases/download/v5.0.0/insect-windows-x64.exe#/insect.exe",
+            "file-type": ".exe",
+            "bin": [
+                "insect.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sharkdp/insect/releases/download/v$version/insect-windows-x64.exe#/insect.exe",
+            "version-check": {
+                "webpage": "https://insect.sh"
+            }
+        }
+    }
+}

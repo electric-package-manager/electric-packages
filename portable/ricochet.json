@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "ricochet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ricochet",
+        "latest-version": "1.1.4",
+        "1.1.4": {
+            "url": "https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe",
+            "file-type": ".exe",
+            "bin": [
+                "ricochet.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Ricochet",
+                    "file-name": "ricochet.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\tor.exe\" -Force"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/ricochet-im/ricochet/releases/download/v<version>/ricochet-<version>-win-install.exe",
+            "version-check": {
+                "webpage": "https://ricochet.im"
+            }
+        }
+    }
+}

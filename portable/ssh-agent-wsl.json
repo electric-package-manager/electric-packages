@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "ssh-agent-wsl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ssh-agent-wsl",
+        "latest-version": "2.5",
+        "2.5": {
+            "url": "https://github.com/rupor-github/ssh-agent-wsl/releases/download/v2.5/ssh-agent-wsl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "echo =============",
+                        "echo ''",
+                        "$agentpath=bash -c \"wslpath -a '$dir/ssh-agent-wsl'\"",
+                        "echo \"Add this to your ~/.bashrc inside WSL: eval `$($agentpath -r)\"",
+                        "echo ''",
+                        "echo ============="
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

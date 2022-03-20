@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "fossil",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fossil",
+        "latest-version": "2.13",
+        "2.13": {
+            "url": "https://www.fossil-scm.org/index.html/uv/fossil-w64-2.13.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fossil.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.fossil-scm.org/index.html/uv/fossil-w64-$version.zip",
+            "version-check": {
+                "webpage": "https://www.fossil-scm.org/index.html/uv/download.js",
+                "regex": "p=version-([0-9.]+)"
+            }
+        }
+    }
+}

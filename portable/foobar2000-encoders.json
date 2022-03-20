@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "foobar2000-encoders",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "foobar2000-encoders",
+        "latest-version": "2021-01-26",
+        "2021-01-26": {
+            "url": "https://www.videohelp.com/download/Free_Encoder_Pack-2021-01-26.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+                        "New-Item \"$(appdir foobar2000 $global)\\current\\encoders\" -ItemType Junction -Target \"$dir\" | Out-Null"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

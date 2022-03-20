@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "netch",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "netch",
+        "latest-version": "1.8.3",
+        "1.8.3": {
+            "url": "https://github.com/NetchX/Netch/releases/download/1.8.3/Netch.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Netch.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$dir\\data\" | Out-Null",
+                        "if (!(Test-Path \"$persist_dir\\data\\settings.json\")) { Set-Content \"$dir\\data\\settings.json\" '{ \"CheckUpdateWhenOpened\": false, \"Server\": [] }' -Encoding Ascii -Force }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Netch",
+                    "file-name": "Netch.exe"
+                }
+            ],
+            "persist": [
+                "data",
+                "logging",
+                "mode"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

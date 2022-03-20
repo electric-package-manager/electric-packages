@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "flashboot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flashboot",
+        "latest-version": "3.3g",
+        "3.3g": {
+            "url": "https://www.prime-expert.com/flashboot/downloads/flashboot-latest-portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fb-cli.exe",
+                [
+                    "fb-cli.exe",
+                    "flashboot"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FlashBoot",
+                    "file-name": "fb-gui.exe"
+                }
+            ],
+            "persist": "FlashBoot.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

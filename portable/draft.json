@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "draft",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "draft",
+        "latest-version": "0.16.0",
+        "0.16.0": {
+            "url": "https://azuredraft.blob.core.windows.net/draft/draft-v0.16.0-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "draft.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

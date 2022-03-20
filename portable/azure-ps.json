@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "azure-ps",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "azure-ps",
+        "latest-version": "5.8.0.34217",
+        "5.8.0.34217": {
+            "url": "https://github.com/Azure/azure-powershell/releases/download/v5.8.0-April2021/Az-Cmdlets-5.8.0.34217-x64.msi",
+            "file-type": ".msi",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Az-Cmdlets-$version-x64.msi",
+            "version-check": {
+                "webpage": "https://github.com/Azure/azure-powershell/releases",
+                "regex": "download/v(?<release>[^/]+)/Az-Cmdlets-([0-9.]+)-x64[.]msi"
+            }
+        }
+    }
+}

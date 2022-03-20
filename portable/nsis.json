@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "now-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "now-cli",
+        "latest-version": "15.8.7",
+        "15.8.7": {
+            "url": "https://github.com/zeit/now-cli/releases/download/15.8.7/now-win.exe.gz",
+            "file-type": ".gz",
+            "bin": [
+                [
+                    "now-win.exe",
+                    "now"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/<version>/nsis-<version>.zip",
+            "version-check": {
+                "webpage": "http://nsis.sourceforge.net/Download",
+                "regex": "\\/rn\\/v([\\d.]+)\""
+            }
+        }
+    }
+}

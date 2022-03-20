@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "cloc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cloc",
+        "latest-version": "1.88",
+        "1.88": {
+            "url": "https://github.com/AlDanial/cloc/releases/download/1.88/cloc-1.88.exe#/cloc.exe",
+            "file-type": ".exe",
+            "bin": [
+                "cloc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/AlDanial/cloc/releases/download/<version>/cloc-<version>.exe#/cloc.exe",
+            "version-check": {
+                "webpage": "https://github.com/AlDanial/cloc/releases",
+                "regex": "/releases/tag/([\\d.]+)"
+            }
+        }
+    }
+}

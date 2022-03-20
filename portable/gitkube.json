@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "gitkube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitkube",
+        "latest-version": "0.3.0",
+        "0.3.0": {
+            "url": "https://github.com/hasura/gitkube/releases/download/v0.3.0/gitkube_windows_amd64.exe#/gitkube.exe",
+            "file-type": ".exe",
+            "bin": [
+                "gitkube.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

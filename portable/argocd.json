@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "argocd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "argocd",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/argoproj/argo-cd/releases/download/v2.0.0/argocd-windows-amd64.exe#/argocd.exe",
+            "file-type": ".exe",
+            "bin": [
+                "argocd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

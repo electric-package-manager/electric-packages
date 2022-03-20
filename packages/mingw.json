@@ -1,0 +1,18 @@
+{
+    "display-name": "MinGW",
+    "package-name": "mingw",
+    "is-portable": true,
+    "portable": {
+        "display-name": "MinGW",
+        "package-name": "mingw",
+        "latest-version": "10.2.0",
+        "10.2.0": {
+            "url": "https://excellmedia.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/ray_linn/GCC-10.X-with-ada/GCC-10.2.0-crt-8.0.0-with-ada-20201019.7z",
+            "file-type": ".7z",
+            "chdir": "mingw64",
+            "extract-dir": "mingw",
+            "bin": [],
+            "checksum": "5C3FC254494BC24EB201870F4B781D401CF7279BD03EA1ABA6F2FFAE771DED44"
+        }
+    }
+}

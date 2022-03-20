@@ -1,0 +1,31 @@
+{
+    "display-name": "PSExec",
+    "package-name": "psexec",
+    "is-portable": true,
+    "portable": {
+        "display-name": "PSExec",
+        "package-name": "psexec",
+        "latest-version": "2.20.20180914",
+        "2.20.20180914": {
+            "url": "https://download.sysinternals.com/files/PSTools.zip",
+            "file-type": ".zip",
+            "extract-dir": "psexec",
+            "bin": [
+                "PsExec.exe",
+                "psfile.exe",
+                "PsGetsid.exe",
+                "PsInfo.exe",
+                "pskill.exe",
+                "pslist.exe",
+                "PsLoggedon.exe",
+                "psloglist.exe",
+                "pspasswd.exe",
+                "psping.exe",
+                "PsService.exe",
+                "psshutdown.exe",
+                "pssuspend.exe"
+            ],
+            "checksum": "0D6BA2F1F2BF290B71BDE12F095A6C9697AAC7794BC2523F86B383B82F73A430"
+        }
+    }
+}

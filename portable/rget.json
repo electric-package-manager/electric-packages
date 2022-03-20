@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rget",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rget",
+        "latest-version": "0.0.7",
+        "0.0.7": {
+            "url": "https://github.com/merklecounty/rget/releases/download/v0.0.7/rget-v0.0.7-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "rget.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

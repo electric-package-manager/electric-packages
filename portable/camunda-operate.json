@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "camunda-operate",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "camunda-operate",
+        "latest-version": "0.26.0",
+        "0.26.0": {
+            "url": "https://github.com/zeebe-io/zeebe/releases/download/0.26.0/camunda-operate-0.26.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "bin\\operate.bat",
+                    "camunda-operate"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://github.com/zeebe-io/zeebe/releases/download/$matchRelease/camunda-operate-$version.zip",
+            "version-check": {
+                "webpage": "https://docs.zeebe.io/operate-user-guide/",
+                "regex": "download/(?<release>[\\d.]+)/camunda-operate-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

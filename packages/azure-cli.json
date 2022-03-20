@@ -1,0 +1,250 @@
+{
+    "display-name": "Microsoft CLI 2.0 for Azure",
+    "package-name": "azure-cli",
+    "latest-version": "2.34.1",
+    "auto-update": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
+        "version-check": {
+            "webpage": "https://github.com/Azure/azure-cli",
+            "regex": "/releases/tag/azure-cli-([\\d.]+)"
+        }
+    },
+    "2.19.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.19.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "01928A7CE325B49FF5B1D294404801AC6A4203CFB328A26F3A62B3A001CF1584"
+    },
+    "2.22.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.22.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "FD2A464F79EF8C9B9B860D622DC1D3EB701CBF25798A8BD02A2096204E29D331"
+    },
+    "2.23.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.23.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "3679D193F8BBCC78117F4CEE1BDB99E5866BEB6C4B7290C5941CD2D27A4EA855"
+    },
+    "2.24.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.24.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A46864E46A649AE4E17F6046C20504282E50CF5AB55633B7E2E47B71A3AE616E"
+    },
+    "2.24.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.24.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "75C6F20ECFADC3E54A7CC2E1A0B2A098657B976F0694BEA58AA62BC7EA00C85D"
+    },
+    "2.24.2": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.24.2.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "82C615D8799000020DEDCF9029E5131C984C838741C27E38E6FE2AF3513B4C73"
+    },
+    "2.25.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.25.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "240C4C73CE0CBCC1D2A9414E6A559D8108476F7785C4F40DE452080A80119A32"
+    },
+    "2.26.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.26.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "4AA41F32372479FC99EE058F555D6B7B36886552BC3992FCE7B89A435FA77D42"
+    },
+    "2.27.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.27.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A1CACCEFFA610AAE6134C144B74F35E76E0BF69DBF0CBBCA161450A013EEE2D1"
+    },
+    "2.27.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.27.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "1EA93CA3259D0656DFE2DC880F9E43A15739EF15F6C74815EED8E23DB3D5FD8E"
+    },
+    "2.27.2": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.27.2.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "65AEDDCCB5489B7673B7292388753297701BF750C9277C2BC15AED8D166CDAA8"
+    },
+    "2.33.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.33.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "AC26065391A70ED6C694BCE3E15DB029C562352CB7C7EC9A473DC5C4D3F3FCF1"
+    },
+    "2.34.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.34.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "78AC40964B56FF148B46ED0B8C9685C2DB7EEC94C173B807A59D8C12477AED8D"
+    },
+    "2.34.1": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.34.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "FE34DAF5154FFAF7AFC2B289B9993E5C7D92F627D10B0D029E86C693365FC4AE"
+    }
+}

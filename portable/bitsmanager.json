@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "bitsmanager",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bitsmanager",
+        "latest-version": "1.12",
+        "1.12": {
+            "url": "https://github.com/microsoft/BITS-Manager/releases/download/v1.12/BITSManager.msi",
+            "file-type": ".msi",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BITS Manager",
+                    "file-name": "BitsManager.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

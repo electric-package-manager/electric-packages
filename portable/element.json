@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "element",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "element",
+        "latest-version": "1.7.25",
+        "1.7.25": {
+            "url": "https://packages.riot.im/desktop/update/win32/x64/element-desktop-1.7.25-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Element.exe",
+                [
+                    "Element.exe",
+                    "element-desktop"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Element",
+                    "file-name": "Element.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.riot.im/desktop/update/win32/x64/element-desktop-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://packages.riot.im/desktop/update/win32/x64/RELEASES",
+                "regex": "desktop-([\\d.]+)-full\\."
+            }
+        }
+    }
+}

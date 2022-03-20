@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fnr",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fnr",
+        "latest-version": "1.8.1",
+        "1.8.1": {
+            "url": "http://findandreplace.io/downloads/fnr.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fnr.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

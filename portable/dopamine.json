@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "dopamine",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dopamine",
+        "latest-version": "2.0.8",
+        "2.0.8": {
+            "url": "https://www.digimezzo.com/content/software/dopamine/Dopamine%202.0.8%20(Release)%20-%20Portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dopamine",
+                    "file-name": "Dopamine.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.digimezzo.com/content/software/dopamine/Dopamine%20<version>%20(Release)%20-%20Portable.zip",
+            "version-check": {
+                "webpage": "https://www.digimezzo.com/software/dopamine/"
+            }
+        }
+    }
+}

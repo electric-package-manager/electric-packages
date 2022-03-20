@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "aria-ng-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aria-ng-gui",
+        "latest-version": "3.1.2",
+        "3.1.2": {
+            "url": "https://github.com/Xmader/aria-ng-gui/releases/download/v3.1.2/AriaNgGUI-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AriaNgGUI.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AriaNgGUI",
+                    "file-name": "AriaNgGUI.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Xmader/aria-ng-gui/releases/download/v$version/AriaNgGUI-win32-x64.zip",
+            "version-check": {
+                "webpage": "https://aria-ng.xmader.com/"
+            }
+        }
+    }
+}

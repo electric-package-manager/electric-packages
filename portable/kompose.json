@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "kompose",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kompose",
+        "latest-version": "1.22.0",
+        "1.22.0": {
+            "url": "https://github.com/kubernetes/kompose/releases/download/v1.22.0/kompose-windows-amd64.exe#/kompose.exe",
+            "file-type": ".exe",
+            "bin": [
+                "kompose.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kubernetes/kompose/releases/download/v$version/kompose-windows-amd64.exe#/kompose.exe",
+            "version-check": {
+                "webpage": "https://kompose.io/"
+            }
+        }
+    }
+}

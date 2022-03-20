@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-keepassrpc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-keepassrpc",
+        "latest-version": "1.14.0",
+        "1.14.0": {
+            "url": "https://github.com/kee-org/keepassrpc/releases/download/v1.14.0/KeePassRPC.plgx",
+            "file-type": ".plgx",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kee-org/keepassrpc/releases/download/v<version>/KeePassRPC.plgx",
+            "version-check": {
+                "webpage": "https://www.kee.pm/"
+            }
+        }
+    }
+}

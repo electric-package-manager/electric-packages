@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "yosys",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yosys",
+        "latest-version": "0.9",
+        "0.9": {
+            "url": "http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-0.9.zip",
+            "file-type": ".zip",
+            "bin": [
+                "yosys.exe",
+                "yosys-abc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.clifford.at/yosys/nogit/win32/yosys-win32-mxebin-<version>.zip",
+            "version-check": {
+                "webpage": "http://www.clifford.at/yosys/download.html",
+                "regex": "yosys-win32-mxebin-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

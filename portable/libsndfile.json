@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "libsndfile",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "libsndfile",
+        "latest-version": "1.0.28",
+        "1.0.28": {
+            "url": "http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.28-w64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\sndfile-cmp.exe",
+                "bin\\sndfile-concat.exe",
+                "bin\\sndfile-convert.exe",
+                "bin\\sndfile-deinterleave.exe",
+                "bin\\sndfile-info.exe",
+                "bin\\sndfile-interleave.exe",
+                "bin\\sndfile-metadata-get.exe",
+                "bin\\sndfile-metadata-set.exe",
+                "bin\\sndfile-play.exe",
+                "bin\\sndfile-salvage.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "freetube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "freetube",
+        "latest-version": "0.12.0-beta",
+        "0.12.0-beta": {
+            "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.12.0-beta/freetube-0.12.0-win-x64-portable.zip#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FreeTube",
+                    "file-name": "FreeTube.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$matchHead-win-x64-portable.zip#/dl.7z",
+            "version-check": {
+                "webpage": "https://github.com/FreeTubeApp/FreeTube/releases",
+                "regex": "download/v([\\w.-]+)"
+            }
+        }
+    }
+}

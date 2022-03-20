@@ -1,0 +1,22 @@
+{
+    "display-name": "Slack",
+    "package-name": "slack",
+    "latest-version": "4.13.0",
+    "4.13.0": {
+        "url": "https://downloads.slack-edge.com/releases/windows/4.13.0/prod/x64/slack-standalone-4.13.0.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "D722C4B4A0EA402C0697424D33EF6544614EBF0FACCA73F64C9D9270674A62FF"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "sphinxtrain",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sphinxtrain",
+        "latest-version": "5prealpha",
+        "5prealpha": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxtrain/5prealpha/sphinxtrain-5prealpha-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "agg_seg.exe",
+                "bldtree.exe",
+                "bw.exe",
+                "cp_parm.exe",
+                "delint.exe",
+                "inc_comp.exe",
+                "init_gau.exe",
+                "init_mixw.exe",
+                "kdtree.exe",
+                "kmeans_init.exe",
+                "make_quests.exe",
+                "map_adapt.exe",
+                "mixw_interp.exe",
+                "mk_flat.exe",
+                "mk_mdef_gen.exe",
+                "mk_mllr_class.exe",
+                "mk_s2sendump.exe",
+                "mk_ts2cb.exe",
+                "mllr_solve.exe",
+                "mllr_transform.exe",
+                "norm.exe",
+                "param_cnt.exe",
+                "tiestate.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/sphinxtrain/<version>/sphinxtrain-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/cmusphinx/files/sphinxtrain/",
+                "regex": "<span class=\"name\">([\\w]+)</span>"
+            }
+        }
+    }
+}

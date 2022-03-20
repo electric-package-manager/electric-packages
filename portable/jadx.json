@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "jadx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jadx",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/skylot/jadx/releases/download/v1.2.0/jadx-1.2.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\jadx.bat",
+                "bin\\jadx-gui.bat"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "jadx-gui",
+                    "file-name": "bin\\jadx-gui.bat"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

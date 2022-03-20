@@ -1,0 +1,50 @@
+{
+    "display-name": "",
+    "package-name": "mobaxterm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mobaxterm",
+        "latest-version": "21.0",
+        "21.0": {
+            "url": "https://download.mobatek.net/2102021022292334/MobaXterm_Portable_v21.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MobaXterm.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "    # Rename executable",
+                        "Get-ChildItem \"$dir\" 'mobaxterm*.exe' | Select-Object -First 1 | Rename-Item -NewName 'MobaXterm.exe'",
+                        "    # Create files for persisting",
+                        "function PersistsFile([String] $file) {",
+                        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+                        "        New-Item \"$dir\\$file\" -Type File | Out-Null",
+                        "    }",
+                        "}",
+                        "@('MobaXterm backup.zip', 'MobaXterm.ini') | ForEach-Object { PersistsFile $_ }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MobaXterm Personal",
+                    "file-name": "MobaXterm.exe"
+                }
+            ],
+            "persist": [
+                "MobaXterm.ini",
+                "MobaXterm backup.zip"
+            ]
+        },
+        "auto-update": {
+            "url": "https://download.mobatek.net/$matchRandom/MobaXterm_Portable_v<version>.zip",
+            "version-check": {
+                "webpage": "https://mobaxterm.mobatek.net/download-home-edition.html",
+                "regex": "//download.mobatek.net/(?<random>[\\d]+)/MobaXterm_Portable_v([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "scons",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scons",
+        "latest-version": "4.1.0",
+        "4.1.0": {
+            "url": "https://downloads.sourceforge.net/project/scons/scons-local/4.1.0/scons-local-4.1.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "scons.ps1"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "echo \"python `\"$dir\\scons.py`\" @args\" | out-file \"$dir\\scons.ps1\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/scons/scons-local/<version>/scons-local-<version>.zip",
+            "version-check": {
+                "webpage": "https://scons.org/pages/download.html",
+                "regex": "<strong>The current production release</strong> of SCons is <strong>([\\d.]+)</strong>"
+            }
+        }
+    }
+}

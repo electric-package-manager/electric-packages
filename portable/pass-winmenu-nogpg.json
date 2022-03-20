@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pass-winmenu-nogpg",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pass-winmenu-nogpg",
+        "latest-version": "1.11.1",
+        "1.11.1": {
+            "url": "https://github.com/Baggykiin/pass-winmenu/releases/download/v1.11.1/pass-winmenu-nogpg.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pass-winmenu.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pass-winmenu",
+                    "file-name": "pass-winmenu.exe"
+                }
+            ],
+            "persist": "pass-winmenu.yaml"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

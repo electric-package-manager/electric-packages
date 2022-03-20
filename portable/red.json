@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "red",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "red",
+        "latest-version": "0.6.4",
+        "0.6.4": {
+            "url": "https://static.red-lang.org/dl/win/red-064.exe#/red.exe",
+            "file-type": ".exe",
+            "bin": [
+                "red.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://static.red-lang.org/dl/win/red-$cleanVersion.exe#/red.exe",
+            "version-check": {
+                "webpage": "http://static.red-lang.org/download.html",
+                "regex": "Red\\s+([\\d.]+)\\s+for"
+            }
+        }
+    }
+}

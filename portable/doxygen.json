@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "doxygen",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "doxygen",
+        "latest-version": "1.9.1",
+        "1.9.1": {
+            "url": "http://doxygen.nl/files/doxygen-1.9.1.windows.x64.bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "doxygen.exe",
+                "doxyindexer.exe",
+                "doxysearch.cgi.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://doxygen.nl/files/doxygen-$version.windows.x64.bin.zip",
+            "version-check": {
+                "webpage": "http://www.doxygen.nl/download.html",
+                "regex": "The latest version of doxygen is ([\\d.]+)"
+            }
+        }
+    }
+}

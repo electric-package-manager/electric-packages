@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "museeks",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "museeks",
+        "latest-version": "0.11.5",
+        "0.11.5": {
+            "url": "https://github.com/martpie/museeks/releases/download/0.11.5/museeks-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Museeks.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Museeks",
+                    "file-name": "Museeks.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall Museeks.exe\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/martpie/museeks/releases/download/<version>/museeks-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://museeks.io"
+            }
+        }
+    }
+}

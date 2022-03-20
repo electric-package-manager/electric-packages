@@ -1,0 +1,14 @@
+{
+  "display-name": "Thunderbird",
+  "package-name": "thunderbird",
+  "latest-version": "78.8.0",
+  "78.8.0": {
+    "url": "https://download.mozilla.org/?product=thunderbird-78.8.0-msi-SSL&os=win64&lang=en-US",
+    "file-type": ".msi",
+    "iswitches": ["/passive", "/quiet", "/norestart"],
+    "uswitches": ["/passive", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
+    "dependencies": [],
+    "checksum": "C4F5E3896F2D7C3FD7FCCA3540F5C35E32511702812428B01E2DBC11883F6DD5"
+  }
+}

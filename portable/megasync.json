@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "megasync",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "megasync",
+        "latest-version": "4.4.0.0",
+        "4.4.0.0": {
+            "url": "https://mega.nz/MEGAsyncSetup64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "MEGAsync.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Megaupdater.exe\", \"$dir\\uninst*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MEGAsync",
+                    "file-name": "MEGAsync.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

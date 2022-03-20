@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "qt-creator",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qt-creator",
+        "latest-version": "4.14.2",
+        "4.14.2": {
+            "url": "https://download.qt.io/official_releases/qtcreator/4.14/4.14.2/installer_source/windows_x64/qtcreator.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\qtcreator.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Qt Creator",
+                    "file-name": "bin\\qtcreator.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.qt.io/official_releases/qtcreator/$majorVersion.$minorVersion/$version/installer_source/windows_x64/qtcreator.7z",
+            "version-check": {
+                "webpage": "https://www.qt.io/offline-installers",
+                "regex": "Qt Creator\\s+([\\d.]+)\\s+for Windows"
+            }
+        }
+    }
+}

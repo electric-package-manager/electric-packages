@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "anaconda3",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "anaconda3",
+        "latest-version": "2020.11",
+        "2020.11": {
+            "url": "https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe",
+            "file-type": ".exe",
+            "bin": [
+                "python.exe",
+                "pythonw.exe",
+                [
+                    "python.exe",
+                    "python3"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Write-Host 'Installing Anaconda 3. This can take up to 30 minutes on an HDD.' -ForegroundColor Magenta"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "envs"
+        },
+        "auto-update": {
+            "url": "https://repo.anaconda.com/archive/Anaconda3-$version-Windows-x86_64.exe",
+            "version-check": {
+                "webpage": "https://docs.anaconda.com/anaconda/install/hashes/win-3-64/",
+                "regex": "Anaconda3-([\\d.]+)-Windows"
+            }
+        }
+    }
+}

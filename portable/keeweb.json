@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "keeweb",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keeweb",
+        "latest-version": "1.17.6",
+        "1.17.6": {
+            "url": "https://github.com/keeweb/keeweb/releases/download/v1.17.6/KeeWeb-1.17.6.win.x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "KeeWeb.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "KeeWeb",
+                    "file-name": "KeeWeb.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/keeweb/keeweb/releases/download/v$version/KeeWeb-$version.win.x64.zip",
+            "version-check": {
+                "webpage": "https://keeweb.info"
+            }
+        }
+    }
+}

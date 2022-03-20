@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "sox",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sox",
+        "latest-version": "14.4.2",
+        "14.4.2": {
+            "url": "https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sox.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.apache.org/dist/spark/spark-<version>/spark-<version>-bin-hadoop2.7.tgz",
+            "version-check": {
+                "webpage": "https://spark.apache.org/downloads.html",
+                "regex": "version: ([\\d.]+)"
+            }
+        }
+    }
+}

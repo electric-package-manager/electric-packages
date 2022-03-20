@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "keepass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass",
+        "latest-version": "2.47",
+        "2.47": {
+            "url": "https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.47/KeePass-2.47.zip",
+            "file-type": ".zip",
+            "bin": [
+                "KeePass.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (Test-Path \"$persist_dir\\KeePass.config.xml\") { Copy-Item \"$persist_dir\\KeePass.config.xml\" \"$dir\" }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "KeePass",
+                    "file-name": "KeePass.exe"
+                }
+            ],
+            "persist": [
+                "Plugins",
+                "Languages"
+            ]
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/keepass/KeePass%20$majorVersion.x/<version>/KeePass-<version>.zip",
+            "version-check": {
+                "webpage": "https://keepass.info/update/version2x.txt",
+                "regex": "KeePass:([\\d.]+)"
+            }
+        }
+    }
+}

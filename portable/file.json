@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "file",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "file",
+        "latest-version": "5.03",
+        "5.03": {
+            "url": [
+                "https://downloads.sourceforge.net/project/gnuwin32/file/5.03/file-5.03-bin.zip",
+                "https://downloads.sourceforge.net/project/gnuwin32/file/5.03/file-5.03-dep.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "bin\\file.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

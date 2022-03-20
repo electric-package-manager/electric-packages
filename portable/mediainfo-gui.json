@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "mediainfo-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mediainfo-gui",
+        "latest-version": "21.03",
+        "21.03": {
+            "url": "https://mediaarea.net/download/binary/mediainfo-gui/21.03/MediaInfo_GUI_21.03_Windows_x64_WithoutInstaller.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MediaInfo",
+                    "file-name": "MediaInfo.exe"
+                }
+            ],
+            "persist": "Plugin"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

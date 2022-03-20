@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "azuredatastudio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "azuredatastudio",
+        "latest-version": "1.27.0",
+        "1.27.0": {
+            "url": "https://azuredatastudio-update.azurewebsites.net/1.27.0/win32-x64-archive/stable#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\azuredatastudio.cmd"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Azure Data Studio",
+                    "file-name": "azuredatastudio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://azuredatastudio-update.azurewebsites.net/$version/win32-x64-archive/stable#/dl.7z",
+            "version-check": {
+                "webpage": "https://docs.microsoft.com/en-us/sql/azure-data-studio"
+            }
+        }
+    }
+}

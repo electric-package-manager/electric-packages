@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "ccleaner",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ccleaner",
+        "latest-version": "5.78.8558",
+        "5.78.8558": {
+            "url": "https://download.ccleaner.com/portable/ccsetup578.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\ccleaner.ini\")) {",
+                        "   Set-Content \"$dir\\ccleaner.ini\" @('[Options]', 'UpdateAuto=0', 'UpdateNotify=0', 'UpdateCheck=0', 'HelpImproveCCleaner=0') -Encoding ASCII",
+                        "}",
+                        "'winapp.ini', 'winreg.ini', 'winsys.ini' | ForEach-Object {",
+                        "   if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+                        "}",
+                        "Copy-Item \"$persist_dir\\*\" \"$dir\" -Include 'branding.dll', 'CCleaner.dat' -ErrorAction SilentlyContinue"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "ccleaner.ini",
+                "winapp.ini",
+                "winreg.ini",
+                "winsys.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://download.ccleaner.com/portable/ccsetup$majorVersion$minorVersion.zip",
+            "version-check": {
+                "webpage": "https://www.ccleaner.com/ccleaner/version-history",
+                "regex": ">v([\\d.]+)"
+            }
+        }
+    }
+}

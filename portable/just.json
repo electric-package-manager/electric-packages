@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "just",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "just",
+        "latest-version": "0.9.0",
+        "0.9.0": {
+            "url": "https://github.com/casey/just/releases/download/v0.9.0/just-v0.9.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "just.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

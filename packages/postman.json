@@ -1,0 +1,38 @@
+{
+    "display-name": "Postman",
+    "package-name": "postman",
+    "latest-version": "8.1.0",
+    "auto-update": {
+        "url": "https://dl.pstmn.io/download/version/<version>/windows64",
+        "version-check": {
+            "webpage": "https://downloads.digitaltrends.com/postman/windows",
+            "regex": "([\\d.]+)</p>"
+        }
+    },
+    "8.0.6": {
+        "url": "https://dl.pstmn.io/download/version/8.0.6/windows64",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "21F86612F802E48CA2B67BE22FD4AA112B6638FE3F7184974667D39F79B13A9E"
+    },
+    "8.1.0": {
+        "url": "https://dl.pstmn.io/download/version/8.1.0/windows64",
+        "file-type": ".exe",
+        "iswitches": [
+            "-s"
+        ],
+        "uswitches": [
+            "-s"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "21272C9D171FB1E57531946C2501975932BE2C3A2238F7AC319F8032FED280D0"
+    }
+}

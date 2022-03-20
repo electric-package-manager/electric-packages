@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "sbt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sbt",
+        "latest-version": "1.5.0",
+        "1.5.0": {
+            "url": "https://github.com/sbt/sbt/releases/download/v1.5.0/sbt-1.5.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\sbt.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sbt/sbt/releases/download/v<version>/sbt-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.scala-sbt.org/download.html",
+                "regex": "/sbt-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

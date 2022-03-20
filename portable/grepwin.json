@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "grepwin",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grepwin",
+        "latest-version": "2.0.7",
+        "2.0.7": {
+            "url": [
+                "https://github.com/stefankueng/grepWin/releases/download/2.0.7/grepWin-x64-2.0.7_portable.exe#/grepWin.exe",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/grepwin-install-context.reg",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/grepwin-uninstall-context.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "grepWin.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "grepWin",
+                    "file-name": "grepWin.exe"
+                }
+            ],
+            "persist": "grepwin.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe#/grepWin.exe",
+            "version-check": {
+                "webpage": "https://tools.stefankueng.com/grepWin.html"
+            }
+        }
+    }
+}

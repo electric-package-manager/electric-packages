@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "cdrtools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cdrtools",
+        "latest-version": "3.02a09",
+        "3.02a09": {
+            "url": "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-3.02a09.7z",
+            "file-type": ".7z",
+            "bin": [
+                "btcflash.exe",
+                "cdda2wav.exe",
+                "cdrecord.exe",
+                "devdump.exe",
+                "isodebug.exe",
+                "isodump.exe",
+                "isoinfo.exe",
+                "isovfy.exe",
+                "mkhybrid.exe",
+                "mkisofs.exe",
+                "readcd.exe",
+                "rscsi.exe",
+                "scgcheck.exe",
+                "scgskeleton.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-<version>.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/tumagcc/files/",
+                "regex": "schily-cdrtools-([\\w.]+)\\.7z"
+            }
+        }
+    }
+}

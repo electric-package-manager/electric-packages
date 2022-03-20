@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "mailsend",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mailsend",
+        "latest-version": "1.19",
+        "1.19": {
+            "url": "https://github.com/muquit/mailsend/releases/download/1.19/mailsend1.19.exe.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mailsend.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Rename-Item \"$dir\\mailsend$version.exe\" 'mailsend.exe'"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

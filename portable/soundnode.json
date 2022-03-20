@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "soundnode",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "soundnode",
+        "latest-version": "7.0.0",
+        "7.0.0": {
+            "url": "https://github.com/Soundnode/soundnode-app/releases/download/7.0.0/Soundnode-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Soundnode.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Soundnode",
+                    "file-name": "Soundnode.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Soundnode/soundnode-app/releases/download/$version/Soundnode-win32-x64.zip",
+            "version-check": {
+                "webpage": "https://www.soundnodeapp.com"
+            }
+        }
+    }
+}

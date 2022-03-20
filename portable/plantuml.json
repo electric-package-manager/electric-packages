@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "plantuml",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "plantuml",
+        "latest-version": "1.2021.4",
+        "1.2021.4": {
+            "url": "https://downloads.sourceforge.net/project/plantuml/1.2021.4/plantuml.1.2021.4.jar#/plantuml.jar",
+            "file-type": ".jar",
+            "bin": [
+                "plantuml.cmd"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "\"@java -jar \"\"$dir\\plantuml.jar\"\" %* -graphvizdot \"\"$(shimdir $global)\\dot.exe\"\"\" | out-file -en oem \"$dir\\plantuml.cmd\""
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/plantuml/<version>/plantuml.<version>.jar#/plantuml.jar",
+            "version-check": {
+                "webpage": "http://plantuml.com/download",
+                "regex": "PlantUML compiled Jar \\(Version ([\\d.]+)\\)"
+            }
+        }
+    }
+}

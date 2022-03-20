@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "eclipse-android",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eclipse-android",
+        "latest-version": "4.6.3",
+        "4.6.3": {
+            "url": "https://www.eclipse.org/downloads/download.php?r=1&file=/technology/epp/downloads/release/neon/3/eclipse-android-neon-3-incubation-win32-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse for Android Developers",
+                    "file-name": "eclipse.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

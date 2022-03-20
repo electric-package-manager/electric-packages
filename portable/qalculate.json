@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "qalculate",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qalculate",
+        "latest-version": "3.18.0",
+        "3.18.0": {
+            "url": "https://github.com/Qalculate/libqalculate/releases/download/v3.18.0/qalculate-3.18.0-i386.zip",
+            "file-type": ".zip",
+            "bin": [
+                "qalc.exe",
+                "qalculate.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Qalculate!",
+                    "file-name": "qalculate.exe"
+                }
+            ],
+            "persist": "user"
+        },
+        "auto-update": {
+            "url": "https://github.com/Qalculate/libqalculate/releases/download/v<version>/qalculate-<version>-i386.zip",
+            "version-check": {
+                "webpage": "https://qalculate.github.io/"
+            }
+        }
+    }
+}

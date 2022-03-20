@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "sudo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sudo",
+        "latest-version": "0.2020.01.26",
+        "0.2020.01.26": {
+            "url": "https://raw.githubusercontent.com/lukesampson/psutils/c7116ac143ca81f223e6091d0974f45ac241eb1d/sudo.ps1",
+            "file-type": ".ps1",
+            "bin": [
+                "sudo.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://raw.githubusercontent.com/lukesampson/psutils/$matchSha/sudo.ps1",
+            "version-check": {
+                "webpage": "https://github.com/lukesampson/psutils/commits/master/sudo.ps1.atom",
+                "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "insomnia-designer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "insomnia-designer",
+        "latest-version": "2020.5.2",
+        "2020.5.2": {
+            "url": "https://github.com/Kong/insomnia/releases/download/designer%402020.5.2/insomnia-designer-2020.5.2-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Insomnia Designer",
+                    "file-name": "Insomnia Designer.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

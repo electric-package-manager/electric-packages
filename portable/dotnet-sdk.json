@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "dotnet-script",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dotnet-script",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://github.com/filipw/dotnet-script/releases/download/1.0.1/dotnet-script.1.0.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dotnet-script.cmd"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
+                "regex": "(?s)(?<rtv>[\\d.]+)[^\\d]*?([\\d.]+)[^\\d]*?(?:current|lts)"
+            }
+        }
+    }
+}

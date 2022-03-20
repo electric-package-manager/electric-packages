@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "stretchly",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stretchly",
+        "latest-version": "1.5.0",
+        "1.5.0": {
+            "url": "https://github.com/hovancik/stretchly/releases/download/v1.5.0/stretchly-1.5.0-win.7z",
+            "file-type": ".7z",
+            "bin": [
+                "stretchly.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Stretchly",
+                    "file-name": "stretchly.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/hovancik/stretchly/releases/download/v$version/stretchly-$version-win.7z",
+            "version-check": {
+                "webpage": "https://hovancik.net/stretchly/"
+            }
+        }
+    }
+}

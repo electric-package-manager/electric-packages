@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "k6",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "k6",
+        "latest-version": "0.31.1",
+        "0.31.1": {
+            "url": "https://github.com/loadimpact/k6/releases/download/v0.31.1/k6-v0.31.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "k6.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/loadimpact/k6/releases/download/v$version/k6-v$version-win64.zip",
+            "version-check": {
+                "webpage": "https://k6.io"
+            }
+        }
+    }
+}

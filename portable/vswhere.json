@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "vswhere",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vswhere",
+        "latest-version": "2.8.4",
+        "2.8.4": {
+            "url": "https://www.nuget.org/api/v2/package/vswhere/2.8.4#/vswhere.zip",
+            "file-type": ".zip",
+            "bin": [
+                "vswhere.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

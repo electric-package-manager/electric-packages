@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "serverless",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "serverless",
+        "latest-version": "2.35.0",
+        "2.35.0": {
+            "url": "https://github.com/serverless/serverless/releases/download/v2.35.0/serverless-win-x64.exe#/serverless.exe",
+            "file-type": ".exe",
+            "bin": [
+                "serverless.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/serverless/serverless/releases/download/v$version/serverless-win-x64.exe#/serverless.exe",
+            "version-check": {
+                "webpage": "https://serverless.com"
+            }
+        }
+    }
+}

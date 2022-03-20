@@ -1,0 +1,19 @@
+{
+    "display-name": "Vim (Portable)",
+    "package-name": "vim-portable",
+    "is-portable": true,
+    "portable": {
+        "latest-version": "8.2.2553",
+        "8.2.2553": {
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v8.2.2553/gvim_8.2.2553_x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "vim",
+            "chdir": "vim\\vim82",
+            "bin": [
+                "vim.exe",
+                "gvim.exe"
+            ],
+            "checksum": "CB24B5DF40914CCC88CD3147E64D69EF812FB6D335D196CE62360AB19B9FD655"
+        }
+    }
+}

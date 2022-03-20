@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "jabref",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jabref",
+        "latest-version": "5.2",
+        "5.2": {
+            "url": "https://github.com/JabRef/jabref/releases/download/v5.2/JabRef-5.2-portable_windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "runtime\\bin\\JabRef.bat"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "JabRef",
+                    "file-name": "JabRef.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/JabRef/jabref/releases/download/v$version/JabRef-$version-portable_windows.zip",
+            "version-check": {
+                "webpage": "https://www.jabref.org"
+            }
+        }
+    }
+}

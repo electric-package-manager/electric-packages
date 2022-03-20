@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "openwithplusplus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openwithplusplus",
+        "latest-version": "3.8.0.0",
+        "3.8.0.0": {
+            "url": "https://github.com/stax76/OpenWithPlusPlus/releases/download/3.8.0.0/OpenWithPP-3.8.0.0.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\settings\")) {",
+                        "    $p = \"$persist_dir\\settings\"",
+                        "    ensure \"HKCU:\\SOFTWARE\\OpenWithPP\" | Out-Null",
+                        "    New-ItemProperty -Path \"HKCU:\\SOFTWARE\\OpenWithPP\" -Name 'SettingsDir' -Value $p -Type 'String' -Force | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenWith++",
+                    "file-name": "OpenWithPPGUI.exe"
+                }
+            ],
+            "persist": "settings"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

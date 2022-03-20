@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "awsQueue",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "awsQueue",
+        "latest-version": "0.0.8",
+        "0.0.8": {
+            "url": "https://github.com/NearlyUnique/awsqueue/releases/download/v0.0.8/awsqueue_0.0.8_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "awsqueue.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

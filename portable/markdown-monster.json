@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "markdown-monster",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "markdown-monster",
+        "latest-version": "1.26.12",
+        "1.26.12": {
+            "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v1.26/MarkdownMonsterSetup-1.26.12.exe",
+            "file-type": ".exe",
+            "bin": [
+                "mm.exe",
+                "MarkdownMonster.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "New-Item \"$dir\\_IsPortable\" | Out-Null"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Markdown Monster",
+                    "file-name": "MarkdownMonster.exe"
+                }
+            ],
+            "persist": "PortableSettings"
+        },
+        "auto-update": {
+            "url": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/v$majorVersion.$minorVersion/MarkdownMonsterSetup-<version>.exe",
+            "version-check": {
+                "webpage": "https://raw.githubusercontent.com/RickStrahl/MarkdownMonsterReleases/master/CurrentRelease/MarkdownMonster_Version.xml"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "kalk",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kalk",
+        "latest-version": "0.4.0",
+        "0.4.0": {
+            "url": "https://github.com/xoofx/kalk/releases/download/0.4.0/kalk.0.4.0.win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "kalk.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/xoofx/kalk/releases/download/$version/kalk.$version.win-x64.zip",
+            "version-check": {
+                "webpage": "https://kalk.dev/"
+            }
+        }
+    }
+}

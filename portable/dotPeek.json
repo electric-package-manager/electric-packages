@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "dotPeek",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dotPeek",
+        "latest-version": "2021.1.1",
+        "2021.1.1": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.1/dotPeek64.2021.1.1.exe#/dotpeek.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "dotPeek",
+                    "file-name": "dotpeek.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.jetbrains.com/resharper/dotUltimate.$version/dotPeek64.$version.exe#/dotpeek.exe",
+            "version-check": {
+                "webpage": "https://data.services.jetbrains.com/products/releases?code=DPK&latest=true&platform=zip&type=release"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "shutter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shutter",
+        "latest-version": "4.4",
+        "4.4": {
+            "url": "https://www.den4b.com/download/shutter/portable/4.4?token=scoop#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Shutter.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Settings.ini\")) { New-Item \"$dir\\Settings.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Shutter",
+                    "file-name": "Shutter.exe"
+                }
+            ],
+            "persist": [
+                "Settings.ini",
+                "Presets"
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.den4b.com/download/shutter/portable/<version>?token=scoop#/dl.zip",
+            "version-check": {
+                "webpage": "https://www.den4b.com/changelogs/shutter",
+                "regex": "id=\"v([\\d.]+)\""
+            }
+        }
+    }
+}

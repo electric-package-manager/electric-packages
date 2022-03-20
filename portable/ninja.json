@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ninja",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ninja",
+        "latest-version": "1.10.2",
+        "1.10.2": {
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ninja.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ninja-build/ninja/releases/download/v<version>/ninja-win.zip",
+            "version-check": {
+                "webpage": "https://ninja-build.org/"
+            }
+        }
+    }
+}

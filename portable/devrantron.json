@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "devrantron",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "devrantron",
+        "latest-version": "1.5.4",
+        "1.5.4": {
+            "url": "https://github.com/tahnik/devRantron/releases/download/v1.5.4/devrantron-setup-1.5.4.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "devRantron",
+                    "file-name": "devRantron.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "now-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "now-cli",
+        "latest-version": "15.8.7",
+        "15.8.7": {
+            "url": "https://github.com/zeit/now-cli/releases/download/15.8.7/now-win.exe.gz",
+            "file-type": ".gz",
+            "bin": [
+                [
+                    "now-win.exe",
+                    "now"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

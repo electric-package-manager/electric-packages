@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "thrift",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "thrift",
+        "latest-version": "0.14.1",
+        "0.14.1": {
+            "url": "https://www-us.apache.org/dist/thrift/0.14.1/thrift-0.14.1.exe#/thrift.exe",
+            "file-type": ".exe",
+            "bin": [
+                "thrift.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

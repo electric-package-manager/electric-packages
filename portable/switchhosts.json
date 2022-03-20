@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "switchhosts",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "switchhosts",
+        "latest-version": "3.5.8",
+        "3.5.8": {
+            "url": "https://github.com/oldj/SwitchHosts/releases/download/v3.5.8/SwitchHosts._windows_installer_3.5.8.5556.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SwitchHosts!",
+                    "file-name": "SwitchHosts!.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/oldj/SwitchHosts/releases/download/v<version>/SwitchHosts._windows_installer_<version>.$matchBuild.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://oldj.github.io/SwitchHosts/",
+                "regex": "windows_installer_([\\d.]+)\\.(?<build>\\d+)\\.exe"
+            }
+        }
+    }
+}

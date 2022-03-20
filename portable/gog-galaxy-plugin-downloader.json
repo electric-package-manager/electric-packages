@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gog-galaxy-plugin-downloader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gog-galaxy-plugin-downloader",
+        "latest-version": "0.2.2",
+        "0.2.2": {
+            "url": "https://github.com/Slashbunny/gog-galaxy-plugin-downloader/releases/download/v0.2.2/gog-plugins-downloader-v0.2.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gog-plugins-downloader.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

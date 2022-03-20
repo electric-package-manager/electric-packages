@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "mypaint",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mypaint",
+        "latest-version": "2.0.1",
+        "2.0.1": {
+            "url": "https://github.com/mypaint/mypaint/releases/download/v2.0.1/mypaint-w64-2.0.1-standalone.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mypaint.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MyPaint",
+                    "file-name": "mypaint.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mypaint/mypaint/releases/download/v$version/mypaint-w64-$version-standalone.7z",
+            "version-check": {
+                "webpage": "http://mypaint.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gof",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gof",
+        "latest-version": "0.0.10",
+        "0.0.10": {
+            "url": "https://github.com/mattn/gof/releases/download/v0.0.10/gof_v0.0.10_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gof.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

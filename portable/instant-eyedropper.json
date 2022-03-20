@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "instant-eyedropper",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "instant-eyedropper",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "http://instant-eyedropper.com/download/instant-eyedropper-2.0.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "instanteyedropper.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Instant Eyedropper",
+                    "file-name": "instanteyedropper.exe"
+                }
+            ],
+            "persist": "eyedropper.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

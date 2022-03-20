@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "sqlitestudio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sqlitestudio",
+        "latest-version": "3.3.3",
+        "3.3.3": {
+            "url": "https://github.com/pawelsalawa/sqlitestudio/releases/download/3.3.3/SQLiteStudio-3.3.3.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SQLiteStudio.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SQLiteStudio",
+                    "file-name": "SQLiteStudio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/pawelsalawa/sqlitestudio/releases/download/<version>/SQLiteStudio-<version>.zip",
+            "version-check": {
+                "webpage": "https://sqlitestudio.pl/index.rvt"
+            }
+        }
+    }
+}

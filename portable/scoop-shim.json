@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "scoop-shim",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scoop-shim",
+        "latest-version": "1.0.1",
+        "1.0.1": {
+            "url": "https://github.com/ScoopInstaller/Shim/releases/download/v1.0.1/shim.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

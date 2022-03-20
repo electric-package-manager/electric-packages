@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "dualmonitortaskbar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dualmonitortaskbar",
+        "latest-version": "1.22.021813",
+        "1.22.021813": {
+            "url": "https://download.sourceforge.net/project/dualmonitortb/Releases/v01.22.021813/DualMonitor%201.22%20Setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "DualMonitor.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DualMonitor",
+                    "file-name": "DualMonitor.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.sourceforge.net/project/dualmonitortb/Releases/v0<version>/DualMonitor%20$majorVersion.$minorVersion%20Setup.exe",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/dualmonitortb/files/",
+                "regex": "\\*{3}\\s+Version\\s+([\\d.]+)"
+            }
+        }
+    }
+}

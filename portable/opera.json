@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "opera",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "opera",
+        "latest-version": "75.0.3969.93",
+        "75.0.3969.93": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/75.0.3969.93/win/Opera_75.0.3969.93_Setup_x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Opera",
+                    "file-name": "launcher.exe"
+                }
+            ],
+            "persist": "profile"
+        },
+        "auto-update": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup_x64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://get.opera.com/ftp/pub/opera/desktop/",
+                "regex": "([\\d.]+)/"
+            }
+        }
+    }
+}

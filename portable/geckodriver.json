@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "geckodriver",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "geckodriver",
+        "latest-version": "0.29.1",
+        "0.29.1": {
+            "url": "https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "geckodriver.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

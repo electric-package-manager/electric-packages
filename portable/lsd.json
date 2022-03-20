@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "lsd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lsd",
+        "latest-version": "0.20.1",
+        "0.20.1": {
+            "url": "https://github.com/Peltoche/lsd/releases/download/0.20.1/lsd-0.20.1-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lsd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

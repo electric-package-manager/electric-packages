@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "svcat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "svcat",
+        "latest-version": "0.3.1",
+        "0.3.1": {
+            "url": "https://download.svcat.sh/cli/v0.3.1/windows/amd64/svcat.exe",
+            "file-type": ".exe",
+            "bin": [
+                "svcat.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.svcat.sh/cli/v$version/windows/amd64/svcat.exe",
+            "version-check": {
+                "webpage": "https://github.com/kubernetes-incubator/service-catalog/releases",
+                "regex": "cli/v([\\d.]+)/windows"
+            }
+        }
+    }
+}

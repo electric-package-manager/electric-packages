@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "foxit-reader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "foxit-reader",
+        "latest-version": "10.0.0.35798",
+        "10.0.0.35798": {
+            "url": "https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/10.x/10.0/en_us/FoxitReader100_Setup_Prom_IS.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "FoxitReader.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Foxit Reader",
+                    "file-name": "FoxitReader.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

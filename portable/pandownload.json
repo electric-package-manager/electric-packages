@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pandownload",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pandownload",
+        "latest-version": "2.2.2",
+        "2.2.2": {
+            "url": "http://dl.pandownload.club/dl/PanDownload_v2.2.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PanDownload.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PanDownload",
+                    "file-name": "PanDownload.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

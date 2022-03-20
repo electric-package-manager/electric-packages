@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "meinplatz",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "meinplatz",
+        "latest-version": "6.86",
+        "6.86": {
+            "url": "https://www.softwareok.com/Download/MeinPlatz_Portable_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "MeinPlatz.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MeinPlatz",
+                    "file-name": "MeinPlatz.exe"
+                }
+            ],
+            "persist": "MeinPlatz.ini"
+        },
+        "auto-update": {
+            "url": "https://www.softwareok.com/Download/MeinPlatz_Portable_x64.zip",
+            "version-check": {
+                "webpage": "https://www.softwareok.com/?seite=Microsoft/MeinPlatz/History",
+                "regex": "New in version ([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "spacescape",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "spacescape",
+        "latest-version": "0.5.1",
+        "0.5.1": {
+            "url": "https://downloads.sourceforge.net/project/spacescape/win/spacescape-0.5.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Spacescape.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Spacescape",
+                    "file-name": "Spacescape.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/spacescape/win/spacescape-<version>.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/spacescape/files/win/",
+                "regex": "spacescape-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

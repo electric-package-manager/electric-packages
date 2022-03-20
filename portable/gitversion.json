@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "gitversion",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitversion",
+        "latest-version": "5.6.7",
+        "5.6.7": {
+            "url": "https://packages.chocolatey.org/GitVersion.Portable.5.6.7.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "GitVersion.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/GitVersion.Portable.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/GitVersion.Portable",
+                "regex": "Latest Version[\\S\\s]+?/([\\d.]+)"
+            }
+        }
+    }
+}

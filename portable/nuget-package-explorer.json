@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "nuget-package-explorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nuget-package-explorer",
+        "latest-version": "5.10.4",
+        "5.10.4": {
+            "url": "https://packages.chocolatey.org/NugetPackageExplorer.5.10.4.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "NuGetPackageExplorer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Nuget Package Explorer",
+                    "file-name": "NuGetPackageExplorer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/NugetPackageExplorer.$version.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/NugetPackageExplorer",
+                "regex": "Chocolatey.*?([\\d.]+)"
+            }
+        }
+    }
+}

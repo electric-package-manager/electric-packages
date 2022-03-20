@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "cfr",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cfr",
+        "latest-version": "0.151",
+        "0.151": {
+            "url": "https://www.benf.org/other/cfr/cfr-0.151.jar#/cfr.jar",
+            "file-type": ".jar",
+            "bin": [
+                "cfr.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "nomacs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nomacs",
+        "latest-version": "3.16.1709",
+        "3.16.1709": {
+            "url": "https://github.com/nomacs/nomacs/releases/download/3.16.224/nomacs-portable-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nomacs.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "ensure \"$persist_dir\" | Out-Null",
+                        "Copy-Item \"$persist_dir\\settings.ini\" \"$dir\" -ErrorAction SilentlyContinue -Force"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "nomacs",
+                    "file-name": "nomacs.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

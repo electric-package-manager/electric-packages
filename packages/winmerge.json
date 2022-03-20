@@ -1,0 +1,25 @@
+{
+    "display-name": "WinMerge",
+    "package-name": "winmerge",
+    "latest-version": "2.16.10",
+    "2.16.10": {
+        "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "6E9CD0D92EB721BD40974DE4CC1CFB0B69E497DCFFFBBC50638CF931603247CB"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "display-name": "",
+    "package-name": "coreutils",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "coreutils",
+        "latest-version": "5.97.3",
+        "5.97.3": {
+            "url": [
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/msys-core/msys-1.0.13-2/msysCORE-1.0.13-2-msys-1.0.13-bin.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/gettext/gettext-0.17-2/libintl-0.17-2-msys-dll-8.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/libiconv/libiconv-1.13.1-2/libiconv-1.13.1-2-msys-1.0.13-dll-2.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/termcap/termcap-0.20050421_1-2/libtermcap-0.20050421_1-2-msys-1.0.13-dll-0.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/coreutils/coreutils-5.97-3/coreutils-5.97-3-msys-1.0.13-bin.tar.lzma",
+                "https://downloads.sourceforge.net/project/mingw/MSYS/Base/coreutils/coreutils-5.97-3/coreutils-5.97-3-msys.RELEASE_NOTES.txt"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "bin\\basename.exe",
+                "bin\\cat.exe",
+                "bin\\chmod.exe",
+                "bin\\comm.exe",
+                "bin\\cp.exe",
+                "bin\\cut.exe",
+                "bin\\date.exe",
+                "bin\\dirname.exe",
+                "bin\\echo.exe",
+                "bin\\env.exe",
+                "bin\\expr.exe",
+                "bin\\false.exe",
+                "bin\\fold.exe",
+                "bin\\head.exe",
+                "bin\\id.exe",
+                "bin\\install.exe",
+                "bin\\join.exe",
+                "bin\\ln.exe",
+                "bin\\ls.exe",
+                "bin\\md5sum.exe",
+                "bin\\mkdir.exe",
+                "bin\\msysmnt.exe",
+                "bin\\mv.exe",
+                "bin\\od.exe",
+                "bin\\paste.exe",
+                "bin\\printf.exe",
+                "bin\\ps.exe",
+                "bin\\pwd.exe",
+                "bin\\rm.exe",
+                "bin\\rmdir.exe",
+                "bin\\sleep.exe",
+                "bin\\sort.exe",
+                "bin\\split.exe",
+                "bin\\stty.exe",
+                "bin\\tail.exe",
+                "bin\\tee.exe",
+                "bin\\touch.exe",
+                "bin\\tr.exe",
+                "bin\\true.exe",
+                "bin\\uname.exe",
+                "bin\\uniq.exe",
+                "bin\\wc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sharplispers/cormanlisp/releases/download/v<version>/CormanLisp-<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/sharplispers/cormanlisp",
+                "regex": "download/v([\\w.]+)"
+            }
+        }
+    }
+}

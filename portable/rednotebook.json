@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "rednotebook",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rednotebook",
+        "latest-version": "2.21",
+        "2.21": {
+            "url": "https://github.com/jendrikseipp/rednotebook/releases/download/v2.21/rednotebook-2.21.exe",
+            "file-type": ".exe",
+            "bin": [
+                "rednotebook.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RedNotebook",
+                    "file-name": "rednotebook.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jendrikseipp/rednotebook/releases/download/v<version>/rednotebook-<version>.exe",
+            "version-check": {
+                "webpage": "https://rednotebook.sourceforge.io/"
+            }
+        }
+    }
+}

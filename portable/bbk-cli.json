@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "bbk-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bbk-cli",
+        "latest-version": "1.0",
+        "1.0": {
+            "url": "https://frontend.bredbandskollen.se/download/bbk_cli_win_amd64-1.0#/bbk-cli.exe",
+            "file-type": ".exe",
+            "bin": [
+                "bbk-cli.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

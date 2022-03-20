@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "babelmap",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "babelmap",
+        "latest-version": "13.0.0.11",
+        "13.0.0.11": {
+            "url": "http://www.babelstone.co.uk/Software/Download/BabelMap.zip",
+            "file-type": ".zip",
+            "bin": [
+                "BabelMap.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "BabelMap",
+                    "file-name": "BabelMap.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.babelstone.co.uk/Software/Download/BabelMap.zip",
+            "version-check": {
+                "webpage": "http://www.babelstone.co.uk/Software/BabelMap_Versions.html",
+                "regex": ">([\\d.]+)<"
+            }
+        }
+    }
+}

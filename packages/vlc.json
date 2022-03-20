@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/XtremeDevX/electric-packages/main/package-schema.json",
+    "display-name": "VLC Media Player",
+    "package-name": "vlc",
+    "latest-version": "3.0.12",
+    "3.0.12": {
+        "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "D6E211C71C3F2DDEBD950770779BB3FD71C2D977C04FF40EA9E3E5EE9D9D0EC9"
+    }
+}

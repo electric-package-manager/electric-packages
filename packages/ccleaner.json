@@ -1,0 +1,142 @@
+{
+    "display-name": "CCleaner",
+    "package-name": "ccleaner",
+    "latest-version": "5.91.9537",
+    "auto-update": {
+        "url": "https://download.ccleaner.com/ccsetup<major-version><minor-version>.exe",
+        "version-check": {
+            "webpage": "https://www.ccleaner.com/ccleaner/version-history",
+            "regex": "v([\\d.]+) \\([a-zA-Z0-9_.\\s]+\\)"
+        }
+    },
+    "5.77.8448": {
+        "url": "https://download.ccleaner.com/ccsetup578.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "4B06EDB1A0CC2EEE860D84877F27185BD2FF944F4817600A57D8A235D2596BE6"
+    },
+    "5.78.8558": {
+        "url": "https://download.ccleaner.com/ccsetup578.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "4B06EDB1A0CC2EEE860D84877F27185BD2FF944F4817600A57D8A235D2596BE6"
+    },
+    "5.79.8704": {
+        "url": "https://download.ccleaner.com/ccsetup579.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "09602C2DC165452F64C6225840B9880B4FA3CBEE47F23D3D37F6503464B7E1AB"
+    },
+    "5.80.8743": {
+        "url": "https://download.ccleaner.com/ccsetup580.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "AEB20EEC5600175F4F8CC1F5D38DBD98C54F1664CB44E8F18A579FE1F59C1D45"
+    },
+    "5.81.8895": {
+        "url": "https://download.ccleaner.com/ccsetup581.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "176022FA9D667C7744C7942A60E06358E827A875B261F1EA0770F82AF0233894"
+    },
+    "5.82.8950": {
+        "url": "https://download.ccleaner.com/ccsetup582.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "23FA3272684C37A0C4B04531EEF9363DD7874D3BEAA1709995779B273AE56C47"
+    },
+    "5.83.9050": {
+        "url": "https://download.ccleaner.com/ccsetup583.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "CDECCE5824E901BBBD97C0F933C15A14A4F2C1B260DA17D8081B6B87CF306C2F"
+    },
+    "5.84.9126": {
+        "url": "https://download.ccleaner.com/ccsetup584.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "BDC3E1F9F29969CE316B8A3A9EE4C939F832BE92E59937057A8FD9C995EC43C1"
+    },
+    "5.90.9443": {
+        "url": "https://download.ccleaner.com/ccsetup590.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "5C75F25EC38E52C94112AEFC9A22259E22E33A55D474B0DD33D257E683C4EAC4"
+    },
+    "5.91.9537": {
+        "url": "https://download.ccleaner.com/ccsetup591.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "E67F0CDC3779C76E7E03A61FBD0DB92A76BC2E1ACF7C7FEBC27AA875D57998E5"
+    }
+}

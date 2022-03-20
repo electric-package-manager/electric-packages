@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "plex-player",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "plex-player",
+        "latest-version": "2.58.0.1076-38e019da",
+        "2.58.0.1076-38e019da": {
+            "url": "https://downloads.plex.tv/plexmediaplayer/2.58.0.1076-38e019da/PlexMediaPlayer-2.58.0.1076-38e019da-windows-x64.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Plex Media Player",
+                    "file-name": "PlexMediaPlayer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.plex.tv/plexmediaplayer/$version/PlexMediaPlayer-$version-windows-x64.exe",
+            "version-check": {
+                "webpage": "https://plex.tv/api/downloads/3.json"
+            }
+        }
+    }
+}

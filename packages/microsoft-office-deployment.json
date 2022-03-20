@@ -1,0 +1,17 @@
+{
+    "display-name": "Microsoft Office Deployment",
+    "package-name": "microsoft-office-deployment",
+    "latest-version": "16.0.13530.20376",
+    "16.0.13530.20376": {
+        "url": "https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_13530-20376.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "CFD3A939DB7E71B999C1F55BAED9269E9B344A75A81AC761333CAD87359E4B30"
+    }
+}

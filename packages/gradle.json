@@ -1,0 +1,129 @@
+{
+    "display-name": "Gradle",
+    "package-name": "gradle",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Gradle",
+        "package-name": "gradle",
+        "latest-version": "7.4.1",
+        "auto-update": {
+            "url": "https://services.gradle.org/distributions/gradle-<version>-all.zip",
+            "version-check": {
+                "webpage": "https://gradle.org/releases/",
+                "regex": "<span>v([\\d.]+)"
+            }
+        },
+        "6.8.3": {
+            "url": "https://services.gradle.org/distributions/gradle-6.8.3-all.zip",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            },
+            "checksum": "9AF5C8E7E2CD1A3B0F694A4AC262B9F38C75262E74A9E8B5101AF302A6BEADD7"
+        },
+        "8.0.0": {
+            "url": "https://services.gradle.org/distributions/gradle-8.0.0-all.zip",
+            "checksum": "8F4EE96E3AF763A54A97897FD6C1D68F03FAC2AA952170F37138C48C3E012C0A",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.0.2": {
+            "url": "https://services.gradle.org/distributions/gradle-7.0.2-all.zip",
+            "checksum": "13BF8D3CF8EEEB5770D19741A59BDE9BD966DD78D17F1BBAD787A05EF19D1C2D",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.1": {
+            "url": "https://services.gradle.org/distributions/gradle-7.1-all.zip",
+            "checksum": "A9E356A21595348B6F04B024ED0B08AC8AEA6B2AC37E6C0EF58E51549CD7B9CB",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.1.1": {
+            "url": "https://services.gradle.org/distributions/gradle-7.1.1-all.zip",
+            "checksum": "9BB8BC05F562F2D42BDF1BA8DB62F6B6FA1C3BF6C392228802CC7CB0578FE7E0",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "6.9.1": {
+            "url": "https://services.gradle.org/distributions/gradle-6.9.1-all.zip",
+            "checksum": "B13F5D97F08000996BF12D9DD70AF3F2C6B694C2C663AB1B545E9695562AD1EE",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.4": {
+            "url": "https://services.gradle.org/distributions/gradle-7.4-all.zip",
+            "checksum": "CD5C2958A107EE7F0722004A12D0F8559B4564C34DAAD7DF06CFFD4D12A426D0",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.4.1": {
+            "url": "https://services.gradle.org/distributions/gradle-7.4.1-all.zip",
+            "checksum": "A9A7B7BABA105F6557C9DCF9C3C6E8F7E57E6B49889C5F1D133F015D0727E4BE",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        }
+    }
+}

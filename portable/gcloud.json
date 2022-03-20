@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "gcloud",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gcloud",
+        "latest-version": "336.0.0",
+        "336.0.0": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-336.0.0-windows-x86_64-bundled-python.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\gcloud.cmd",
+                "bin\\gsutil.cmd",
+                "bin\\bq.cmd",
+                "bin\\docker-credential-gcloud.cmd",
+                "bin\\git-credential-gcloud.cmd"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip",
+            "version-check": {
+                "webpage": "https://cloud.google.com/sdk/docs/downloads-versioned-archives",
+                "regex": "google-cloud-sdk-([\\d.]+)-windows-x86_64-bundled"
+            }
+        }
+    }
+}

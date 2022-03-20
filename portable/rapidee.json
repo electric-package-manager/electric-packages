@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "rapidee",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rapidee",
+        "latest-version": "9.2.937",
+        "9.2.937": {
+            "url": "https://www.rapidee.com/download/RapidEEx64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rapidee.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if(!(Test-Path \"$persist_dir\\rapidee.ini\")) { New-Item \"$dir\\rapidee.ini\" -Type File | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RapidEE",
+                    "file-name": "rapidee.exe"
+                }
+            ],
+            "persist": "rapidee.ini"
+        },
+        "auto-update": {
+            "url": "https://www.rapidee.com/download/RapidEEx64.zip",
+            "version-check": {
+                "webpage": "https://www.rapidee.com/en/about",
+                "regex": "([\\d.]+) build ([\\d]+)"
+            }
+        }
+    }
+}

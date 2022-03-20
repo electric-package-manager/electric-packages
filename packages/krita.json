@@ -1,0 +1,64 @@
+{
+    "display-name": "Krita",
+    "package-name": "krita",
+    "latest-version": "5.0.2",
+    "auto-update": {
+        "url": "https://download.kde.org/stable/krita/<version>/krita-x64-<version>-setup.exe",
+        "version-check": {
+            "webpage": "https://krita.org/en/download/krita-desktop/",
+            "regex": "Download Krita\n([\\d.]+)"
+        }
+    },
+    "4.4.3": {
+        "url": "https://download.kde.org/stable/krita/4.4.3/krita-x64-4.4.3-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "A2861265853789DFA6F973BA7D2EE664D14C5852ACAE623898535E862FD69AFD"
+    },
+    "4.4.5": {
+        "url": "https://download.kde.org/stable/krita/4.4.5/krita-x64-4.4.5-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "81D13D3E7B950B6D0A2405E419618EB51F02DA51F3413EB1E2D8D96AF0E45A4A"
+    },
+    "4.4.7": {
+        "url": "https://download.kde.org/stable/krita/4.4.7/krita-x64-4.4.7-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "E2ABAD0F03B4E0645E23914B97FB93B44FCD7A96E11445BD9BB19DBDF8D9A4FB"
+    },
+    "5.0.2": {
+        "url": "https://download.kde.org/stable/krita/5.0.2/krita-x64-5.0.2-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "9C55E78BB2548CEDD2E6CAF0A7CEFAEDFC46FB55D4D188193BBAFFFF94DA7AA4"
+    }
+}

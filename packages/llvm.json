@@ -1,0 +1,21 @@
+{
+  "display-name": "LLVM",
+  "package-name": "llvm",
+  "latest-version": "11.0.1",
+  "auto-update": {
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-<version>/LLVM-<version>-win64.exe",
+    "version-check": {
+      "webpage": "https://github.com/llvm/llvm-project",
+      "type": "github"
+    }
+  },
+  "11.0.1": {
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.1/LLVM-11.0.1-win64.exe",
+    "file-type": ".exe",
+    "iswitches": ["/S"],
+    "uswitches": ["/S"],
+    "clswitch": "/D=",
+    "dependencies": [],
+    "checksum": "D17BD0E556115C30FF45E30A3F9A623AF89AD6A345A5DF3AC47AA8B9EABAB9A7"
+  }
+}

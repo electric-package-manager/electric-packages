@@ -1,0 +1,91 @@
+{
+    "display-name": "Evernote",
+    "package-name": "evernote",
+    "latest-version": "10.18.3",
+    "auto-update": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-<version>-win-ddl-ga-<2>-setup.exe",
+        "version-check": {
+            "webpage": "https://help.evernote.com/hc/en-us/articles/360058361833-Evernote-release-notes",
+            "regex": "The most recent version is ([\\d.]+) build ([\\d]{4}).",
+            "replace": "<1>"
+        }
+    },
+    "10.8.5": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.8.5-win-ddl-ga-2367-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "8BC7B88DB643CB8DF342BC174E56C4AC3CF860761AD9ABADF524B66FA01A8CBA"
+    },
+    "10.13.4": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.13.4-win-ddl-ga-2607-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "44D52227C6A4E93E8581BA41125906203B354D34C0AD145A84204992BD3A1CDB"
+    },
+    "10.14.6": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.14.6-win-ddl-ga-2651-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "9A303DC064DA293BD0311DB00C1B78D4ECC91BF43B9B654285DCC531BC789C0B"
+    },
+    "10.15.6": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.15.6-win-ddl-ga-2680-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "D1E02488B87E3C76FE1E3A85CEC2B4BE8CBEA4B5F323CD23F9288E7A8302B74B"
+    },
+    "10.16.7": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.16.7-win-ddl-ga-2732-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "BEB399287CE7AB03AD4EDFE82654F51ED858356575BF19750594C12F9A7EC40F"
+    },
+    "10.18.3": {
+        "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.18.3-win-ddl-ga-2820-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "0A3710DD2E7207C18783F5BD1405DB2EECA7DE903AB14521FBFF209B4926D173"
+    }
+}

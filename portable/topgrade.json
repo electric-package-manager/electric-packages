@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "topgrade",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "topgrade",
+        "latest-version": "6.8.0",
+        "6.8.0": {
+            "url": "https://github.com/r-darwish/topgrade/releases/download/v6.8.0/topgrade-v6.8.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "topgrade.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "dadroitjsonviewer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dadroitjsonviewer",
+        "latest-version": "1.5.1800",
+        "1.5.1800": {
+            "url": "https://viewer.dadroit.com/releases/win/Dadroit%20Viewer%201.5%20Build%201800%20x64%20Setup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "DadroitViewer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dadroit JSON Viewer",
+                    "file-name": "DadroitViewer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://viewer.dadroit.com/releases/win/Dadroit%20Viewer%20$majorVersion.$minorVersion%20Build%20$patchVersion%20x64%20Setup.exe",
+            "version-check": {
+                "webpage": "https://viewer.dadroit.com/js/app.js",
+                "regex": "Viewer (?<main>[\\d.]+)\\s+Build\\s+(?<build>\\d+)\\s+x64"
+            }
+        }
+    }
+}

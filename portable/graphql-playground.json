@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "graphql-playground",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "graphql-playground",
+        "latest-version": "1.8.10",
+        "1.8.10": {
+            "url": "https://github.com/prisma-labs/graphql-playground/releases/download/v1.8.10/graphql-playground-electron-setup-1.8.10.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GraphQL Playground",
+                    "file-name": "GraphQL Playground.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

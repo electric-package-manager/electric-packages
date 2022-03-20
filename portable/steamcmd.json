@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "steamcmd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "steamcmd",
+        "latest-version": "1618256708",
+        "1618256708": {
+            "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.4dda1104992cfb918049739ef5e9de4322e0a737#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "steamcmd.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "appcache",
+                "config",
+                "steamapps",
+                "userdata"
+            ]
+        },
+        "auto-update": {
+            "url": "http://media2.steampowered.com/client/steamcmd_win32.zip.$matchRandom#/dl.7z",
+            "version-check": {
+                "webpage": "http://media2.steampowered.com/client/steam_cmd_win32",
+                "regex": "\"version\"\\s+\"(\\d+)\"[\\s\\S]*?steamcmd_win32\\.zip\\.(?<random>[a-f\\d]{40})"
+            }
+        }
+    }
+}

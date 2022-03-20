@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "mattermost",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mattermost",
+        "latest-version": "4.6.2",
+        "4.6.2": {
+            "url": "https://releases.mattermost.com/desktop/4.6.2/mattermost-desktop-4.6.2-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Mattermost.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mattermost",
+                    "file-name": "Mattermost.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://releases.mattermost.com/desktop/$version/mattermost-desktop-$version-win-x64.zip",
+            "version-check": {
+                "webpage": "https://mattermost.com"
+            }
+        }
+    }
+}

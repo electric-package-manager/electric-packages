@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "connect",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "connect",
+        "latest-version": "1.100",
+        "1.100": {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/connect/connect-1.100.exe#/connect.exe",
+            "file-type": ".exe",
+            "bin": [
+                "connect.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

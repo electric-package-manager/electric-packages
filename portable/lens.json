@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "lens",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lens",
+        "latest-version": "4.2.1",
+        "4.2.1": {
+            "url": "https://github.com/lensapp/lens/releases/download/v4.2.1/Lens-Setup-4.2.1.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lens",
+                    "file-name": "Lens.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lensapp/lens/releases/download/v<version>/Lens-Setup-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://k8slens.dev"
+            }
+        }
+    }
+}

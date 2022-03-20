@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "astrogrep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "astrogrep",
+        "latest-version": "4.4.7",
+        "4.4.7": {
+            "url": "https://downloads.sourceforge.net/project/astrogrep/AstroGrep%20%28Win32%29/AstroGrep%20v4.4.7/AstroGrep_v4.4.7_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "AstroGrep.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AstroGrep",
+                    "file-name": "AstroGrep.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/astrogrep/AstroGrep%20%28Win32%29/AstroGrep%20v<version>/AstroGrep_v<version>_portable.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/astrogrep/rss?path=/",
+                "regex": "AstroGrep_v([\\d.]+)_portable\\.zip"
+            }
+        }
+    }
+}

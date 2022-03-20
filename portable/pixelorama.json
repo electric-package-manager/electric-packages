@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "pixelorama",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pixelorama",
+        "latest-version": "0.7",
+        "0.7": {
+            "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v0.7/Pixelorama.v0.7.Windows.64-bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Pixelorama.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pixelorama",
+                    "file-name": "Pixelorama.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/Orama-Interactive/Pixelorama/releases/download/v$version/Pixelorama.v$version.Windows.64-bit.zip",
+            "version-check": {
+                "webpage": "https://www.orama-interactive.com/pixelorama"
+            }
+        }
+    }
+}

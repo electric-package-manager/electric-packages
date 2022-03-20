@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "onionshare",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "onionshare",
+        "latest-version": "2.2",
+        "2.2": {
+            "url": "https://github.com/micahflee/onionshare/releases/download/v2.2/onionshare-2.2-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "onionshare-gui.exe",
+                    "onionshare"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OnionShare",
+                    "file-name": "onionshare-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/micahflee/onionshare/releases/download/v<version>/onionshare-<version>-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://onionshare.org/"
+            }
+        }
+    }
+}

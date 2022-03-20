@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "hourglass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hourglass",
+        "latest-version": "1.10.0",
+        "1.10.0": {
+            "url": "https://github.com/dziemborowicz/hourglass/releases/download/v1.10.0/HourglassPortable.exe#/Hourglass.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Hourglass.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Hourglass.config\")) { New-Item \"$dir\\Hourglass.config\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Hourglass",
+                    "file-name": "Hourglass.exe"
+                }
+            ],
+            "persist": "Hourglass.config"
+        },
+        "auto-update": {
+            "url": "https://github.com/dziemborowicz/hourglass/releases/download/v<version>/HourglassPortable.exe#/Hourglass.exe",
+            "version-check": {
+                "webpage": "https://chris.dziemborowicz.com/apps/hourglass/"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "cowsay",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cowsay",
+        "latest-version": "0.2013.07.19",
+        "0.2013.07.19": {
+            "url": "https://github.com/lukesampson/cowsay-psh/archive/master.zip",
+            "file-type": ".zip",
+            "bin": [
+                "cowsay.ps1",
+                "cowthink.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

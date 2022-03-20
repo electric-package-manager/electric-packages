@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "openshot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openshot",
+        "latest-version": "2.5.1",
+        "2.5.1": {
+            "url": "https://github.com/OpenShot/openshot-qt/releases/download/v2.5.1/OpenShot-v2.5.1-x86_64.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OpenShot Video Editor",
+                    "file-name": "openshot-qt.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/OpenShot/openshot-qt/releases/download/v$version/OpenShot-v$version-x86_64.exe",
+            "version-check": {
+                "webpage": "https://www.openshot.org/"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "dua",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dua",
+        "latest-version": "2.11.1",
+        "2.11.1": {
+            "url": "https://github.com/Byron/dua-cli/releases/download/v2.11.1/dua-v2.11.1-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dua.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

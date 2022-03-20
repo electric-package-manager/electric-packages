@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "openscad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openscad",
+        "latest-version": "2021.01",
+        "2021.01": {
+            "url": "https://files.openscad.org/OpenSCAD-2021.01-x86-64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# OpenSCAD can't be started from a symlinked directory. See: https://github.com/openscad/openscad/issues/1309",
+                        "startmenu_shortcut \"$original_dir/openscad.exe\" 'OpenSCAD'",
+                        "shim \"$original_dir\\openscad.exe\" $false 'openscad'"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://files.openscad.org/OpenSCAD-$version-x86-64.zip",
+            "version-check": {
+                "webpage": "https://www.openscad.org/inc/win_release_links.js",
+                "regex": "OpenSCAD-([\\d.-]+)-x"
+            }
+        }
+    }
+}

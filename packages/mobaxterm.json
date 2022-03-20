@@ -1,0 +1,33 @@
+{
+    "display-name": "MobaXterm",
+    "package-name": "mobaxterm",
+    "latest-version": "21.0",
+    "21.0": {
+        "url": "https://download.mobatek.net/2102021022292334/MobaXterm_Installer_v21.0.zip",
+        "file-type": ".zip",
+        "pre-install": [
+            {
+                "type": "python",
+                "admin": false,
+                "override": true,
+                "code": [
+                    "import zipfile",
+                    "import os",
+                    "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
+                    "    zip_ref.extractall(r'<temp>\\electric')",
+                    "path = r'<temp>\\electric\\MobaXterm_Installer_v<version>.msi'",
+                    "if not \"<directory>\":",
+                    "    os.system(f'{path} /qn /quiet /norestart')",
+                    "else:",
+                    "    os.system(f'{path} /qn /quiet /norestart INSTALLDIR=\"<directory>\"')",
+                    "os.system('electric register <package-name> --version <version>')",
+                    "print('Successfully Installed <display-name>')"
+                ]
+            }
+        ],
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

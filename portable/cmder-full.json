@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "cmake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cmake",
+        "latest-version": "3.20.1",
+        "3.20.1": {
+            "url": "https://github.com/Kitware/CMake/releases/download/v3.20.1/cmake-3.20.1-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\cmake.exe",
+                "bin\\cmcldeps.exe",
+                "bin\\cpack.exe",
+                "bin\\ctest.exe",
+                "bin\\cmake-gui.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "cmake-gui",
+                    "file-name": "bin\\cmake-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cmderdev/cmder/releases/download/v<version>/cmder.7z",
+            "version-check": {
+                "webpage": "https://cmder.net"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "osslsigncode",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "osslsigncode",
+        "latest-version": "1.7.1-1",
+        "1.7.1-1": {
+            "url": "https://downloads.sourceforge.net/project/unix-utils/osslsigncode/osslsigncode-1.7.1-1-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "osslsigncode.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/unix-utils/osslsigncode/osslsigncode-$version-x86_64.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/unix-utils/files/osslsigncode/",
+                "regex": "osslsigncode-([\\d.-]+)-x86_64"
+            }
+        }
+    }
+}

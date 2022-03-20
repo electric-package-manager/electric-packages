@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "jq",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jq",
+        "latest-version": "1.6",
+        "1.6": {
+            "url": "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-win64.exe#/jq.exe",
+            "file-type": ".exe",
+            "bin": [
+                "jq.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://s3.amazonaws.com/jruby.org/downloads/<version>/jruby-bin-<version>.zip",
+            "version-check": {
+                "webpage": "https://www.jruby.org/download",
+                "regex": "Current Release:\\s+JRuby\\s+([\\d.]+)"
+            }
+        }
+    }
+}

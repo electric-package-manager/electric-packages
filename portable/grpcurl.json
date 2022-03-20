@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "grpcurl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "grpcurl",
+        "latest-version": "1.8.0",
+        "1.8.0": {
+            "url": "https://github.com/fullstorydev/grpcurl/releases/download/v1.8.0/grpcurl_1.8.0_windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "grpcurl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/fullstorydev/grpcurl/releases/download/v$version/grpcurl_$version_windows_x86_64.zip",
+            "version-check": {
+                "webpage": "https://github.com/fullstorydev/grpcurl/releases",
+                "regex": "grpcurl_([\\d.]+)_windows_x"
+            }
+        }
+    }
+}

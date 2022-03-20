@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mpc-hc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpc-hc",
+        "latest-version": "1.7.13",
+        "1.7.13": {
+            "url": "https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20x64/MPC-HC_v1.7.13_x64/MPC-HC.1.7.13.x64.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@('mpc-hc64.ini', 'mpc-hc.ini', 'default.mpcpl') | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "mpc-hc64.ini",
+                "mpc-hc.ini",
+                "default.mpcpl"
+            ]
+        }
+    }
+}

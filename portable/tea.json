@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "tea",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tea",
+        "latest-version": "0.7.0",
+        "0.7.0": {
+            "url": "https://dl.gitea.io/tea/0.7.0/tea-0.7.0-windows-amd64.exe#/tea.exe",
+            "file-type": ".exe",
+            "bin": [
+                "tea.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.gitea.io/tea/$version/tea-$version-windows-amd64.exe#/tea.exe",
+            "version-check": {
+                "webpage": "https://gitea.com/gitea/tea"
+            }
+        }
+    }
+}

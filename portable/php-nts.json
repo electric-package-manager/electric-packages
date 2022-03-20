@@ -1,0 +1,154 @@
+{
+    "display-name": "",
+    "package-name": "php-nts",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "php-nts",
+        "latest-version": "8.0.3",
+        "8.0.3": {
+            "url": "https://windows.php.net/downloads/releases/php-8.0.3-nts-Win32-vs16-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "php.exe",
+                "php-cgi.exe",
+                "phpdbg.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "cli",
+                [
+                    "php.ini-production",
+                    "cli\\php.ini"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# Create directory for custom PHP configuration",
+                        "if (!(Test-Path \"$dir\\cli\\conf.d\")) {",
+                        "    (New-Item -Type directory \"$dir\\cli\\conf.d\") | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# Enable extensions to be found in installation-relative folder (the default is to search C:/php)",
+                        "(Get-Content \"$dir\\cli\\php.ini\") | % { $_ -replace ';\\s?(extension_dir = \"ext\")', '$1' } | Set-Content \"$dir\\cli\\php.ini\""
+                    ]
+                }
+            ],
+            "set-env": [
+                {
+                    "name": "version",
+                    "value": "8.0.3"
+                },
+                {
+                    "name": "description",
+                    "value": "A popular general-purpose scripting language that is especially suited to web development. (non-thread safe)"
+                },
+                {
+                    "name": "homepage",
+                    "value": "https://windows.php.net/"
+                },
+                {
+                    "name": "license",
+                    "value": "PHP-3.01"
+                },
+                {
+                    "name": "suggest",
+                    "value": {
+                        "vcredist": "extras/vcredist2019"
+                    }
+                },
+                {
+                    "name": "architecture",
+                    "value": {
+                        "64bit": {
+                            "url": "https://windows.php.net/downloads/releases/php-8.0.3-nts-Win32-vs16-x64.zip",
+                            "hash": "be8d29c31d719dafd2730a63610a5b385ad6cc122160f585eb266713f0a5d018"
+                        },
+                        "32bit": {
+                            "url": "https://windows.php.net/downloads/releases/php-8.0.3-nts-Win32-vs16-x86.zip",
+                            "hash": "f66ba2b11a7f86f03c5eb4ff31504aa72722bf7cf7449b4d3e521caf373edc28"
+                        }
+                    }
+                },
+                {
+                    "name": "pre_install",
+                    "value": [
+                        "# Create directory for custom PHP configuration",
+                        "if (!(Test-Path \"$dir\\cli\\conf.d\")) {",
+                        "    (New-Item -Type directory \"$dir\\cli\\conf.d\") | Out-Null",
+                        "}"
+                    ]
+                },
+                {
+                    "name": "post_install",
+                    "value": [
+                        "# Enable extensions to be found in installation-relative folder (the default is to search C:/php)",
+                        "(Get-Content \"$dir\\cli\\php.ini\") | % { $_ -replace ';\\s?(extension_dir = \"ext\")', '$1' } | Set-Content \"$dir\\cli\\php.ini\""
+                    ]
+                },
+                {
+                    "name": "bin",
+                    "value": [
+                        "php.exe",
+                        "php-cgi.exe",
+                        "phpdbg.exe"
+                    ]
+                },
+                {
+                    "name": "env_set",
+                    "value": {
+                        "PHP_INI_SCAN_DIR": "$dir\\cli;$dir\\cli\\conf.d;"
+                    }
+                },
+                {
+                    "name": "persist",
+                    "value": [
+                        "cli",
+                        [
+                            "php.ini-production",
+                            "cli\\php.ini"
+                        ]
+                    ]
+                },
+                {
+                    "name": "checkver",
+                    "value": {
+                        "url": "https://windows.php.net/download/",
+                        "regex": "<h3 id=\"php-[\\d.]+\".*?>.*?\\(([\\d.]+)\\)</h3>"
+                    }
+                },
+                {
+                    "name": "autoupdate",
+                    "value": {
+                        "architecture": {
+                            "64bit": {
+                                "url": "https://windows.php.net/downloads/releases/php-$version-nts-Win32-vs16-x64.zip"
+                            },
+                            "32bit": {
+                                "url": "https://windows.php.net/downloads/releases/php-$version-nts-Win32-vs16-x86.zip"
+                            }
+                        },
+                        "hash": {
+                            "url": "$baseurl/sha256sum.txt"
+                        }
+                    }
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://windows.php.net/downloads/releases/php-$version-nts-Win32-vs16-x64.zip",
+            "version-check": {
+                "webpage": "https://windows.php.net/download/",
+                "regex": "<h3 id=\"php-[\\d.]+\".*?>.*?\\(([\\d.]+)\\)</h3>"
+            }
+        }
+    }
+}

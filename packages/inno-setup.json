@@ -1,0 +1,56 @@
+{
+    "display-name": "Inno Setup",
+    "package-name": "inno-setup",
+    "latest-version": "6.2.0",
+    "auto-update": {
+        "url": "http://files.jrsoftware.org/is/<major-version>/innosetup-<version>.exe",
+        "version-check": {
+            "webpage": "https://jrsoftware.org/",
+            "regex": "Inno Setup ([\\d.]+)</a>"
+        }
+    },
+    "6.1.2": {
+        "url": "http://files.jrsoftware.org/is/6/innosetup-6.1.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "default-install-dir": "C:\\Program Files (x86)\\Inno Setup 6",
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "add-path": "<install-directory>",
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "A3CE1C40EF9C71A92691AAFF0F413F530C8C9E3C766BE481BC63CA7CC74E35E7"
+    },
+    "6.2.0": {
+        "url": "http://files.jrsoftware.org/is/6/innosetup-6.2.0.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "default-install-dir": "C:\\Program Files (x86)\\Inno Setup 6",
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "add-path": "<install-directory>",
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "2459DA3C0A67346BC43A9732D96929877D04F53B1D4C56E61BE64E3B5F34D5CF"
+    }
+}

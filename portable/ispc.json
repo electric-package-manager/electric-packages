@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ispc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ispc",
+        "latest-version": "1.15.0",
+        "1.15.0": {
+            "url": "https://github.com/ispc/ispc/releases/download/v1.15.0/ispc-v1.15.0-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ispc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ispc/ispc/releases/download/v<version>/ispc-v<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://ispc.github.io/"
+            }
+        }
+    }
+}

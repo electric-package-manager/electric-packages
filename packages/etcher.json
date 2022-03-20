@@ -1,0 +1,97 @@
+{
+    "display-name": "Etcher",
+    "package-name": "etcher",
+    "latest-version": "1.7.8",
+    "auto-update": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v<version>/balenaEtcher-Setup-<version>.exe",
+        "version-check": {
+            "webpage": "https://github.com/balena-io/etcher",
+            "type": "github"
+        }
+    },
+    "1.5.117": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.5.117/balenaEtcher-Setup-1.5.117.exe",
+        "file-type": ".exe",
+        "checksum": "030370D59CD8BC67CCF923F7BEAD374385C35B753029FB0A017C4235AC350640",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.5.119": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.5.119/balenaEtcher-Setup-1.5.119.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.5.120": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.5.120/balenaEtcher-Setup-1.5.120.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.5.121": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.5.121/balenaEtcher-Setup-1.5.121.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.7.3": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.7.3/balenaEtcher-Setup-1.7.3.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.7.7": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.7.7/balenaEtcher-Setup-1.7.7.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.7.8": {
+        "url": "https://github.com/balena-io/etcher/releases/download/v1.7.8/balenaEtcher-Setup-1.7.8.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    }
+}

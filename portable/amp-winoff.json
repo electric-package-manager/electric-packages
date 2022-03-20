@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "amp-winoff",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "amp-winoff",
+        "latest-version": "5.0.1",
+        "5.0.1": {
+            "url": "http://www.ampsoft.net/files/WinOFF.zip",
+            "file-type": ".zip",
+            "bin": [
+                "WinOFF.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AMP WinOFF",
+                    "file-name": "WinOFF.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

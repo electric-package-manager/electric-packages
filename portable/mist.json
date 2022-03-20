@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mist",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mist",
+        "latest-version": "0.11.1",
+        "0.11.1": {
+            "url": "https://github.com/ethereum/mist/releases/download/v0.11.1/Mist-win64-0-11-1.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mist",
+                    "file-name": "Mist.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

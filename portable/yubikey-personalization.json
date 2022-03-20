@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "yubikey-personalization",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "yubikey-personalization",
+        "latest-version": "1.19.0",
+        "1.19.0": {
+            "url": "https://developers.yubico.com/yubikey-personalization/Releases/ykpers-1.19.0-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\modhex.exe",
+                "bin\\ykchalresp.exe",
+                "bin\\ykgenerate.exe",
+                "bin\\ykinfo.exe",
+                "bin\\ykparse.exe",
+                "bin\\ykpersonalize.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://www.yubico.com/support/knowledge-base/categories/articles/yubikey-personalization-tools/",
+                "regex": "ykpers-([\\d.]+)-win64\\.zip"
+            }
+        }
+    }
+}

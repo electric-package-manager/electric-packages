@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "trid",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "trid",
+        "latest-version": "2.24-21.04.14",
+        "2.24-21.04.14": {
+            "url": [
+                "https://mark0.net/download/triddefs.zip",
+                "https://mark0.net/download/trid_w32.zip"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "trid.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://mark0.net/download/triddefs.zip",
+            "version-check": {
+                "webpage": "https://www.mark0.net/soft-trid-e.html",
+                "regex": "(?smi)Win32.*?TrID v([\\d\\.]*).*?(\\d{2})\\/(\\d{2})\\/(\\d{2})"
+            }
+        }
+    }
+}

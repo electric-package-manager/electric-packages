@@ -1,0 +1,51 @@
+{
+    "display-name": "Composer",
+    "package-name": "composer",
+    "latest-version": "6.3.0",
+    "auto-update": {
+        "url": "https://github.com/composer/windows-setup/releases/download/v<version>/Composer-Setup.<version>.exe",
+        "version-check": {
+            "webpage": "https://github.com/composer/windows-setup",
+            "type": "github"
+        }
+    },
+    "6.1.0": {
+        "url": "https://github.com/composer/windows-setup/releases/download/v6.1.0/Composer-Setup.6.1.0.exe",
+        "file-type": ".exe",
+        "checksum": "F3FE32CCCDF21E0E58DAF505823D2B9426AF6A4F754318217F9E6E23744AF781",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    },
+    "6.3.0": {
+        "url": "https://github.com/composer/windows-setup/releases/download/v6.3.0/Composer-Setup.6.3.0.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    }
+}

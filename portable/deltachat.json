@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "deltachat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deltachat",
+        "latest-version": "1.15.5",
+        "1.15.5": {
+            "url": "https://download.delta.chat/desktop/v1.15.5/DeltaChat%201.15.5.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DeltaChat",
+                    "file-name": "DeltaChat.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.delta.chat/desktop/v$version/DeltaChat%20$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://delta.chat/en/download",
+                "regex": "desktop/v([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "less",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "less",
+        "latest-version": "563.0",
+        "563.0": {
+            "url": [
+                "https://github.com/jftuga/less-Windows/releases/download/less-v563.0/less.exe",
+                "https://github.com/jftuga/less-Windows/releases/download/less-v563.0/lesskey.exe"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "less.exe",
+                "lesskey.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

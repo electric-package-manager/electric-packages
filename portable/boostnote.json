@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "boostnote",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "boostnote",
+        "latest-version": "0.16.1",
+        "0.16.1": {
+            "url": "https://github.com/BoostIO/boost-releases/releases/download/v0.16.1/boost-0.16.1-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Boostnote.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Boostnote",
+                    "file-name": "Boostnote.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/BoostIO/boost-releases/releases/download/v$version/boost-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://boostnote.io"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "microsoft-powerapps-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "microsoft-powerapps-cli",
+        "latest-version": "1.5.5",
+        "1.5.5": {
+            "url": "https://www.nuget.org/api/v2/package/Microsoft.PowerApps.CLI/1.5.5#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pac.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.nuget.org/api/v2/package/Microsoft.PowerApps.CLI/<version>#/dl.zip",
+            "version-check": {
+                "webpage": "https://www.nuget.org/packages/Microsoft.PowerApps.CLI",
+                "regex": "([\\d.]+):"
+            }
+        }
+    }
+}

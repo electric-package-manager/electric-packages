@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "px",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "px",
+        "latest-version": "0.4.0",
+        "0.4.0": {
+            "url": "https://github.com/genotrance/px/releases/download/v0.4.0/px.exe",
+            "file-type": ".exe",
+            "bin": [
+                "px.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (-not (Test-Path \"$persist_dir\\px.ini\")) { New-Item \"$dir\\px.ini\" -ItemType File | Out-Null }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": "px.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/pyenv-win/pyenv-win/archive/v$version.zip",
+            "version-check": {
+                "webpage": "https://pyenv-win.github.io/pyenv-win/"
+            }
+        }
+    }
+}

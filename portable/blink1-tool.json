@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "blink1-tool",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "blink1-tool",
+        "latest-version": "2.1.0",
+        "2.1.0": {
+            "url": "https://github.com/todbot/blink1-tool/releases/download/v2.1.0/blink1-tool-v2.1.0-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "blink1-tool.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/todbot/blink1-tool/releases/download/v<version>/blink1-tool-v<version>-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://blink1.thingm.com/"
+            }
+        }
+    }
+}

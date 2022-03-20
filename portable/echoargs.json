@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "echoargs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "echoargs",
+        "latest-version": "3.2.0",
+        "3.2.0": {
+            "url": "https://raw.githubusercontent.com/AnthonyMastrean/chocolateypackages/a7b3cf30a90aec53fdd7b00c2cc078502a2567a5/packages/echoargs/tools/EchoArgs.exe",
+            "file-type": ".exe",
+            "bin": [
+                "echoargs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

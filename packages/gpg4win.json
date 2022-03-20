@@ -1,0 +1,64 @@
+{
+    "display-name": "Gpg4win",
+    "package-name": "gpg4win",
+    "latest-version": "4.0.0",
+    "auto-update": {
+        "url": "https://files.gpg4win.org/gpg4win-<version>.exe",
+        "version-check": {
+            "webpage": "https://gpg4win.org/download.html",
+            "regex": "Gpg4win ([\\d.]+)"
+        }
+    },
+    "2.3.4": {
+        "url": "https://files.gpg4win.org/gpg4win-2.3.4.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "99B7669D58A82950A672232AAA98FA5585F9D7A2D92424BF9E18671292FE17B5"
+    },
+    "3.1.15": {
+        "url": "https://files.gpg4win.org/gpg4win-3.1.15.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "58B4DE192CE0F3A7F25766E96EC379A8F125E3A1E2BDB2519C185A03A0A4ED4C"
+    },
+    "3.1.16": {
+        "url": "https://files.gpg4win.org/gpg4win-3.1.16.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "C499213FF3E14E93C3B245546994CC0E654EC267B40A188788665AE8F4E9F5AD"
+    },
+    "4.0.0": {
+        "url": "https://files.gpg4win.org/gpg4win-4.0.0.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "F83BE101C5E9C23740D6FDE55FD8FEFEBF4FAFB7BADCB3756D1F574B5AD37507"
+    }
+}

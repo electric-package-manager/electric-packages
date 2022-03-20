@@ -1,0 +1,22 @@
+{
+    "display-name": "Terminals",
+    "package-name": "terminals",
+    "latest-version": "4.0.1",
+    "4.0.1": {
+        "url": "https://github.com/Terminals-Origin/Terminals/releases/download/4.0.1/TerminalsSetup_4.0.1.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "D0D2B52A1F843B7B6058CB472DBFAB6EDE41A36A6677E92C0AE6A6DD0C553DAC"
+    }
+}

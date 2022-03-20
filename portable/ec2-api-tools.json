@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "easyserviceoptimizer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "easyserviceoptimizer",
+        "latest-version": "1.2",
+        "1.2": {
+            "url": "https://www.sordum.org/files/easy-service-optimizer/eso.zip",
+            "file-type": ".zip",
+            "bin": [
+                "eso.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Easy Service Optimizer",
+                    "file-name": "eso.exe"
+                }
+            ],
+            "persist": "eso.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

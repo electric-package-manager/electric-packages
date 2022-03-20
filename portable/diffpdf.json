@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "diffpdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "diffpdf",
+        "latest-version": "2.1.3",
+        "2.1.3": {
+            "url": "http://soft.rubypdf.com/wp-content/uploads/2010/08/diffpdf-2.1.3-win32-static.zip",
+            "file-type": ".zip",
+            "bin": [
+                "diffpdf.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DiffPDF",
+                    "file-name": "diffpdf.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

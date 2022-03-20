@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "gitahead",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitahead",
+        "latest-version": "2.6.3",
+        "2.6.3": {
+            "url": "https://github.com/gitahead/gitahead/releases/download/v2.6.3/GitAhead-win64-2.6.3.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "GitAhead.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "gitahead",
+                    "file-name": "GitAhead.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/gitahead/gitahead/releases/download/v$version/GitAhead-win64-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://gitahead.scitools.com/"
+            }
+        }
+    }
+}

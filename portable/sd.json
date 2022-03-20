@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "sd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sd",
+        "latest-version": "0.7.5",
+        "0.7.5": {
+            "url": "https://github.com/chmln/sd/releases/download/v0.7.5/sd.0.7.5-.x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sd.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\build\", \"$dir\\b\", \"$dir\\sd.pdb\" -Force -Recurse"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

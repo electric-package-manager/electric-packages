@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gitomatic",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gitomatic",
+        "latest-version": "0.2",
+        "0.2": {
+            "url": "https://github.com/muesli/gitomatic/releases/download/v0.2/gitomatic_0.2_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "gitomatic.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

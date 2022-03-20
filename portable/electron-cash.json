@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "electron-cash",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "electron-cash",
+        "latest-version": "4.2.4",
+        "4.2.4": {
+            "url": "https://github.com/Electron-Cash/Electron-Cash/releases/download/4.2.4/Electron-Cash-4.2.4-portable.exe#/Electron-Cash.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Electron Cash",
+                    "file-name": "Electron-Cash.exe"
+                }
+            ],
+            "persist": "electron_cash_data"
+        },
+        "auto-update": {
+            "url": "https://github.com/Electron-Cash/Electron-Cash/releases/download/<version>/Electron-Cash-<version>-portable.exe#/Electron-Cash.exe",
+            "version-check": {
+                "webpage": "https://electroncash.org"
+            }
+        }
+    }
+}

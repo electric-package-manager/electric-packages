@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "brave",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "brave",
+        "latest-version": "1.4.96",
+        "1.4.96": {
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "brave.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Brave",
+                    "file-name": "brave.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

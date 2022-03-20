@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "ddev",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ddev",
+        "latest-version": "1.17.0",
+        "1.17.0": {
+            "url": "https://github.com/drud/ddev/releases/download/v1.17.0/ddev_windows-amd64.v1.17.0.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "ddev.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/deepstreamIO/deepstream.io/releases/download/v$version/deepstream.io-windows-$version.zip",
+            "version-check": {
+                "webpage": "https://github.com/deepstreamIO/deepstream.io/releases",
+                "regex": "deepstream\\.io-windows-([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

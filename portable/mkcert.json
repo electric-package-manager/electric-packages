@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "mkcert",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mkcert",
+        "latest-version": "1.4.3",
+        "1.4.3": {
+            "url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.3/mkcert-v1.4.3-windows-amd64.exe#/mkcert.exe",
+            "file-type": ".exe",
+            "bin": [
+                "mkcert.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

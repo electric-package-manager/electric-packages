@@ -1,0 +1,33 @@
+{
+    "display-name": "pgAdmin3",
+    "package-name": "pgadmin3",
+    "latest-version": "1.22.2",
+    "1.22.2": {
+        "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin3/v1.22.2/win32/pgadmin3-1.22.2.zip",
+        "file-type": ".zip",
+        "pre-install": [
+            {
+                "type": "python",
+                "admin": false,
+                "override": true,
+                "code": [
+                    "import zipfile",
+                    "import os",
+                    "with zipfile.ZipFile(r'<installer>', 'r') as zip_ref:",
+                    "    zip_ref.extractall(r'<temp>\\electric')",
+                    "path = r'<temp>\\electric\\pgadmin3.msi'",
+                    "if not \"<directory>\":",
+                    "    os.system(f'{path} /qn /quiet /norestart')",
+                    "else:",
+                    "    os.system(f'{path} /qn /quiet /norestart INSTALLDIR=\"<directory>\"')",
+                    "os.system('electric register <package-name> --version <version>')",
+                    "print('Successfully Installed <display-name>')"
+                ]
+            }
+        ],
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

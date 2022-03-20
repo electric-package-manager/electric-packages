@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "lighttpd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lighttpd",
+        "latest-version": "1.4.49-1",
+        "1.4.49-1": {
+            "url": "http://lighttpd.dtech.hu/lighttpd-1.4.49-1-win64-ssl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lighttpd.exe",
+                [
+                    "lighttpd-service-install.exe",
+                    "Install-LighttpdService"
+                ],
+                [
+                    "lighttpd-service-remove.exe",
+                    "Remove-LighttpdService"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": [
+                "conf",
+                "htdocs",
+                "logs",
+                "tmp"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

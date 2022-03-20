@@ -1,0 +1,21 @@
+{
+    "display-name": "",
+    "package-name": "nero-aac",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nero-aac",
+        "latest-version": "1.5.4.0",
+        "1.5.4.0": {
+            "url": "https://www.videohelp.com/download/NeroAACCodec-1.5.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "win32\\neroAacEnc.exe",
+                "win32\\neroAacDec.exe",
+                "win32\\neroAacTag.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "msmpi",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "msmpi",
+        "latest-version": "10.1.1",
+        "10.1.1": {
+            "url": "https://github.com/Microsoft/Microsoft-MPI/releases/download/v10.1.1/msmpisetup.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Invoke-ExternalCommand -Path \"$(Get-HelperPath -Helper 7zip)\" -ArgumentList @('x', '-t#', \"`\"$dir\\msmpisetup.exe`\"\", \"-o`\"$dir\\tmp`\"\")"
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Remove-Item -Recurse \"$dir\\tmp\"",
+                        "Remove-Item \"$dir\\msmpisetup.exe\""
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/Microsoft/Microsoft-MPI/releases/download/v<version>/msmpisetup.exe",
+            "version-check": {
+                "webpage": "https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi"
+            }
+        }
+    }
+}

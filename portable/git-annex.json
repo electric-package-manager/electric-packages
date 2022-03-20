@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "git-annex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-annex",
+        "latest-version": "8.20210224",
+        "8.20210224": {
+            "url": "https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "usr/bin/git-annex.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe.info",
+                "regex": "distributionVersion = \"([\\d.]+)\""
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "display-name": "",
+    "package-name": "sublime-text",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sublime-text",
+        "latest-version": "3.2.2-3211",
+        "3.2.2-3211": {
+            "url": [
+                "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.zip",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "subl.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Sublime Text 3",
+                    "file-name": "sublime_text.exe"
+                }
+            ],
+            "persist": "Data",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$file = \"$dir\\install-context.reg\"",
+                        "if (Test-Path $file) {",
+                        "    $sublimepath = \"$dir\\sublime_text.exe\".Replace('\\', '\\\\')",
+                        "    $content = (Get-Content $file).Replace('$sublime', $sublimepath)",
+                        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+                        "    Set-Content $file $content -Encoding Ascii -Force",
+                        "}",
+                        "$file = \"$dir\\uninstall-context.reg\"",
+                        "if ((Test-Path $file) -and $global) {",
+                        "    (Get-Content $file).Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') | Set-Content -Path $file -Encoding Ascii -Force",
+                        "}"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://download.sublimetext.com/Sublime%20Text%20Build%20$preReleaseVersion%20x64.zip",
+            "version-check": {
+                "webpage": "https://www.sublimetext.com/3",
+                "regex": "(?i)>([\\d.]+)\\s+\\(BUILD\\s+(\\d+)"
+            }
+        }
+    }
+}

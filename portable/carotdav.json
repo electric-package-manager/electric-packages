@@ -1,0 +1,38 @@
+{
+    "display-name": "",
+    "package-name": "carotdav",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "carotdav",
+        "latest-version": "1.15.10",
+        "1.15.10": {
+            "url": "http://rei.to/CarotDAV1.15.10.portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "CarotDAV.exe",
+                "CarotDAVC.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Setting.xml\")) {Set-Content -Encoding ASCII -Path \"$dir\\Setting.xml\" -Value '<?xml version=\"1.0\" encoding=\"utf-8\"?><WebDAVClientSetting xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"></WebDAVClientSetting>'}"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CarotDAV",
+                    "file-name": "CarotDAV.exe"
+                }
+            ],
+            "persist": "Setting.xml"
+        },
+        "auto-update": {
+            "url": "http://rei.to/CarotDAV<version>.portable.zip",
+            "version-check": {
+                "webpage": "http://rei.to/carotdav.version.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

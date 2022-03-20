@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "linphone",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "linphone",
+        "latest-version": "4.2.5",
+        "4.2.5": {
+            "url": "https://www.linphone.org/releases/windows/app/Linphone-4.2.5-win32.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\linphone.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Linphone",
+                    "file-name": "bin\\linphone.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe.nsis\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.linphone.org/releases/windows/app/Linphone-<version>-win32.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.linphone.org/releases/windows/RELEASE",
+                "regex": "^([\\d.]+)\\s+"
+            }
+        }
+    }
+}

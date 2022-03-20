@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "love",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "love",
+        "latest-version": "11.3",
+        "11.3": {
+            "url": "https://github.com/love2d/love/releases/download/11.3/love-11.3-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "love.exe",
+                "lovec.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LOVE",
+                    "file-name": "love.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/love2d/love/releases/download/$version/love-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://love2d.org"
+            }
+        }
+    }
+}

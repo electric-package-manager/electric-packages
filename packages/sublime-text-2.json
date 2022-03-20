@@ -1,0 +1,26 @@
+{
+    "display-name": "Sublime Text 2",
+    "package-name": "sublime-text-2",
+    "latest-version": "2.0.2.2224",
+    "2.0.2.2224": {
+        "url": "https://download.sublimetext.com/Sublime%20Text%202.0.2a%20x64%20Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS",
+            "/TASKS=\"contextentry\""
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "5F13EDC7DCE7D3FC6BC42D7545ABAC89D7EF4D4F3884C479F64CC28D95E353D2"
+    }  
+}

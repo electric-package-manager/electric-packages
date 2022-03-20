@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "liteide",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "liteide",
+        "latest-version": "37.1-3",
+        "37.1-3": {
+            "url": "https://github.com/visualfc/liteide/releases/download/x37.1/liteidex37.1-3.windows-qt5.9.5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\liteide.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LiteIDE",
+                    "file-name": "bin\\liteide.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/visualfc/liteide/releases/download/x$matchHead/liteidex<version>.windows-qt$matchQtver.zip",
+            "version-check": {
+                "webpage": "http://liteide.org",
+                "regex": "liteidex([\\d.-]+)\\.windows-qt(?<qtver>[\\d.]+)\\.zip"
+            }
+        }
+    }
+}

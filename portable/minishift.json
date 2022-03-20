@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "minishift",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "minishift",
+        "latest-version": "1.34.3",
+        "1.34.3": {
+            "url": "https://github.com/minishift/minishift/releases/download/v1.34.3/minishift-1.34.3-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "minishift.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/minishift/minishift/releases/download/v$version/minishift-$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://www.openshift.org/minishift"
+            }
+        }
+    }
+}

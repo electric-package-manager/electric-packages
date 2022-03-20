@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "tektoncd-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tektoncd-cli",
+        "latest-version": "0.17.2",
+        "0.17.2": {
+            "url": "https://github.com/tektoncd/cli/releases/download/v0.17.2/tkn_0.17.2_Windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tkn.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

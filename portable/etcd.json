@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "etcd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "etcd",
+        "latest-version": "3.2.32",
+        "3.2.32": {
+            "url": "https://github.com/etcd-io/etcd/releases/download/v3.2.32/etcd-v3.2.32-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "etcd.exe",
+                "etcdctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/etcd-io/etcd/releases/download/v$version/etcd-v$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://etcd.io/"
+            }
+        }
+    }
+}

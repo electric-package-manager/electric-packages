@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "pocketsphinx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pocketsphinx",
+        "latest-version": "5prealpha",
+        "5prealpha": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/5prealpha/pocketsphinx-5prealpha-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pocketsphinx_continuous.exe",
+                "pocketsphinx_batch.exe",
+                "pocketsphinx_mdef_convert.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/cmusphinx/pocketsphinx/<version>/pocketsphinx-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/cmusphinx/files/pocketsphinx/",
+                "regex": "<span class=\"name\">([\\w]+)</span>"
+            }
+        }
+    }
+}

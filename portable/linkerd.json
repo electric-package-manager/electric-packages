@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "linkerd",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "linkerd",
+        "latest-version": "2.10.0",
+        "2.10.0": {
+            "url": "https://github.com/linkerd/linkerd2/releases/download/stable-2.10.0/linkerd2-cli-stable-2.10.0-windows.exe#/linkerd.exe",
+            "file-type": ".exe",
+            "bin": [
+                "linkerd.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/linkerd/linkerd2/releases/download/stable-$version/linkerd2-cli-stable-$version-windows.exe#/linkerd.exe",
+            "version-check": {
+                "webpage": "https://github.com/linkerd/linkerd2/releases",
+                "regex": "tag/stable-([\\d.]+)"
+            }
+        }
+    }
+}

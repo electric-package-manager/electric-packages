@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "notepad2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "notepad2",
+        "latest-version": "4.2.25",
+        "4.2.25": {
+            "url": "http://www.flos-freeware.ch/zip/notepad2_4.2.25_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Notepad2.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "chroma",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "chroma",
+        "latest-version": "0.8.2",
+        "0.8.2": {
+            "url": "https://github.com/alecthomas/chroma/releases/download/v0.8.2/chroma-0.8.2-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "chroma.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "k9s",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "k9s",
+        "latest-version": "0.24.7",
+        "0.24.7": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.24.7/k9s_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "k9s.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

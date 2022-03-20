@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "awake",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "awake",
+        "latest-version": "1.4.2",
+        "1.4.2": {
+            "url": "https://github.com/gdegeneve/Awake/releases/download/v1.4.2/Awake.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Awake.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Awake",
+                    "file-name": "Awake.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "unar",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "unar",
+        "latest-version": "1.8.1",
+        "1.8.1": {
+            "url": "https://cdn.theunarchiver.com/downloads/unarWindows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lsar.exe",
+                "unar.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

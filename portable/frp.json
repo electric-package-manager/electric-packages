@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "frp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "frp",
+        "latest-version": "0.36.2",
+        "0.36.2": {
+            "url": "https://github.com/fatedier/frp/releases/download/v0.36.2/frp_0.36.2_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "frpc.exe",
+                "frps.exe"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "frpc.ini",
+                "frpc_full.ini",
+                "frps.ini",
+                "frps_full.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "rancher-compose",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rancher-compose",
+        "latest-version": "0.12.5",
+        "0.12.5": {
+            "url": "https://github.com/rancher/rancher-compose/releases/download/v0.12.5/rancher-compose-windows-amd64-v0.12.5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rancher-compose.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rancher/rancher-compose/releases/download/v$version/rancher-compose-windows-amd64-v$version.zip",
+            "version-check": {
+                "webpage": "https://rancher.com/"
+            }
+        }
+    }
+}

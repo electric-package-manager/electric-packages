@@ -1,0 +1,25 @@
+{
+    "display-name": "Microsoft Azure Storage Explorer",
+    "package-name": "microsoftazurestorageexplorer",
+    "latest-version": "1.18.1",
+    "1.18.1": {
+        "url": "https://download.microsoft.com/download/A/E/3/AE32C485-B62B-4437-92F7-8B6B2C48CB40/StorageExplorer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "5925F14C607A729772A4846A7B16F502E934281010EF31B76DA8C3B61CEF29DD"
+    }
+}

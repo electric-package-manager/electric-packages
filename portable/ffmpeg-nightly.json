@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "ffmpeg-nightly",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ffmpeg-nightly",
+        "latest-version": "101947",
+        "101947": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-04-14-12-38/ffmpeg-N-101947-gc5ca18fd1b-win64-gpl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl.zip",
+            "version-check": {
+                "webpage": "https://ffmpeg.org",
+                "regex": "/autobuild-(?<time>[\\d-]+)/ffmpeg-N-(?<version>\\d+)-g(?<hash>[a-z\\d]+)-win64-gpl\\.zip"
+            }
+        }
+    }
+}

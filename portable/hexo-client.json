@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "hexo-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hexo-client",
+        "latest-version": "1.3.6",
+        "1.3.6": {
+            "url": "https://github.com/gaoyoubo/hexo-client/releases/download/v1.3.6/HexoClient-Setup-1.3.6.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Hexo Client",
+                    "file-name": "HexoClient.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

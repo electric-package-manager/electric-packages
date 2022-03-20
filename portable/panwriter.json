@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "panwriter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "panwriter",
+        "latest-version": "0.7.2",
+        "0.7.2": {
+            "url": "https://github.com/mb21/panwriter/releases/download/v0.7.2/PanWriter-Setup-0.7.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PanWriter",
+                    "file-name": "PanWriter.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mb21/panwriter/releases/download/v$version/PanWriter-Setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://panwriter.com"
+            }
+        }
+    }
+}

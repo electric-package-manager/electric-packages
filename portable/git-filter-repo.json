@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "git-filter-repo",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "git-filter-repo",
+        "latest-version": "2.29.0",
+        "2.29.0": {
+            "url": "https://github.com/newren/git-filter-repo/archive/v2.29.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "git-filter-repo.ps1"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Set-Content -Path \"$dir\\git-filter-repo.ps1\" -Value \"python3 '$dir\\git-filter-repo' @args\""
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "New-Item -ItemType SymbolicLink -Path \"$dir\\contrib\\filter-repo-demos\\git_filter_repo.py\" -Target \"$dir\\git-filter-repo\" | Out-Null"
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "checksum-compare",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "checksum-compare",
+        "latest-version": "1.42",
+        "1.42": {
+            "url": "http://sanktuaire.free.fr/checksumcompare/Checksum-compare-v1.42.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "Checksum compare.exe",
+                    "checksum-compare"
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\Checksum compare.ini\")) {",
+                        "    Set-Content \"$dir\\Checksum compare.ini\" '[MainWindow]', 'lang=en' -Encoding Ascii",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Checksum compare",
+                    "file-name": "Checksum compare.exe"
+                }
+            ],
+            "persist": "Checksum compare.ini"
+        },
+        "auto-update": {
+            "url": "https://packages.chef.io/files/stable/chefdk/$version/windows/2012r2/chefdk-$version-1-x64.msi",
+            "version-check": {
+                "webpage": "https://downloads.chef.io/products/chefdk?os=windows",
+                "regex": "/stable/chefdk/([\\d.]+)/windows/2012r2/"
+            }
+        }
+    }
+}

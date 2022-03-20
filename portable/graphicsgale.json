@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "graphicsgale",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "graphicsgale",
+        "latest-version": "2.08.21",
+        "2.08.21": {
+            "url": "https://graphicsgale.com/files/GalePortable20821.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GraphicsGale",
+                    "file-name": "gale.exe"
+                },
+                {
+                    "shortcut-name": "GraphicsGale Browser",
+                    "file-name": "GaleBrowse.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://graphicsgale.com/files/GalePortable$cleanVersion.zip",
+            "version-check": {
+                "webpage": "https://graphicsgale.com/files/historyUS.txt",
+                "regex": "ver\\.([\\d.]+)"
+            }
+        }
+    }
+}

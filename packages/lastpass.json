@@ -1,0 +1,168 @@
+{
+    "display-name": "LastPass",
+    "package-name": "lastpass",
+    "latest-version": "4.8.0",
+    "auto-update": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "version-check": {
+            "webpage": "https://lastpass.com/upgrade.php?fromwebsite=1&releasenotes=1",
+            "regex": "v([\\d.]+)"
+        }
+    },
+    "4.69.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "332": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.73.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.74.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.75.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.77.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.2.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "86": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.89.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.8.0": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "7": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

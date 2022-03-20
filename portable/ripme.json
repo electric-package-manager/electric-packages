@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "ripme",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ripme",
+        "latest-version": "1.7.94",
+        "1.7.94": {
+            "url": "https://github.com/RipMeApp/ripme/releases/download/1.7.94/ripme.jar",
+            "file-type": ".jar",
+            "bin": [
+                "ripme.jar"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "RipMe",
+                    "file-name": "ripme.cmd"
+                }
+            ],
+            "persist": "rips"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

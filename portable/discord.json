@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "discord",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "discord",
+        "latest-version": "0.0.309",
+        "0.0.309": {
+            "url": "http://dl.discordapp.net/apps/win/Discord-0.0.309-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "Discord.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Discord",
+                    "file-name": "Discord.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://dl.discordapp.net/apps/win/Discord-<version>-full.nupkg",
+            "version-check": {
+                "webpage": "https://discordapp.com/api/updates/stable/RELEASES",
+                "regex": "Discord-([\\d.]+)-full"
+            }
+        }
+    }
+}

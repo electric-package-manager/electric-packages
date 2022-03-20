@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mremoteng",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mremoteng",
+        "latest-version": "1.76.20.24615",
+        "1.76.20.24615": {
+            "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi",
+            "file-type": ".msi",
+            "bin": [
+                "mRemoteNG.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mRemoteNG",
+                    "file-name": "mRemoteNG.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v$matchHead/mRemoteNG-Installer-<version>.msi",
+            "version-check": {
+                "webpage": "https://mremoteng.org/",
+                "regex": "mRemoteNG-Installer-([\\d.]+)\\.msi"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "conemu-color-themes",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "conemu-color-themes",
+        "latest-version": ".june.2020.2",
+        ".june.2020.2": {
+            "url": "https://github.com/joonro/ConEmu-Color-Themes/archive/v.june.2020.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Install-ConEmuTheme.ps1"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/joonro/ConEmu-Color-Themes/archive/v<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/joonro/ConEmu-Color-Themes",
+                "regex": "/releases/tag/v([\\w.-]+)\""
+            }
+        }
+    }
+}

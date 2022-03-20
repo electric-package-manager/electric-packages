@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "color-sustainer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "color-sustainer",
+        "latest-version": "1.05",
+        "1.05": {
+            "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/colorsustainer/Color%20Sustainerv105-%5BGuru3D.com%5D.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Color_Sustainer.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Color Sustainer",
+                    "file-name": "Color_Sustainer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/colorsustainer/Color%20Sustainerv$cleanVersion-%5BGuru3D.com%5D.zip",
+            "version-check": {
+                "webpage": "https://www.guru3d.com/files-details/color-sustainer-download.html",
+                "regex": "Download Color Sustainer ([\\d.]+)"
+            }
+        }
+    }
+}

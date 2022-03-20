@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "sslscan",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sslscan",
+        "latest-version": "2.0.7",
+        "2.0.7": {
+            "url": "https://github.com/rbsec/sslscan/releases/download/2.0.7/sslscan-win-2.0.7.zip",
+            "file-type": ".zip",
+            "bin": [
+                "sslscan.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

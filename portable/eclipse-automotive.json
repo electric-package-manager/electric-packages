@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "eclipse-automotive",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eclipse-automotive",
+        "latest-version": "4.5.2",
+        "4.5.2": {
+            "url": "https://www.eclipse.org/downloads/download.php?r=1&file=/technology/epp/downloads/release/mars/2/eclipse-automotive-mars-2-incubation-win32-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse IDE for Automotive Software Developers",
+                    "file-name": "eclipse.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

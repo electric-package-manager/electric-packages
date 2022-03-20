@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "cacher",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cacher",
+        "latest-version": "2.39.0",
+        "2.39.0": {
+            "url": "https://s3.amazonaws.com/download.cacher.io/Cacher%20Setup%202.39.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cacher",
+                    "file-name": "Cacher.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://s3.amazonaws.com/download.cacher.io/Cacher%20Setup%20<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://s3.amazonaws.com/download.cacher.io/latest.yml",
+                "regex": "version:\\s([\\d.]+)"
+            }
+        }
+    }
+}

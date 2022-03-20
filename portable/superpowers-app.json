@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "superpowers-app",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "superpowers-app",
+        "latest-version": "6.1.0",
+        "6.1.0": {
+            "url": "https://github.com/superpowers/superpowers-app/releases/download/v6.1.0/superpowers-v6.1.0-win-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Superpowers.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Superpowers",
+                    "file-name": "Superpowers.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/superpowers/superpowers-app/releases/download/v$version/superpowers-v$version-win-x64.zip",
+            "version-check": {
+                "webpage": "http://superpowers-html5.com"
+            }
+        }
+    }
+}

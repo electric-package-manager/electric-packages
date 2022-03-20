@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "sqlitespy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sqlitespy",
+        "latest-version": "1.9.15",
+        "1.9.15": {
+            "url": "https://www.yunqa.de/delphi/downloads/SQLiteSpy_1.9.15.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SQLiteSpy.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\SQLiteSpy.db3\")) { New-Item \"$dir\\SQLiteSpy.db3\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SQLiteSpy",
+                    "file-name": "SQLiteSpy.exe"
+                }
+            ],
+            "persist": "SQLiteSpy.db3"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

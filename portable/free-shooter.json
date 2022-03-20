@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "free-shooter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "free-shooter",
+        "latest-version": "2.0.7",
+        "2.0.7": {
+            "url": "https://github.com/henrypp/freeshooter/releases/download/v.2.0.7/freeshooter-2.0.7-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "freeshooter.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\freeshooter.ini\")) { New-Item \"$dir\\freeshooter.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Free Shooter",
+                    "file-name": "freeshooter.exe"
+                }
+            ],
+            "persist": "freeshooter.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/henrypp/freeshooter/releases/download/v.<version>/freeshooter-<version>-bin.zip",
+            "version-check": {
+                "webpage": "https://www.henrypp.org/product/freeshooter",
+                "regex": "releases/tag/v\\.([\\d.]+)"
+            }
+        }
+    }
+}

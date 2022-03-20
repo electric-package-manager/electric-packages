@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "copyq",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "copyq",
+        "latest-version": "4.0.0",
+        "4.0.0": {
+            "url": "https://github.com/hluk/CopyQ/releases/download/v4.0.0/copyq-v4.0.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                "copyq.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "CopyQ",
+                    "file-name": "copyq.exe"
+                }
+            ],
+            "persist": "config"
+        },
+        "auto-update": {
+            "url": "https://github.com/hluk/CopyQ/releases/download/v<version>/copyq-v<version>.zip",
+            "version-check": {
+                "webpage": "https://github.com/hluk/CopyQ/releases",
+                "regex": "copyq-v([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

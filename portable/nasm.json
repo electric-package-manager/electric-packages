@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "nasm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nasm",
+        "latest-version": "2.15.05",
+        "2.15.05": {
+            "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nasm.exe",
+                "ndisasm.exe",
+                "rdoff\\ldrdf.exe",
+                "rdoff\\rdf2bin.exe",
+                "rdoff\\rdf2com.exe",
+                "rdoff\\rdf2ihx.exe",
+                "rdoff\\rdf2ith.exe",
+                "rdoff\\rdf2srec.exe",
+                "rdoff\\rdfdump.exe",
+                "rdoff\\rdflib.exe",
+                "rdoff\\rdx.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://nasm.us/doc/nasmdocc.html",
+                "regex": "version ([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "palemoon-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "palemoon-portable",
+        "latest-version": "29.1.1",
+        "29.1.1": {
+            "url": "https://rm-eu.palemoon.org/release/Palemoon-Portable-29.1.1.win64.exe#/palemoon.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "Palemoon-Portable.exe",
+                    "palemoon"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pale Moon",
+                    "file-name": "Palemoon-Portable.exe"
+                }
+            ],
+            "persist": [
+                "Backups",
+                "Downloads",
+                "User"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "(Get-Content \"$dir\\Palemoon-Portable.ini\") -replace 'ShowSplash=true','ShowSplash=false' | Set-Content \"$dir\\Palemoon-Portable.ini\""
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://rm-eu.palemoon.org/release/Palemoon-Portable-$version.win64.exe#/palemoon.7z",
+            "version-check": {
+                "webpage": "https://www.palemoon.org/download.shtml",
+                "regex": "Hashes for release ([\\d.]+)"
+            }
+        }
+    }
+}

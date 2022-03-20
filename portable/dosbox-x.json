@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "dosbox-x",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dosbox-x",
+        "latest-version": "0.83.12",
+        "0.83.12": {
+            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v0.83.12/dosbox-x-vsbuild-win-20210401015807.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dosbox-x.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\dosbox.conf\")) { Copy-Item \"$dir\\dosbox-x.reference.conf\" \"$dir\\dosbox.conf\" }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DOSBox-X",
+                    "file-name": "dosbox-x.exe"
+                }
+            ],
+            "persist": "dosbox.conf"
+        },
+        "auto-update": {
+            "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v<version>/dosbox-x-vsbuild-win-$matchRelease.zip",
+            "version-check": {
+                "webpage": "http://dosbox-x.com",
+                "regex": "download/dosbox-x-v([\\d.]+)/dosbox-x-vsbuild-win-(?<release>[\\d-]+)"
+            }
+        }
+    }
+}

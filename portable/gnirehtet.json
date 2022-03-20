@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gnirehtet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gnirehtet",
+        "latest-version": "2.5",
+        "2.5": {
+            "url": "https://github.com/Genymobile/gnirehtet/releases/download/v2.5/gnirehtet-rust-win64-v2.5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gnirehtet.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

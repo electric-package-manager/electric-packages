@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "nyagos",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nyagos",
+        "latest-version": "4.4.9_4",
+        "4.4.9_4": {
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.9_4/nyagos-4.4.9_4-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nyagos.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/zetamatta/nyagos/releases/download/$version/nyagos-$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/zetamatta/nyagos",
+                "regex": "tag/([\\d._]+)"
+            }
+        }
+    }
+}

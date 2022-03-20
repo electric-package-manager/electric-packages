@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "opera-gx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "opera-gx",
+        "latest-version": "73.0.3856.431",
+        "73.0.3856.431": {
+            "url": "https://download3.operacdn.com/pub/opera_gx/73.0.3856.431/win/Opera_GX_73.0.3856.431_Setup_x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Opera GX",
+                    "file-name": "launcher.exe"
+                }
+            ],
+            "persist": "profile"
+        },
+        "auto-update": {
+            "url": "https://download3.operacdn.com/pub/opera_gx/$version/win/Opera_GX_$version_Setup_x64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://get.opera.com/ftp/pub/opera_gx/",
+                "regex": "([\\d.]+)/"
+            }
+        }
+    }
+}

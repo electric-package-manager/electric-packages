@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "jd-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jd-gui",
+        "latest-version": "1.6.6",
+        "1.6.6": {
+            "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar#/jd-gui.jar",
+            "file-type": ".jar",
+            "bin": [
+                "jd-gui.jar"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Set-Content \"$dir\\jd-gui.bat\" '@start javaw.exe -jar \"%~dp0jd-gui.jar\" %*' -Encoding Ascii"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Java Decompiler",
+                    "file-name": "jd-gui.bat"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

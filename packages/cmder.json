@@ -1,0 +1,53 @@
+{
+    "display-name": "Cmder",
+    "package-name": "cmder",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Cmder",
+        "package-name": "cmder",
+        "latest-version": "1.3.19",
+        "auto-update": {
+            "url": "https://github.com/cmderdev/cmder/releases/download/v<version>/cmder.zip",
+            "version-check": {
+                "webpage": "https://github.com/cmderdev/cmder",
+                "type": "github"
+            }
+        },
+        "1.3.17": {
+            "url": "https://github.com/cmderdev/cmder/releases/download/v1.3.18/cmder.zip",
+            "file-type": ".zip",
+            "extract-dir": "cmder",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cmder",
+                    "file-name": "Cmder.exe"
+                }
+            ],
+            "checksum": "F8EEFE0D3B2EA382FDD88F7E82441C1D4E343778C6E5E879AD429599ECD7F20B"
+        },
+        "1.3.18": {
+            "url": "https://github.com/cmderdev/cmder/releases/download/v1.3.18/cmder.zip",
+            "file-type": ".zip",
+            "extract-dir": "cmder",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cmder",
+                    "file-name": "Cmder.exe"
+                }
+            ],
+            "checksum": "F8EEFE0D3B2EA382FDD88F7E82441C1D4E343778C6E5E879AD429599ECD7F20B"
+        },
+        "1.3.19": {
+            "checksum": "13E414B7F752BEFFF7E5192C505081C73D8E2EAB46B69F3C193B3526AC2D1010",
+            "url": "https://github.com/cmderdev/cmder/releases/download/v1.3.19/cmder.zip",
+            "file-type": ".zip",
+            "extract-dir": "cmder",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cmder",
+                    "file-name": "Cmder.exe"
+                }
+            ]
+        }
+    }
+}

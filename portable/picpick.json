@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "picpick",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "picpick",
+        "latest-version": "5.1.5",
+        "5.1.5": {
+            "url": "https://www.picpick.org/releases/latest/picpick_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "picpick.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\picpick.ini\")) { Set-Content \"$dir\\picpick.ini\" '[Setting]', 'CheckUpdate=0' -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PicPick",
+                    "file-name": "picpick.exe"
+                }
+            ],
+            "persist": "picpick.ini"
+        },
+        "auto-update": {
+            "url": "https://www.picpick.org/releases/latest/picpick_portable.zip",
+            "version-check": {
+                "webpage": "https://picpick.app/en/download/",
+                "regex": ">v([\\d.]+)"
+            }
+        }
+    }
+}

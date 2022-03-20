@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Baseline Security Analyzer",
+    "package-name": "mbsa",
+    "latest-version": "2.3.2211",
+    "2.3.2211": {
+        "url": "https://download.microsoft.com/download/8/E/1/8E16A4C7-DD28-4368-A83A-282C82FC212A/MBSASetup-x64-EN.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "EA5D36937597FC4CF7EB4F5363178AD840DAF75D15AF7225718A55D84514BE14"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "stoplight-studio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stoplight-studio",
+        "latest-version": "2.3.0-stable.5602.git-d17f9c7",
+        "2.3.0-stable.5602.git-d17f9c7": {
+            "url": "https://github.com/stoplightio/studio/releases/download/v2.3.0-stable.5602.git-d17f9c7/stoplight-studio-win.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Stoplight Studio",
+                    "file-name": "Stoplight Studio.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/stoplightio/studio/releases/download/v<version>/stoplight-studio-win.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://stoplight.io/studio",
+                "regex": "tag/v([\\w.-]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "tableplus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tableplus",
+        "latest-version": "3.12.20.160",
+        "3.12.20.160": {
+            "url": "https://download.tableplus.com/windows/3.12.20/TablePlusSetup.exe",
+            "file-type": ".exe",
+            "bin": [
+                "TablePlus.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "TablePlus",
+                    "file-name": "TablePlus.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://download.tableplus.com/windows/$matchHead/TablePlusSetup.exe",
+            "version-check": {
+                "webpage": "https://tableplus.com/win/version.xml?sign=&version=x64",
+                "regex": "sparkle:version=\"(?<build>\\d+)\"\\s+sparkle:shortVersionString=\"([\\d.]+)\""
+            }
+        }
+    }
+}

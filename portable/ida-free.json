@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "ida-free",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ida-free",
+        "latest-version": "7.0",
+        "7.0": {
+            "url": "https://out7.hex-rays.com/files/idafree70_windows.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(is_admin)) { error 'Administrator privileges are required'; break }"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://out7.hex-rays.com/files/idafree$majorVersion$minorVersion_windows.exe",
+            "version-check": {
+                "webpage": "https://www.hex-rays.com/products/ida/support/download_freeware.shtml",
+                "regex": "IDA\\sv([\\d.]+)\\s+"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "TranslucentTB",
+    "package-name": "translucent-tb",
+    "latest-version": "4.5",
+    "4.5": {
+        "url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2020.2/TranslucentTB-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "B8A4F90865D681A31EFA44F8B5098703B743A5050274503CA95D0E80E26C46F"
+    }
+}

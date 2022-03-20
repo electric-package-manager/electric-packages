@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "v2ray",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "v2ray",
+        "latest-version": "4.37.3",
+        "4.37.3": {
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.37.3/v2ray-windows-64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "v2ctl.exe",
+                "v2ray.exe",
+                "wv2ray.exe"
+            ],
+            "shortcuts": [],
+            "persist": "config.json"
+        },
+        "auto-update": {
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip",
+            "version-check": {
+                "webpage": "https://www.v2fly.org/en_US/"
+            }
+        }
+    }
+}

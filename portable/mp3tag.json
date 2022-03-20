@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "mp3tag",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mp3tag",
+        "latest-version": "3.06a",
+        "3.06a": {
+            "url": "https://download.mp3tag.de/mp3tagv306asetup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mp3tag.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\mp3tag.cfg\")) { New-Item \"$dir\\mp3tag.cfg\" | Out-Null }",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\Mp3tagUninst*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mp3tag",
+                    "file-name": "mp3tag.exe"
+                }
+            ],
+            "persist": [
+                "data",
+                "export",
+                "mp3tag.cfg"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

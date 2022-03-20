@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "shfmt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shfmt",
+        "latest-version": "3.2.4",
+        "3.2.4": {
+            "url": "https://github.com/mvdan/sh/releases/download/v3.2.4/shfmt_v3.2.4_windows_amd64.exe#/shfmt.exe",
+            "file-type": ".exe",
+            "bin": [
+                "shfmt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

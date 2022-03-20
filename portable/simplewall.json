@@ -1,0 +1,44 @@
+{
+    "display-name": "",
+    "package-name": "simplewall",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "simplewall",
+        "latest-version": "3.2.4",
+        "3.2.4": {
+            "url": "https://github.com/henrypp/simplewall/releases/download/v.3.2.4/simplewall-3.2.4-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "simplewall.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'simplewall.ini', 'profile.xml' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "simplewall",
+                    "file-name": "simplewall.exe"
+                }
+            ],
+            "persist": [
+                "simplewall.ini",
+                "profile.xml"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/henrypp/simplewall/releases/download/v.<version>/simplewall-<version>-bin.zip",
+            "version-check": {
+                "webpage": "https://www.henrypp.org/product/simplewall",
+                "regex": "simplewall-([\\d.]+)-bin\\.zip"
+            }
+        }
+    }
+}

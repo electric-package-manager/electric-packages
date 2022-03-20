@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "scallion",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "scallion",
+        "latest-version": "2.1",
+        "2.1": {
+            "url": "https://github.com/lachesis/scallion/releases/download/v2.1/scallion-v2.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "scallion.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

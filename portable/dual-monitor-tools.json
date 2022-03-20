@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "dual-monitor-tools",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dual-monitor-tools",
+        "latest-version": "2.7",
+        "2.7": {
+            "url": "https://downloads.sourceforge.net/project/dualmonitortool/dualmonitortool/2.7/DualMonitorTools-2.7.zip",
+            "file-type": ".zip",
+            "bin": [
+                "DMT.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (-not (Test-Path \"$persist_dir\\DmtMagicWords.xml\")) { New-Item \"$dir\\DmtMagicWords.xml\" -ItemType File | Out-Null }",
+                        "if (-not (Test-Path \"$persist_dir\\DmtSettings.xml\")) { New-Item \"$dir\\DmtSettings.xml\" -ItemType File | Out-Null }"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dual Monitor Tools",
+                    "file-name": "DMT.exe"
+                }
+            ],
+            "persist": [
+                "DmtMagicWords.xml",
+                "DmtSettings.xml"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

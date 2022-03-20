@@ -1,0 +1,18 @@
+{
+    "display-name": "Miniconda",
+    "package-name": "miniconda3",
+    "latest-version": "4.9.2",
+    "4.9.2": {
+        "url": "https://repo.continuum.io/miniconda/Miniconda3-py38_4.9.2-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S",
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "4FA22BBA0497BABB5B6608CB8843545372A99F5331C8120099AE1D803F627C61"
+    }
+}

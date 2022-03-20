@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "stone-soup-tiles",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stone-soup-tiles",
+        "latest-version": "0.26.1",
+        "0.26.1": {
+            "url": "https://github.com/crawl/crawl/releases/download/0.26.1/dcss-0.26.1-win32-tiles.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "crawl.exe",
+                    "crawl-tiles"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DCSS Tiles",
+                    "file-name": "crawl.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/crawl/crawl/releases/download/<version>/dcss-<version>-win32-tiles.zip",
+            "version-check": {
+                "webpage": "https://crawl.develz.org/download.htm",
+                "regex": "dcss-([\\d.]+)-win32-tiles"
+            }
+        }
+    }
+}

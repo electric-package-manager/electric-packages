@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "qgroundcontrol",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qgroundcontrol",
+        "latest-version": "4.1.2",
+        "4.1.2": {
+            "url": "https://github.com/mavlink/qgroundcontrol/releases/download/v4.1.2/QGroundControl-installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "QGroundControl.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\vc_red*\", \"$dir\\*uninsta*exe\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "QGroundControl",
+                    "file-name": "QGroundControl.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/mavlink/qgroundcontrol/releases/download/v$version/QGroundControl-installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "http://qgroundcontrol.com"
+            }
+        }
+    }
+}

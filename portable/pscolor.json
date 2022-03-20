@@ -1,0 +1,17 @@
+{
+    "display-name": "",
+    "package-name": "pscolor",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pscolor",
+        "latest-version": "1.0.0.0",
+        "1.0.0.0": {
+            "url": "https://raw.githubusercontent.com/Davlind/PSColor/master/release/PSColor.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

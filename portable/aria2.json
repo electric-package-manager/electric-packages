@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "aria2",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aria2",
+        "latest-version": "1.35.0-1",
+        "1.35.0-1": {
+            "url": "https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0-win-64bit-build1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "aria2c.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-64bit-build$matchBuild.zip",
+            "version-check": {
+                "webpage": "https://aria2.github.io/",
+                "regex": "/release-(?:[\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip"
+            }
+        }
+    }
+}

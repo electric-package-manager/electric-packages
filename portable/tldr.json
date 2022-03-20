@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "tldr",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tldr",
+        "latest-version": "0.6.1",
+        "0.6.1": {
+            "url": "https://github.com/isacikgoz/tldr/releases/download/v0.6.1/tldr_0.6.1_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tldr.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

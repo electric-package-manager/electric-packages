@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "innoextract",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "innoextract",
+        "latest-version": "1.9",
+        "1.9": {
+            "url": "https://constexpr.org/innoextract/files/innoextract-1.9/innoextract-1.9-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "innoextract.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://constexpr.org/innoextract/files/innoextract-<version>/innoextract-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://constexpr.org/innoextract/files/?C=M&O=D",
+                "regex": "innoextract-([\\d.]+)"
+            }
+        }
+    }
+}

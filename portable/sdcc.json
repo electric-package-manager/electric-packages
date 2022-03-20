@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "sdcc",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sdcc",
+        "latest-version": "4.1.0",
+        "4.1.0": {
+            "url": "https://downloads.sourceforge.net/project/sdcc/sdcc-win64/4.1.0/sdcc-4.1.0-x64-setup.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "bin\\sdcc.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall*\" -Force -Recurse"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/sdcc/sdcc-win64/$version/sdcc-$version-x64-setup.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/sdcc/rss?path=/sdcc-win64",
+                "regex": "sdcc-([\\d.]+)-x64-setup\\.exe\\]\\]"
+            }
+        }
+    }
+}

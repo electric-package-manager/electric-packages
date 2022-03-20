@@ -1,0 +1,47 @@
+{
+    "display-name": "",
+    "package-name": "stdiscosrv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stdiscosrv",
+        "latest-version": "1.8.0",
+        "1.8.0": {
+            "url": "https://github.com/syncthing/discosrv/releases/download/v1.8.0/stdiscosrv-windows-amd64-v1.8.0.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "stdiscosrv.exe",
+                    "stdiscosrv",
+                    "-cert \"$dir\\cert.pem\"",
+                    "-db-dir \"$dir\\discovery.db\"",
+                    "-key \"$dir\\key.pem\""
+                ]
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "foreach ($name in @('cert.pem', 'key.pem')) {",
+                        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+                        "        New-Item -Force -Path \"$dir\" -Name $name | Out-Null",
+                        "    }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": [
+                "discovery.db",
+                "cert.pem",
+                "key.pem"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/syncthing/discosrv/releases/download/v$version/stdiscosrv-windows-amd64-v$version.zip",
+            "version-check": {
+                "webpage": "https://syncthing.net/"
+            }
+        }
+    }
+}

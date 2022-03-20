@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "greenshot",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "greenshot",
+        "latest-version": "1.2.10.6",
+        "1.2.10.6": {
+            "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-1.2.10.6/Greenshot-NO-INSTALLER-1.2.10.6-RELEASE.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Greenshot.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Greenshot",
+                    "file-name": "Greenshot.exe"
+                }
+            ],
+            "persist": [
+                "greenshot.ini",
+                "greenshot-defaults.ini",
+                "greenshot-fixed.ini"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/greenshot/greenshot/releases/download/Greenshot-RELEASE-<version>/Greenshot-NO-INSTALLER-<version>-RELEASE.zip",
+            "version-check": {
+                "webpage": "https://getgreenshot.org",
+                "regex": "Greenshot-RELEASE-([\\d.]+)"
+            }
+        }
+    }
+}

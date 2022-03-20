@@ -1,0 +1,70 @@
+{
+    "display-name": "",
+    "package-name": "libreoffice-stable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "libreoffice-stable",
+        "latest-version": "7.1.1",
+        "7.1.1": {
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/7.1.1.2/portable/LibreOfficePortable_7.1.1_MultilingualStandard.paf.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\Data\\settings\")) {",
+                        "    New-Item \"$dir\\Data\\settings\\LibreOfficePortableSettings.ini\" -Value \"[LibreOfficePortableSettings]`nInvalidPackageWarningShown=$version.0\" -Force | Out-Null",
+                        "    if (Test-Path \"$env:AppData\\LibreOffice\") {",
+                        "        info \"Copying old '$env:AppData\\LibreOffice' to '$persist_dir\\Data\\settings'\"",
+                        "        Get-Item \"$env:AppData\\LibreOffice\\*\\*\" | Copy-Item -Destination \"$dir\\Data\\settings\" -Recurse -Force",
+                        "    } else {",
+                        "        Copy-Item \"$dir\\App\\DefaultData\\*\" \"$dir\\Data\" -Recurse -Force",
+                        "    }",
+                        "}",
+                        "Remove-Item \"$dir\\`$*\" -Recurse -Force"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice",
+                    "file-name": "LibreOfficePortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Base",
+                    "file-name": "LibreOfficeBasePortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Calc",
+                    "file-name": "LibreOfficeCalcPortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Draw",
+                    "file-name": "LibreOfficeDrawPortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Impress",
+                    "file-name": "LibreOfficeImpressPortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Math",
+                    "file-name": "LibreOfficeMathPortable.exe"
+                },
+                {
+                    "shortcut-name": "LibreOffice\\LibreOffice Writer",
+                    "file-name": "LibreOfficeWriterPortable.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://downloadarchive.documentfoundation.org/libreoffice/old/<version>.2/portable/LibreOfficePortable_<version>_MultilingualStandard.paf.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://download.documentfoundation.org/libreoffice/portable/?C=M;O=D",
+                "regex": ">([\\d.]+)/<"
+            }
+        }
+    }
+}

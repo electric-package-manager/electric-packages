@@ -1,0 +1,49 @@
+{
+  "display-name": "Sublime Text 3",
+  "package-name": "sublime-text-3",
+  "latest-version": "3.2.2-3211",
+  "auto-update": {
+    "url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<2>%20x64Setup.exe",
+    "version-check": {
+      "webpage": "https://www.sublimetext.com/3",
+      "regex": "(?i)>([\\d.]+)\\s+\\(BUILD\\s+(\\d+)",
+      "replace": "<1>-<2>"
+    }
+  },
+  "3.2.1-3210": {
+    "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64.exe",
+    "file-type": ".exe",
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "checksum": "FB77731FA3EDA907620A9E8B85BDCCC5B5CB4DCF655DCFDC6C7591B78ABD0F31",
+    "default-install-dir": "C:\\Program Files\\Sublime Text 3",
+    "bin": ["<install-directory>\\subl.exe"],
+    "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "clswitch": "/DIR=",
+    "dependencies": []
+  },
+  "3.2.2-3211": {
+    "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe",
+    "file-type": ".exe",
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "checksum": "17A659D3B09299481C7DF52DAF5FE3B8930A157B6139EBE5A1D8BDC0C2F3D7F4",
+    "default-install-dir": "C:\\Program Files\\Sublime Text 3",
+    "bin": ["<install-directory>\\subl.exe"],
+    "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+    "clswitch": "/DIR=",
+    "dependencies": []
+  }
+}

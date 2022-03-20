@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "cloudfoundry-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cloudfoundry-cli",
+        "latest-version": "7.2.0",
+        "7.2.0": {
+            "url": "https://cli.run.pivotal.io/stable?release=windows64-exe&version=7.2.0#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "cf7.exe",
+                [
+                    "cf7.exe",
+                    "cf"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

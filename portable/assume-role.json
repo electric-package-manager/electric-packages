@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "assume-role",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "assume-role",
+        "latest-version": "0.3.2",
+        "0.3.2": {
+            "url": "https://github.com/remind101/assume-role/releases/download/0.3.2/assume-role-Windows.exe#/assume-role.exe",
+            "file-type": ".exe",
+            "bin": [
+                "assume-role.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

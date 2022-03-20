@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "msxml4",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "msxml4",
+        "latest-version": "4.30.2100.0",
+        "4.30.2100.0": {
+            "url": "https://download.microsoft.com/download/A/2/D/A2D8587D-0027-4217-9DAD-38AFDB0A177E/msxml.msi#/setup.msi_",
+            "file-type": ".msi_",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (-not (is_admin)) { error 'This package requires admin privileges to install'; break }",
+                        "Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\$fname\", '/quiet', '/norestart') -RunAs | Out-Null"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "dont-sleep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dont-sleep",
+        "latest-version": "8.11",
+        "8.11": {
+            "url": "https://www.softwareok.com/Download/DontSleep_x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.softwareok.com/Download/DontSleep_x64.zip",
+            "version-check": {
+                "webpage": "https://www.softwareok.com/?seite=Microsoft/DontSleep/History",
+                "regex": "version ([\\d.]+)"
+            }
+        }
+    }
+}

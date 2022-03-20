@@ -1,0 +1,20 @@
+{
+    "display-name": "",
+    "package-name": "gimagex",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gimagex",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://www.autoitconsulting.com/files/gimagex/gimagex.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

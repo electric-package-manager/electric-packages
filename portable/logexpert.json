@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "logexpert",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "logexpert",
+        "latest-version": "1.8.7",
+        "1.8.7": {
+            "url": "https://github.com/zarunbal/LogExpert/releases/download/v1.8.7/LogExpert.1.8.7.zip",
+            "file-type": ".zip",
+            "bin": [
+                "LogExpert.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "LogExpert",
+                    "file-name": "LogExpert.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "display-name": "TortoiseSVN",
+  "package-name": "tortoisesvn",
+  "latest-version": "1.14.1",
+  "1.14.1": {
+    "url": "https://osdn.net/frs/redir.php?m=xtom_us&f=%2Fstorage%2Fg%2Ft%2Fto%2Ftortoisesvn%2F1.14.1%2FApplication%2FTortoiseSVN-1.14.1.29085-x64-svn-1.14.1.msi",
+    "file-type": ".msi",
+    "iswitches": ["/qn", "/quiet", "/norestart"],
+    "uswitches": ["/qn", "/quiet", "/norestart"],
+    "clswitch": "INSTALLDIR=",
+    "dependencies": [],
+    "checksum": "8A3B08EA8D87324C7D75F7BA07322A360BB70167A337A01A3470D27BCDBBD672"
+  }
+}

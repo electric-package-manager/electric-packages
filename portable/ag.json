@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "ag",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ag",
+        "latest-version": "2.2.0-58-g5a1c8d8",
+        "2.2.0-58-g5a1c8d8": {
+            "url": "https://github.com/k-takata/the_silver_searcher-win32/releases/download/2020-07-05/2.2.0-58-g5a1c8d8/ag-2020-07-05_2.2.0-58-g5a1c8d8-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ag.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/k-takata/the_silver_searcher-win32/releases/download/$matchDate/$version/ag-$matchDate_$version-x64.zip",
+            "version-check": {
+                "webpage": "https://github.com/k-takata/the_silver_searcher-win32/releases",
+                "regex": "/releases/download/(?<date>[\\d-]+)%2F(?<version>[\\w.-]+).*?-x64\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "googlechrome-beta",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "googlechrome-beta",
+        "latest-version": "88.0.4324.27",
+        "88.0.4324.27": {
+            "url": "https://dl.google.com/release2/chrome/OAia1yXFLZADspGAtsoLRA_88.0.4324.27/88.0.4324.27_chrome_installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "chrome.exe",
+                    "chrome-beta"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Google Chrome (Beta)",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://chrome-dl.com/api/chrome.min.xml",
+                "regex": "(?sm)<beta32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<beta64>.+release2/chrome/(?<64>[\\w-]+)_.+</beta64>"
+            }
+        }
+    }
+}

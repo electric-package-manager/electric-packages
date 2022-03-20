@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "mp3directcut",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mp3directcut",
+        "latest-version": "2.32",
+        "2.32": {
+            "url": "https://www.fosshub.com/mp3DirectCut.html/mp3DC232.exe",
+            "file-type": ".exe",
+            "bin": [
+                "mp3DirectCut.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mp3DirectCut",
+                    "file-name": "mp3DirectCut.exe"
+                }
+            ],
+            "persist": "mp3DirectCut.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

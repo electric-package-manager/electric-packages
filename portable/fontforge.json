@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "fontforge",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fontforge",
+        "latest-version": "20201107",
+        "20201107": {
+            "url": "https://github.com/fontforge/fontforge/releases/download/20201107/FontForge-2020-11-07-Windows.exe",
+            "file-type": ".exe",
+            "bin": [
+                "fontforge.bat"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "FontForge",
+                    "file-name": "run_fontforge.exe"
+                },
+                {
+                    "shortcut-name": "FontForge console",
+                    "file-name": "fontforge.bat"
+                },
+                {
+                    "shortcut-name": "FontForge interactive console",
+                    "file-name": "fontforge-console.bat"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/fontforge/fontforge/releases/download/$matchPath",
+            "version-check": {
+                "webpage": "https://fontforge.github.io",
+                "regex": "/download/(?<path>[\\d]{8}/FontForge-(?<year>[\\d]{4})-(?<month>[\\d]{2})-(?<day>[\\d]{2})-Windows(?<release>[-r\\d]*?).exe)"
+            }
+        }
+    }
+}

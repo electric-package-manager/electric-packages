@@ -1,0 +1,63 @@
+{
+    "display-name": "CppCheck",
+    "package-name": "cppcheck",
+    "latest-version": "2.7",
+    "auto-update": {
+        "url": "https://github.com/danmar/cppcheck/releases/download/<version>/cppcheck-<version>-x64-Setup.msi",
+        "version-check": {
+            "webpage": "https://github.com/danmar/cppcheck",
+            "type": "github"
+        }
+    },
+    "2.4.1": {
+        "url": "https://github.com/danmar/cppcheck/releases/download/2.4.1/cppcheck-2.4.1-x64-Setup.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "2.5": {
+        "url": "https://github.com/danmar/cppcheck/releases/download/2.5/cppcheck-2.5-x64-Setup.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "2.7": {
+        "url": "https://github.com/danmar/cppcheck/releases/download/2.7/cppcheck-2.7-x64-Setup.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "ADDLOCAL=CppcheckCore,CLI,GUI,Translations,ConfigFiles,PlatformFiles,PythonAddons,CRT"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

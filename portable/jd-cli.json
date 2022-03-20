@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "jd-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jd-cli",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://github.com/kwart/jd-cli/releases/download/jd-cli-1.2.0/jd-cli-1.2.0-dist.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jd-cli.jar"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/kwart/jd-cli/releases/download/jd-cli-<version>/jd-cli-<version>-dist.zip",
+            "version-check": {
+                "webpage": "https://github.com/kwart/jd-cli",
+                "regex": "jd-cli-([\\d.]+)\\-"
+            }
+        }
+    }
+}

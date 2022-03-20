@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "synfig-studio",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "synfig-studio",
+        "latest-version": "1.4.0",
+        "1.4.0": {
+            "url": "https://www.fosshub.com/Synfig.html/SynfigStudio-1.4.0-stable-2020.11.14-win64-b9862.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\synfig.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Synfig Studio",
+                    "file-name": "bin\\synfigstudio.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.fosshub.com/Synfig.html/SynfigStudio-$version-stable-$matchDate-win64-$matchSha.zip",
+            "version-check": {
+                "webpage": "https://www.fosshub.com/Synfig.html",
+                "regex": "SynfigStudio-([\\d.]+)-stable-(?<date>[\\d.]+)-win64-(?<sha>[\\da-f]+)"
+            }
+        }
+    }
+}

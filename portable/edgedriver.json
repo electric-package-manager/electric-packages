@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "edgedriver",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "edgedriver",
+        "latest-version": "91.0.856.0",
+        "91.0.856.0": {
+            "url": "https://msedgedriver.azureedge.net/91.0.856.0/edgedriver_win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "msedgedriver.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://msedgedriver.azureedge.net/$version/edgedriver_win64.zip",
+            "version-check": {
+                "webpage": "https://msedgedriver.azureedge.net/LATEST_CANARY",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

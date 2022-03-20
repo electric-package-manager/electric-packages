@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "tflint",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tflint",
+        "latest-version": "0.26.0",
+        "0.26.0": {
+            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.26.0/tflint_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "tflint.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

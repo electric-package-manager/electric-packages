@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "cabal",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "cabal",
+        "latest-version": "6.0.7",
+        "6.0.7": {
+            "url": "https://github.com/cabal-club/cabal-desktop/releases/download/v6.0.7/cabal-desktop-6.0.7-windows.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Cabal.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Cabal",
+                    "file-name": "Cabal.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cabal-club/cabal-desktop/releases/download/v$version/cabal-desktop-$version-windows.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://cabal.chat/"
+            }
+        }
+    }
+}

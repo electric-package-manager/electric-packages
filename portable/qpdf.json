@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "qpdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qpdf",
+        "latest-version": "10.3.1",
+        "10.3.1": {
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/10.3.1/qpdf-10.3.1-bin-mingw64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\qpdf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/qpdf/qpdf/$version/qpdf-$version-bin-mingw64.zip",
+            "version-check": {
+                "webpage": "http://qpdf.sourceforge.net/",
+                "regex": "qpdf-([\\d.]+)-"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "mailsend-go",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mailsend-go",
+        "latest-version": "1.0.10",
+        "1.0.10": {
+            "url": "https://github.com/muquit/mailsend-go/releases/download/v1.0.10/mailsend-go_1.0.10_windows-64bit.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mailsend-go.exe",
+                [
+                    "mailsend-go.exe",
+                    "mailsend"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

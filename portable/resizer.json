@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "resizer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "resizer",
+        "latest-version": "2.1",
+        "2.1": {
+            "url": "https://www.den4b.com/download/resizer/portable/2.1?token=scoop#/dl.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Resizer.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Settings.ini\")) { New-Item \"$dir\\Settings.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Resizer",
+                    "file-name": "Resizer.exe"
+                }
+            ],
+            "persist": "Settings.ini"
+        },
+        "auto-update": {
+            "url": "https://www.den4b.com/download/resizer/portable/<version>?token=scoop#/dl.zip",
+            "version-check": {
+                "webpage": "https://www.den4b.com/changelogs/resizer",
+                "regex": "id=\"v([\\d.]+)\""
+            }
+        }
+    }
+}

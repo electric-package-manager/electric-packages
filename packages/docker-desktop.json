@@ -1,0 +1,228 @@
+{
+    "display-name": "Docker Desktop",
+    "package-name": "docker-desktop",
+    "latest-version": "3.6.0",
+    "auto-update": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "version-check": {
+            "webpage": "https://docs.docker.com/docker-for-windows/release-notes/",
+            "regex": "Docker Desktop ([\\d.]+)"
+        }
+    },
+    "3.3.0": {
+        "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
+    "3.3.1": {
+        "url": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe#/dockerInstall.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
+    "3.3.3": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
+    "3.4.0": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "32531CEBAEB15C1FB7C751538A8859D4CA5CC108369E317DD02D031571A2B784"
+    },
+    "3.5.0": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
+    "3.5.1": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    },
+    "3.5.2": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "35F2492888D7F989C67DD731EDB5C71366B3AF1FDA1FD5C7544D84A38424DE1F"
+    },
+    "3.6.0": {
+        "url": "https://desktop.docker.com/win/stable/amd64/63152/Docker%20Desktop%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "install",
+            "--quiet"
+        ],
+        "uswitches": [
+            "uninstall",
+            "--quiet"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "valid-install-exit-codes": [
+            3,
+            1641
+        ],
+        "valid-uninstall-exit-codes": [
+            0,
+            3010,
+            1641,
+            3
+        ],
+        "dependencies": [
+            "dotnet4.8"
+        ],
+        "checksum": "A63BDE5C378A1F9EF641F0740881EE8EFE03BF46231D651D02B29F9EACCDA64B"
+    }
+}

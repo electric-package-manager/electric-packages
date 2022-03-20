@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "sourcetree",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sourcetree",
+        "latest-version": "3.4.4",
+        "3.4.4": {
+            "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-3.4.4-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "sourcetree.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Atlassian SourceTree",
+                    "file-name": "sourcetree.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-<version>-full.nupkg",
+            "version-check": {
+                "webpage": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/RELEASES",
+                "regex": "SourceTree-([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

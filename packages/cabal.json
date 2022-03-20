@@ -1,0 +1,53 @@
+{
+    "display-name": "Cabal",
+    "package-name": "cabal",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Cabal",
+        "package-name": "cabal",
+        "latest-version": "3.6.3.0",
+        "auto-update": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-<version>/cabal-install-<version>-x86_64-windows.zip",
+            "version-check": {
+                "webpage": "https://www.haskell.org/cabal/download.html",
+                "regex": "Cabal library \\(version ([\\d.]+)\\)"
+            }
+        },
+        "3.4.0.0": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-3.4.0.0/cabal-install-3.4.0.0-x86_64-windows.zip",
+            "file-type": ".zip",
+            "extract-dir": "cabal",
+            "bin": [
+                "cabal.exe"
+            ],
+            "checksum": "860FFF2D39A82D1DC0CA924A77164D0988AF49C2C5F45E15D615144122BEB647"
+        },
+        "3.6.0.0": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-3.6.0.0/cabal-install-3.6.0.0-x86_64-windows.zip",
+            "checksum": "C2EEB8FD825642CCFE88968946AA0B84337FD9AE0592D89467E66F0FC998C002",
+            "file-type": ".zip",
+            "extract-dir": "cabal",
+            "bin": [
+                "cabal.exe"
+            ]
+        },
+        "3.6.2.0": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-3.6.2.0/cabal-install-3.6.2.0-x86_64-windows.zip",
+            "checksum": "89AA3AA3F76D15182C0D03227639890CD537627BA0BF0EF9AB451FEE504B24C6",
+            "file-type": ".zip",
+            "extract-dir": "cabal",
+            "bin": [
+                "cabal.exe"
+            ]
+        },
+        "3.6.3.0": {
+            "url": "https://downloads.haskell.org/cabal/cabal-install-3.6.3.0/cabal-install-3.6.3.0-x86_64-windows.zip",
+            "checksum": "D52E0CDA6C4CC0E0717D5161CA1BA7A8D446437AFDBE42B3C565C145AC752888",
+            "file-type": ".zip",
+            "extract-dir": "cabal",
+            "bin": [
+                "cabal.exe"
+            ]
+        }
+    }
+}

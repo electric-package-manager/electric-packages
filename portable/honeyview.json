@@ -1,0 +1,43 @@
+{
+    "display-name": "",
+    "package-name": "honeyview",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "honeyview",
+        "latest-version": "5.35",
+        "5.35": {
+            "url": "https://dl.bandisoft.com/honeyview/HONEYVIEW-SETUP.EXE",
+            "file-type": ".EXE",
+            "bin": [
+                "Honeyview.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Expand-7zipArchive \"$dir\\$fname\" -Overwrite Rename -Removal",
+                        "Remove-Item \"$dir\\$*\" -Recurse",
+                        "if (-not (Test-Path \"$persist_dir\\setting.ini\")) { New-Item \"$dir\\setting.ini\" -ItemType File | Out-Null }",
+                        "# Enable portable mode",
+                        "$cont = (Get-Content \"$dir\\config.ini\") -replace '^(is_portable\\s+=\\s+)0', '${1}1'",
+                        "Set-Content \"$dir\\config.ini\" $cont -Encoding ASCII -Force"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Honeyview",
+                    "file-name": "Honeyview.exe"
+                }
+            ],
+            "persist": [
+                "config.ini",
+                "setting.ini"
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

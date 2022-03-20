@@ -1,0 +1,18 @@
+{
+    "display-name": "Winrar",
+    "package-name": "winrar",
+    "latest-version": "6.00",
+    "6.00": {
+        "url": "https://www.rarlab.com/rar/winrar-x64-600.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "dependencies": [],
+        "clswitch": "",
+        "checksum": "D61A8532F713407BD80A5099C818BBED391620E3891AF00A68EF584E33BE247A"
+    }
+}

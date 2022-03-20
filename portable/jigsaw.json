@@ -1,0 +1,37 @@
+{
+    "display-name": "",
+    "package-name": "jigsaw",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jigsaw",
+        "latest-version": "2.2.6",
+        "2.2.6": {
+            "url": "https://jigsaw.w3.org/Distrib/jigsaw_2.2.6.zip",
+            "file-type": ".zip",
+            "bin": [
+                "scripts\\jigadmin.bat",
+                "scripts\\JIGSAW.CMD",
+                [
+                    "scripts\\jigsaw.bat",
+                    "Start-Jigsaw"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Jigsaw\\Start Jigsaw Server",
+                    "file-name": "scripts\\jigsaw.bat"
+                },
+                {
+                    "shortcut-name": "Jigsaw\\Start JigAdmin Client (old)",
+                    "file-name": "scripts\\jigadm.bat"
+                },
+                {
+                    "shortcut-name": "Jigsaw\\Start JigAdmin Client",
+                    "file-name": "scripts\\jigadmin.bat"
+                }
+            ],
+            "persist": "Jigsaw"
+        }
+    }
+}

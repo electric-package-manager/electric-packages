@@ -1,0 +1,25 @@
+{
+    "display-name": "Pester",
+    "package-name": "pester",
+    "latest-version": "5.1.1",
+    "5.1.1": {
+        "install-override-command": [
+            {
+                "admin": true,
+                "type": "powershell",
+                "code": [
+                    "Install-Module -Name Pester -RequiredVersion 5.1.1 -Force -AcceptLicense"
+                ]
+            }
+        ],
+        "uninstall-override-command": [
+            {
+                "admin": true,
+                "type": "powershell",
+                "code": [
+                    "Uninstall-Module -Name Pester -RequiredVersion 5.1.1 -Force"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "mpv.net",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mpv.net",
+        "latest-version": "5.4.8.0",
+        "5.4.8.0": {
+            "url": "https://github.com/stax76/mpv.net/releases/download/5.4.8.0/mpv.net-portable-x64-5.4.8.0.7z",
+            "file-type": ".7z",
+            "bin": [
+                "mpvnet.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "mpv.net",
+                    "file-name": "mpvnet.exe"
+                }
+            ],
+            "persist": "portable_config"
+        },
+        "auto-update": {
+            "url": "https://github.com/stax76/mpv.net/releases/download/$version/mpv.net-portable-x64-$version.7z",
+            "version-check": {
+                "webpage": "https://github.com/stax76/mpv.net/",
+                "regex": "mpv\\.net-portable-x64-([\\d.]+)\\.7z"
+            }
+        }
+    }
+}

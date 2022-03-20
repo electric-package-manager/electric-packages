@@ -1,0 +1,64 @@
+{
+    "display-name": "",
+    "package-name": "rainmeter-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rainmeter-portable",
+        "latest-version": "4.3.1",
+        "4.3.1": {
+            "url": "https://builds.rainmeter.net/Rainmeter-4.3.1.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Rainmeter.exe",
+                "SkinInstaller.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Rainmeter",
+                    "file-name": "Rainmeter.exe"
+                }
+            ],
+            "persist": [
+                "Rainmeter.ini",
+                "Rainmeter.data",
+                "Rainmeter.stats",
+                "Layouts",
+                "Skins",
+                "Plugins"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@('Rainmeter.ini', 'Rainmeter.data', 'Rainmeter.stats') | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -Type File | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "    # Makes default welcome skins appear on new installation.",
+                        "if(!(Get-Content \"$dir\\Rainmeter.ini\")) {",
+                        "    @('Layouts\\illustro default\\Rainmeter.ini', 'Skins', 'Layouts') | ForEach-Object {",
+                        "        Copy-Item \"$dir\\Defaults\\$_\" \"$persist_dir\" -Force -Recurse | Out-Null",
+                        "    }",
+                        "}",
+                        "    # If there was an update for plugin, copy default plugins after persisting.",
+                        "if (Test-Path \"$dir\\Plugins.original\") {",
+                        "    Copy-Item \"$dir\\Plugins.original\\*\" \"$persist_dir\\Plugins\" -Force -Recurse",
+                        "    Remove-Item \"$dir\\Plugins.original\" -Force -Recurse | Out-Null",
+                        "}",
+                        "@('$PLUGINSDIR', 'uninst.exe.nsis') | ForEach-Object { Remove-Item \"$dir\\$_\" -Force -Recurse }"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

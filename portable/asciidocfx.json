@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "asciidocfx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "asciidocfx",
+        "latest-version": "1.7.3",
+        "1.7.3": {
+            "url": "https://github.com/asciidocfx/AsciidocFX/releases/download/v1.7.3/AsciidocFX_Windows.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "AsciidocFX",
+                    "file-name": "AsciidocFX.exe"
+                }
+            ],
+            "persist": [
+                "conf",
+                "log",
+                "AsciidocFX.vmoptions"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip",
+            "version-check": {
+                "webpage": "https://asciidocfx.com"
+            }
+        }
+    }
+}

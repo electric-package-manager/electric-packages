@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "oneget",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "oneget",
+        "latest-version": "nightly",
+        "nightly": {
+            "url": "https://oneget.org/oneget.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Import-Module \"$dir\\OneGet.psd1\""
+                }
+            ]
+        }
+    }
+}

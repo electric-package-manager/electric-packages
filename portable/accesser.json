@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "accesser",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "accesser",
+        "latest-version": "0.6.3",
+        "0.6.3": {
+            "url": "https://github.com/URenko/Accesser/releases/download/v0.6.3/Accesser.exe",
+            "file-type": ".exe",
+            "bin": [
+                "Accesser.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "if (!(Test-Path \"$persist_dir\\config.json\")) {",
+                        "    New-Item -Force -Path \"$dir\" -Name 'config.json' -Value '{}' | Out-Null",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Accesser",
+                    "file-name": "Accesser.exe"
+                }
+            ],
+            "persist": "config.json"
+        },
+        "auto-update": {
+            "url": "https://github.com/URenko/Accesser/releases/download/v<version>/Accesser.exe",
+            "version-check": {
+                "webpage": "https://urenko.github.io/Accesser/"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "rclone",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rclone",
+        "latest-version": "1.55.0",
+        "1.55.0": {
+            "url": "https://github.com/rclone/rclone/releases/download/v1.55.0/rclone-v1.55.0-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "rclone.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/rclone/rclone/releases/download/v$version/rclone-v$version-windows-amd64.zip",
+            "version-check": {
+                "webpage": "https://rclone.org"
+            }
+        }
+    }
+}

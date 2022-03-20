@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "pathod",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pathod",
+        "latest-version": "6.0.2",
+        "6.0.2": {
+            "url": "https://snapshots.mitmproxy.org/6.0.2/pathod-6.0.2-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pathod.exe",
+                "pathoc.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "pathod",
+                    "file-name": "pathod.exe"
+                },
+                {
+                    "shortcut-name": "pathoc",
+                    "file-name": "pathoc.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://snapshots.mitmproxy.org/<version>/pathod-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://mitmproxy.org/"
+            }
+        }
+    }
+}

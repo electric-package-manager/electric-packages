@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "hakuneko",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hakuneko",
+        "latest-version": "6.1.7",
+        "6.1.7": {
+            "url": "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_windows-portable_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "hakuneko.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "New-Item \"$dir\\hakuneko.exe.portable\" -Force | Out-Null"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "HakuNeko",
+                    "file-name": "hakuneko.exe"
+                }
+            ],
+            "persist": [
+                "userdata",
+                "cache"
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/manga-download/hakuneko/releases/download/v$version/hakuneko-desktop_$version_windows-portable_amd64.zip",
+            "version-check": {
+                "webpage": "https://hakuneko.download"
+            }
+        }
+    }
+}

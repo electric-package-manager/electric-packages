@@ -1,0 +1,14 @@
+{
+    "display-name": "Google Workspace Sync™ For Microsoft Outlook",
+    "package-name": "google-apps-sync",
+    "latest-version": "4.1.25.0",
+    "4.1.25.0": {
+        "url": "https://dl.google.com/tag/s/appguid%3D%7BBEBCAD10-F1BC-4F92-B4A7-9E2545C809ED%7D%26iid%3D%7BE094FE53-B836-8E02-5B87-DA45F95AD839%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DG%2520Suite%2520Sync%25E2%2584%25A2%2520for%2520Microsoft%2520Outlook%25C2%25AE%26needsadmin%3Dtrue%26appguid%3D%7B7DF3B6EE-9890-4307-BDE5-E1F3FCB09771%7D%26appname%3DG%2520Suite%2520Migration%25E2%2584%25A2%2520for%2520Microsoft%2520Outlook%25C2%25AE%26needsadmin%3Dtrue/google-apps-sync/googleappssyncsetup.exe",
+        "file-type": ".exe",
+        "checksum": "A556D690F7B5624E721964BDF7D3680A3A6D524226AF231F386BD1DCDFBAF531",
+        "iswitches": [],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    }
+}

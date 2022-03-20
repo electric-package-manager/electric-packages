@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "phantomjs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "phantomjs",
+        "latest-version": "2.1.1",
+        "2.1.1": {
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\phantomjs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://phantomjs.org/download.html",
+                "regex": "phantomjs-([\\d.]+)-windows.zip"
+            }
+        }
+    }
+}

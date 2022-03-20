@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "electronics-assistant",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "electronics-assistant",
+        "latest-version": "4.31",
+        "4.31": {
+            "url": "https://www.electronics2000.co.uk/assist/assist.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Electronics Assistant",
+                    "file-name": "Electronics_Assistant.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.electronics2000.co.uk/assist/assist.exe",
+            "version-check": {
+                "webpage": "https://www.electronics2000.co.uk/assist/assistupd.xml",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "sampler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sampler",
+        "latest-version": "1.1.0",
+        "1.1.0": {
+            "url": "https://github.com/sqshq/sampler/releases/download/v1.1.0/sampler-1.1.0-windows-amd64.exe#/sampler.exe",
+            "file-type": ".exe",
+            "bin": [
+                "sampler.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/sqshq/sampler/releases/download/v$version/sampler-$version-windows-amd64.exe#/sampler.exe",
+            "version-check": {
+                "webpage": "https://sampler.dev"
+            }
+        }
+    }
+}

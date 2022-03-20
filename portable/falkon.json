@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "falkon",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "falkon",
+        "latest-version": "3.1.0",
+        "3.1.0": {
+            "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "falkon.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Recurse -Force"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Falkon",
+                    "file-name": "falkon.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

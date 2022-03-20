@@ -1,0 +1,35 @@
+{
+    "display-name": "",
+    "package-name": "perl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "perl",
+        "latest-version": "5.32.1.1",
+        "5.32.1.1": {
+            "url": "http://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit-portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# enable standard idiomatic access to user's home directory",
+                        "## remove HomeDir section from portable.perl (disables Portable.pm override of File::HomeDir)",
+                        "## NOTE: conversion to byte[] avoids adding an extra trailing newline to the output file",
+                        "[System.IO.File]::WriteAllBytes(\"$dir\\portable.perl\", ([byte[]][char[]]((Get-Content -Raw \"$dir\\portable.perl\") -replace \"(?ms)^HomeDir:.*?^(?=\\S)\",\"\")))"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-64bit-portable.zip",
+            "version-check": {
+                "webpage": "http://strawberryperl.com/releases.html",
+                "regex": "strawberry-perl-([\\d.]+)-32bit-portable\\.zip"
+            }
+        }
+    }
+}

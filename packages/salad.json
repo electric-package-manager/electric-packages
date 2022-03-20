@@ -1,0 +1,18 @@
+{
+    "display-name": "Salad",
+    "package-name": "salad",
+    "latest-version": "0.5.2",
+    "0.5.2": {
+        "url": "https://github.com/SaladTechnologies/salad-applications/releases/download/0.5.2/Salad-0.5.2.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "994742040AE4BDBA0B27641D9B23F6BB73F0C475B70C4EF576CA9AC93B7DD7A5"
+    }
+}

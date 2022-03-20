@@ -1,0 +1,18 @@
+{
+    "display-name": "WebStorm",
+    "package-name": "webstorm",
+    "latest-version": "2021.1",
+    "2021.1": {
+        "url": "https://download-cf.jetbrains.com/webstorm/WebStorm-2021.1.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "BDEB616C8F3315AAD215044EC4AA7B140BFD5D85046CF22FB45FE80927C61112"
+    }
+}

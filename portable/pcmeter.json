@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pcmeter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pcmeter",
+        "latest-version": "0.4",
+        "0.4": {
+            "url": "http://addgadgets.com/download/PCMeter.zip",
+            "file-type": ".zip",
+            "bin": [
+                [
+                    "PCMeterV0.4.exe",
+                    "PCMeter"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PCMeter",
+                    "file-name": "PCMeterV0.4.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

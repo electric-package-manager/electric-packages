@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "bottom",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bottom",
+        "latest-version": "0.5.7",
+        "0.5.7": {
+            "url": "https://github.com/ClementTsang/bottom/releases/download/0.5.7/bottom_x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "btm.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

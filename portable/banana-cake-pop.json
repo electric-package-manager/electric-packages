@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "banana-cake-pop",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "banana-cake-pop",
+        "latest-version": "1.0.0-preview.3",
+        "1.0.0-preview.3": {
+            "url": "https://blob.chillicream.io/banana/BananaCakePop-1.0.0-preview.3.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Banana Cake Pop",
+                    "file-name": "Banana Cake Pop.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

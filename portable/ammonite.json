@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ammonite",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ammonite",
+        "latest-version": "2.3.8",
+        "2.3.8": {
+            "url": "https://github.com/lihaoyi/Ammonite/releases/download/2.3.8/2.12-2.3.8#/amm.bat",
+            "file-type": ".bat",
+            "bin": [
+                "amm.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/lihaoyi/Ammonite/releases/download/<version>/2.12-<version>#/amm.bat",
+            "version-check": {
+                "webpage": "http://ammonite.io"
+            }
+        }
+    }
+}

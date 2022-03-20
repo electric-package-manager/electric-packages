@@ -1,0 +1,18 @@
+{
+    "display-name": "Netwide Assembler",
+    "package-name": "nasm",
+    "latest-version": "2.14.02",
+    "2.14.02": {
+        "url": "https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win64/nasm-2.14.02-installer-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "14527316CC1B7522BF0C59C328EB9BA16C172D6386FEFF3867CBA9CF23B7DB5B"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "celestia",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "celestia",
+        "latest-version": "1.6.2.2",
+        "1.6.2.2": {
+            "url": "https://github.com/CelestiaProject/Celestia/releases/download/1.6.2.2/celestia-1.6.2.2-win.exe",
+            "file-type": ".exe",
+            "bin": [
+                "celestia.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Celestia",
+                    "file-name": "celestia.exe"
+                }
+            ],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Get-ChildItem \"$dir\\*,[12].*\" -Recurse | Remove-Item -Force -Recurse"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://github.com/CelestiaProject/Celestia/releases/download/<version>/celestia-<version>-win.exe",
+            "version-check": {
+                "webpage": "https://celestia.space"
+            }
+        }
+    }
+}

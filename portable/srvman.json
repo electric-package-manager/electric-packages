@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "srvman",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "srvman",
+        "latest-version": "1.0",
+        "1.0": {
+            "url": "https://sysprogs.com/getfile/411/srvman-1.0.7z",
+            "file-type": ".7z",
+            "bin": [
+                "srvman.exe",
+                [
+                    "srvman.exe",
+                    "service"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

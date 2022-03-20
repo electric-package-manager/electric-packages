@@ -1,0 +1,46 @@
+{
+    "display-name": "",
+    "package-name": "arduino-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "arduino-portable",
+        "latest-version": "1.8.13",
+        "1.8.13": {
+            "url": "https://downloads.arduino.cc/arduino-1.8.13-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "arduino.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "'arduino\\avr\\platform.local.txt', 'arduino\\avr\\boards.local.txt', 'platform.local.txt' | ForEach-Object {",
+                        "    if (!(Test-Path \"$persist_dir\\hardware\\$_\")) { New-Item \"$dir\\hardware\\$_\" | Out-Null }",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Arduino",
+                    "file-name": "arduino.exe"
+                }
+            ],
+            "persist": [
+                "portable",
+                "hardware\\platform.local.txt",
+                "hardware\\arduino\\avr\\platform.local.txt",
+                "hardware\\arduino\\avr\\boards.local.txt"
+            ]
+        },
+        "auto-update": {
+            "url": "https://downloads.arduino.cc/arduino-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://www.arduino.cc/en/Main/Software",
+                "regex": "Arduino IDE ([\\d.]+)<"
+            }
+        }
+    }
+}

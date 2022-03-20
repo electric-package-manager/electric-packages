@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "helm-docs",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "helm-docs",
+        "latest-version": "1.5.0",
+        "1.5.0": {
+            "url": "https://github.com/norwoodj/helm-docs/releases/download/v1.5.0/helm-docs_1.5.0_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "helm-docs.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

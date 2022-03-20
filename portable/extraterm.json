@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "extraterm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "extraterm",
+        "latest-version": "0.58.0",
+        "0.58.0": {
+            "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.58.0/extraterm-0.58.0-win32-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "extraterm.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Extraterm",
+                    "file-name": "extraterm.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

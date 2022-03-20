@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "deepgit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "deepgit",
+        "latest-version": "4.1",
+        "4.1": {
+            "url": "https://www.syntevo.com/downloads/deepgit/deepgit-portable-4_1.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [],
+            "persist": ".settings"
+        },
+        "auto-update": {
+            "url": "https://www.syntevo.com/downloads/deepgit/deepgit-portable-$underscoreVersion.7z",
+            "version-check": {
+                "webpage": "https://www.syntevo.com/deepgit/changelog.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

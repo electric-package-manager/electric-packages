@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "dreamset",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dreamset",
+        "latest-version": "2.4.13",
+        "2.4.13": {
+            "url": "https://www.dreamset-editor.com/files/dreamset2413x64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dreamset",
+                    "file-name": "dreamset.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.dreamset-editor.com/files/dreamset$cleanVersionx64.zip",
+            "version-check": {
+                "webpage": "https://www.dreamset-editor.com/dreamset-history",
+                "regex": "-\\s+ver\\s+([\\d.]+)"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "pyflow",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pyflow",
+        "latest-version": "0.2.9",
+        "0.2.9": {
+            "url": "https://github.com/David-OConnor/pyflow/releases/download/0.2.9/pyflow.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pyflow.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

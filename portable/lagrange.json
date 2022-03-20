@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "lagrange",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "lagrange",
+        "latest-version": "1.3.2",
+        "1.3.2": {
+            "url": "https://github.com/skyjake/lagrange/releases/download/v1.3.2/lagrange_v1.3.2_windows-x64_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "lagrange.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Lagrange",
+                    "file-name": "lagrange.exe"
+                }
+            ],
+            "persist": "userdata"
+        },
+        "auto-update": {
+            "url": "https://github.com/skyjake/lagrange/releases/download/v$version/lagrange_v$version_windows-x64_portable.zip",
+            "version-check": {
+                "webpage": "https://gmi.skyjake.fi/lagrange"
+            }
+        }
+    }
+}

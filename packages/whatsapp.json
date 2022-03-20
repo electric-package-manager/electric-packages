@@ -1,0 +1,16 @@
+{
+    "display-name": "WhatsApp Web",
+    "package-name": "whatsapp",
+    "latest-version": "2.2106.10",
+    "2.2106.10": {
+        "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "--silent"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "9DCC26C70C67B2993C7A9F8AEA4856516C5D1C975FFB130701DC501695A01060"
+    }
+}

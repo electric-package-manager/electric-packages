@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "fx",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fx",
+        "latest-version": "20.0.2",
+        "20.0.2": {
+            "url": "https://github.com/antonmedv/fx/releases/download/20.0.2/fx-win.exe.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fx.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Rename-Item \"$dir\\fx-win.exe\" 'fx.exe'"
+                }
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

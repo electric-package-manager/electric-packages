@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "eksctl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eksctl",
+        "latest-version": "0.44.0",
+        "0.44.0": {
+            "url": "https://github.com/weaveworks/eksctl/releases/download/0.44.0/eksctl_Windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "eksctl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/weaveworks/eksctl/releases/download/$version/eksctl_Windows_amd64.zip",
+            "version-check": {
+                "webpage": "https://github.com/weaveworks/eksctl/releases/tag/latest_release",
+                "regex": "eksctl ([\\d.]+)"
+            }
+        }
+    }
+}

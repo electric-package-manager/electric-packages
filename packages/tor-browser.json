@@ -1,0 +1,18 @@
+{
+    "display-name": "Tor Browser",
+    "package-name": "tor-browser",
+    "latest-version": "10.0.16",
+    "10.0.16": {
+        "url": "https://www.torproject.org/dist/torbrowser/10.0.16/torbrowser-install-win64-10.0.16_en-US.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "99011DF022B59DE3F8E78E50418A1A32964F9E1DA648B72A6FF36707F01A527E"
+    }
+}

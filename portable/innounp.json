@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "innounp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "innounp",
+        "latest-version": "0.50",
+        "0.50": {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/innounp/innounp050.rar",
+            "file-type": ".rar",
+            "bin": [
+                "innounp.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

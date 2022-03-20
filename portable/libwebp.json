@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "libwebp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "libwebp",
+        "latest-version": "1.2.0",
+        "1.2.0": {
+            "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.2.0-windows-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\anim_diff.exe",
+                "bin\\cwebp.exe",
+                "bin\\dwebp.exe",
+                "bin\\gif2webp.exe",
+                "bin\\vwebp.exe",
+                "bin\\webpmux.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-$version-windows-x64.zip",
+            "version-check": {
+                "webpage": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/index.html",
+                "regex": "/libwebp-([\\d.]+)-windows-x64\\.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "emplace",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emplace",
+        "latest-version": "1.4.0",
+        "1.4.0": {
+            "url": "https://github.com/tversteeg/emplace/releases/download/v1.4.0/emplace-x86_64-pc-windows-msvc.exe#/emplace.exe",
+            "file-type": ".exe",
+            "bin": [
+                "emplace.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

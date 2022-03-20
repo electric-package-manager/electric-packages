@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "m4a-to-mp3-converter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "m4a-to-mp3-converter",
+        "latest-version": "X.89",
+        "X.89": {
+            "url": "https://www.maniactools.com/soft/m4a-to-mp3-converter.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Free M4a to MP3 Converter",
+                    "file-name": "m4a_converter.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.maniactools.com/soft/m4a-to-mp3-converter.exe",
+            "version-check": {
+                "webpage": "https://www.maniactools.com/cgi-bin/version?prog=m4a-converter",
+                "regex": "Free M4a to MP3 Converter\\s+([\\w]+)\\s+Build\\s+(?<build>[\\d]+)"
+            }
+        }
+    }
+}

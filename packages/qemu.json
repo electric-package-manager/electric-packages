@@ -1,0 +1,18 @@
+{
+    "display-name": "Qemu",
+    "package-name": "qemu",
+    "latest-version": "2021.4.9",
+    "2021.4.9": {
+        "url": "https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210409.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "E8CD352AEAAB62B1E1D9E2B0BE1824AD1857D6ADA421BE55AD73F38E205E686A"
+    }
+}

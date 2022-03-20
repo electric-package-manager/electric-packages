@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "wkhtmltopdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wkhtmltopdf",
+        "latest-version": "0.12.6-1",
+        "0.12.6-1": {
+            "url": "https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox-0.12.6-1.mxe-cross-win64.7z",
+            "file-type": ".7z",
+            "bin": [
+                "wkhtmltoimage.exe",
+                "wkhtmltopdf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/wkhtmltopdf/packaging/releases/download/$version/wkhtmltox-$version.mxe-cross-win64.7z",
+            "version-check": {
+                "webpage": "https://github.com/wkhtmltopdf/packaging/releases",
+                "regex": "/wkhtmltox-([\\d.-]+)\\.mxe-cross-"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "keepass-plugin-webautotype",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "keepass-plugin-webautotype",
+        "latest-version": "6.6.0",
+        "6.6.0": {
+            "url": "https://downloads.sourceforge.net/project/webautotype/v6.6.0/WebAutoType-v6.6.0.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/webautotype/v<version>/WebAutoType-v<version>.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/webautotype/rss?path=/",
+                "regex": "WebAutoType-v([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

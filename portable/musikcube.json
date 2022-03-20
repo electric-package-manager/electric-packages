@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "musikcube",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "musikcube",
+        "latest-version": "0.96.4",
+        "0.96.4": {
+            "url": "https://github.com/clangen/musikcube/releases/download/0.96.4/musikcube_win64_0.96.4.zip",
+            "file-type": ".zip",
+            "bin": [
+                "musikcube.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "musikcube",
+                    "file-name": "musikcube.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/clangen/musikcube/releases/download/$version/musikcube_win64_$version.zip",
+            "version-check": {
+                "webpage": "https://github.com/clangen/musikcube/releases",
+                "regex": "musikcube_win32_([\\d.]+)\\.zip"
+            }
+        }
+    }
+}

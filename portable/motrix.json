@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "motrix",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "motrix",
+        "latest-version": "1.5.15",
+        "1.5.15": {
+            "url": "https://github.com/agalwood/Motrix/releases/download/v1.5.15/Motrix-Setup-1.5.15.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Motrix",
+                    "file-name": "Motrix.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/agalwood/Motrix/releases/download/v$version/Motrix-Setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://motrix.app"
+            }
+        }
+    }
+}

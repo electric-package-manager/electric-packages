@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "wrangler",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "wrangler",
+        "latest-version": "1.15.1",
+        "1.15.1": {
+            "url": "https://github.com/cloudflare/wrangler/releases/download/v1.15.1/wrangler-v1.15.1-x86_64-pc-windows-msvc.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "wrangler.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/cloudflare/wrangler/releases/download/v$version/wrangler-v$version-x86_64-pc-windows-msvc.tar.gz",
+            "version-check": {
+                "webpage": "https://developers.cloudflare.com/workers/tooling/wrangler"
+            }
+        }
+    }
+}

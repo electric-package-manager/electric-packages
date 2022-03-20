@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "n-m3u8dl-cli",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "n-m3u8dl-cli",
+        "latest-version": "2.9.7",
+        "2.9.7": {
+            "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/2.9.7/N_m3u8DL-CLI_v2.9.7.exe#/N_m3u8DL-CLI.exe",
+            "file-type": ".exe",
+            "bin": [
+                "N_m3u8DL-CLI.exe",
+                [
+                    "N_m3u8DL-CLI.exe",
+                    "N_m3u8DL"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/<version>/N_m3u8DL-CLI_v<version>.exe#/N_m3u8DL-CLI.exe",
+            "version-check": {
+                "webpage": "https://github.com/nilaoda/N_m3u8DL-CLI/blob/master/README_ENG.md"
+            }
+        }
+    }
+}

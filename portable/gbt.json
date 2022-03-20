@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "gbt",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gbt",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/jtyr/gbt/releases/download/v2.0.0/gbt-2.0.0-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "gbt.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

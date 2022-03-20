@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "duplicacy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "duplicacy",
+        "latest-version": "2.7.2",
+        "2.7.2": {
+            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v2.7.2/duplicacy_win_x64_2.7.2.exe#/duplicacy.exe",
+            "file-type": ".exe",
+            "bin": [
+                "duplicacy.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/gilbertchen/duplicacy/releases/download/v$version/duplicacy_win_x64_$version.exe#/duplicacy.exe",
+            "version-check": {
+                "webpage": "https://duplicacy.com/"
+            }
+        }
+    }
+}

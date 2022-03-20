@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "httrack",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "httrack",
+        "latest-version": "3.49.2",
+        "3.49.2": {
+            "url": "https://mirror.httrack.com/httrack_x64-noinst-3.49.2.zip",
+            "file-type": ".zip",
+            "bin": [
+                "httrack.exe",
+                "WinHTTrack.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "WinHTTrack Website Copier",
+                    "file-name": "WinHTTrack.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://mirror.httrack.com/httrack_x64-noinst-$version.zip",
+            "version-check": {
+                "webpage": "https://mirror.httrack.com/version.txt",
+                "regex": "([\\d.]+)"
+            }
+        }
+    }
+}

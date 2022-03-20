@@ -1,0 +1,22 @@
+{
+    "display-name": "PDF-XChange Editor",
+    "package-name": "pdfxchangeeditor",
+    "latest-version": "9.0.352.0",
+    "9.0.352.0": {
+        "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+        "file-type": ".msi",
+        "checksum": "9A042F9FDA76E0AF8CFD2CAC86C434ACF94E7C2E0863E62DE165F3C5F855B814",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

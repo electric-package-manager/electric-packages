@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "httpstat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "httpstat",
+        "latest-version": "1.0.0",
+        "1.0.0": {
+            "url": "https://github.com/davecheney/httpstat/releases/download/v1.0.0/httpstat-windows-amd64-v1.0.0.exe#/httpstat.exe",
+            "file-type": ".exe",
+            "bin": [
+                "httpstat.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

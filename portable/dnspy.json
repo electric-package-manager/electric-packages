@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "dnspy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dnspy",
+        "latest-version": "6.1.8",
+        "6.1.8": {
+            "url": "https://github.com/0xd4d/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "dnSpy.Console.exe",
+                "dnSpy.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "dnSpy",
+                    "file-name": "dnSpy.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

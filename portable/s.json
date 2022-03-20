@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "s",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "s",
+        "latest-version": "0.5.15",
+        "0.5.15": {
+            "url": "https://github.com/zquestz/s/releases/download/v0.5.15/s-windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "s.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

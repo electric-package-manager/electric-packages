@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "hexed",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "hexed",
+        "latest-version": "1.0.32",
+        "1.0.32": {
+            "url": "https://github.com/samizzo/hexed/releases/download/1.0.32/hexed.exe",
+            "file-type": ".exe",
+            "bin": [
+                "hexed.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

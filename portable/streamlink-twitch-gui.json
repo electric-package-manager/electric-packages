@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "streamlink-twitch-gui",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "streamlink-twitch-gui",
+        "latest-version": "1.11.0",
+        "1.11.0": {
+            "url": "https://github.com/streamlink/streamlink-twitch-gui/releases/download/v1.11.0/streamlink-twitch-gui-v1.11.0-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "streamlink-twitch-gui.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Streamlink Twitch GUI",
+                    "file-name": "streamlink-twitch-gui.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/streamlink/streamlink-twitch-gui/releases/download/v$version/streamlink-twitch-gui-v$version-win64.zip",
+            "version-check": {
+                "webpage": "https://streamlink.github.io/streamlink-twitch-gui/"
+            }
+        }
+    }
+}

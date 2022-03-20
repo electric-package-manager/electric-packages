@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "noty",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "noty",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://github.com/fabiospampinato/noty/releases/download/v2.2.0/Noty-2.2.0-win.zip",
+            "file-type": ".zip",
+            "bin": [
+                "noty.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "noty",
+                    "file-name": "noty.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

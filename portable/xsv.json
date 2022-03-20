@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "xsv",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "xsv",
+        "latest-version": "0.13.0",
+        "0.13.0": {
+            "url": "https://github.com/BurntSushi/xsv/releases/download/0.13.0/xsv-0.13.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "xsv.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

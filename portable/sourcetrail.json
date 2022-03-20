@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "sourcetrail",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sourcetrail",
+        "latest-version": "2021.1.30",
+        "2021.1.30": {
+            "url": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/2021.1.30/Sourcetrail_2021_1_30_Windows_64bit_Portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Sourcetrail.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Sourcetrail",
+                    "file-name": "Sourcetrail.exe"
+                }
+            ],
+            "persist": "user"
+        },
+        "auto-update": {
+            "url": "https://github.com/CoatiSoftware/Sourcetrail/releases/download/$version/Sourcetrail_$underscoreVersion_Windows_64bit_Portable.zip",
+            "version-check": {
+                "webpage": "https://www.sourcetrail.com"
+            }
+        }
+    }
+}

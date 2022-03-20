@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "bitwarden",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bitwarden",
+        "latest-version": "1.25.1",
+        "1.25.1": {
+            "url": "https://github.com/bitwarden/desktop/releases/download/v1.25.1/bitwarden-1.25.1-x64.nsis.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Bitwarden.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Bitwarden",
+                    "file-name": "Bitwarden.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-x64.nsis.7z",
+            "version-check": {
+                "webpage": "https://bitwarden.com"
+            }
+        }
+    }
+}

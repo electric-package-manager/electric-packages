@@ -1,0 +1,92 @@
+{
+    "display-name": "Eclipse",
+    "package-name": "eclipse",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Eclipse",
+        "package-name": "eclipse",
+        "latest-version": "2022-03",
+        "auto-update": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/<version>/R/eclipse-jee-<version>-R-win32-x86_64.zip&r=1",
+            "version-check": {
+                "webpage": "https://download.eclipse.org/technology/epp/downloads/release/release.xml",
+                "regex": "<present>([\\d-]+)/R</present>"
+            }
+        },
+        "2020-12": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-12/R/eclipse-jee-2020-12-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file-name": "eclipse.exe"
+                }
+            ]
+        },
+        "2021-03": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-03/R/eclipse-jee-2021-03-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file-name": "eclipse.exe"
+                }
+            ]
+        },
+        "2021-06": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-06/R/eclipse-jee-2021-06-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file-name": "eclipse.exe"
+                }
+            ]
+        },
+        "2021-12": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2021-12/R/eclipse-jee-2021-12-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file-name": "eclipse.exe"
+                }
+            ]
+        },
+        "2022-03": {
+            "url": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2022-03/R/eclipse-jee-2022-03-R-win32-x86_64.zip&r=1",
+            "file-type": ".zip",
+            "extract-dir": "eclipse",
+            "chdir": "eclipse",
+            "bin": [
+                "eclipse.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse",
+                    "file-name": "eclipse.exe"
+                }
+            ]
+        }
+    }
+}

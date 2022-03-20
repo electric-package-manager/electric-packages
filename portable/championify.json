@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "championify",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "championify",
+        "latest-version": "2.1.5",
+        "2.1.5": {
+            "url": "https://github.com/dustinblackman/Championify/releases/download/2.1.5/Championify-WIN-2.1.5.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Championify",
+                    "file-name": "championify.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

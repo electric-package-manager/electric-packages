@@ -1,0 +1,22 @@
+{
+    "display-name": "Google Drive",
+    "package-name": "google-drive",
+    "latest-version": "2.34.5075.1619",
+    "2.34.5075.1619": {
+        "url": "https://dl.google.com/drive/2.34.5075.1619/gsync.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "6D5FF2EBE74996D05501517FCB307293F632697265C1151D78EAB2DFE3C52CE0"
+    }
+}

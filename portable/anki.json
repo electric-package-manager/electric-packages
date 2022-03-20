@@ -1,0 +1,48 @@
+{
+    "display-name": "",
+    "package-name": "anki",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "anki",
+        "latest-version": "2.1.43",
+        "2.1.43": {
+            "url": "https://github.com/ankitects/anki/releases/download/2.1.43/anki-2.1.43-windows.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "anki.cmd"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "@(",
+                        "    '@echo off'",
+                        "    'SET _allParams=\"%*\"'",
+                        "    'IF /i %_allParams:-b =%==%_allParams% ('",
+                        "    \"    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" -b `\"$persist_dir\\data`\" %*\"",
+                        "    ') ELSE ('",
+                        "    '    start \"anki\" /D \"%~dp0\" \"%~dp0anki.exe\" %*'",
+                        "    ')'",
+                        ") | Set-Content \"$dir\\anki.cmd\" -Encoding ASCII",
+                        "Remove-Item \"$dir\\`$*\" -Recurse"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Anki",
+                    "file-name": "anki.cmd"
+                }
+            ],
+            "persist": "data"
+        },
+        "auto-update": {
+            "url": "https://github.com/ankitects/anki/releases/download/$version/anki-$version-windows.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://github.com/ankitects/anki/releases",
+                "regex": "anki-([\\d.]+)-windows\\.exe"
+            }
+        }
+    }
+}

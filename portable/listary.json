@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "listary",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "listary",
+        "latest-version": "5.00.2843",
+        "5.00.2843": {
+            "url": "https://www.listary.com/download/ListaryPortable.zip?version=5.00.2843#/ListaryPortable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Listary",
+                    "file-name": "Listary.exe"
+                }
+            ],
+            "persist": "UserData"
+        },
+        "auto-update": {
+            "url": "https://www.listary.com/download/ListaryPortable.zip?version=<version>#/ListaryPortable.zip",
+            "version-check": {
+                "webpage": "https://www.listary.com/download",
+                "regex": "v([\\d.]+)"
+            }
+        }
+    }
+}

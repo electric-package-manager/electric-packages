@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "eclipse-rcp",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eclipse-rcp",
+        "latest-version": "2021-03",
+        "2021-03": {
+            "url": "http://download.eclipse.org/technology/epp/downloads/release/2021-03/R/eclipse-rcp-2021-03-R-win32-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse for RCP and RAP Developers",
+                    "file-name": "eclipse.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://download.eclipse.org/technology/epp/downloads/release/$version/R/eclipse-rcp-$version-R-win32-x86_64.zip",
+            "version-check": {
+                "webpage": "https://download.eclipse.org/technology/epp/downloads/release/release.xml",
+                "regex": "([\\d-]+)"
+            }
+        }
+    }
+}

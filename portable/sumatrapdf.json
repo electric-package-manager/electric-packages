@@ -1,0 +1,47 @@
+{
+    "display-name": "",
+    "package-name": "sumatrapdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "sumatrapdf",
+        "latest-version": "3.2",
+        "3.2": {
+            "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "SumatraPDF.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "$file = 'SumatraPDF-settings.txt'",
+                        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+                        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+                        "    Set-Content \"$dir\\$file\" 'CheckForUpdates = false' -Encoding Ascii",
+                        "}",
+                        "Get-ChildItem \"$dir\\SumatraPDF-*.exe\" | Rename-Item -NewName 'SumatraPDF.exe'"
+                    ]
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "SumatraPDF",
+                    "file-name": "SumatraPDF.exe"
+                }
+            ],
+            "persist": [
+                "SumatraPDF-settings.txt",
+                "sumatrapdfcache"
+            ]
+        },
+        "auto-update": {
+            "url": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-$version-64.zip",
+            "version-check": {
+                "webpage": "https://www.sumatrapdfreader.org/news.html",
+                "regex": "([\\d.]+)\\s+\\(\\d+"
+            }
+        }
+    }
+}

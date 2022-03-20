@@ -1,0 +1,33 @@
+{
+    "display-name": "Adobe Acrobat Reader DC",
+    "package-name": "adobe-reader",
+    "latest-version": "2022.001.20085",
+    "auto-update": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<clean-version>[2:]/AcroRdrDC<clean-version>_en_US.exe",
+        "version-check": {
+            "webpage": "https://get.adobe.com/reader/",
+            "regex": "\\d{4}.\\d{3}.\\d{5}"
+        }
+    },
+    "2021.001.20140": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120140/AcroRdrDC2100120140_en_US.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/sAll",
+            "/rs"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "E8BB766B3A8EE577CCBD1828FCA1C1A4624687F7D8736BE169B4A671A9D04115"
+    },
+    "2021.001.20145": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe"
+    },
+    "2021.001.20155": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120155/AcroRdrDC2100120155_en_US.exe"
+    },
+    "2022.001.20085": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200120085/AcroRdrDC2200120085_en_US.exe"
+    }
+}

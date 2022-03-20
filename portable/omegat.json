@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "omegat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "omegat",
+        "latest-version": "5.4.3",
+        "5.4.3": {
+            "url": "https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Latest/OmegaT%205.4.3/OmegaT_5.4.3_Beta_Windows_64_Signed.exe",
+            "file-type": ".exe",
+            "bin": [
+                "OmegaT.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "OmegaT",
+                    "file-name": "OmegaT.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Latest/OmegaT%20$version/OmegaT_$version_Beta_Windows_64_Signed.exe",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/omegat/rss?path=/OmegaT%20-%20Latest",
+                "regex": "OmegaT_([\\d._]+)_Beta"
+            }
+        }
+    }
+}

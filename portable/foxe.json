@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "foxe",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "foxe",
+        "latest-version": "2.4.2",
+        "2.4.2": {
+            "url": "http://www.firstobject.com/foxe242.zip",
+            "file-type": ".zip",
+            "bin": [
+                "foxe.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

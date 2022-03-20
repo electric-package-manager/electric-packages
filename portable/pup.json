@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "pup",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pup",
+        "latest-version": "0.4.0",
+        "0.4.0": {
+            "url": "https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pup.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

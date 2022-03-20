@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "screenoff",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "screenoff",
+        "latest-version": "2.1",
+        "2.1": {
+            "url": "https://www.thewindowsclub.com/downloads/Scrof.zip",
+            "file-type": ".zip",
+            "bin": [
+                "ScreenOff.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Move-Item \"$dir\\ScreenOff*.exe\" \"$dir\\ScreenOff.exe\""
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "ScreenOff",
+                    "file-name": "ScreenOff.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

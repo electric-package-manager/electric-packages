@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "rcedit",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "rcedit",
+        "latest-version": "1.1.1",
+        "1.1.1": {
+            "url": "https://github.com/electron/rcedit/releases/download/v1.1.1/rcedit-x64.exe#/rcedit.exe",
+            "file-type": ".exe",
+            "bin": [
+                "rcedit.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display-name": "",
+    "package-name": "gnupg1",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "gnupg1",
+        "latest-version": "1.4.23",
+        "1.4.23": {
+            "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32cli-1.4.23.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "gpg.exe",
+                "gpgkeys_curl.exe",
+                "gpgkeys_finger.exe",
+                "gpgkeys_hkp.exe",
+                "gpgkeys_ldap.exe",
+                "gpgsplit.exe",
+                "gpgv.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32cli-<version>.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://www.gnupg.org/ftp/gcrypt/binary/",
+                "regex": "gnupg-w32cli-(1\\.[\\d.]+)\\.exe"
+            }
+        }
+    }
+}

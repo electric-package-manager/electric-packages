@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "driverstoreexplorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "driverstoreexplorer",
+        "latest-version": "0.11.72",
+        "0.11.72": {
+            "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.72/DriverStoreExplorer.v0.11.72.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Rapr.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DriverStore Explorer",
+                    "file-name": "Rapr.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "kibana",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "kibana",
+        "latest-version": "7.12.0",
+        "7.12.0": {
+            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-7.12.0-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\kibana.bat",
+                "bin\\kibana-plugin.bat"
+            ],
+            "shortcuts": [],
+            "persist": [
+                "config",
+                "data",
+                "plugins"
+            ]
+        },
+        "auto-update": {
+            "url": "https://artifacts.elastic.co/downloads/kibana/kibana-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://www.elastic.co/downloads/kibana",
+                "regex": "kibana-([\\d.]+)-windows-x86_64\\.zip"
+            }
+        }
+    }
+}

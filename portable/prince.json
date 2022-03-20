@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "prince",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "prince",
+        "latest-version": "14.1",
+        "14.1": {
+            "url": "https://www.princexml.com/download/prince-14.1-win64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\prince.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://www.princexml.com/download/prince-$version-win64.zip",
+            "version-check": {
+                "webpage": "https://www.princexml.com/download/",
+                "regex": ">Download Prince ([\\d.]+)<"
+            }
+        }
+    }
+}

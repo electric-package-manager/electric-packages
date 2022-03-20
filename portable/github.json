@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "github",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "github",
+        "latest-version": "2.7.2",
+        "2.7.2": {
+            "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-2.7.2-full.nupkg",
+            "file-type": ".nupkg",
+            "bin": [
+                "GitHubDesktop.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "GitHub Desktop",
+                    "file-name": "GitHubDesktop.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://central.github.com/deployments/desktop/desktop/latest/GitHubDesktop-$version-full.nupkg",
+            "version-check": {
+                "webpage": "https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES",
+                "regex": "GitHubDesktop-([\\d.]+)-full\\.nupkg"
+            }
+        }
+    }
+}

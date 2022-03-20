@@ -1,0 +1,22 @@
+{
+    "display-name": "Microsoft Shared Management Objects for SQL Server 2016",
+    "package-name": "sql2016-smo",
+    "latest-version": "13.0.1601.5",
+    "13.0.1601.5": {
+        "url": "https://download.microsoft.com/download/B/1/7/B1783FE9-717B-4F78-A39A-A2E27E3D679D/SQL_AS_AMO/x64/SQL_AS_AMO.msi",
+        "file-type": ".msi",
+        "checksum": "A2D581587B4FD50347FDE62876E79AFD6423DE967E1DEF38ED5751A189D7798C",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

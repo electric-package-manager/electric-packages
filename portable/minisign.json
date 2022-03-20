@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "minisign",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "minisign",
+        "latest-version": "0.9",
+        "0.9": {
+            "url": "https://github.com/jedisct1/minisign/releases/download/0.9/minisign-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "minisign.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/jedisct1/minisign/releases/download/<version>/minisign-win32.zip",
+            "version-check": {
+                "webpage": "https://jedisct1.github.io/minisign/"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "xmlstarlet",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "xmlstarlet",
+        "latest-version": "1.6.1",
+        "1.6.1": {
+            "url": "https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/1.6.1/xmlstarlet-1.6.1-win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "xml.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/xmlstar/xmlstarlet/<version>/xmlstarlet-<version>-win32.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/xmlstar/files/",
+                "regex": "xmlstarlet-([\\d.]+)-win"
+            }
+        }
+    }
+}

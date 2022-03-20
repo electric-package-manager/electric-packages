@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "dia",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "dia",
+        "latest-version": "0.97.2",
+        "0.97.2": {
+            "url": "https://downloads.sourceforge.net/project/dia-installer/dia/0.97.2/dia_0.97.2_win32.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\dia.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Dia",
+                    "file-name": "bin\\diaw.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

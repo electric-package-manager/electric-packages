@@ -1,0 +1,76 @@
+{
+    "display-name": "Beyond Compare",
+    "package-name": "beyond-compare",
+    "latest-version": "4.4.2.26348",
+    "auto-update": {
+        "url": "https://www.scootersoftware.com/BCompare-<version>.msi",
+        "version-check": {
+            "webpage": "https://www.scootersoftware.com/download.php?zz=kb_dl4_winalternate",
+            "regex": "BCompare-([\\d.]+)_x64\\.msi"
+        }
+    },
+    "4.3.7.25118": {
+        "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "4.4.0.25886": {
+        "url": "https://www.scootersoftware.com/BCompare-4.4.0.25886.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "4.4.1.26165": {
+        "url": "https://www.scootersoftware.com/BCompare-4.4.1.26165.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "4.4.2.26348": {
+        "url": "https://www.scootersoftware.com/BCompare-4.4.2.26348.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    }
+}

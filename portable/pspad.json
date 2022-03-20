@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "pspad",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pspad",
+        "latest-version": "5.0.6",
+        "5.0.6": {
+            "url": "https://www.pspad.com/files/pspad/pspad506en.zip",
+            "file-type": ".zip",
+            "bin": [
+                "PSPad.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "PSPad",
+                    "file-name": "PSPad.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

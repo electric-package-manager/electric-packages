@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "bulk-rename-command",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "bulk-rename-command",
+        "latest-version": "1.3.3.0",
+        "1.3.3.0": {
+            "url": "http://www.s3.tgrmn.com/bru/BRC_Unicode_64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "http://www.s3.tgrmn.com/bru/BRC_Unicode_64.zip",
+            "version-check": {
+                "webpage": "https://www.bulkrenameutility.co.uk/Download.php",
+                "regex": "(?s)>Bulk Rename Command<.*?version ([\\d.]+)"
+            }
+        }
+    }
+}

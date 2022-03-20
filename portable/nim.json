@@ -1,0 +1,42 @@
+{
+    "display-name": "",
+    "package-name": "nim",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nim",
+        "latest-version": "1.4.4",
+        "1.4.4": {
+            "url": "https://nim-lang.org/download/nim-1.4.4_x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\nim.exe",
+                "bin\\nimble.exe",
+                "bin\\nimgrab.exe",
+                "bin\\nimgrep.exe",
+                "bin\\nimpretty.exe",
+                "bin\\nimsuggest.exe",
+                "bin\\vccexe.exe",
+                "bin\\testament.exe"
+            ],
+            "shortcuts": [],
+            "persist": "config",
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "# Copy Nimble package",
+                        "Copy-Item -Recurse \"$dir\\dist\\nimble\\src\\nimblepkg\" \"$dir\\bin\""
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://nim-lang.org/download/nim-$version_x64.zip",
+            "version-check": {
+                "webpage": "https://nim-lang.org/install_windows.html",
+                "regex": "nim-([\\d.]+)_x64"
+            }
+        }
+    }
+}

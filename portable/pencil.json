@@ -1,0 +1,36 @@
+{
+    "display-name": "",
+    "package-name": "pencil",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pencil",
+        "latest-version": "3.1.0",
+        "3.1.0": {
+            "url": "https://pencil.evolus.vn/dl/V3.1.0.ga/pencil-3.1.0.ga-x86_64.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "Pencil.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Pencil",
+                    "file-name": "Pencil.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://pencil.evolus.vn/dl/V$version.ga/pencil-$version.ga-x86_64.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://pencil.evolus.vn"
+            }
+        }
+    }
+}

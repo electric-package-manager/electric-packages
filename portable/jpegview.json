@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "jpegview",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jpegview",
+        "latest-version": "1.0.37",
+        "1.0.37": {
+            "url": "https://downloads.sourceforge.net/project/jpegview/jpegview/1.0.37/JPEGView_1.0.37.zip",
+            "file-type": ".zip",
+            "bin": [
+                "JPEGView.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "JPEGView",
+                    "file-name": "JPEGView.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/jpegview/jpegview/<version>/JPEGView_<version>.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/jpegview/rss?path=/",
+                "regex": "/jpegview/([\\d.]+)/JPEGView_"
+            }
+        }
+    }
+}

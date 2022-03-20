@@ -1,0 +1,22 @@
+{
+    "display-name": "Info-ZIP",
+    "package-name": "zip",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Info-ZIP",
+        "package-name": "zip",
+        "latest-version": "3.0",
+        "3.0": {
+            "url": "http://fossies.org/windows/misc/zip300xn-x64.zip",
+            "file-type": ".zip",
+            "extract-dir": "zip",
+            "bin": [
+                "zip.exe",
+                "zipcloak.exe",
+                "zipnote.exe",
+                "zipsplit.exe"
+            ],
+            "checksum": "63F32F1F797680D9C68379D36CFF4373674D405527D7FA2B4BBD34EDCC3370D2"
+        }
+    }
+}

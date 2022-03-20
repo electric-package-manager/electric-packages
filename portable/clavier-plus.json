@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "clavier-plus",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "clavier-plus",
+        "latest-version": "11.1.0",
+        "11.1.0": {
+            "url": "https://github.com/guilryder/clavier-plus/releases/download/release11.1.0/Clavier.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Clavier.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Clavier+",
+                    "file-name": "Clavier.exe"
+                }
+            ],
+            "persist": "Clavier.ini"
+        },
+        "auto-update": {
+            "url": "https://github.com/guilryder/clavier-plus/releases/download/release$version/Clavier.zip",
+            "version-check": {
+                "webpage": "http://utilfr42.free.fr/util/Clavier.php",
+                "regex": "download/release([\\d.]+)"
+            }
+        }
+    }
+}

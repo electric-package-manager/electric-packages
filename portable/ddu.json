@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "ddu",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ddu",
+        "latest-version": "18.0.3.8",
+        "18.0.3.8": {
+            "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v18.0.3.8.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "DDU - Display Driver Uninstaller",
+                    "file-name": "Display Driver Uninstaller.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

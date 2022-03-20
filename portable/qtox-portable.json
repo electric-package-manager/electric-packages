@@ -1,0 +1,30 @@
+{
+    "display-name": "",
+    "package-name": "qtox-portable",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "qtox-portable",
+        "latest-version": "1.17.3",
+        "1.17.3": {
+            "url": "https://github.com/qTox/qTox/releases/download/v1.17.3/setup-qtox-x86_64-release.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                "qtox.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "qTox",
+                    "file-name": "qtox.exe"
+                }
+            ],
+            "persist": "avatars"
+        },
+        "auto-update": {
+            "url": "https://github.com/qTox/qTox/releases/download/v$version/setup-qtox-x86_64-release.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://qtox.github.io"
+            }
+        }
+    }
+}

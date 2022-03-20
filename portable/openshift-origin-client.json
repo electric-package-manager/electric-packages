@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "openshift-origin-client",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "openshift-origin-client",
+        "latest-version": "3.11.0",
+        "3.11.0": {
+            "url": "https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "oc.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/openshift/origin/releases/download/v$version/openshift-origin-client-tools-v$version-$matchCommit-windows.zip",
+            "version-check": {
+                "webpage": "https://github.com/openshift/origin/releases/latest",
+                "regex": "openshift-origin-client-tools-v(?<version>[\\d.]+)-(?<commit>[\\w]+)-windows\\.zip"
+            }
+        }
+    }
+}

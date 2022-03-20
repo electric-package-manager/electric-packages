@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "webhook",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "webhook",
+        "latest-version": "2.8.0",
+        "2.8.0": {
+            "url": "https://github.com/adnanh/webhook/releases/download/2.8.0/webhook-windows-amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "webhook.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

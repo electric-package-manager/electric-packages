@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "jhead",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "jhead",
+        "latest-version": "3.04",
+        "3.04": {
+            "url": "http://www.sentex.net/~mwandel/jhead/jhead.exe",
+            "file-type": ".exe",
+            "bin": [
+                "jhead.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

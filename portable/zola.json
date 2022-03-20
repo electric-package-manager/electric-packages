@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "zola",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "zola",
+        "latest-version": "0.13.0",
+        "0.13.0": {
+            "url": "https://github.com/getzola/zola/releases/download/v0.13.0/zola-v0.13.0-x86_64-pc-windows-msvc.zip",
+            "file-type": ".zip",
+            "bin": [
+                "zola.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/getzola/zola/releases/download/v$version/zola-v$version-x86_64-pc-windows-msvc.zip",
+            "version-check": {
+                "webpage": "https://www.getzola.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "nextdns",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nextdns",
+        "latest-version": "1.11.0",
+        "1.11.0": {
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.11.0/nextdns_1.11.0_windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "nextdns.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://nginx.org/download/nginx-<version>.zip",
+            "version-check": {
+                "webpage": "https://nginx.org/en/CHANGES",
+                "regex": "Changes with nginx ([\\d.]+)"
+            }
+        }
+    }
+}

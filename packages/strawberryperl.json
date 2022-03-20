@@ -1,0 +1,22 @@
+{
+    "display-name": "Strawberry Perl",
+    "package-name": "strawberryperl",
+    "latest-version": "5.32.1.1",
+    "5.32.1.1": {
+        "url": "https://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "241A881670164FEB0B91BB69D39FBBF84C981BEC0D9F8C19959F8F48FD177768"
+    }
+}

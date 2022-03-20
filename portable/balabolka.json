@@ -1,0 +1,39 @@
+{
+    "display-name": "",
+    "package-name": "balabolka",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "balabolka",
+        "latest-version": "2.15.0.780",
+        "2.15.0.780": {
+            "url": "http://balabolka.site/balabolka_portable.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Balabolka",
+                    "file-name": "balabolka.exe"
+                }
+            ],
+            "persist": [
+                "dictionaries",
+                "hunspell",
+                "skins"
+            ],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": "Get-ChildItem \"$persist_dir\\*\" -Include 'balabolka.dat', 'balabolka.pcfg', 'balabolka.echo' -Force | Copy-Item -Destination \"$dir\" -ErrorAction SilentlyContinue"
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "http://balabolka.site/balabolka_portable.zip",
+            "version-check": {
+                "webpage": "http://balabolka.site/changelog.txt",
+                "regex": "[\\d-]+\\s+v([\\d.]+)"
+            }
+        }
+    }
+}

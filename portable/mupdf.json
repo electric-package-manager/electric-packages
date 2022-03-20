@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "mupdf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "mupdf",
+        "latest-version": "1.18.0",
+        "1.18.0": {
+            "url": "https://mupdf.com/downloads/archive/mupdf-1.18.0-windows.zip",
+            "file-type": ".zip",
+            "bin": [
+                "mupdf.exe",
+                "mupdf-gl.exe",
+                "mutool.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "MuPDF",
+                    "file-name": "mupdf.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://mupdf.com/downloads/archive/mupdf-<version>-windows.zip",
+            "version-check": {
+                "webpage": "https://www.mupdf.com/downloads/index.html",
+                "regex": "mupdf-([\\w.-]+)-windows\\.zip"
+            }
+        }
+    }
+}

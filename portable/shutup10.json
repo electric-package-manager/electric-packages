@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "shutup10",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "shutup10",
+        "latest-version": "1.8.1420",
+        "1.8.1420": {
+            "url": "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe",
+            "file-type": ".exe",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\OOSU10.ini\")) { New-Item \"$dir\\OOSU10.ini\" | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "O&O ShutUp10",
+                    "file-name": "OOSU10.exe"
+                }
+            ],
+            "persist": "OOSU10.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

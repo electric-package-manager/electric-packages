@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "memreduct",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "memreduct",
+        "latest-version": "3.3.5",
+        "3.3.5": {
+            "url": "https://github.com/henrypp/memreduct/releases/download/v.3.3.5/memreduct-3.3.5-bin.zip",
+            "file-type": ".zip",
+            "bin": [
+                "memreduct.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\memreduct.ini\")) { Set-Content \"$dir\\memreduct.ini\" '[memreduct]', 'CheckUpdates=false' -Encoding Ascii }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Mem Reduct",
+                    "file-name": "memreduct.exe"
+                }
+            ],
+            "persist": "memreduct.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

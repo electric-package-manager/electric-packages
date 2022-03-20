@@ -1,0 +1,19 @@
+{
+    "display-name": "",
+    "package-name": "vbindiff",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "vbindiff",
+        "latest-version": "3.0-beta5",
+        "3.0-beta5": {
+            "url": "https://www.cjmweb.net/vbindiff/VBinDiff-3.0_beta5.zip",
+            "file-type": ".zip",
+            "bin": [
+                "vbindiff.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "display-name": "Anaconda3*",
+    "package-name": "anaconda",
+    "latest-version": "2021.11",
+    "auto-update": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
+        "version-check": {
+            "webpage": "https://docs.anaconda.com/anaconda/install/hashes/win-3-64/",
+            "regex": "Anaconda3-([\\d.]+)-Windows"
+        }
+    },
+    "2020.11": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2020.11-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "AA523115DAF31C431BB392FAF75E70D35ADA935E36DC7B1DD8902BAEE240BCC1"
+    },
+    "2021.05": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2"
+    },
+    "2021.11": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2021.11-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "1B3D593D1DEB22B835BE5C68897075E0FC9DEA240AB4191C55674ABA259A78FF"
+    }
+}

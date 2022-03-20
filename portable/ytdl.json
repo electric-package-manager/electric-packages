@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "ytdl",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ytdl",
+        "latest-version": "0.6.4",
+        "0.6.4": {
+            "url": "https://github.com/rylio/ytdl/releases/download/v0.6.4/ytdl_0.6.4_windows_amd64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "ytdl.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

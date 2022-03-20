@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "fzf",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "fzf",
+        "latest-version": "0.27.0",
+        "0.27.0": {
+            "url": "https://github.com/junegunn/fzf/releases/download/0.27.0/fzf-0.27.0-windows_amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "fzf.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "super-productivity",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "super-productivity",
+        "latest-version": "6.5.2",
+        "6.5.2": {
+            "url": "https://github.com/johannesjo/super-productivity/releases/download/v6.5.2/superProductivity-Setup-6.5.2.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Super Productivity",
+                    "file-name": "superProductivity.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/johannesjo/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://super-productivity.com"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "azure-iot-explorer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "azure-iot-explorer",
+        "latest-version": "0.14.1",
+        "0.14.1": {
+            "url": "https://github.com/Azure/azure-iot-explorer/releases/download/v0.14.1/Azure.IoT.Explorer.preview.0.14.1.msi",
+            "file-type": ".msi",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Azure IoT explorer",
+                    "file-name": "Azure IoT explorer.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

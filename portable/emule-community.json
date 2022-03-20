@@ -1,0 +1,27 @@
+{
+    "display-name": "",
+    "package-name": "emule-community",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "emule-community",
+        "latest-version": "0.60b",
+        "0.60b": {
+            "url": "https://www.emule-project.net/files/emule/eMule0.60b.zip",
+            "file-type": ".zip",
+            "bin": [
+                "emule.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "eMule",
+                    "file-name": "emule.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

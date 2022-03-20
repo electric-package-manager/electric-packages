@@ -1,0 +1,40 @@
+{
+    "display-name": "",
+    "package-name": "flutter",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "flutter",
+        "latest-version": "2.0.4",
+        "2.0.4": {
+            "url": [
+                "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_2.0.4-stable.zip",
+                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/flutter-dev-setup.ps1"
+            ],
+            "file-type": ".NEEDS ATTENTION",
+            "bin": [
+                "bin\\flutter.bat",
+                "flutter-dev-setup.ps1"
+            ],
+            "shortcuts": [],
+            "persist": [],
+            "post-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "flutter-dev-setup.ps1",
+                        "Write-Host 'Some licenses need to be accepted before developing. It is recommended to do by running ''flutter doctor --android-licenses''.' -ForegroundColor Yellow",
+                        "flutter doctor"
+                    ]
+                }
+            ]
+        },
+        "auto-update": {
+            "url": "https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_$matchHead$matchDelim$matchBuild-stable.zip",
+            "version-check": {
+                "webpage": "https://storage.googleapis.com/flutter_infra/releases/releases_windows.json",
+                "regex": "windows_(v?[\\d.]+)(?<delim>[-+]?)(?<build>[\\w.]*)-stable"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "eclipse-reporting",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "eclipse-reporting",
+        "latest-version": "2019-09",
+        "2019-09": {
+            "url": "http://download.eclipse.org/technology/epp/downloads/release/2019-09/R/eclipse-reporting-2019-09-R-win32-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Eclipse IDE for Java and Report Developers",
+                    "file-name": "eclipse.exe"
+                }
+            ],
+            "persist": []
+        }
+    }
+}

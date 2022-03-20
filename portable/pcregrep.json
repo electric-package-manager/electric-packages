@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "pcregrep",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pcregrep",
+        "latest-version": "10.20",
+        "10.20": {
+            "url": "https://github.com/rivy/PCRE/releases/download/10.20/pcre2grep-10.20-x64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "pcre2grep.exe",
+                "pcre2test.exe",
+                [
+                    "pcre2grep.exe",
+                    "pcregrep"
+                ],
+                [
+                    "pcre2test.exe",
+                    "pcretest"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

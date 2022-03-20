@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "protolint",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "protolint",
+        "latest-version": "0.31.0",
+        "0.31.0": {
+            "url": "https://github.com/yoheimuta/protolint/releases/download/v0.31.0/protolint_0.31.0_Windows_x86_64.tar.gz",
+            "file-type": ".gz",
+            "bin": [
+                "protolint.exe",
+                "protoc-gen-protolint.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

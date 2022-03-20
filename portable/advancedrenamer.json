@@ -1,0 +1,31 @@
+{
+    "display-name": "",
+    "package-name": "advancedrenamer",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "advancedrenamer",
+        "latest-version": "3.87",
+        "3.87": {
+            "url": "https://www.advancedrenamer.com/down/advanced_renamer_portable.zip",
+            "file-type": ".zip",
+            "bin": [
+                "arenc.exe"
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Advanced Renamer",
+                    "file-name": "ARen.exe"
+                }
+            ],
+            "persist": "Data"
+        },
+        "auto-update": {
+            "url": "https://www.advancedrenamer.com/down/advanced_renamer_portable.zip",
+            "version-check": {
+                "webpage": "https://www.advancedrenamer.com/download",
+                "regex": "Download Advanced Renamer ([\\d.]+) for Windows"
+            }
+        }
+    }
+}

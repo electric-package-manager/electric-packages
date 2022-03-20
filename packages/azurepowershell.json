@@ -1,0 +1,183 @@
+{
+    "display-name": "Microsoft Azure Powershell",
+    "package-name": "azurepowershell",
+    "latest-version": "7.3.2-March2022",
+    "auto-update": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v<version>/Az-Cmdlets-<2>-x64.msi",
+        "version-check": {
+            "webpage": "https://github.com/Azure/azure-powershell/releases",
+            "regex": "download/v([^/]+)/Az-Cmdlets-([\\d.]+)-x64.msi",
+            "replace": "<1>"
+        }
+    },
+    "6.9.0": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v5.8.0-April2021/Az-Cmdlets-5.8.0.34217-x64.msi",
+        "file-type": ".msi",
+        "checksum": "DA405B37BD1E86D89493DD62E85C962F14032B0F09513E85FACB41683F8A20CF",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "5.8.0-April2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v5.8.0-April2021/Az-Cmdlets-5.8.0.34217-x64.msi",
+        "file-type": ".msi",
+        "checksum": "DA405B37BD1E86D89493DD62E85C962F14032B0F09513E85FACB41683F8A20CF",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "5.9.0-May2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v5.9.0-May2021/Az-Cmdlets-5.9.0.34269-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "E8C882B6EB3A3C861DA73A9728D7AC0424AF284D6F98802618275FEE69924876"
+    },
+    "6.0.0-May2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "09F4FCB360D58474CBA907FED98F6AF8D9CCEA0A5449D6C614FC11B0ACF3CCDE"
+    },
+    "6.1.0-June2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v6.1.0-June2021/Az-Cmdlets-6.1.0.34441-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "6D55C114C7155A88090B343E6497EDDD68DF510C41674BE0D07C18980BAB9B98"
+    },
+    "6.2.1-July2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v6.2.1-July2021/Az-Cmdlets-6.2.1.34515-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "16D634FDFEDE659CC05CA7CD8AD9B7CEDC09DCACD7264FC55F4D0C93CA3036F2"
+    },
+    "6.3.0-August2021": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v6.3.0-August2021/Az-Cmdlets-6.3.0.34604-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "930062D05ED282ED21398C32BE97B4119DAA6B6C29C1294A495EDACF41FCB3CD"
+    },
+    "7.2.0-February2022": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v7.2.0-February2022/Az-Cmdlets-7.2.0.35201-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "A3C087BFEC59A9BAB63198B58035C0C604EFE7CF855B1B6F0172BCD38DE16B35"
+    },
+    "7.3.0-March2022": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v7.3.0-March2022/Az-Cmdlets-7.3.0.35302-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "C56EFD41E7C769E74504D212F4B7836E9A12F5C9BB6F4F9F7ADD08F86ADC189C"
+    },
+    "7.3.2-March2022": {
+        "url": "https://github.com/Azure/azure-powershell/releases/download/v7.3.2-March2022/Az-Cmdlets-7.3.2.35305-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "2A3173A060AF84738CE621BF71CEC4CE68751057AD77D574304C8D9483D8E23A"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display-name": "Ninja",
+    "package-name": "ninja",
+    "is-portable": true,
+    "portable": {
+        "display-name": "Ninja",
+        "package-name": "ninja",
+        "latest-version": "1.10.2",
+        "1.10.2": {
+            "url": "https://github.com/ninja-build/ninja/releases/download/v1.10.2/ninja-win.zip",
+            "file-type": ".zip",
+            "extract-dir": "ninja",
+            "bin": [
+                "ninja.exe"
+            ],
+            "checksum": "BBDE850D247D2737C5764C927D1071CBB1F1957DCABDA4A130FA8547C12C695F"
+        }
+    }
+}

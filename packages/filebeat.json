@@ -1,0 +1,98 @@
+{
+    "display-name": "FileBeat",
+    "package-name": "filebeat",
+    "is-portable": true,
+    "portable": {
+        "display-name": "FileBeat",
+        "package-name": "filebeat",
+        "latest-version": "8.1",
+        "auto-update": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-<version>-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://www.elastic.co/downloads/beats/filebeat",
+                "regex": "([\\d.]+)</div>"
+            }
+        },
+        "7.11.1": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.11.1-windows-x86_64.zip",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ],
+            "checksum": "7969F99B198EC88D13F03136E92B3985534C5A7166C52DD6244B4D52631BB5BF"
+        },
+        "7.12.1": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.12.1-windows-x86_64.zip",
+            "checksum": "3989B0C6CB00EECDE89A4445496203E30919608EC8E42F5617116D0A20607770",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.13.0": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.13.0-windows-x86_64.zip",
+            "checksum": "8F4EE96E3AF763A54A97897FD6C1D68F03FAC2AA952170F37138C48C3E012C0A",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.13.1": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.13.1-windows-x86_64.zip",
+            "checksum": "91BE2CD0A668B8A7D5A3033795869AAB8E48B24D5EDEBFC1E82490BC2888484C",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.13.2": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.13.2-windows-x86_64.zip",
+            "checksum": "89B7F1711E1924124FB174F3DF94B304A97435E23E8499C9CAD43FC3C451BC52",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.13.4": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.13.4-windows-x86_64.zip",
+            "checksum": "9BA94B2D9267D0922C8A841DF4E0DFE344089C9D3346F969DD988755970D1A17",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "7.14.0": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.14.0-windows-x86_64.zip",
+            "checksum": "EBE59843937FF476FC72ED6D3AD3561FD365308AAF9CA1B22887E81E53C1BB75",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "8.0": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.0-windows-x86_64.zip",
+            "checksum": "39CCFE072CDEB4FF3D6580B2B496F202026FC47069422C9BCBFA5DF119F0BA23",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "8.1": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.1-windows-x86_64.zip",
+            "checksum": "8BAB7714CB015AF505D4DCF9218847B84442CCF6816A63F552C70E9CF1079CC6",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        }
+    }
+}

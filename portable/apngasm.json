@@ -1,0 +1,23 @@
+{
+    "display-name": "",
+    "package-name": "apngasm",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "apngasm",
+        "latest-version": "3.0.0",
+        "3.0.0": {
+            "url": "http://files.genshin.org/apngasm/apngasm-cli.7z",
+            "file-type": ".7z",
+            "bin": [
+                "apngasm-cli.exe",
+                [
+                    "apngasm-cli.exe",
+                    "apngasm"
+                ]
+            ],
+            "shortcuts": [],
+            "persist": []
+        }
+    }
+}

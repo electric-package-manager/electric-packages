@@ -1,0 +1,24 @@
+{
+    "display-name": "",
+    "package-name": "nunit-extension-vs-project-loader",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "nunit-extension-vs-project-loader",
+        "latest-version": "3.8.0",
+        "3.8.0": {
+            "url": "https://packages.chocolatey.org/nunit-extension-vs-project-loader.3.8.0.nupkg",
+            "file-type": ".nupkg",
+            "bin": [],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://packages.chocolatey.org/nunit-extension-vs-project-loader.<version>.nupkg",
+            "version-check": {
+                "webpage": "https://chocolatey.org/packages/nunit-extension-vs-project-loader",
+                "regex": "\\s+([\\d.]+)</title>"
+            }
+        }
+    }
+}

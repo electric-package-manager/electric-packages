@@ -1,0 +1,28 @@
+{
+    "display-name": "",
+    "package-name": "altair",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "altair",
+        "latest-version": "4.0.0",
+        "4.0.0": {
+            "url": "https://github.com/imolorhe/altair/releases/download/v4.0.0/altair_4.0.0_win.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Altair GraphQL Client",
+                    "file-name": "Altair GraphQL Client.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/imolorhe/altair/releases/download/v$version/altair_$version_win.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://altair.sirmuel.design"
+            }
+        }
+    }
+}

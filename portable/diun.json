@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "diun",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "diun",
+        "latest-version": "4.14.0",
+        "4.14.0": {
+            "url": "https://github.com/crazy-max/diun/releases/download/v4.14.0/diun_4.14.0_windows_x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "diun.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

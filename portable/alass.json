@@ -1,0 +1,22 @@
+{
+    "display-name": "",
+    "package-name": "alass",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "alass",
+        "latest-version": "2.0.0",
+        "2.0.0": {
+            "url": "https://github.com/kaegi/alass/releases/download/v2.0.0/alass-windows64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "alass.bat"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

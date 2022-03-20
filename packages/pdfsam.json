@@ -1,0 +1,22 @@
+{
+    "display-name": "PDFSam",
+    "package-name": "pdfsam",
+    "latest-version": "4.2.2",
+    "4.2.2": {
+        "url": "https://github.com/torakiki/pdfsam/releases/download/v4.2.2/pdfsam-4.2.2.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "C7BA5B61DCAD5260C79ECAD4FDD3917F83135236FC82F1BC4E65C334F3A161FB"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display-name": "",
+    "package-name": "tagscanner",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "tagscanner",
+        "latest-version": "6.1.7",
+        "6.1.7": {
+            "url": "https://www.xdlab.ru/files/tagscan-6.1.7.zip",
+            "file-type": ".zip",
+            "bin": [
+                "Tagscan.exe"
+            ],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": "if (!(Test-Path \"$persist_dir\\Tagscan.ini\")) { New-Item \"$dir\\Tagscan.ini\" -ItemType File | Out-Null }"
+                }
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Tagscanner",
+                    "file-name": "Tagscan.exe"
+                }
+            ],
+            "persist": "Tagscan.ini"
+        },
+        "auto-update": {
+            "checkver": ""
+        }
+    }
+}

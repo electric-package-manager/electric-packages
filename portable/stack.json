@@ -1,0 +1,25 @@
+{
+    "display-name": "",
+    "package-name": "stack",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "stack",
+        "latest-version": "2.5.1",
+        "2.5.1": {
+            "url": "https://github.com/commercialhaskell/stack/releases/download/v2.5.1/stack-2.5.1-windows-x86_64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "stack.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/commercialhaskell/stack/releases/download/v$version/stack-$version-windows-x86_64.zip",
+            "version-check": {
+                "webpage": "https://www.haskellstack.org"
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "editorconfig",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "editorconfig",
+        "latest-version": "0.12.1",
+        "0.12.1": {
+            "url": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/0.12.1/binary-Windows/editorconfig-0.12.1-Windows-x86.zip",
+            "file-type": ".zip",
+            "bin": [
+                "bin\\editorconfig.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/editorconfig/EditorConfig-C-Core/<version>/binary-Windows/editorconfig-<version>-Windows-x86.zip",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/editorconfig/rss?path=/EditorConfig-C-Core",
+                "regex": "([\\d.]+)/binary-Windows"
+            }
+        }
+    }
+}

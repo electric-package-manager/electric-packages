@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "aws-nosql-workbench",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "aws-nosql-workbench",
+        "latest-version": "2.2.0",
+        "2.2.0": {
+            "url": "https://s3.amazonaws.com/nosql-workbench/NoSQL%20Workbench-win-2.2.0.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "shortcuts": [
+                {
+                    "shortcut-name": "NoSQL Workbench",
+                    "file-name": "NoSQL Workbench.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://s3.amazonaws.com/nosql-workbench/NoSQL%20Workbench-win-$version.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.settingup.html",
+                "regex": "NoSQL Workbench-win-([\\d.]+)\\.exe"
+            }
+        }
+    }
+}

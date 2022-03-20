@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "ziglang",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "ziglang",
+        "latest-version": "0.7.1",
+        "0.7.1": {
+            "url": "https://github.com/ziglang/zig/releases/download/0.7.1/zig-windows-x86_64-0.7.1.zip",
+            "file-type": ".zip",
+            "bin": [
+                "zig.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://github.com/ziglang/zig/releases/download/$version/zig-windows-x86_64-$version.zip",
+            "version-check": {
+                "webpage": "https://ziglang.org/download/",
+                "regex": ">([\\d.]+)</h"
+            }
+        }
+    }
+}

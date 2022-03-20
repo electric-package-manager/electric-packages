@@ -1,0 +1,26 @@
+{
+    "display-name": "",
+    "package-name": "pngcrush",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "pngcrush",
+        "latest-version": "1.8.11",
+        "1.8.11": {
+            "url": "https://downloads.sourceforge.net/project/pmt/pngcrush-executables/1.8.11/pngcrush_1_8_11_w64.exe#/pngcrush.exe",
+            "file-type": ".exe",
+            "bin": [
+                "pngcrush.exe"
+            ],
+            "shortcuts": [],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe",
+            "version-check": {
+                "webpage": "https://sourceforge.net/projects/pmt/files/pngcrush-executables/",
+                "regex": "title=\"([0-9\\.]+)\""
+            }
+        }
+    }
+}

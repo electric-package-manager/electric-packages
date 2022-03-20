@@ -1,0 +1,34 @@
+{
+    "display-name": "",
+    "package-name": "googlechrome-dev",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "googlechrome-dev",
+        "latest-version": "89.0.4343.0",
+        "89.0.4343.0": {
+            "url": "https://dl.google.com/release2/chrome/AO01UGGrYvlMieZe9TGtroc_89.0.4343.0/89.0.4343.0_chrome_installer.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [
+                [
+                    "chrome.exe",
+                    "chrome-dev"
+                ]
+            ],
+            "shortcuts": [
+                {
+                    "shortcut-name": "Google Chrome (Dev)",
+                    "file-name": "chrome.exe"
+                }
+            ],
+            "persist": []
+        },
+        "auto-update": {
+            "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+            "version-check": {
+                "webpage": "https://chrome-dl.com/api/chrome.min.xml",
+                "regex": "(?sm)<dev32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<dev64>.+release2/chrome/(?<64>[\\w-]+)_.+</dev64>"
+            }
+        }
+    }
+}

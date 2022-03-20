@@ -1,0 +1,29 @@
+{
+    "display-name": "",
+    "package-name": "speccy",
+    "is-portable": true,
+    "portable": {
+        "display-name": "",
+        "package-name": "speccy",
+        "latest-version": "1.32.744",
+        "1.32.744": {
+            "url": "https://download.ccleaner.com/spsetup132.exe#/dl.7z",
+            "file-type": ".7z",
+            "bin": [],
+            "pre-install": [
+                {
+                    "type": "powershell",
+                    "code": [
+                        "Set-Content \"$dir\\portable.dat\" '#PORTABLE#' -Encoding ASCII",
+                        "Remove-Item \"$dir\\`$*\", \"$dir\\uninst.exe\" -Recurse -Force",
+                        "if(!(Test-Path \"$persist_dir\\Speccy.ini\")) {",
+                        "   Set-Content \"$dir\\Speccy.ini\" (@('[Software\\Piriform\\Speccy]', 'NeedUpdate=0') -join \"`r`n\") -Encoding ASCII",
+                        "}"
+                    ]
+                }
+            ],
+            "shortcuts": [],
+            "persist": "Speccy.ini"
+        }
+    }
+}

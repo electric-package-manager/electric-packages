@@ -1,0 +1,18 @@
+{
+    "display-name": "Guilded",
+    "package-name": "guilded",
+    "latest-version": "1.0.995515",
+    "1.0.995515": {
+        "url": "https://www.guilded.gg/downloads/Guilded-Win.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "F1C08086DDBCCAE9E89FBEA3231D169F8DA9BD0182EC2AF86FB976B32F4FBD6A"
+    }
+}

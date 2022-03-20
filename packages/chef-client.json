@@ -1,0 +1,46 @@
+{
+    "display-name": "Chef Infra Client*",
+    "package-name": "chef-client",
+    "latest-version": "16.11.7",
+    "auto-update": {
+        "url": "https://packages.chef.io/files/stable/chef/<version>/windows/2012r2/chef-client-<version>-1-x64.msi",
+        "version-check": {
+            "webpage": "https://docs.chef.io/release_notes_client/",
+            "regex": "New in ([\\d].[\\d.].[\\d.].[\\d.]+)"
+        }
+    },
+    "16.10.17": {
+        "url": "https://packages.chef.io/files/stable/chef/16.11.7/windows/2012r2/chef-client-16.11.7-1-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "DDED909F5C9D52550E87740317E10F6BA79182E0B36F56B75136DF6D80862521"
+    },
+    "16.11.7": {
+        "url": "https://packages.chef.io/files/stable/chef/16.11.7/windows/2012r2/chef-client-16.11.7-1-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "DDED909F5C9D52550E87740317E10F6BA79182E0B36F56B75136DF6D80862521"
+    }
+}
