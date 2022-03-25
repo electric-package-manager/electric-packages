@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "Dart SDK",
         "package-name": "dart-sdk",
-        "latest-version": "2.16.1",
+        "latest-version": "2.16.2",
         "auto-update": {
             "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/<version>/sdk/dartsdk-windows-x64-release.zip",
             "version-check": {
@@ -124,6 +124,24 @@
         "2.16.1": {
             "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.16.1/sdk/dartsdk-windows-x64-release.zip",
             "checksum": "57AD4C06EA94BA6937103DF495D8702AE9DD302774545DA001068C44D73D5DD5",
+            "file-type": ".zip",
+            "chdir": "dart-sdk",
+            "extract-dir": "dart-sdk",
+            "bin": [
+                "bin\\dart.exe",
+                "bin\\dart2js.bat",
+                "bin\\dart2native.bat",
+                "bin\\dartanalyzer.bat",
+                "bin\\dartaotruntime.exe",
+                "bin\\dartdevc.bat",
+                "bin\\dartdoc.bat",
+                "bin\\dartfmt.bat",
+                "bin\\pub.bat"
+            ]
+        },
+        "2.16.2": {
+            "url": "https://storage.googleapis.com/dart-archive/channels/stable/release/2.16.2/sdk/dartsdk-windows-x64-release.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "chdir": "dart-sdk",
             "extract-dir": "dart-sdk",
