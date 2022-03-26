@@ -1,7 +1,7 @@
 {
     "display-name": "Jackett",
     "package-name": "jackett",
-    "latest-version": "0.20.736",
+    "latest-version": "0.20.763",
     "auto-update": {
         "url": "https://github.com/Jackett/Jackett/releases/download/v<version>/Jackett.Installer.Windows.exe",
         "version-check": {
@@ -506,6 +506,25 @@
     },
     "0.20.736": {
         "url": "https://github.com/Jackett/Jackett/releases/download/v0.20.736/Jackett.Installer.Windows.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    },
+    "0.20.763": {
+        "url": "https://github.com/Jackett/Jackett/releases/download/v0.20.763/Jackett.Installer.Windows.exe",
         "file-type": ".exe",
         "iswitches": [
             "/SP-",
