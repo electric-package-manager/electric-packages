@@ -1,7 +1,7 @@
 {
     "display-name": "LastPass",
     "package-name": "lastpass",
-    "latest-version": "4.8.0",
+    "latest-version": "4.90.0",
     "auto-update": {
         "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
         "version-check": {
@@ -153,6 +153,19 @@
         "dependencies": []
     },
     "7": {
+        "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "-si",
+            "--userinstallie",
+            "--userinstallff",
+            "--userinstallchrome"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": []
+    },
+    "4.90.0": {
         "url": "https://download.cloud.lastpass.com/windows_installer/lastpass_x64.exe",
         "file-type": ".exe",
         "iswitches": [
