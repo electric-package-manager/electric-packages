@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "CrystalDiskInfo",
         "package-name": "crystaldiskinfo",
-        "latest-version": "8.15.2",
+        "latest-version": "8.16.0",
         "auto-update": {
             "url": "http://osdn.dl.osdn.net/crystaldiskinfo/<1>/CrystalDiskInfo<underscore-version>.zip",
             "version-check": {
@@ -101,6 +101,18 @@
         "8.15.2": {
             "url": "http://osdn.dl.osdn.net/crystaldiskinfo/76716/CrystalDiskInfo8_15_2.zip",
             "checksum": "1D840CC9E0B1B1B15DF688C26AEC24C0CEC7032426A83BFED7EB73E2FA00AAFB",
+            "file-type": ".zip",
+            "extract-dir": "crystaldiskinfo",
+            "shortcuts": [
+                {
+                    "shortcut-name": "Crystal Disk Info",
+                    "file-name": "DiskInfo64.exe"
+                }
+            ]
+        },
+        "8.16.0": {
+            "url": "http://osdn.dl.osdn.net/crystaldiskinfo/77069/CrystalDiskInfo8_16_0.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "extract-dir": "crystaldiskinfo",
             "shortcuts": [
