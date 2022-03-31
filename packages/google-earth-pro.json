@@ -1,7 +1,7 @@
 {
     "display-name": "Google Earth Pro",
     "package-name": "google-earth-pro",
-    "latest-version": "7.3.4.8248",
+    "latest-version": "7.3.4.8573",
     "auto-update": {
         "url": "https://dl.google.com/dl/earth/client/advanced/current/googleearthprowin-<major-version>.<minor-version>.<patch-version>-x64.exe",
         "version-check": {
@@ -41,5 +41,16 @@
         "clswitch": "",
         "dependencies": [],
         "checksum": "25A53B44656F7D40A86A75DAE64977C95CE99E59D523064A180E1FC8EC4B3439"
+    },
+    "7.3.4.8573": {
+        "url": "https://dl.google.com/dl/earth/client/advanced/current/googleearthprowin-7.3.4-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "OMAHA=1"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
