@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "DocFX",
         "package-name": "docfx",
-        "latest-version": "2.59.0",
+        "latest-version": "2.59.1",
         "auto-update": {
             "url": "https://github.com/dotnet/docfx/releases/download/v<version>/docfx.zip",
             "version-check": {
@@ -52,6 +52,15 @@
         "2.59.0": {
             "url": "https://github.com/dotnet/docfx/releases/download/v2.59.0/docfx.zip",
             "checksum": "E6BD6D788DDB07D9BCB6D90F2822D7E2E6C4FEB0E2CAEABC60FF39232D07BC52",
+            "file-type": ".zip",
+            "extract-dir": "docfx",
+            "bin": [
+                "docfx.exe"
+            ]
+        },
+        "2.59.1": {
+            "url": "https://github.com/dotnet/docfx/releases/download/v2.59.1/docfx.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "extract-dir": "docfx",
             "bin": [
