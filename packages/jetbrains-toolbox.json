@@ -1,7 +1,7 @@
 {
     "display-name": "JetBrains ToolBox",
     "package-name": "jetBrains-toolbox",
-    "latest-version": "1.22.10970",
+    "latest-version": "1.23.11680",
     "auto-update": {
         "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-<version>.exe",
         "version-check": {
@@ -73,5 +73,18 @@
         "clswitch": "/D=",
         "dependencies": [],
         "checksum": "4BBF66219B7ACE875C15FC14E86211DA86423C7B2FEECB1347194891FF15E74E"
+    },
+    "1.23.11680": {
+        "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.23.11680.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
