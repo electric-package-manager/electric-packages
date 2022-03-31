@@ -1,7 +1,7 @@
 {
     "display-name": "Bluej",
     "package-name": "bluej",
-    "latest-version": "5.0.2",
+    "latest-version": "5.0.3",
     "auto-update": {
         "url": "https://www.bluej.org/download/files/BlueJ-windows-<clean-version>.msi",
         "version-check": {
@@ -47,5 +47,18 @@
         "clswitch": "/TARGETDIR=",
         "dependencies": [],
         "checksum": "F022A962381CCC6E9F5CD7085BC830A6B0D1F211A310659D23C24DAFE374C44C"
+    },
+    "5.0.3": {
+        "url": "https://www.bluej.org/download/files/BlueJ-windows-503.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn"
+        ],
+        "uswitches": [
+            "/qn"
+        ],
+        "clswitch": "/TARGETDIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
