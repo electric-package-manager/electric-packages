@@ -1,7 +1,7 @@
 {
     "display-name": "LibreOffice",
     "package-name": "libreoffice",
-    "latest-version": "7.3.1",
+    "latest-version": "7.3.2",
     "auto-update": {
         "url": "https://download.documentfoundation.org/libreoffice/stable/<version>/win/x86_64/LibreOffice_<version>_Win_x64.msi",
         "version-check": {
@@ -110,5 +110,22 @@
         "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "FAC74BBEED343424207DC7877FBC447AC391A0CEB90BDBAC1B8FDBFEF8D8F589"
+    },
+    "7.3.2": {
+        "url": "https://download.documentfoundation.org/libreoffice/stable/7.3.2/win/x86_64/LibreOffice_7.3.2_Win_x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
