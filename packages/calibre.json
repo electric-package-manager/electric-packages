@@ -1,7 +1,7 @@
 {
     "display-name": "Calibre",
     "package-name": "calibre",
-    "latest-version": "5.39.1",
+    "latest-version": "5.40.0",
     "auto-update": {
         "url": "https://download.calibre-ebook.com/<version>/calibre-64bit-<version>.msi",
         "version-check": {
@@ -246,5 +246,22 @@
         "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "0774877169B76DD0E76B0F7B1288E6EA7292395AD3B10F6653CC620969985CD1"
+    },
+    "5.40.0": {
+        "url": "https://download.calibre-ebook.com/5.40.0/calibre-64bit-5.40.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
