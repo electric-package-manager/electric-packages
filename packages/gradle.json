@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "Gradle",
         "package-name": "gradle",
-        "latest-version": "7.4.1",
+        "latest-version": "7.4.2",
         "auto-update": {
             "url": "https://services.gradle.org/distributions/gradle-<version>-all.zip",
             "version-check": {
@@ -114,6 +114,20 @@
         "7.4.1": {
             "url": "https://services.gradle.org/distributions/gradle-7.4.1-all.zip",
             "checksum": "A9A7B7BABA105F6557C9DCF9C3C6E8F7E57E6B49889C5F1D133F015D0727E4BE",
+            "file-type": ".zip",
+            "chdir": "gradle-6.8.3",
+            "bin": [
+                "bin\\gradle.bat"
+            ],
+            "extract-dir": "gradle",
+            "set-env": {
+                "name": "GRADLE_HOME",
+                "value": "<install-directory>"
+            }
+        },
+        "7.4.2": {
+            "url": "https://services.gradle.org/distributions/gradle-7.4.2-all.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "chdir": "gradle-6.8.3",
             "bin": [
