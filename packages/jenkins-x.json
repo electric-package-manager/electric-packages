@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "Jenkins X",
         "package-name": "jenkins-x",
-        "latest-version": "3.2.287",
+        "latest-version": "3.2.291",
         "auto-update": {
             "url": "https://github.com/jenkins-x/jx/releases/download/v<version>/jx-windows-amd64.zip",
             "version-check": {
@@ -204,6 +204,15 @@
         "3.2.287": {
             "checksum": "----",
             "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.287/jx-windows-amd64.zip",
+            "file-type": ".zip",
+            "bin": [
+                "jx.exe"
+            ],
+            "dependencies": []
+        },
+        "3.2.291": {
+            "checksum": "----",
+            "url": "https://github.com/jenkins-x/jx/releases/download/v3.2.291/jx-windows-amd64.zip",
             "file-type": ".zip",
             "bin": [
                 "jx.exe"
