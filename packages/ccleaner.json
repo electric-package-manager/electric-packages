@@ -1,7 +1,7 @@
 {
     "display-name": "CCleaner",
     "package-name": "ccleaner",
-    "latest-version": "5.91.9537",
+    "latest-version": "5.92.9652",
     "auto-update": {
         "url": "https://download.ccleaner.com/ccsetup<major-version><minor-version>.exe",
         "version-check": {
@@ -138,5 +138,18 @@
         "clswitch": "/D=",
         "dependencies": [],
         "checksum": "E67F0CDC3779C76E7E03A61FBD0DB92A76BC2E1ACF7C7FEBC27AA875D57998E5"
+    },
+    "5.92.9652": {
+        "url": "https://download.ccleaner.com/ccsetup592.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
