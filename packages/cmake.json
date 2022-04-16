@@ -1,7 +1,7 @@
 {
     "display-name": "CMake",
     "package-name": "cmake",
-    "latest-version": "3.23.0",
+    "latest-version": "3.23.1",
     "auto-update": {
         "url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-win64-x64.msi",
         "version-check": {
@@ -142,6 +142,22 @@
     },
     "3.23.0": {
         "url": "https://github.com/Kitware/CMake/releases/download/v3.23.0/cmake-3.23.0-win64-x64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "3.23.1": {
+        "url": "https://github.com/Kitware/CMake/releases/download/v3.23.1/cmake-3.23.1-win64-x64.msi",
         "file-type": ".msi",
         "iswitches": [
             "/qn",
