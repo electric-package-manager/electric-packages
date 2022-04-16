@@ -1,7 +1,7 @@
 {
     "display-name": "Microsoft CLI 2.0 for Azure",
     "package-name": "azure-cli",
-    "latest-version": "2.34.1",
+    "latest-version": "2.35.0",
     "auto-update": {
         "url": "https://azurecliprod.azureedge.net/msi/azure-cli-<version>.msi",
         "version-check": {
@@ -246,5 +246,22 @@
         "clswitch": "INSTALLDIR=",
         "dependencies": [],
         "checksum": "FE34DAF5154FFAF7AFC2B289B9993E5C7D92F627D10B0D029E86C693365FC4AE"
+    },
+    "2.35.0": {
+        "url": "https://azurecliprod.azureedge.net/msi/azure-cli-2.35.0.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
