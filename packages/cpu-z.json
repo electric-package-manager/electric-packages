@@ -1,7 +1,7 @@
 {
     "display-name": "CPU-Z",
     "package-name": "cpu-z",
-    "latest-version": "2.00",
+    "latest-version": "2.01",
     "auto-update": {
         "url": "https://download.cpuid.com/cpu-z/cpu-z_<version>-en.exe",
         "version-check": {
@@ -88,5 +88,25 @@
         "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "B70EB1953F4AF79D365E0BAEBCDE6B6CC566CA8057448CF82448B9B99C8AB5A7"
+    },
+    "2.01": {
+        "url": "https://download.cpuid.com/cpu-z/cpu-z_2.01-en.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
