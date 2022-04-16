@@ -1,7 +1,7 @@
 {
     "display-name": "ActivePerl",
     "package-name": "active-perl",
-    "latest-version": "5.32",
+    "latest-version": "4.23",
     "auto-update": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
         "version-check": {
@@ -47,6 +47,24 @@
     },
     "5.32": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.32.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart",
+            "PERL_PATH=Yes",
+            "PERL_EXT=Yes"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": []
+    },
+    "4.23": {
+        "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-4.23.msi",
         "file-type": ".msi",
         "iswitches": [
             "/qn",
