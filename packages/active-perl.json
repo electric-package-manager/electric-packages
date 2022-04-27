@@ -1,7 +1,7 @@
 {
     "display-name": "ActivePerl",
     "package-name": "active-perl",
-    "latest-version": "4.23",
+    "latest-version": "5.32",
     "auto-update": {
         "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
         "version-check": {
