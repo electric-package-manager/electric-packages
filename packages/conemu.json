@@ -1,7 +1,7 @@
 {
     "display-name": "ConEmu",
     "package-name": "conemu",
-    "latest-version": "22.03.08",
+    "latest-version": "22.04.18",
     "auto-update": {
         "url": "https://github.com/Maximus5/ConEmu/releases/download/v<version>/ConEmuSetup.<clean-version>.exe",
         "version-check": {
@@ -96,6 +96,18 @@
     },
     "22.03.08": {
         "url": "https://github.com/Maximus5/ConEmu/releases/download/v22.03.08/ConEmuSetup.220308.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/p:x64,adm",
+            "/qn",
+            "/norestart"
+        ],
+        "uswitches": [],
+        "clswitch": "APPLICATIONFOLDER=",
+        "dependencies": []
+    },
+    "22.04.18": {
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v22.04.18/ConEmuSetup.220418.exe",
         "file-type": ".exe",
         "iswitches": [
             "/p:x64,adm",
