@@ -1,7 +1,7 @@
 {
     "display-name": "Anydesk",
     "package-name": "anydesk",
-    "latest-version": "7.0.7",
+    "latest-version": "7.0.8",
     "auto-update": {
         "url": "https://download.anydesk.com/AnyDesk.msi",
         "version-check": {
@@ -129,6 +129,23 @@
         "checksum": "27BFA9167279579FE90765E70D792F652143D6AE8D76B8EC1EE4F7899CC95F6E"
     },
     "7.0.7": {
+        "url": "https://download.anydesk.com/AnyDesk.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "dependencies": [],
+        "checksum": "----"
+    },
+    "7.0.8": {
         "url": "https://download.anydesk.com/AnyDesk.msi",
         "file-type": ".msi",
         "iswitches": [
