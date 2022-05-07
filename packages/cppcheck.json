@@ -1,7 +1,7 @@
 {
     "display-name": "CppCheck",
     "package-name": "cppcheck",
-    "latest-version": "2.6",
+    "latest-version": "2.7",
     "auto-update": {
         "url": "https://github.com/danmar/cppcheck/releases/download/<version>/cppcheck-<version>-x64-Setup.msi",
         "version-check": {
