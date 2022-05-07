@@ -1,7 +1,7 @@
 {
     "display-name": "Doxygen",
     "package-name": "doxygen",
-    "latest-version": "1.9.3",
+    "latest-version": "1.9.4",
     "auto-update": {
         "url": "https://sourceforge.net/projects/doxygen/files/rel-<version>/doxygen-<version>-setup.exe/download",
         "version-check": {
@@ -48,5 +48,25 @@
         "clswitch": "/DIR=",
         "dependencies": [],
         "checksum": "0A75835EC20E8951E18DF8A2D6355614CFAE5359E65B09B8D2ECCDF5ACCD77A1"
+    },
+    "1.9.4": {
+        "url": "https://sourceforge.net/projects/doxygen/files/rel-1.9.4/doxygen-1.9.4-setup.exe/download",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
