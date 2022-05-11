@@ -1,7 +1,7 @@
 {
     "display-name": "Anaconda3*",
     "package-name": "anaconda",
-    "latest-version": "2021.11",
+    "latest-version": "2022.05",
     "auto-update": {
         "url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
         "version-check": {
@@ -50,5 +50,19 @@
         "clswitch": "",
         "dependencies": [],
         "checksum": "1B3D593D1DEB22B835BE5C68897075E0FC9DEA240AB4191C55674ABA259A78FF"
+    },
+    "2022.05": {
+        "url": "https://repo.continuum.io/archive/Anaconda3-2022.05-Windows-x86_64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/InstallationType=AllUsers",
+            "/RegisterPython=1",
+            "/AddToPath=1",
+            "/S"
+        ],
+        "uswitches": [],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
