@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "cURL",
         "package-name": "curl",
-        "latest-version": "7.83.0",
+        "latest-version": "7.83.1",
         "auto-update": {
             "url": "https://curl.se/windows/dl-<version>/curl-<version>-win64-mingw.zip",
             "version-check": {
@@ -75,6 +75,16 @@
         },
         "7.83.0": {
             "url": "https://curl.se/windows/dl-7.83.0/curl-7.83.0-win64-mingw.zip",
+            "checksum": "----",
+            "file-type": ".zip",
+            "extract-dir": "curl",
+            "chdir": "curl-<version>-win64-mingw",
+            "bin": [
+                "bin\\curl.exe"
+            ]
+        },
+        "7.83.1": {
+            "url": "https://curl.se/windows/dl-7.83.1/curl-7.83.1-win64-mingw.zip",
             "checksum": "----",
             "file-type": ".zip",
             "extract-dir": "curl",
