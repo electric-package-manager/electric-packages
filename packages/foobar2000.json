@@ -1,7 +1,7 @@
 {
     "display-name": "foobar2000",
     "package-name": "foobar2000",
-    "latest-version": "1.6.10",
+    "latest-version": "1.6.11",
     "auto-update": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "version-check": {
@@ -46,6 +46,18 @@
         "dependencies": []
     },
     "1.6.10": {
+        "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "1.6.11": {
         "url": "https://www.foobar2000.org/files/foobar2000_v1.6.5.exe",
         "file-type": ".exe",
         "iswitches": [
