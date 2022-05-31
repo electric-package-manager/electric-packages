@@ -1,7 +1,7 @@
 {
     "display-name": "DBeaver",
     "package-name": "dbeaver",
-    "latest-version": "22.0.4",
+    "latest-version": "22.0.5",
     "auto-update": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/<version>/dbeaver-ce-<version>-x86_64-setup.exe",
         "version-check": {
@@ -193,6 +193,20 @@
     },
     "22.0.4": {
         "url": "https://github.com/dbeaver/dbeaver/releases/download/22.0.4/dbeaver-ce-22.0.4-x86_64-setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S",
+            "/currentuser"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "----"
+    },
+    "22.0.5": {
+        "url": "https://github.com/dbeaver/dbeaver/releases/download/22.0.5/dbeaver-ce-22.0.5-x86_64-setup.exe",
         "file-type": ".exe",
         "iswitches": [
             "/S",
