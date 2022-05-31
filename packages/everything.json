@@ -1,7 +1,7 @@
 {
     "display-name": "Everything",
     "package-name": "everything",
-    "latest-version": "1.4.1.1015",
+    "latest-version": "1.4.1.1017",
     "auto-update": {
         "url": "https://www.voidtools.com/Everything-<version>.x64-Setup.exe",
         "version-check": {
@@ -47,5 +47,18 @@
         "clswitch": "/D=",
         "dependencies": [],
         "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D"
+    },
+    "1.4.1.1017": {
+        "url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "----"
     }
 }
