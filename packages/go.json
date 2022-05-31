@@ -1,7 +1,7 @@
 {
     "display-name": "Go Programming Language",
     "package-name": "go",
-    "latest-version": "1.18",
+    "latest-version": "1.18.2",
     "auto-update": {
         "url": "https://golang.org/dl/go<version>.windows-amd64.msi",
         "version-check": {
@@ -206,5 +206,27 @@
         ],
         "dependencies": [],
         "checksum": "57CBA0010CE3BC8012CFA68AB0E11181CCD8493A66B109A5B86998E5D2B38AE1"
+    },
+    "1.18.2": {
+        "url": "https://golang.org/dl/go1.18.2.windows-amd64.msi",
+        "file-type": ".msi",
+        "iswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "uswitches": [
+            "/qn",
+            "/quiet",
+            "/norestart"
+        ],
+        "clswitch": "INSTALLDIR=",
+        "default-install-dir": "C:\\Program Files\\Go",
+        "bin": [
+            "<install-directory>\\bin\\go.exe",
+            "<install-directory>\\bin\\gofmt.exe"
+        ],
+        "dependencies": [],
+        "checksum": "----"
     }
 }
