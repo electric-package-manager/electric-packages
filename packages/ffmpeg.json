@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "FFmpeg",
         "package-name": "ffmpeg",
-        "latest-version": "5.0",
+        "latest-version": "5.0.1",
         "auto-update": {
             "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
             "version-check": {
@@ -38,6 +38,17 @@
         "5.0": {
             "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
             "checksum": "39CCFE072CDEB4FF3D6580B2B496F202026FC47069422C9BCBFA5DF119F0BA23",
+            "file-type": ".zip",
+            "extract-dir": "ffmpeg",
+            "bin": [
+                "bin\\ffmpeg.exe",
+                "bin\\ffplay.exe",
+                "bin\\ffprobe.exe"
+            ]
+        },
+        "5.0.1": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "extract-dir": "ffmpeg",
             "bin": [
