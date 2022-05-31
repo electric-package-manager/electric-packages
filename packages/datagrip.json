@@ -1,7 +1,7 @@
 {
     "display-name": "DataGrip",
     "package-name": "datagrip",
-    "latest-version": "2022.1.2",
+    "latest-version": "2022.1.4",
     "auto-update": {
         "url": "https://download-cf.jetbrains.com/datagrip/datagrip-<major-version>.<minor-version>.exe",
         "version-check": {
@@ -101,6 +101,19 @@
         "checksum": "----"
     },
     "2022.1.2": {
+        "url": "https://download-cf.jetbrains.com/datagrip/datagrip-2022.1.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": [],
+        "checksum": "----"
+    },
+    "2022.1.4": {
         "url": "https://download-cf.jetbrains.com/datagrip/datagrip-2022.1.exe",
         "file-type": ".exe",
         "iswitches": [
