@@ -1,7 +1,7 @@
 {
     "display-name": "Dropbox",
     "package-name": "dropbox",
-    "latest-version": "147.4.4800",
+    "latest-version": "149.4.4568",
     "auto-update": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20<version>%20Offline%20Installer.exe",
         "version-check": {
@@ -180,6 +180,19 @@
     },
     "147.4.4800": {
         "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20147.4.4800%20Offline%20Installer.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/s"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "",
+        "dependencies": [],
+        "checksum": "----"
+    },
+    "149.4.4568": {
+        "url": "https://clientupdates.dropboxstatic.com/dbx-releng/client/Dropbox%20149.4.4568%20Offline%20Installer.exe",
         "file-type": ".exe",
         "iswitches": [
             "/s"
