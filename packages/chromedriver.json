@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "Chromedriver",
         "package-name": "chromedriver",
-        "latest-version": "102.0.5005.61",
+        "latest-version": "103.0.5060.24",
         "auto-update": {
             "url": "https://chromedriver.storage.googleapis.com/<version>/chromedriver_win32.zip",
             "version-check": {
@@ -70,6 +70,11 @@
         },
         "102.0.5005.61": {
             "url": "https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip",
+            "checksum": "----",
+            "file-type": ".zip"
+        },
+        "103.0.5060.24": {
+            "url": "https://chromedriver.storage.googleapis.com/103.0.5060.24/chromedriver_win32.zip",
             "checksum": "----",
             "file-type": ".zip"
         }
