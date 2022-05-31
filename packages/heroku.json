@@ -1,7 +1,7 @@
 {
     "display-name": "Heroku CLI",
     "package-name": "heroku",
-    "latest-version": "7.60.1",
+    "latest-version": "7.60.2",
     "auto-update": {
         "url": "https://cli-assets.heroku.com/heroku-x64.exe",
         "version-check": {
@@ -131,6 +131,18 @@
         "dependencies": []
     },
     "7.60.1": {
+        "url": "https://cli-assets.heroku.com/heroku-x64.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/S"
+        ],
+        "uswitches": [
+            "/S"
+        ],
+        "clswitch": "/D=",
+        "dependencies": []
+    },
+    "7.60.2": {
         "url": "https://cli-assets.heroku.com/heroku-x64.exe",
         "file-type": ".exe",
         "iswitches": [
