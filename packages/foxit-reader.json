@@ -1,7 +1,7 @@
 {
     "display-name": "Foxit Reader",
     "package-name": "foxit-reader",
-    "latest-version": "11.2.1.53537",
+    "latest-version": "11.2.2.53575",
     "auto-update": {
         "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=<version>",
         "version-check": {
@@ -75,6 +75,22 @@
     },
     "11.2.1.53537": {
         "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=11.2.1.53537",
+        "file-type": ".exe",
+        "iswitches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "uswitches": [
+            "/FORCEINSTALL",
+            "/VERYSILENT",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": []
+    },
+    "11.2.2.53575": {
+        "url": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=English&version=11.2.2.53575",
         "file-type": ".exe",
         "iswitches": [
             "/FORCEINSTALL",
