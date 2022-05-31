@@ -5,7 +5,7 @@
     "portable": {
         "display-name": "FileBeat",
         "package-name": "filebeat",
-        "latest-version": "8.1",
+        "latest-version": "8.2",
         "auto-update": {
             "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-<version>-windows-x86_64.zip",
             "version-check": {
@@ -88,6 +88,15 @@
         "8.1": {
             "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.1-windows-x86_64.zip",
             "checksum": "8BAB7714CB015AF505D4DCF9218847B84442CCF6816A63F552C70E9CF1079CC6",
+            "file-type": ".zip",
+            "extract-dir": "filebeat",
+            "bin": [
+                "filebeat.exe"
+            ]
+        },
+        "8.2": {
+            "url": "https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.2-windows-x86_64.zip",
+            "checksum": "----",
             "file-type": ".zip",
             "extract-dir": "filebeat",
             "bin": [
