@@ -1,7 +1,7 @@
 {
     "display-name": "ImageMagick",
     "package-name": "imagemagick",
-    "latest-version": "7.1.0-29",
+    "latest-version": "7.1.0-36",
     "auto-update": {
         "url": "https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-<version>-Q16-HDRI-x64-dll.exe",
         "version-check": {
@@ -251,6 +251,26 @@
     },
     "7.1.0-29": {
         "url": "https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-29-Q16-HDRI-x64-dll.exe",
+        "file-type": ".exe",
+        "iswitches": [
+            "/SP-",
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NOCANCEL",
+            "/NORESTART",
+            "/FORCECLOSEAPPLICATIONS"
+        ],
+        "uswitches": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ],
+        "clswitch": "/DIR=",
+        "dependencies": [],
+        "checksum": "----"
+    },
+    "7.1.0-36": {
+        "url": "https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-36-Q16-HDRI-x64-dll.exe",
         "file-type": ".exe",
         "iswitches": [
             "/SP-",
